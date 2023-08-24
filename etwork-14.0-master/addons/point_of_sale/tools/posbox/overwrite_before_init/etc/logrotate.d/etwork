@@ -1,0 +1,5 @@
+/var/log/etwork/*.log {
+    copytruncate
+    missingok
+    notifempty
+}

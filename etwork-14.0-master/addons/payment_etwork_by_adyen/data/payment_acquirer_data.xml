@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<etwork>
+    <data noupdate="1">
+
+        <record id="payment.payment_acquirer_etwork_by_adyen" model="payment.acquirer">
+            <field name="name">Dosyt Payments by Adyen</field>
+            <field name="image_128" type="base64" file="payment_etwork_by_adyen/static/src/img/etwork_icon.png"/>
+            <field name="provider">etwork_adyen</field>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="view_template_id" ref="etwork_by_adyen_form"/>
+        </record>
+
+    </data>
+</etwork>

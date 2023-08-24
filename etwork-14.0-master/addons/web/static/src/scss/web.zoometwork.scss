@@ -1,0 +1,34 @@
+
+.zoometwork {
+    position: relative;
+
+    /* 'Shrink-wrap' the element */
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+
+    img {
+        vertical-align: bottom;
+    }
+}
+
+.zoometwork-flyout {
+    position:absolute;
+    z-index: 100;
+    overflow: hidden;
+    background: #FFF;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    img {
+        max-width: 500%;
+    }
+}
+
+.zoometwork-hover .zoometwork-flyout {
+    left: 0;
+}
+
+.zoometwork-next .zoometwork-flyout {
+    left: 100%;
+}

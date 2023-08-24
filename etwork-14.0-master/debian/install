@@ -1,0 +1,2 @@
+debian/etwork.conf /etc/etwork
+README.md /usr/share/doc/etwork

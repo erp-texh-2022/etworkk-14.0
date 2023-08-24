@@ -1,0 +1,14 @@
+[Unit]
+Description=Dosyt Open Source ERP and CRM
+After=network.target
+
+[Service]
+Type=simple
+User=etwork
+Group=etwork
+ExecStart=/usr/bin/etwork --config /etc/etwork/etwork.conf --logfile /var/log/etwork/etwork-server.log
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target
+
