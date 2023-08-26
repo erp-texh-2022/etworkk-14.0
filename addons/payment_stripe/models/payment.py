@@ -40,7 +40,7 @@ class PaymentAcquirerStripe(models.Model):
     stripe_webhook_secret = fields.Char(
         string='Stripe Webhook Secret', groups='base.group_user',
         help="If you enable webhooks, this secret is used to verify the electronic "
-             "signature of events sent by Stripe to Dosyt. Failing to set this field in Dosyt "
+             "signature of events sent by Stripe to etwork. Failing to set this field in etwork "
              "will disable the webhook system for this acquirer entirely.")
     stripe_image_url = fields.Char(
         "Checkout Image URL", groups='base.group_user',
@@ -207,7 +207,7 @@ class PaymentAcquirerStripe(models.Model):
         """Process a webhook payload from Stripe.
 
         Post-process a webhook payload to act upon the matching payment.transaction
-        record in Dosyt.
+        record in etwork.
         """
         wh_type = data.get('type')
         if wh_type != 'checkout.session.completed':
@@ -249,7 +249,7 @@ class PaymentAcquirerStripe(models.Model):
         if not consteq(expected_signature, actual_signature):
             _logger.error(
                 'incorrect webhook signature from Stripe, check if the webhook signature '
-                'in Dosyt matches to one in the Stripe dashboard')
+                'in etwork matches to one in the Stripe dashboard')
             raise ValidationError('incorrect webhook signature')
 
         return True

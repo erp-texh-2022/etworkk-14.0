@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* crm_iap_lead_website
 # 
@@ -7,7 +7,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:28+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -265,8 +265,8 @@ msgstr "線索/商機"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,help:crm_iap_lead_website.field_crm_reveal_rule__industry_tag_ids
-msgid "Leave empty to always match. Dosyt will not create lead if no match"
-msgstr "留空以始終匹配。如果不匹配，Dosyt 將不會創建線索"
+msgid "Leave empty to always match. etwork will not create lead if no match"
+msgstr "留空以始終匹配。如果不匹配，etwork 將不會創建線索"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields.selection,name:crm_iap_lead_website.selection__crm_reveal_rule__priority__0
@@ -348,8 +348,8 @@ msgstr "商機產生條件"
 #. module: crm_iap_lead_website
 #: code:addons/crm_iap_lead_website/models/crm_reveal_rule.py:0
 #, python-format
-msgid "Opportunity created by Dosyt Lead Generation"
-msgstr "由Dosyt線索生成產生的商機"
+msgid "Opportunity created by etwork Lead Generation"
+msgstr "由etwork線索生成產生的商機"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__other_role_ids

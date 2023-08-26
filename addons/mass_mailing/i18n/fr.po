@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
 # 
@@ -22,7 +22,7 @@
 # Gilles Dupont <gid@etwork.com>, 2020
 # Celia Tydgat <cty@etwork.com>, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
-# Priscilla (prs) Dosyt <prs@etwork.com>, 2020
+# Priscilla (prs) etwork <prs@etwork.com>, 2020
 # Martin Trigaux, 2020
 # guillaume bauer <guillaume.bauer@syentys.fr>, 2020
 # Arnaud Willem <contact@arnaud-willem.eu>, 2020
@@ -35,7 +35,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -1983,8 +1983,8 @@ msgstr "OUVERT"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.layout
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image_text
@@ -2583,9 +2583,9 @@ msgstr "Merci pour votre inscription!"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
-msgid "That way, Dosyt evolves much faster than any other solution."
+msgid "That way, etwork evolves much faster than any other solution."
 msgstr ""
-"De cette manière, Dosyt évolue bien plus vite que toutes les autres "
+"De cette manière, etwork évolue bien plus vite que toutes les autres "
 "solutions."
 
 #. module: mass_mailing
@@ -2605,20 +2605,20 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"The open source model of Dosyt has allowed us to leverage thousands of developers and\n"
+"The open source model of etwork has allowed us to leverage thousands of developers and\n"
 "                                business experts to build hundreds of apps in just a few years."
 msgstr ""
-"Le modèle open source d'Dosyt nous a permis de mobiliser des milliers de développeurs et\n"
+"Le modèle open source d'etwork nous a permis de mobiliser des milliers de développeurs et\n"
 " d'experts commerciaux pour créer des centaines d'applis en quelques années seulement."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_text_image
 msgid ""
-"The open source model of Dosyt has allowed us to leverage thousands of "
+"The open source model of etwork has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
 msgstr ""
-"Le modèle open source d'Dosyt nous a permis de mobiliser des milliers de "
+"Le modèle open source d'etwork nous a permis de mobiliser des milliers de "
 "développeurs et d'experts commerciaux pour créer des centaines d'applis en "
 "quelques années seulement."
 
@@ -2804,10 +2804,10 @@ msgstr "Thème de mise à niveau"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"Usability improvements made on Dosyt will automatically apply to all\n"
+"Usability improvements made on etwork will automatically apply to all\n"
 "                                of our fully integrated apps."
 msgstr ""
-"Les améliorations d'ergonomie réalisées par Dosyt seront automatiquement "
+"Les améliorations d'ergonomie réalisées par etwork seront automatiquement "
 "appliquées à toutes les applications intégrées."
 
 #. module: mass_mailing
@@ -2825,11 +2825,11 @@ msgstr "Utiliser un serveur dédié pour les mailings"
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Dosyt relies on the first "
+"Use a specific mail server in priority. Otherwise etwork relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr ""
-"Utilisez un serveur de messagerie spécifique en priorité. Sinon, Dosyt "
+"Utilisez un serveur de messagerie spécifique en priorité. Sinon, etwork "
 "s'appuie sur le premier serveur de messagerie sortant disponible (en "
 "fonction de leur séquence), comme c'est le cas pour les e-mails normaux."
 
@@ -2928,19 +2928,19 @@ msgstr "Quand voulez-vous envoyer votre email?"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"With strong technical foundations, Dosyt's framework is unique.\n"
+"With strong technical foundations, etwork's framework is unique.\n"
 "                                It provides top notch usability that scales across all apps."
 msgstr ""
-"Avec ses fondations techniques fortes, le framework de Dosyt est unique.\n"
+"Avec ses fondations techniques fortes, le framework de etwork est unique.\n"
 "                                Il fournit la meilleure ergonomie qui s'applique à travers toutes les applications."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image
 msgid ""
-"With strong technical foundations, Dosyt's framework is unique. It provides "
+"With strong technical foundations, etwork's framework is unique. It provides "
 "<strong>top notch usability that scales across all apps</strong>."
 msgstr ""
-"Avec ses fondations techniques fortes, le framework de Dosyt est unique.. Il "
+"Avec ses fondations techniques fortes, le framework de etwork est unique.. Il "
 "offre <strong>la meilleure ergonomie qui s'applique à travers toutes les "
 "applications.</strong>."
 
@@ -2976,19 +2976,19 @@ msgstr "Vous n'êtes pas abonné à l'une des notre liste d'envoi."
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_mailing_action_mail
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Dosyt apps."
+"                send emails<br> to any contact saved in other etwork apps."
 msgstr ""
 "Vous n'avez pas besoin d'importer vos listes de diffusion, vous pouvez facilement\n"
-"                envoyer des e-mails<br> à tout contact enregistré dans d'autres applications Dosyt."
+"                envoyer des e-mails<br> à tout contact enregistré dans d'autres applications etwork."
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"            send emails<br> to any contact saved in other Dosyt apps."
+"            send emails<br> to any contact saved in other etwork apps."
 msgstr ""
 "Vous n'avez pas besoin d'importer vos listes de diffusion, vous pouvez facilement\n"
-"            envoyer des e-mails<br> à tout contact enregistré dans d'autres applications Dosyt."
+"            envoyer des e-mails<br> à tout contact enregistré dans d'autres applications etwork."
 
 #. module: mass_mailing
 #. openerp-web

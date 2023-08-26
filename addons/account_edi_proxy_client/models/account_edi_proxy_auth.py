@@ -7,7 +7,7 @@ import time
 import werkzeug.urls
 
 
-class DosytEdiProxyAuth(requests.auth.AuthBase):
+class etworkEdiProxyAuth(requests.auth.AuthBase):
     """ For routes that needs to be authenticated and verified for access.
         Allows:
         1) to preserve the integrity of the message between the endpoints.

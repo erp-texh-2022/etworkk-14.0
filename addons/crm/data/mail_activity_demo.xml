@@ -55,7 +55,7 @@
                         <div>
                             Hi ${object.partner_id and object.partner_id.name or ''},<br/><br/>
                             Welcome to ${object.company_id.name}.
-                            It's great to meet you! Now that you're on board, you'll discover what ${object.company_id.name} has to offer. My name is ${object.user_id.name} and I'll help you get the most out of Dosyt. Could we plan a quick demo soon?<br/>
+                            It's great to meet you! Now that you're on board, you'll discover what ${object.company_id.name} has to offer. My name is ${object.user_id.name} and I'll help you get the most out of etwork. Could we plan a quick demo soon?<br/>
                             Feel free to reach out at any time!<br/><br/>
                             Best,<br/>
                             % if object.user_id:
@@ -92,7 +92,7 @@
 </td></tr>
 <!-- POWERED BY -->
 <tr><td align="center" style="min-width: 590px;">
-    Powered by <a target="_blank" href="https://www.etwork.com?utm_source=db&amp;utm_medium=email" style="color: #875A7B;">Dosyt</a>
+    Powered by <a target="_blank" href="https://www.etwork.com?utm_source=db&amp;utm_medium=email" style="color: #875A7B;">etwork</a>
 </td></tr>
 </table>
         </field>

@@ -5,7 +5,7 @@ etwork.define('web.ActionManager', function (require) {
  * ActionManager
  *
  * The ActionManager is one of the centrepieces in the WebClient architecture.
- * Its role is to makes sure that Dosyt actions are properly started and
+ * Its role is to makes sure that etwork actions are properly started and
  * coordinated.
  */
 
@@ -102,7 +102,7 @@ var ActionManager = Widget.extend({
         return Promise.resolve();
     },
     /**
-     * This is the entry point to execute Dosyt actions, given as an ID in
+     * This is the entry point to execute etwork actions, given as an ID in
      * database, an xml ID, a client action tag or an action descriptor.
      *
      * @param {number|string|Object} action the action to execute
@@ -884,7 +884,7 @@ var ActionManager = Widget.extend({
 
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      * @param {string} ev.data.controllerID
      */
     _onBreadcrumbClicked: function (ev) {
@@ -913,7 +913,7 @@ var ActionManager = Widget.extend({
      * information about the given controller.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      * @param {string} ev.controllerID
      * @param {Object} [ev.state={}]
      */
@@ -927,7 +927,7 @@ var ActionManager = Widget.extend({
      * Intercepts and triggers a redirection on a link.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      * @param {integer} ev.data.res_id
      * @param {string} ev.data.res_model
      */

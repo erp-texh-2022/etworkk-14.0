@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import models, fields, api
-from etwork.tools.pdf import DosytPdfFileReader, DosytPdfFileWriter
+from etwork.tools.pdf import etworkPdfFileReader, etworkPdfFileWriter
 from etwork.osv import expression
 from etwork.tools import html_escape
 from etwork.exceptions import RedirectWarning
@@ -258,7 +258,7 @@ class AccountEdiFormat(models.Model):
         """ Create a new invoice with the data inside a pdf.
 
         :param filename: The name of the pdf.
-        :param reader:   The DosytPdfFileReader of the pdf to import.
+        :param reader:   The etworkPdfFileReader of the pdf to import.
         :returns:        The created invoice.
         """
         # TO OVERRIDE
@@ -270,7 +270,7 @@ class AccountEdiFormat(models.Model):
         """ Update an existing invoice with the data inside the pdf.
 
         :param filename: The name of the pdf.
-        :param reader:   The DosytPdfFileReader of the pdf to import.
+        :param reader:   The etworkPdfFileReader of the pdf to import.
         :param invoice:  The invoice to update.
         :returns:        The updated invoice.
         """
@@ -329,8 +329,8 @@ class AccountEdiFormat(models.Model):
         # Add the attachments to the pdf file
         if to_embed:
             reader_buffer = io.BytesIO(pdf_content)
-            reader = DosytPdfFileReader(reader_buffer, strict=False)
-            writer = DosytPdfFileWriter()
+            reader = etworkPdfFileReader(reader_buffer, strict=False)
+            writer = etworkPdfFileWriter()
             writer.cloneReaderDocumentRoot(reader)
             for edi_document in to_embed:
                 edi_document.edi_format_id._prepare_invoice_report(writer, edi_document)
@@ -386,7 +386,7 @@ class AccountEdiFormat(models.Model):
         to_process = []
         try:
             buffer = io.BytesIO(content)
-            pdf_reader = DosytPdfFileReader(buffer, strict=False)
+            pdf_reader = etworkPdfFileReader(buffer, strict=False)
         except Exception as e:
             # Malformed pdf
             _logger.exception("Error when reading the pdf: %s" % e)

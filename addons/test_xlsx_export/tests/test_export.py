@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import json
 from datetime import date
@@ -409,6 +409,6 @@ class TestComputedBinaryExport(XlsxCreatorCase):
         export = self.export(values, fields=['binary_field'], params={'groupby': ['create_uid']})
         self.assertExportEqual(export, [
             ['Binary Field'],
-            ['DosytBot (1)'],
+            ['etworkBot (1)'],
             ["['computed value']"],
         ])

@@ -4,25 +4,25 @@ etwork.define('web.KeyboardNavigationMixin', function (require) {
     const core = require('web.core');
 
     /**
-     * list of the key that should not be used as accesskeys. Either because we want to reserve them for a specific behavior in Dosyt or
+     * list of the key that should not be used as accesskeys. Either because we want to reserve them for a specific behavior in etwork or
      * because they will not work in certain browser/OS
      */
     var knownUnusableAccessKeys = [' ',
-        'A', // reserved for Dosyt Edit
-        'B', // reserved for Dosyt Previous Breadcrumb (Back)
-        'C', // reserved for Dosyt Create
-        'H', // reserved for Dosyt Home
-        'J', // reserved for Dosyt Discard
-        'K', // reserved for Dosyt Kanban view
-        'L', // reserved for Dosyt List view
-        'N', // reserved for Dosyt pager Next
-        'P', // reserved for Dosyt pager Previous
-        'S', // reserved for Dosyt Save
-        'Q', // reserved for Dosyt Search
+        'A', // reserved for etwork Edit
+        'B', // reserved for etwork Previous Breadcrumb (Back)
+        'C', // reserved for etwork Create
+        'H', // reserved for etwork Home
+        'J', // reserved for etwork Discard
+        'K', // reserved for etwork Kanban view
+        'L', // reserved for etwork List view
+        'N', // reserved for etwork pager Next
+        'P', // reserved for etwork pager Previous
+        'S', // reserved for etwork Save
+        'Q', // reserved for etwork Search
         'E', // chrome does not support 'E' access key --> go to address bar to search google
         'F', // chrome does not support 'F' access key --> go to menu
         'D', // chrome does not support 'D' access key --> go to address bar
-        '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' // reserved for Dosyt menus
+        '0', '1', '2', '3', '4', '5', '6', '7', '8', '9' // reserved for etwork menus
     ];
 
     var KeyboardNavigationMixin = {

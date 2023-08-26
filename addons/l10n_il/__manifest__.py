@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Israel - Accounting',
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the latest basic Israelian localisation necessary to run Dosyt in Israel:
+This is the latest basic Israelian localisation necessary to run etwork in Israel:
 ================================================================================
 
 This module consists of:

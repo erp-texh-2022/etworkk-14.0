@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
 # 
@@ -12,7 +12,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:24+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -79,7 +79,7 @@ msgstr "Маршрутизация HTTP"
 #: code:addons/mail_bot/models/mail_channel.py:0
 #, python-format
 msgid ""
-"Hello,<br/>Dosyt's chat helps employees collaborate efficiently. I'm here to "
+"Hello,<br/>etwork's chat helps employees collaborate efficiently. I'm here to "
 "help you discover its features.<br/><b>Try to send me an emoji</b> <span "
 "class=\"o_etworkbot_command\">:)</span>"
 msgstr ""
@@ -99,7 +99,7 @@ msgstr "Хммм ..."
 msgid ""
 "I am a simple bot, but if that's a dog, he is the cutest 😊 "
 "<br/>Congratulations, you finished this tour. You can now <b>close this chat"
-" window</b>. Enjoy discovering Dosyt."
+" window</b>. Enjoy discovering etwork."
 msgstr ""
 "Я обычный бот, но если бы я был котом, то он был бы миленьким "
 "😊<br/>Поздравляю, вы завершили обучение. Теперь вы можете <b>закрыть этот "
@@ -178,12 +178,12 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__etworkbot_state
-msgid "DosytBot Status"
-msgstr "статус DosytBot"
+msgid "etworkBot Status"
+msgstr "статус etworkBot"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__etworkbot_failed
-msgid "Dosytbot Failed"
+msgid "etworkbot Failed"
 msgstr ""
 
 #. module: mail_bot
@@ -223,7 +223,7 @@ msgstr ""
 #, python-format
 msgid ""
 "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-"Write <span class=\"o_etworkbot_command\">@DosytBot</span> and select me."
+"Write <span class=\"o_etworkbot_command\">@etworkBot</span> and select me."
 msgstr ""
 "Простите, я не слушал. Чтобы привлечь чье-то внимание <b>упомяните его</b>. "
 "Наберите <span class=\"o_etworkbot_command\">@</span> и выберите меня."
@@ -272,11 +272,11 @@ msgstr "Пользователи"
 msgid ""
 "Wow you are a natural!<br/>Ping someone with @username to grab their "
 "attention. <b>Try to ping me using</b> <span "
-"class=\"o_etworkbot_command\">@DosytBot</span> in a sentence."
+"class=\"o_etworkbot_command\">@etworkBot</span> in a sentence."
 msgstr ""
 "Круто, вы справились!<br/>Упомяните кого-нибудь при помощи @username, чтобы "
 "привлечь его внимание. <b>Упомяните меня, набрав</b> <span "
-"class=\"o_etworkbot_command\">@DosytBot</span> в строке."
+"class=\"o_etworkbot_command\">@etworkBot</span> в строке."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0

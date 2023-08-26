@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 import itertools
 import logging
 import re
@@ -1468,7 +1468,7 @@ class IrModelSelection(models.Model):
 
 class IrModelConstraint(models.Model):
     """
-    This model tracks PostgreSQL foreign keys and constraints used by Dosyt
+    This model tracks PostgreSQL foreign keys and constraints used by etwork
     models.
     """
     _name = 'ir.model.constraint'
@@ -1621,7 +1621,7 @@ class IrModelConstraint(models.Model):
 
 class IrModelRelation(models.Model):
     """
-    This model tracks PostgreSQL tables used to implement Dosyt many2many
+    This model tracks PostgreSQL tables used to implement etwork many2many
     relations.
     """
     _name = 'ir.model.relation'
@@ -1869,7 +1869,7 @@ class IrModelData(models.Model):
            * allows easy data integration with third-party systems,
              making import/export/sync of data possible, as records
              can be uniquely identified across multiple systems
-           * allows tracking the origin of data installed by Dosyt
+           * allows tracking the origin of data installed by etwork
              modules themselves, thus making it possible to later
              update them seamlessly.
     """

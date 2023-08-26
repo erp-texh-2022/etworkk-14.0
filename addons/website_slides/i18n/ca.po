@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_slides
 # 
@@ -29,7 +29,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 13:33+0000\n"
 "PO-Revision-Date: 2020-09-07 08:22+0000\n"
@@ -3682,14 +3682,14 @@ msgstr "Nombre de preguntes"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: website_slides
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
-msgid "Dosyt • Image and Text"
-msgstr "Dosyt • Imatge i text"
+msgid "etwork • Image and Text"
+msgstr "etwork • Imatge i text"
 
 #. module: website_slides
 #: model:res.groups,name:website_slides.group_website_slides_officer
@@ -5586,16 +5586,16 @@ msgstr "per correu electrònic."
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. How to grow your business with Dosyt?"
+msgid "e.g. How to grow your business with etwork?"
 msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid ""
-"e.g. In this video, we'll give you the keys on how Dosyt can help you to grow"
+"e.g. In this video, we'll give you the keys on how etwork can help you to grow"
 " your business. At the end, we'll propose you a quiz to test your knowledge."
 msgstr ""
-"Per exemple, en aquest vídeo, us donarem les claus de com l'Dosyt us pot "
+"Per exemple, en aquest vídeo, us donarem les claus de com l'etwork us pot "
 "ajudar a fer créixer el vostre negoci. Al final, et proposarem un "
 "qüestionari per provar el teu coneixement."
 

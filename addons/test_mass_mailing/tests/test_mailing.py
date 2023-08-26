@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork.addons.test_mass_mailing.data.mail_test_data import MAIL_TEMPLATE
 from etwork.addons.test_mass_mailing.tests.common import TestMassMailCommon

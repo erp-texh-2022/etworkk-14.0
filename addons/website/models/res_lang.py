@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import api, models, tools, _
 from etwork.addons.website.models import ir_http

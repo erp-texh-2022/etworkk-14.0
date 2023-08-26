@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # * website
 #
@@ -16,7 +16,7 @@
 # Rick Hunter <rick_hunter_ec@yahoo.com>, 2015-2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt 9.0\n"
+"Project-Id-Version: etwork 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:06+0000\n"
 "PO-Revision-Date: 2016-02-22 04:58+0000\n"
@@ -78,8 +78,8 @@ msgstr ", actualizado:"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
-msgid "- The Dosyt Team"
-msgstr "- El Equipo de Dosyt"
+msgid "- The etwork Team"
+msgstr "- El Equipo de etwork"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
@@ -558,13 +558,13 @@ msgid ""
 "<strong>2. Create the page variation</strong><br/>\n"
 "                                Once you're clear on the measurable "
 "objective, the page and the variable\n"
-"                                you want to test, duplicate the page in Dosyt "
+"                                you want to test, duplicate the page in etwork "
 "using the <strong>'Versions'</strong>\n"
 "                                menu and apply the modification you decided."
 msgstr ""
 "<strong> 2. Crear la variación de la página </ strong> <br/> Una vez que "
 "tenga claro el objetivo medible, la página y la variable que desea probar, "
-"duplique la página en Dosyt utilizando el menú <strong>'Versiones'</strong> y "
+"duplique la página en etwork utilizando el menú <strong>'Versiones'</strong> y "
 "aplique la modificación que decidió."
 
 #. module: website
@@ -600,9 +600,9 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_button
-msgid "<strong>50,000+ companies run Dosyt to grow their businesses.</strong>"
+msgid "<strong>50,000+ companies run etwork to grow their businesses.</strong>"
 msgstr ""
-"<strong>50.000+ empresas usan Dosyt para hacer crecer sus negocios. </ strong>"
+"<strong>50.000+ empresas usan etwork para hacer crecer sus negocios. </ strong>"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
@@ -657,12 +657,12 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"<strong>Be announced on the Dosyt Twitter account</strong><br/>\n"
-"                                We like to hear from people using Dosyt to "
+"<strong>Be announced on the etwork Twitter account</strong><br/>\n"
+"                                We like to hear from people using etwork to "
 "build their website. Tweet us"
 msgstr ""
-"<strong> Sea anunciado en la cuenta de Twitter de Dosyt </ strong> <br/> Nos "
-"gustaría escuchar de personas que utilizan Dosyt para construir su sitio web. "
+"<strong> Sea anunciado en la cuenta de Twitter de etwork </ strong> <br/> Nos "
+"gustaría escuchar de personas que utilizan etwork para construir su sitio web. "
 "Envíenos un Tweet"
 
 #. module: website
@@ -1383,8 +1383,8 @@ msgstr "Imagen de fondo"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_banner
-msgid "Banner Dosyt Image"
-msgstr "Imagen Banner de Dosyt"
+msgid "Banner etwork Image"
+msgstr "Imagen Banner de etwork"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
@@ -2270,22 +2270,22 @@ msgid ""
 "homepage title so that potential\n"
 "                                    customers near your location will find "
 "your website easily.\n"
-"                                    WIth Dosyt, this can be done easily by "
+"                                    WIth etwork, this can be done easily by "
 "using the Promote menu."
 msgstr ""
 "Por ejemplo, usted quiere que aparezca en el título de su página web el "
 "nombre de su empresa, país/ciudad y algunas palabras \n"
 "que describen su empresa para que los clientes potenciales cercanos a la "
 "ubicación encontren su sitio web fácilmente.\n"
-"Con Dosyt, esto se puede hacer fácilmente usando el menú Promover."
+"Con etwork, esto se puede hacer fácilmente usando el menú Promover."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"For the Dosyt Team,<br/>\n"
+"For the etwork Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
-"De parte del equipo Dosyt,<br/>\n"
+"De parte del equipo etwork,<br/>\n"
 "Fabien Pinckaers, Fundador"
 
 #. module: website
@@ -2525,13 +2525,13 @@ msgid ""
 "to focus\n"
 "                            on the main six pages and make all secondary "
 "pages accessible from a footer. You can\n"
-"                            have a look at the Dosyt.com website, it's a "
+"                            have a look at the etwork.com website, it's a "
 "great example of this type of structure."
 msgstr ""
 "Si usted tiene muchas páginas web en su sitio, usted puede crear un pequeño "
 "menú superior para enfocarse en las seis secciones principales y hacer "
 "accesibles todas las páginas secundarias desde el pie de página. Dele una "
-"mirada al sitio web de Dosyt.com, es un buen ejemplo de este tipo de "
+"mirada al sitio web de etwork.com, es un buen ejemplo de este tipo de "
 "estructura."
 
 #. module: website
@@ -3034,92 +3034,92 @@ msgstr "Nota: Para usar esas características, necesita instalar"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.layout_footer_copyright
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Dosyt - Sample 1 for three columns"
-msgstr "Dosyt - Ejemplo 1 para tres columnas"
+msgid "etwork - Sample 1 for three columns"
+msgstr "etwork - Ejemplo 1 para tres columnas"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Dosyt - Sample 2 for three columns"
-msgstr "Dosyt - Ejemplo 2 para tres columnas"
+msgid "etwork - Sample 2 for three columns"
+msgstr "etwork - Ejemplo 2 para tres columnas"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Dosyt - Sample 3 for three columns"
-msgstr "Dosyt - Ejemplo 3 para tres columnas"
+msgid "etwork - Sample 3 for three columns"
+msgstr "etwork - Ejemplo 3 para tres columnas"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_big_picture
-msgid "Dosyt CMS - a big picture"
-msgstr "CMS Dosyt - Una gran imagen"
+msgid "etwork CMS - a big picture"
+msgstr "CMS etwork - Una gran imagen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_floating
-msgid "Dosyt CMS- Sample image floating"
-msgstr "CMS Dosyt - Ejemplo de imagen flotante"
+msgid "etwork CMS- Sample image floating"
+msgstr "CMS etwork - Ejemplo de imagen flotante"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Dosyt Version"
-msgstr "Versión de Dosyt"
+msgid "etwork Version"
+msgstr "Versión de etwork"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_text
-msgid "Dosyt image and text block"
+msgid "etwork image and text block"
 msgstr "Bloque de imagen y texto"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_parallax_slider
 msgid ""
-"Dosyt provides essential platform for our project management.\n"
+"etwork provides essential platform for our project management.\n"
 "                                                Things are better organized "
 "and more visible with it."
 msgstr ""
-"Dosyt provee una plataforma esencial para nuestra gestión de proyectos.\n"
-"Las cosas están mejor organizadas y más visibles con Dosyt."
+"etwork provee una plataforma esencial para nuestra gestión de proyectos.\n"
+"Las cosas están mejor organizadas y más visibles con etwork."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_slider
 msgid ""
-"Dosyt provides essential platform for our project management.\n"
+"etwork provides essential platform for our project management.\n"
 "                                        Things are better organized and more "
 "visible with it."
 msgstr ""
-"Dosyt provee una plataforma esencial para nuestra gestión de proyectos.\n"
-"Las cosas están mejor organizadas y más visibles con Dosyt."
+"etwork provee una plataforma esencial para nuestra gestión de proyectos.\n"
+"Las cosas están mejor organizadas y más visibles con etwork."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_references
 msgid ""
-"Dosyt provides essential platform for our project management.\n"
+"etwork provides essential platform for our project management.\n"
 "                            Things are better organized and more visible "
 "with it."
 msgstr ""
-"Dosyt provee una plataforma esencial para nuestra gestión de proyectos.\n"
-"Las cosas están mejor organizadas y más visibles con Dosyt."
+"etwork provee una plataforma esencial para nuestra gestión de proyectos.\n"
+"Las cosas están mejor organizadas y más visibles con etwork."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_text_image
-msgid "Dosyt text and image block"
+msgid "etwork text and image block"
 msgstr "Bloque de texto e imagen"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
-msgid "Dosyt's Google Analytics settings"
-msgstr "Ajustes de Google Analytics en Dosyt"
+msgid "etwork's Google Analytics settings"
+msgstr "Ajustes de Google Analytics en etwork"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_collapse
 msgid ""
-"Dosyt's POS is a web application that can run on any device that\n"
+"etwork's POS is a web application that can run on any device that\n"
 "                                can display websites with little to no setup "
 "required."
 msgstr ""
-"Dosyt POS es una aplicación web que puede funcionar con cualquier "
+"etwork POS es una aplicación web que puede funcionar con cualquier "
 "dispositivo \n"
 "que pueda mostrar sitios web con poca o ninguna configuración requerida."
 
@@ -3342,9 +3342,9 @@ msgstr "Por favor, instalar o actualizar el nodo menor"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"Please note that you'll need an Dosyt Standard or Business subscriptions for "
+"Please note that you'll need an etwork Standard or Business subscriptions for "
 "that"
-msgstr "Por favor, debe suscribirse a Dosyt Standar o Business para esto "
+msgstr "Por favor, debe suscribirse a etwork Standar o Business para esto "
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_collapse
@@ -4190,14 +4190,14 @@ msgstr ""
 msgid ""
 "Translating your website into other languages is the best way to broaden its "
 "audience.\n"
-"                        In Dosyt, you can either manually translate your "
+"                        In etwork, you can either manually translate your "
 "pages as they are displayed, use an\n"
 "                        automatic machine translation service for free or "
 "pay professional translators to do\n"
 "                        it for you."
 msgstr ""
 "La traducción de su sitio web a otros idiomas es la mejor manera de ampliar "
-"su audiencia. En Dosyt, usted puede traducir manualmente sus páginas a medida "
+"su audiencia. En etwork, usted puede traducir manualmente sus páginas a medida "
 "que se muestran utilizando un servicio de traducción automática de forma "
 "gratuita, o pagando un traductor profesional que lo haga por usted."
 
@@ -4635,8 +4635,8 @@ msgstr "Si esta plantilla es una plantilla de página web (completa)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_collapse
-msgid "Which hardware does Dosyt POS support?"
-msgstr "Qué hardware soporta el PdV de Dosyt?"
+msgid "Which hardware does etwork POS support?"
+msgstr "Qué hardware soporta el PdV de etwork?"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_collapse
@@ -4652,11 +4652,11 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"With Dosyt, you can automatically check which keywords are ranked best for a\n"
+"With etwork, you can automatically check which keywords are ranked best for a\n"
 "                                    specific query, then add them in the "
 "content of your page."
 msgstr ""
-"Con Dosyt, usted puede comprobar automáticamente que palabras clave clasifica "
+"Con etwork, usted puede comprobar automáticamente que palabras clave clasifica "
 "mejor para una \n"
 "consulta específica, adicionelas en el contenido de su página."
 
@@ -4807,7 +4807,7 @@ msgstr "Puede obtener un código de cupón de 75$ para comenzar su campaña aqu�
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"You can set Dosyt on a custom domain name (e.g. yourcompany.com) for both the "
+"You can set etwork on a custom domain name (e.g. yourcompany.com) for both the "
 "website\n"
 "                        and your emails. Because your website address is as "
 "important to your branding as the\n"
@@ -5029,19 +5029,19 @@ msgstr "http://www.google.com/webmasters/tools/"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.view_website_config_settings
 #: model_terms:ir.ui.view,arch_db:website.view_website_form
-msgid "https://plus.google.com/+Dosytapps"
-msgstr "https://plus.google.com/+Dosytapps"
+msgid "https://plus.google.com/+etworkapps"
+msgstr "https://plus.google.com/+etworkapps"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.view_website_config_settings
 #: model_terms:ir.ui.view,arch_db:website.view_website_form
-msgid "https://twitter.com/Dosyt"
-msgstr "https://twitter.com/Dosyt"
+msgid "https://twitter.com/etwork"
+msgstr "https://twitter.com/etwork"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.view_website_config_settings
-msgid "https://www.facebook.com/Dosyt"
-msgstr "https://www.facebook.com/Dosyt"
+msgid "https://www.facebook.com/etwork"
+msgstr "https://www.facebook.com/etwork"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.view_website_form
@@ -5073,13 +5073,13 @@ msgstr "si no tiene una todavía."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
-msgid "in Dosyt"
-msgstr "en Dosyt"
+msgid "in etwork"
+msgstr "en etwork"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Dosyt, the"
-msgstr "instancia de Dosyt, el"
+msgid "instance of etwork, the"
+msgstr "instancia de etwork, el"
 
 #. module: website
 #: model:ir.model,name:website.model_ir_actions_server
@@ -5143,8 +5143,8 @@ msgstr "mapadelsitio.xml"
 #. openerp-web
 #: code:addons/website/static/src/xml/website.xml:19
 #, python-format
-msgid "the classic Dosyt interface"
-msgstr "el interfaz clásico de Dosyt"
+msgid "the classic etwork interface"
+msgstr "el interfaz clásico de etwork"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
@@ -5293,8 +5293,8 @@ msgstr "formulario de detalles de su Compañía"
 #~ "instalación, no requiere hardware específico. Funciona con cualquier\n"
 #~ "iPad, Tablet PC, portátil o máquina POS industrial."
 
-#~ msgid "Discover more about Dosyt"
-#~ msgstr "Descubra más sobre Dosyt"
+#~ msgid "Discover more about etwork"
+#~ msgstr "Descubra más sobre etwork"
 
 #~ msgid "Edit Menu Entry"
 #~ msgstr "Editar Entrada del Menú"
@@ -5317,7 +5317,7 @@ msgstr "formulario de detalles de su Compañía"
 #~ "such\n"
 #~ "                        as Website Builder, PoS or eCommerce, we have\n"
 #~ "                        moved beyond the ERP territory. <br/>\n"
-#~ "                        But <u>don't worry</u>, <b>Dosyt</b> is and always "
+#~ "                        But <u>don't worry</u>, <b>etwork</b> is and always "
 #~ "will be\n"
 #~ "                        fully open source. You can read more about the "
 #~ "new name here.\n"
@@ -5333,7 +5333,7 @@ msgstr "formulario de detalles de su Compañía"
 #~ "de la empresa. Con nuestras nuevas aplicaciones, como \n"
 #~ "constructor de sitios, puntos de venta o comercio electrónico, \n"
 #~ "hemos ido más allá del territorio de ERP. <br/>\n"
-#~ "Pero <u>no se preocupe</u>, <b>Dosyt</b> es y será siempre \n"
+#~ "Pero <u>no se preocupe</u>, <b>etwork</b> es y será siempre \n"
 #~ "completamente código abierto. Puede leer más sobre el nuevo nombre aquí.\n"
 #~ "También hemos preparado un breve FAQ para explicar todos estos \n"
 #~ "cambios a todos ustedes.<br/>"
@@ -5341,14 +5341,14 @@ msgstr "formulario de detalles de su Compañía"
 #~ msgid "Menu Label"
 #~ msgstr "Etiqueta del Menú"
 
-#~ msgid "Dosyt Members"
-#~ msgstr "Miembros Dosyt"
+#~ msgid "etwork Members"
+#~ msgstr "Miembros etwork"
 
 #~ msgid ""
-#~ "Dosyt's POS is a web application that can run on any device that\n"
+#~ "etwork's POS is a web application that can run on any device that\n"
 #~ "                can display websites with little to no setup required."
 #~ msgstr ""
-#~ "Dosyt POS es una aplicación web que puede funcionar con cualquier "
+#~ "etwork POS es una aplicación web que puede funcionar con cualquier "
 #~ "dispositivo \n"
 #~ "que pueda mostrar sitios web con poca o ninguna configuración requerida."
 
@@ -5389,7 +5389,7 @@ msgstr "formulario de detalles de su Compañía"
 #~ "aún después de una desconexión completa."
 
 #~ msgid ""
-#~ "With Dosyt's fully integrated software, you can easily manage your\n"
+#~ "With etwork's fully integrated software, you can easily manage your\n"
 #~ "                        meetings, schedule business calls, create "
 #~ "recurring meetings,\n"
 #~ "                        synchronize your agenda and easily keep in touch "
@@ -5398,7 +5398,7 @@ msgstr "formulario de detalles de su Compañía"
 #~ "business discussions.\n"
 #~ "                        <br/><br/>"
 #~ msgstr ""
-#~ "Con el software completamente integrado de Dosyt, usted puede administrar "
+#~ "Con el software completamente integrado de etwork, usted puede administrar "
 #~ "fácilmente sus reuniones, agendar llamadas de negocios, crear reuniones "
 #~ "recurrentes, sincronizar su agenda y mantener el contacto con sus "
 #~ "colegas, asociados y otras personas involucradas en proyectos o charlas "

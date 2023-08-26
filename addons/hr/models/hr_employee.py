@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import base64
 from random import choice
@@ -319,7 +319,7 @@ class HrEmployeePrivate(models.Model):
     def _post_author(self):
         """
         When a user updates his own employee's data, all operations are performed
-        by super user. However, tracking messages should not be posted as DosytBot
+        by super user. However, tracking messages should not be posted as etworkBot
         but as the actual user.
         This method is used in the overrides of `_message_log` and `message_post`
         to post messages as the correct user.

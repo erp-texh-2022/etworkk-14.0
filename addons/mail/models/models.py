@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from lxml.builder import E
 
@@ -240,5 +240,5 @@ class BaseModel(models.AbstractModel):
 
     def _notify_email_header_dict(self):
         return {
-            'X-Dosyt-Objects': "%s-%s" % (self._name, self.id),
+            'X-etwork-Objects': "%s-%s" % (self._name, self.id),
         }

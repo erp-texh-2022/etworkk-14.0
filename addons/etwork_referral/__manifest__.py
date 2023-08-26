@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 {
-    'name': "Dosyt referral program",
-    'summary': """Allow you to refer your friends to Dosyt and get rewards""",
+    'name': "etwork referral program",
+    'summary': """Allow you to refer your friends to etwork and get rewards""",
     'category': 'Hidden',
     'version': '1.0',
     'depends': ['base', 'web'],

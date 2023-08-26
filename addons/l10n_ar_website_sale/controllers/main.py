@@ -1,4 +1,4 @@
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 from etwork import _
 from etwork.addons.website_sale.controllers.main import WebsiteSale
 from etwork.http import request, route

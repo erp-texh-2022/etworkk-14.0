@@ -21,7 +21,7 @@ return AbstractModel.extend({
         this._super.apply(this, arguments);
         this.end_date = null;
         var week_start = _t.database.parameters.week_start;
-        // calendar uses index 0 for Sunday but Dosyt stores it as 7
+        // calendar uses index 0 for Sunday but etwork stores it as 7
         this.week_start = week_start !== undefined && week_start !== false ? week_start % 7 : moment().startOf('week').day();
         this.week_stop = this.week_start + 6;
     },
@@ -132,7 +132,7 @@ return AbstractModel.extend({
         return true;
     },
     /**
-     * @param {DosytEvent} event
+     * @param {etworkEvent} event
      */
     createRecord: function (event) {
         var data = this.calendarEventToRecord(event.data.data);

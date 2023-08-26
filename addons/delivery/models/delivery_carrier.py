@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import logging
 import psycopg2
@@ -89,7 +89,7 @@ class DeliveryCarrier(models.Model):
             'domain': [['name', '=like', 'delivery_%'], ['name', '!=', 'delivery_barcode']],
             'type': 'ir.actions.act_window',
             'help': _('''<p class="o_view_nocontent">
-                    Buy Dosyt Enterprise now to get more providers.
+                    Buy etwork Enterprise now to get more providers.
                 </p>'''),
         }
 

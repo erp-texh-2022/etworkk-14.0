@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import json
 import time
@@ -65,7 +65,7 @@ class PickingType(models.Model):
         help="If this checkbox is ticked, the pickings lines will represent detailed stock operations. If not, the picking lines will represent an aggregate of detailed stock operations.")
     show_reserved = fields.Boolean(
         'Pre-fill Detailed Operations', default=True,
-        help="If this checkbox is ticked, Dosyt will automatically pre-fill the detailed "
+        help="If this checkbox is ticked, etwork will automatically pre-fill the detailed "
         "operations with the corresponding products, locations and lot/serial numbers.")
 
     count_picking_draft = fields.Integer(compute='_compute_picking_count')

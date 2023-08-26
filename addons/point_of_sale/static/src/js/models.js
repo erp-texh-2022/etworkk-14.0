@@ -1563,7 +1563,7 @@ exports.PosModel = Backbone.Model.extend({
      * Directly calls the requested service, instead of triggering a
      * 'call_service' event up, which wouldn't work as services have no parent
      *
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _trigger_up: function (ev) {
         if (ev.is_stopped()) {

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import json
 import pytz
@@ -54,7 +54,7 @@ class TrackManifest(http.Controller):
         if request.website.cdn_activated:
             cdn_url = request.website.cdn_url.replace('"','%22').replace('\x5c','%5C')
             js_cdn_url = '"%s"' % cdn_url
-        body = body.replace('__DOSYT_CDN_URL__', js_cdn_url)
+        body = body.replace('__etwork_CDN_URL__', js_cdn_url)
         response = request.make_response(body, [
             ('Content-Type', 'text/javascript'),
             ('Service-Worker-Allowed', url_for('/event')),

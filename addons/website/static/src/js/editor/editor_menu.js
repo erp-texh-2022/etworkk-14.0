@@ -222,7 +222,7 @@ var EditorMenu = Widget.extend({
      * Get the cleaned value of the editable element.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onGetCleanHTML: function (ev) {
         ev.data.callback(this.wysiwyg.getValue({$layout: ev.data.$layout}));
@@ -231,7 +231,7 @@ var EditorMenu = Widget.extend({
      * Snippet (menu_data) can request to save the document to leave the page
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      * @param {object} ev.data
      * @param {function} ev.data.onSuccess
      * @param {function} ev.data.onFailure

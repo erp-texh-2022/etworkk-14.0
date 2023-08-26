@@ -333,7 +333,7 @@ var MassMailingFieldHtml = FieldHtml.extend({
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onSnippetsLoaded: function (ev) {
         var self = this;

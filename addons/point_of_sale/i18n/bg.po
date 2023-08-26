@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -22,7 +22,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-09 16:49+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
@@ -2147,8 +2147,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Dosyt Point Of Sale"
-msgstr "ВАЖНО: Отчет на грешки в център за продажби на Dosyt "
+msgid "IMPORTANT: Bug Report From etwork Point Of Sale"
+msgstr "ВАЖНО: Отчет на грешки в център за продажби на etwork "
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2881,7 +2881,7 @@ msgstr "Брой непрочетени съобщения"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Dosyt Logo"
+msgid "etwork Logo"
 msgstr "Лого на системата"
 
 #. module: point_of_sale
@@ -5254,7 +5254,7 @@ msgstr "Този продукт се използва като справка з
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Dosyt but you can change it to "
+"This sequence is automatically created by etwork but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
 "Тази последователност се създава автоматично от системата, но можете да я "
@@ -5263,7 +5263,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Dosyt but you can change it to "
+"This sequence is automatically created by etwork but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
 "Тази последователност се създава автоматично от системата, но можете да я "

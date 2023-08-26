@@ -23,7 +23,7 @@ var LongpollingBus = Bus.extend(ServicesMixin, {
     // properties
     _isActive: null,
     _lastNotificationID: 0,
-    _isDosytFocused: true,
+    _isetworkFocused: true,
     _pollRetryTimeout: null,
 
     /**
@@ -105,8 +105,8 @@ var LongpollingBus = Bus.extend(ServicesMixin, {
      *
      * @returns {boolean}
      */
-    isDosytFocused: function () {
-        return this._isDosytFocused;
+    isetworkFocused: function () {
+        return this._isetworkFocused;
     },
     /**
      * Start a long polling, i.e. it continually opens a long poll
@@ -220,10 +220,10 @@ var LongpollingBus = Bus.extend(ServicesMixin, {
      * @param {Boolean} params.focus
      */
     _onFocusChange: function (params) {
-        this._isDosytFocused = params.focus;
+        this._isetworkFocused = params.focus;
         if (params.focus) {
             this._lastPresenceTime = new Date().getTime();
-            this.trigger('window_focus', this._isDosytFocused);
+            this.trigger('window_focus', this._isetworkFocused);
         }
     },
     /**

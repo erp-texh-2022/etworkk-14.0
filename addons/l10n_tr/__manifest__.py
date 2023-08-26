@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Turkey - Accounting',
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-Türkiye için Tek düzen hesap planı şablonu Dosyt Modülü.
+Türkiye için Tek düzen hesap planı şablonu etwork Modülü.
 ==========================================================
 
 Bu modül kurulduktan sonra, Muhasebe yapılandırma sihirbazı çalışır

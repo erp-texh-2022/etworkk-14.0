@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
 # 
@@ -9,7 +9,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -368,8 +368,8 @@ msgstr "外部信件伺服器"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Dosyt data from Google Spreadsheet"
-msgstr "從Google Spreadsheet中提取和分析Dosyt數據"
+msgid "Extract and analyze etwork data from Google Spreadsheet"
+msgstr "從Google Spreadsheet中提取和分析etwork數據"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -566,15 +566,15 @@ msgstr "OAuth認證"
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: base_setup
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Dosyt S.A."
-msgstr "Dosyt S.A."
+msgid "etwork S.A."
+msgstr "etwork S.A."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -695,8 +695,8 @@ msgstr "使用外部驗證提供者 (OAuth)"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Dosyt Notes"
-msgstr "在Dosyt Notes中使用外部鍵盤"
+msgid "Use external pads in etwork Notes"
+msgstr "在etwork Notes中使用外部鍵盤"
 
 #. module: base_setup
 #. openerp-web
@@ -710,7 +710,7 @@ msgstr "使用者"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Dosyt provides a list of matching "
+"When populating your address book, etwork provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr "當公佈您的地址簿時，系統為您提供一個匹配公司列表。當選擇其中一個，公司數據和logo會自動填充。"

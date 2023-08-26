@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 from datetime import timedelta, time
 from etwork import api, fields, models, _
 from etwork.tools.float_utils import float_round

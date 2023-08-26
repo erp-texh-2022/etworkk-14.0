@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* digest
 # 
@@ -16,7 +16,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -35,8 +35,8 @@ msgstr "דו\"ח פתח"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
-msgid "<span class=\"etwork_link_text\">Dosyt</span>"
-msgstr "Dosyt"
+msgid "<span class=\"etwork_link_text\">etwork</span>"
+msgstr "etwork"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
@@ -322,8 +322,8 @@ msgstr "תאריך שליחה הבא"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
-msgid "Dosyt Mobile"
-msgstr "Dosyt נייד"
+msgid "etwork Mobile"
+msgstr "etwork נייד"
 
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest__periodicity
@@ -365,7 +365,7 @@ msgstr "נמענים"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
-msgid "Run your business from anywhere with <b>Dosyt Mobile</b>."
+msgid "Run your business from anywhere with <b>etwork Mobile</b>."
 msgstr "הפעל את העסק שלך מכל מקום עם <b>אודו מובייל</b>."
 
 #. module: digest
@@ -416,8 +416,8 @@ msgstr "תיאור הטיפ"
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_2
-msgid "Tip: A calculator in Dosyt"
-msgstr "טיפ: מחשבון ב-Dosyt"
+msgid "Tip: A calculator in etwork"
+msgstr "טיפ: מחשבון ב-etwork"
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_1
@@ -441,8 +441,8 @@ msgstr "טיפ: עבו מהר ויעיל יותר עם קיצורי מקלדת"
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_2
-msgid "Tip: A calculator in Dosyt"
-msgstr "טיפ: מחשבון ב-Dosyt"
+msgid "Tip: A calculator in etwork"
+msgstr "טיפ: מחשבון ב-etwork"
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_1
@@ -468,10 +468,10 @@ msgstr "טיפ: עבדו מהר ויעיל יותר עם קיצורי מקלדת
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_3
 msgid ""
 "Type \"@\" to notify someone in a message, or \"#\" to link to a channel. "
-"Try to notify @DosytBot to test the feature."
+"Try to notify @etworkBot to test the feature."
 msgstr ""
 "הקישו \"@\" כדי להודיע למישהו בהודעה או \"#\" כדי לקשר לערוץ. נסו להודיע ל "
-"@DosytBot כדי לבדוק את התכונה."
+"@etworkBot כדי לבדוק את התכונה."
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -542,13 +542,13 @@ msgstr "ביטת את המנוי בהצלחה מ"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
-msgid "You may want to add new computed fields with Dosyt Studio:"
-msgstr "ייתכן ותרצו להוסיף שדות מחושבים עם סטודיו Dosyt"
+msgid "You may want to add new computed fields with etwork Studio:"
+msgstr "ייתכן ותרצו להוסיף שדות מחושבים עם סטודיו etwork"
 
 #. module: digest
 #: model:digest.digest,name:digest.digest_digest_default
-msgid "Your Dosyt Periodic Digest"
-msgstr "תקציר תקופתי עבורך מ-Dosyt"
+msgid "Your etwork Periodic Digest"
+msgstr "תקציר תקופתי עבורך מ-etwork"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form

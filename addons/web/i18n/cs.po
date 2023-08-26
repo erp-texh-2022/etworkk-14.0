@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -17,7 +17,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -2018,8 +2018,8 @@ msgstr "Fuschia"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Dosyt Enterprise!"
-msgstr "Získejte tuto funkci a mnohem více s Dosyt Enterprise!"
+msgid "Get this feature and much more with etwork Enterprise!"
+msgstr "Získejte tuto funkci a mnohem více s etwork Enterprise!"
 
 #. module: web
 #. openerp-web
@@ -2610,8 +2610,8 @@ msgstr "Víceřádkový text"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Dosyt.com account"
-msgstr "Můj účet Dosyt.com"
+msgid "My etwork.com account"
+msgstr "Můj účet etwork.com"
 
 #. module: web
 #. openerp-web
@@ -2805,15 +2805,15 @@ msgstr "Objekt:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Dosyt Apps will be available soon"
-msgstr "Dosyt Apps budou brzy k dispozici"
+msgid "etwork Apps will be available soon"
+msgstr "etwork Apps budou brzy k dispozici"
 
 #. module: web
 #. openerp-web
@@ -2822,36 +2822,36 @@ msgstr "Dosyt Apps budou brzy k dispozici"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Client Error"
-msgstr "Chyba klienta Dosyt "
+msgid "etwork Client Error"
+msgstr "Chyba klienta etwork "
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Dosyt Enterprise"
-msgstr "Dosyt Enterprise"
+msgid "etwork Enterprise"
+msgstr "etwork Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Error"
-msgstr "Dosyt chyba"
+msgid "etwork Error"
+msgstr "etwork chyba"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Session Expired"
-msgstr "Platnost Dosyt vypršela"
+msgid "etwork Session Expired"
+msgstr "Platnost etwork vypršela"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Warning"
-msgstr "Dosyt varování"
+msgid "etwork Warning"
+msgstr "etwork varování"
 
 #. module: web
 #. openerp-web
@@ -3206,8 +3206,8 @@ msgstr "Běží na %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Dosyt</span>"
-msgstr "Přináší vám <span>Dosyt</span>"
+msgid "Powered by <span>etwork</span>"
+msgstr "Přináší vám <span>etwork</span>"
 
 #. module: web
 #. openerp-web
@@ -4675,10 +4675,10 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Dosyt with at least two workers to print a pdf version of "
+"You need to start etwork with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"Potřebujete spustit Dosyt s nejméně dvěma pracovníky, abyste mohli vytisknout"
+"Potřebujete spustit etwork s nejméně dvěma pracovníky, abyste mohli vytisknout"
 " pdf verzi zpráv."
 
 #. module: web
@@ -4698,8 +4698,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Dosyt session expired. The current page is about to be refreshed."
-msgstr "Vaše relace Dosyt vypršela. Aktuální stránka se brzy obnoví."
+msgid "Your etwork session expired. The current page is about to be refreshed."
+msgstr "Vaše relace etwork vypršela. Aktuální stránka se brzy obnoví."
 
 #. module: web
 #. openerp-web

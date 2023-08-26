@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
@@ -22,7 +22,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -1127,11 +1127,11 @@ msgstr "رتبه بندی مشتری در وظیفه"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Dosyt creates tasks automatically, and "
+"Customers propose feedbacks by email; etwork creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the %s column. %s"
 msgstr ""
-"مشتریان بازخورد خود را از طریق ایمیل پیشنهاد می کنند. Dosyt وظایف را به طور "
+"مشتریان بازخورد خود را از طریق ایمیل پیشنهاد می کنند. etwork وظایف را به طور "
 "خودکار ایجاد می کند، و شما می توانید به طور مستقیم در مورد کار ارتباط برقرار"
 " کنید. مدیران شما تصمیم می‌گیرند که کدام بازخورد پذیرفته شود %s و کدام "
 "بازخورد به %s ستون %s منتقل شود"
@@ -3570,11 +3570,11 @@ msgstr "آزمونها"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"مدل (Dosyt Document Kind) که با نام مستعار مطابقت دارد. هرگونه ایمیل دریافتی "
+"مدل (etwork Document Kind) که با نام مستعار مطابقت دارد. هرگونه ایمیل دریافتی "
 "که به رکورد موجود پاسخ ندهد، باعث ایجاد رکورد جدیدی از این مدل می شود (به "
 "عنوان مثال یک وظیفه پروژه)"
 

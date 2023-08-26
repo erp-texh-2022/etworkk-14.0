@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* hr_expense
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -489,10 +489,10 @@ msgstr "이름 표시"
 #: model_terms:digest.tip,tip_description:hr_expense.digest_tip_hr_expense_0
 msgid ""
 "Do not keep your expense tickets in your pockets any longer. Just snap a "
-"picture of your receipt and let Dosyt digitalizes it for you. The OCR and "
+"picture of your receipt and let etwork digitalizes it for you. The OCR and "
 "Artificial Intelligence will fill the data automatically."
 msgstr ""
-"더 이상 경비 지출 관련 영수증을 아무 곳에나 보관하지 마세요. 영수증을 사진으로 찍기만 하면 Dosyt가 간편하게 디지털로 변환합니다. "
+"더 이상 경비 지출 관련 영수증을 아무 곳에나 보관하지 마세요. 영수증을 사진으로 찍기만 하면 etwork가 간편하게 디지털로 변환합니다. "
 "OCR과 인공 지능을 활용한 시스템이 자동으로 내용을 채워줍니다."
 
 #. module: hr_expense
@@ -1142,8 +1142,8 @@ msgstr "읽지 않은 메시지 수"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_template_register_no_user
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_account
@@ -1433,8 +1433,8 @@ msgstr "견본"
 #. openerp-web
 #: code:addons/hr_expense/static/src/xml/expense_qr_modal_template.xml:0
 #, python-format
-msgid "Scan this QR code to get the Dosyt app:"
-msgstr "QR 코드를 스캔하여 Dosyt 앱을 다운로드하세요:"
+msgid "Scan this QR code to get the etwork app:"
+msgstr "QR 코드를 스캔하여 etwork 앱을 다운로드하세요:"
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_employee__expense_manager_id
@@ -1492,9 +1492,9 @@ msgstr "다음 행동 날짜가 오늘 이전 인 모든 기록보기"
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_all
 #: model_terms:ir.actions.act_window,help:hr_expense.hr_expense_actions_my_unsubmitted
 msgid ""
-"Snap pictures of your receipts and let Dosyt<br> automatically create "
+"Snap pictures of your receipts and let etwork<br> automatically create "
 "expenses for you."
-msgstr "영수증을 사진으로 찍어 Dosyt<br>가 자동으로 경비를 생성하도록 해보세요."
+msgstr "영수증을 사진으로 찍어 etwork<br>가 자동으로 경비를 생성하도록 해보세요."
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_product_product__can_be_expensed

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* hr
 # 
@@ -9,13 +9,13 @@
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2020
 # surapas haemaprasertsuk <surapas@gmail.com>, 2020
 # Potsawat Manuthamathorn <firmpotsawat@hotmail.com>, 2020
-# Dosyt Thaidev <etworkthaidev@gmail.com>, 2020
+# etwork Thaidev <etworkthaidev@gmail.com>, 2020
 # kittipot anuwet <pipemsn1@gmail.com>, 2021
 # Wichanon Jamwutthipreecha, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-17 10:35+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -1796,22 +1796,22 @@ msgstr "จํานวนข้อความที่ยังไม่ได
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
 msgid ""
-"Dosyt's department structure is used to manage all documents\n"
+"etwork's department structure is used to manage all documents\n"
 "                    related to employees by departments: expenses, timesheets,\n"
 "                    leaves, recruitments, etc."
 msgstr ""
-"โครงสร้างแผนกของ Dosyt ใช้สำหรับจัดการเอกสารทั้งหมด\n"
+"โครงสร้างแผนกของ etwork ใช้สำหรับจัดการเอกสารทั้งหมด\n"
 "                    ที่เกี่ยวข้องกับพนักงานตามแผนก: ค่าใช้จ่าย, ใบบันทึกเวลา,\n"
 "                    ใบงาน การรับสมัคร ฯลฯ"
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
 msgid ""
-"Dosyt's department structure is used to manage all documents\n"
+"etwork's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                time off, recruitments, etc."
 msgstr ""
-"โครงสร้างแผนกของ Dosyt ใช้สำหรับจัดการเอกสารทั้งหมด\n"
+"โครงสร้างแผนกของ etwork ใช้สำหรับจัดการเอกสารทั้งหมด\n"
 "                ที่เกี่ยวข้องกับพนักงานตามแผนก: ค่าใช้จ่าย, ใบบันทึกเวลา,\n"
 "                เวลาว่าง การรับสมัคร ฯลฯ"
 
@@ -2596,22 +2596,22 @@ msgstr "ม่าย"
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 msgid ""
-"With just a quick glance on the Dosyt employee screen, you\n"
+"With just a quick glance on the etwork employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"เพียงแค่เหลือบมองบนหน้าจอพนักงานของ Dosyt คุณก็จะ\n"
+"เพียงแค่เหลือบมองบนหน้าจอพนักงานของ etwork คุณก็จะ\n"
 "                สามารถค้นหาข้อมูลทั้งหมดที่คุณต้องการสำหรับแต่ละคนได้อย่างง่ายดาย\n"
 "                ข้อมูลการติดต่อ ตำแหน่งงาน ความพร้อม ฯลฯ"
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Dosyt employee screen, you\n"
+"With just a quick glance on the etwork employee screen, you\n"
 "               can easily find all the information you need for each person;\n"
 "               contact data, job position, availability, etc."
 msgstr ""
-"เพียงแค่เหลือบมองบนหน้าจอพนักงานของ Dosyt คุณก็จะ\n"
+"เพียงแค่เหลือบมองบนหน้าจอพนักงานของ etwork คุณก็จะ\n"
 "               สามารถค้นหาข้อมูลทั้งหมดที่คุณต้องการสำหรับแต่ละคนได้อย่างง่ายดาย\n"
 "               ข้อมูลการติดต่อ ตำแหน่งงาน ความพร้อม ฯลฯ"
 

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_twitter
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:23+0000\n"
@@ -48,13 +48,13 @@ msgstr "<strong>Zavolat´ späť URL: </strong>nechajte prázdne"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "<strong>Description: </strong> Dosyt Twitter Integration"
-msgstr "<strong>Popis: </strong> Integrácia Dosyt Twitter"
+msgid "<strong>Description: </strong> etwork Twitter Integration"
+msgstr "<strong>Popis: </strong> Integrácia etwork Twitter"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "<strong>Name: </strong> Dosyt Twitter Integration"
-msgstr "<strong>Meno: </strong>Integrácia Dosyt Twitter"
+msgid "<strong>Name: </strong> etwork Twitter Integration"
+msgstr "<strong>Meno: </strong>Integrácia etwork Twitter"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form

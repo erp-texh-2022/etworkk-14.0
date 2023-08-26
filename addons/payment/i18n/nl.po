@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
@@ -8,14 +8,14 @@
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2020
 # Cas Vissers <casvissers@brahoo.nl>, 2020
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2020
-# Dosyt Experts Consultants <consultants@etworkexperts.nl>, 2020
+# etwork Experts Consultants <consultants@etworkexperts.nl>, 2020
 # Martin Trigaux, 2020
 # Erwin van der Ploeg <erwin@etworkexperts.nl>, 2021
 # Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:15+0000\n"
@@ -471,8 +471,8 @@ msgstr "Afvangen transactie"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__capture_manually
-msgid "Capture the amount from Dosyt, when the delivery is completed."
-msgstr "Ontvang het aantal van Dosyt wanneer de levering voltooid is."
+msgid "Capture the amount from etwork, when the delivery is completed."
+msgstr "Ontvang het aantal van etwork wanneer de levering voltooid is."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
@@ -642,8 +642,8 @@ msgstr "Creditcard (aangeboden via Ingenico)"
 
 #. module: payment
 #: model:payment.acquirer,display_as:payment.payment_acquirer_etwork_by_adyen
-msgid "Credit Card (powered by Dosyt Payments)"
-msgstr "Creditcard (mogelijk gemaakt door Dosyt Payments)."
+msgid "Credit Card (powered by etwork Payments)"
+msgstr "Creditcard (mogelijk gemaakt door etwork Payments)."
 
 #. module: payment
 #: model:payment.acquirer,display_as:payment.payment_acquirer_payulatam
@@ -1102,13 +1102,13 @@ msgstr "Handmatig"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Handmatig: Krijg betaald met contant geld, cheques of een andere methode buiten Dosyt om.\n"
+"Handmatig: Krijg betaald met contant geld, cheques of een andere methode buiten etwork om.\n"
 "Elektronisch: Betaal automatisch via een betaalprovider door een transactie aan te vragen op een door de klant opgeslagen kaart bij het online kopen of abonneren van (betalingstoken).\n"
-"Batch Deposito: Verzamel meerdere klantcheques tegelijk door een batch deposito te genereren om bij uw bank in te dienen. Wanneer u de rekeningafschriften in Dosyt ingeeft, wordt u voorgesteld om de transactie af te letteren met de batchafbetaling. Schakel deze optie in bij instellingen."
+"Batch Deposito: Verzamel meerdere klantcheques tegelijk door een batch deposito te genereren om bij uw bank in te dienen. Wanneer u de rekeningafschriften in etwork ingeeft, wordt u voorgesteld om de transactie af te letteren met de batchafbetaling. Schakel deze optie in bij instellingen."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_onboarding_wizard__paypal_seller_account
@@ -1252,13 +1252,13 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer__module_to_buy
-msgid "Dosyt Enterprise Module"
-msgstr "Dosyt Enterprise module"
+msgid "etwork Enterprise Module"
+msgstr "etwork Enterprise module"
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_etwork_by_adyen
-msgid "Dosyt Payments by Adyen"
-msgstr "Dosyt Payments by Adyen"
+msgid "etwork Payments by Adyen"
+msgstr "etwork Payments by Adyen"
 
 #. module: payment
 #. openerp-web
@@ -1451,8 +1451,8 @@ msgstr "Betalingsprovider onboarding wizard"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_acquirer__payment_flow__s2s
-msgid "Payment from Dosyt"
-msgstr "Betaling van Dosyt"
+msgid "Payment from etwork"
+msgstr "Betaling van etwork"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
@@ -1957,8 +1957,8 @@ msgstr "Soort"
 #. openerp-web
 #: code:addons/payment/static/src/xml/payment_processing.xml:0
 #, python-format
-msgid "Unable to contact the Dosyt server."
-msgstr "Niet mogelijk om met de Dosyt server contact op te nemen."
+msgid "Unable to contact the etwork server."
+msgstr "Niet mogelijk om met de etwork server contact op te nemen."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.acquirer_form

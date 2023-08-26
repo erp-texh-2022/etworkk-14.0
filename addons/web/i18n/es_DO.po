@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # * web
 #
@@ -10,7 +10,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt 9.0\n"
+"Project-Id-Version: etwork 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-10 11:35+0000\n"
 "PO-Revision-Date: 2016-03-21 01:11+0000\n"
@@ -21,9 +21,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  es_DO.po (Dosyt 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  es_DO.po (etwork 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"#-#-#-#-#  es_DO.po (Dosyt 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  es_DO.po (etwork 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: web
@@ -231,8 +231,8 @@ msgstr "<span class=\"oe_logo_edit\">Editar datos de empresa</span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Dosyt</span>"
-msgstr "<span>Dosyt</span>"
+msgid "<span>etwork</span>"
+msgstr "<span>etwork</span>"
 
 #. module: web
 #. openerp-web
@@ -1219,8 +1219,8 @@ msgstr "Formulario"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1338
 #, python-format
-msgid "Get this feature and much more with Dosyt Enterprise!"
-msgstr "Obtener esta característica y mucho más con el Dosyt Enterprise!"
+msgid "Get this feature and much more with etwork Enterprise!"
+msgstr "Obtener esta característica y mucho más con el etwork Enterprise!"
 
 #. module: web
 #. openerp-web
@@ -1570,8 +1570,8 @@ msgstr "Move Up"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1323
 #, python-format
-msgid "My Dosyt.com account"
-msgstr "Mi cuenta Dosyt.com"
+msgid "My etwork.com account"
+msgstr "Mi cuenta etwork.com"
 
 #. module: web
 #. openerp-web
@@ -1705,15 +1705,15 @@ msgstr "Objeto:"
 #. openerp-web
 #: code:addons/web/static/src/js/core/dialog.js:51
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:148
 #, python-format
-msgid "Dosyt Apps will be available soon"
-msgstr "Dosyt Apps estará disponible en breve"
+msgid "etwork Apps will be available soon"
+msgstr "etwork Apps estará disponible en breve"
 
 #. module: web
 #. openerp-web
@@ -1721,28 +1721,28 @@ msgstr "Dosyt Apps estará disponible en breve"
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:194
 #: code:addons/web/static/src/js/services/crash_manager.js:156
 #, python-format
-msgid "Dosyt Client Error"
+msgid "etwork Client Error"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:86
 #, python-format
-msgid "Dosyt Enterprise"
-msgstr "Dosyt Enterprise"
+msgid "etwork Enterprise"
+msgstr "etwork Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:118
 #, python-format
-msgid "Dosyt Error"
+msgid "etwork Error"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Dosyt Session Expired"
+msgid "etwork Session Expired"
 msgstr ""
 
 #. module: web
@@ -1750,7 +1750,7 @@ msgstr ""
 #: code:addons/web/static/src/js/services/crash_manager.js:108
 #: code:addons/web/static/src/js/services/crash_manager.js:197
 #, python-format
-msgid "Dosyt Warning"
+msgid "etwork Warning"
 msgstr ""
 
 #. module: web
@@ -1967,8 +1967,8 @@ msgstr "Powered by"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Dosyt</span>"
-msgstr "Powered by <span>Dosyt</span>"
+msgid "Powered by <span>etwork</span>"
+msgstr "Powered by <span>etwork</span>"
 
 #. module: web
 #. openerp-web
@@ -2467,10 +2467,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Dosyt is displayed according to your field timezone."
+"one. The time in etwork is displayed according to your field timezone."
 msgstr ""
 "Discrepancia Zona horaria: La zona horaria de su navegador no coincide con "
-"el seleccionado. El tiempo en Dosyt se muestra de acuerdo a su zona horaria "
+"el seleccionado. El tiempo en etwork se muestra de acuerdo a su zona horaria "
 "campo."
 
 #. module: web
@@ -2832,8 +2832,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:58
 #, python-format
-msgid "Your Dosyt session expired. Please refresh the current web page."
-msgstr "Su sesión Dosyt expiró. Refresque por favor la página web actual."
+msgid "Your etwork session expired. Please refresh the current web page."
+msgstr "Su sesión etwork expiró. Refresque por favor la página web actual."
 
 #. module: web
 #. openerp-web

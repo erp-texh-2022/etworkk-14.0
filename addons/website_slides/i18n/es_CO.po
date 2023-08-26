@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # * website_slides
 #
@@ -9,7 +9,7 @@
 # Mateo Tibaquirá <nestormateo@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt 9.0\n"
+"Project-Id-Version: etwork 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-03-04 16:54+0000\n"
@@ -331,7 +331,7 @@ msgstr "Sólo Usuarios Autenticados"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
-msgid "Awesome Timesheet by Dosyt"
+msgid "Awesome Timesheet by etwork"
 msgstr ""
 
 #. module: website_slides
@@ -446,7 +446,7 @@ msgstr ""
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_1
 msgid ""
-"Create a beautiful and professional eCommerce on your website with Dosyt. \n"
+"Create a beautiful and professional eCommerce on your website with etwork. \n"
 "\n"
 "Find out more at https://www.etwork.com/page/e-commerce"
 msgstr ""
@@ -561,7 +561,7 @@ msgstr "Descargar"
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_5
 msgid ""
-"Download Awesome Timesheet by Dosyt and discover how easy time tracking and "
+"Download Awesome Timesheet by etwork and discover how easy time tracking and "
 "employee management can be!\n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
@@ -882,58 +882,58 @@ msgstr "Número de Videos"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_2
-msgid "Dosyt All-in-One Software Demonstration"
+msgid "etwork All-in-One Software Demonstration"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_2
-msgid "Dosyt Days"
-msgstr "Días Dosyt"
+msgid "etwork Days"
+msgstr "Días etwork"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_0
-msgid "Dosyt Explained"
-msgstr "Dosyt Explicado"
+msgid "etwork Explained"
+msgstr "etwork Explicado"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_6
-msgid "Dosyt Marketing - part 1: ATTRACT"
-msgstr "Mercadeo Dosyt - parte 1: ATRAER"
+msgid "etwork Marketing - part 1: ATTRACT"
+msgstr "Mercadeo etwork - parte 1: ATRAER"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_7
-msgid "Dosyt Marketing - part 1: ATTRACT_2"
-msgstr "Mercadeo Dosyt - parte 1: ATRAER_2"
+msgid "etwork Marketing - part 1: ATTRACT_2"
+msgstr "Mercadeo etwork - parte 1: ATRAER_2"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_8
-msgid "Dosyt Marketing - part 1: ATTRACT_3"
-msgstr "Mercadeo Dosyt - parte 1: ATRAER_3"
+msgid "etwork Marketing - part 1: ATTRACT_3"
+msgstr "Mercadeo etwork - parte 1: ATRAER_3"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_10
-msgid "Dosyt Roadmap & Strategy - Fabien Pinckaers"
-msgstr "Mapa de Desarrollo & Estrategia Dosyt - Fabien Pinckaers"
+msgid "etwork Roadmap & Strategy - Fabien Pinckaers"
+msgstr "Mapa de Desarrollo & Estrategia etwork - Fabien Pinckaers"
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_3
-msgid "Dosyt Sign Demonstration"
+msgid "etwork Sign Demonstration"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_1
-msgid "Dosyt Website & E-commerce Demonstration"
+msgid "etwork Website & E-commerce Demonstration"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_6
 #, fuzzy
 msgid ""
-"Dosyt's fully-integrated marketing app will help you to attract, convert and "
+"etwork's fully-integrated marketing app will help you to attract, convert and "
 "close new leads. Check out our three-part video and discover more at www."
 "etwork.com"
 msgstr ""
-"La aplicación de marketing totalmente integrada de Dosyt que le ayudará a "
+"La aplicación de marketing totalmente integrada de etwork que le ayudará a "
 "atraer, convertir y obtener a sus clientes potenciales. Revise nuestro vídeo "
 "de tres partes y descubra más en www.etwork.com. \n"
 "\n"
@@ -943,13 +943,13 @@ msgstr ""
 #: model:slide.slide,description:website_slides.slide_7
 #: model:slide.slide,description:website_slides.slide_8
 msgid ""
-"Dosyt's fully-integrated marketing app will help you to attract, convert and "
+"etwork's fully-integrated marketing app will help you to attract, convert and "
 "close new leads. Check out our three-part video and discover more at www."
 "etwork.com\n"
 "\n"
 "Video made by Miroslava Ganzarcikova and Sophia Eribo."
 msgstr ""
-"La aplicación de marketing totalmente integrada de Dosyt que le ayudará a "
+"La aplicación de marketing totalmente integrada de etwork que le ayudará a "
 "atraer, convertir y obtener a sus clientes potenciales. Revise nuestro vídeo "
 "de tres partes y descubra más en www.etwork.com. \n"
 "\n"
@@ -1096,12 +1096,12 @@ msgstr ""
 #: model:slide.slide,description:website_slides.slide_0
 msgid ""
 "Run your business with a comprehensive suite of business apps. Do it easily "
-"with Dosyt! \n"
+"with etwork! \n"
 "\n"
 "http://etwork.com/start"
 msgstr ""
 "Ejecutar su negocio con un conjunto completo de aplicaciones de negocios. "
-"¡Lo puede hacer fácilmente con Dosyt!\n"
+"¡Lo puede hacer fácilmente con etwork!\n"
 "\n"
 "http://etwork.com/start"
 
@@ -1215,7 +1215,7 @@ msgstr "Lo sentimos, pero no hay coincidencias para su criterio de búsqueda"
 #: model:slide.slide,description:website_slides.slide_3
 msgid ""
 "Stop doing manual printing and scanning. Move to electronic signature with "
-"Dosyt Sign!\n"
+"etwork Sign!\n"
 "\n"
 "Discover more at https://www.etwork.com/page/sign"
 msgstr ""
@@ -1561,7 +1561,7 @@ msgstr "su-amigo@dominio.com"
 #~ "        <td style=\"width: 600px; text-align:center\" valign=\"center\">\n"
 #~ "            <a href=\"${user.company_id.website}\" style=\"text-"
 #~ "decoration:none\">\n"
-#~ "                <img alt=\"Dosyt\" src=\"${ctx['base_url']}/logo.png\" "
+#~ "                <img alt=\"etwork\" src=\"${ctx['base_url']}/logo.png\" "
 #~ "style=\"display:block; border:none; min-height:60px; margin:0 auto;\">\n"
 #~ "            </a>\n"
 #~ "        </td>\n"
@@ -1624,7 +1624,7 @@ msgstr "su-amigo@dominio.com"
 #~ "        <td style=\"width: 600px; text-align:center\" valign=\"center\">\n"
 #~ "            <a href=\"${user.company_id.website}\" style=\"text-"
 #~ "decoration:none\">\n"
-#~ "                <img alt=\"Dosyt\" src=\"${ctx['base_url']}/logo.png\" "
+#~ "                <img alt=\"etwork\" src=\"${ctx['base_url']}/logo.png\" "
 #~ "style=\"display:block; border:none; min-height:60px; margin:0 auto;\">\n"
 #~ "            </a>\n"
 #~ "        </td>\n"
@@ -1688,7 +1688,7 @@ msgstr "su-amigo@dominio.com"
 #~ "        <td style=\"width: 600px; text-align:center\" valign=\"center\">\n"
 #~ "            <a href=\"${user.company_id.website}\" style=\"text-"
 #~ "decoration:none\">\n"
-#~ "                <img alt=\"Dosyt\" src=\"${ctx['base_url']}/logo.png\" "
+#~ "                <img alt=\"etwork\" src=\"${ctx['base_url']}/logo.png\" "
 #~ "style=\"display:block; border:none; min-height:60px; margin:0 auto;\">\n"
 #~ "            </a>\n"
 #~ "        </td>\n"
@@ -1750,7 +1750,7 @@ msgstr "su-amigo@dominio.com"
 #~ "        <td style=\"width: 600px; text-align:center\" valign=\"center\">\n"
 #~ "            <a href=\"${user.company_id.website}\" style=\"text-"
 #~ "decoration:none\">\n"
-#~ "                <img alt=\"Dosyt\" src=\"${ctx['base_url']}/logo.png\" "
+#~ "                <img alt=\"etwork\" src=\"${ctx['base_url']}/logo.png\" "
 #~ "style=\"display:block; border:none; min-height:60px; margin:0 auto;\">\n"
 #~ "            </a>\n"
 #~ "        </td>\n"
@@ -1825,7 +1825,7 @@ msgstr "su-amigo@dominio.com"
 #~ "etc.\n"
 #~ "\n"
 #~ "Se trata de una nueva aplicación de código abierto en Python / Javascript "
-#~ "basado en Bootstrap y Dosyt.\n"
+#~ "basado en Bootstrap y etwork.\n"
 #~ "\n"
 #~ "La puede descargar o utilizar en línea en http://etwork.com"
 
@@ -1849,12 +1849,12 @@ msgstr "su-amigo@dominio.com"
 
 #~ msgid ""
 #~ "Interview with Guy Christiaens, Finance Manager at Alpinter, about their "
-#~ "use of Dosyt.\n"
-#~ "Discover more about Dosyt at www.etwork.com"
+#~ "use of etwork.\n"
+#~ "Discover more about etwork at www.etwork.com"
 #~ msgstr ""
 #~ "Entrevista con Guy Christiaens, Gerente financiero en Alpinter, sobre el "
-#~ "uso de Dosyt.\n"
-#~ "Descubre más sobre Dosyt en www.etwork.com"
+#~ "uso de etwork.\n"
+#~ "Descubre más sobre etwork en www.etwork.com"
 
 #~ msgid "Is Follower"
 #~ msgstr "Es Seguidor"
@@ -1877,24 +1877,24 @@ msgstr "su-amigo@dominio.com"
 #~ msgid "Number of unread messages"
 #~ msgstr "Número de mensajes no leidos"
 
-#~ msgid "Dosyt - The Voice of the Customer: Alpinter"
-#~ msgstr "Dosyt - La voz del consumidor: Alpinter"
+#~ msgid "etwork - The Voice of the Customer: Alpinter"
+#~ msgstr "etwork - La voz del consumidor: Alpinter"
 
-#~ msgid "Dosyt Experience - Register now https://www.etwork.com/event/304/"
+#~ msgid "etwork Experience - Register now https://www.etwork.com/event/304/"
 #~ msgstr ""
-#~ "Experiencia Dosyt - Regístrese ahora https://www.etwork.com/es_ES/event/304/"
+#~ "Experiencia etwork - Regístrese ahora https://www.etwork.com/es_ES/event/304/"
 
-#~ msgid "Dosyt Open Days 2014"
-#~ msgstr "Dosyt Open Days 2014"
+#~ msgid "etwork Open Days 2014"
+#~ msgstr "etwork Open Days 2014"
 
-#~ msgid "Dosyt POS Indiegogo Campaign"
-#~ msgstr "Campaña Dosyt POS Indiegogo"
+#~ msgid "etwork POS Indiegogo Campaign"
+#~ msgstr "Campaña etwork POS Indiegogo"
 
-#~ msgid "Dosyt SEO - Boost Your Website Trafic"
-#~ msgstr "SEO de Dosyt - Aumente su Tráfico Web"
+#~ msgid "etwork SEO - Boost Your Website Trafic"
+#~ msgstr "SEO de etwork - Aumente su Tráfico Web"
 
-#~ msgid "Open Source Website Builder and eCommerce: Dosyt"
-#~ msgstr "Constructor del Sitio Web y Tienda Virtual de Código Abierto: Dosyt"
+#~ msgid "Open Source Website Builder and eCommerce: etwork"
+#~ msgstr "Constructor del Sitio Web y Tienda Virtual de Código Abierto: etwork"
 
 #~ msgid "The full URL to access the document through the website."
 #~ msgstr "La URL completa para acceder al documento a través del sitio web."
@@ -1906,7 +1906,7 @@ msgstr "su-amigo@dominio.com"
 #~ "\n"
 #~ "Online demo and download: http://etwork.com"
 #~ msgstr ""
-#~ "La herramienta de código abierto Dosyt Promote sugiere palabras claves de "
+#~ "La herramienta de código abierto etwork Promote sugiere palabras claves de "
 #~ "acuerdo a los términos más buscados de Google. Las herramientas de "
 #~ "optimización para motores de búsqueda (SEO) están listas para usar, sin "
 #~ "necesidad de configuración.\n"

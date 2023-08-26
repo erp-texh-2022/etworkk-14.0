@@ -1,10 +1,10 @@
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 {
     'name': 'LATAM Localization Base',
     'version': '1.0',
     'category': 'Accounting/Localizations',
     'sequence': 14,
-    'author': 'Dosyt, ADHOC SA',
+    'author': 'etwork, ADHOC SA',
     'summary': 'LATAM Identification Types',
     'description': """
 Add a new model named "Identification Type" that extend the vat field functionality in the partner and let the user to identify (an eventually invoice) to contacts not only with their fiscal tax ID (VAT) but with other types of identifications like national document, passport, foreign ID, etc. With this module installed you will see now in the partner form view two fields:

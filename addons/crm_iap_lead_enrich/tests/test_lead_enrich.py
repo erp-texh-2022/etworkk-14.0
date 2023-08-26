@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork.addons.crm.tests.common import TestCrmCommon
 from etwork.addons.crm_iap_lead_enrich.tests.common import MockIAPEnrich

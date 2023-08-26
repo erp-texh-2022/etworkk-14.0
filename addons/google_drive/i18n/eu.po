@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* google_drive
 # 
@@ -17,7 +17,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -33,7 +33,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_form
 msgid ""
 "<b>To create a new filter:</b><br/>\n"
-"                                - Go to the Dosyt document you want to filter. For instance, go to Opportunities and search on Sales Department.<br/>\n"
+"                                - Go to the etwork document you want to filter. For instance, go to Opportunities and search on Sales Department.<br/>\n"
 "                                - In this \"Search\" view, select the option \"Save Current Filter\", enter the name (Ex: Sales Department)<br/>\n"
 "                                - If you select \"Share with all users\", link of google document in \"More\" options will appear for all users in opportunities of Sales Department.<br/>\n"
 "                                - If you don't select \"Share with all users\", link of google document in \"More\" options will not appear for other users in opportunities of Sales Department.<br/>\n"
@@ -235,11 +235,11 @@ msgstr "Azken eguneraketa noiz"
 #. module: google_drive
 #: model_terms:ir.actions.act_window,help:google_drive.action_google_drive_users_config
 msgid ""
-"Link your own google drive templates to any record of Dosyt. If you have "
+"Link your own google drive templates to any record of etwork. If you have "
 "really specific documents you want your collaborator fill in, e.g. Use a "
 "spreadsheet to control the quality of your product or review the delivery "
 "checklist for each order in a foreign country, ... Its very easy to manage "
-"them, link them to Dosyt and use them to collaborate with your employees."
+"them, link them to etwork and use them to collaborate with your employees."
 msgstr ""
 
 #. module: google_drive
@@ -318,7 +318,7 @@ msgstr "Google-ko baimen kodea sortzeko URLa"
 msgid ""
 "The name of the attached document can use fixed or variable data. To distinguish between documents in\n"
 "                                Google Drive, use fixed words and fields. For instance, in the example above, if you wrote Deco_Addict_%(name)s_Sales\n"
-"                                in the Google Drive name field, the document in your Google Drive and in Dosyt attachment will be named\n"
+"                                in the Google Drive name field, the document in your Google Drive and in etwork attachment will be named\n"
 "                                'Deco_Addict_SO0001_Sales'."
 msgstr ""
 

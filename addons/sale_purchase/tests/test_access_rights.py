@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork.exceptions import AccessError
 from etwork.addons.sale_purchase.tests.common import TestCommonSalePurchaseNoChart

@@ -1,7 +1,7 @@
-Dosyt Accounting
+etwork Accounting
 ---------------
 
-The Dosyt <a href="https://www.etwork.com/page/accounting">Open Source Accounting</a> app allows a better way to
+The etwork <a href="https://www.etwork.com/page/accounting">Open Source Accounting</a> app allows a better way to
 collaborate with your accountants, your customers and control your suppliers.
 
 Activate features on demand, from integrated analytic accounting to budget,
@@ -11,7 +11,7 @@ A Smart User Interface
 ----------------------
 
 Record transactions in a few clicks and easily manage all financial activities
-in one place. Dosyt's user interface is designed with productivity in mind.
+in one place. etwork's user interface is designed with productivity in mind.
 
 A Better Way To Work – Together
 -------------------------------
@@ -57,12 +57,12 @@ Everything you need to grow
 ---------------------------
 
 Manage your assets, track expenses, control budgets, multi-level analytic
-accounting; Dosyt has all the features you need to sustain all your business
+accounting; etwork has all the features you need to sustain all your business
 activities.
 
 Scale With Your Organization
 ----------------------------
 
-Dosyt supports multiple currencies, multiple users with different access rights,
+etwork supports multiple currencies, multiple users with different access rights,
 multiple companies with real time consolidation and unlimited analytic plans.
 

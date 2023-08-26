@@ -29,7 +29,7 @@ etwork.define('calendar.CalendarController', function (require) {
         /**
          * @override
          * @private
-         * @param {DosytEvent} event
+         * @param {etworkEvent} event
          */
         async _onDropRecord(event) {
             const _super = this._super; // reference to this._super is lost after async call
@@ -45,7 +45,7 @@ etwork.define('calendar.CalendarController', function (require) {
         /**
          * @override
          * @private
-         * @param {DosytEvent} event
+         * @param {etworkEvent} event
          */
         async _onUpdateRecord(event) {
             const _super = this._super;  // reference to this._super is lost after async call

@@ -40,7 +40,7 @@ var QuickCreateFormRenderer = FormRenderer.extend({
     /**
      * @override
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onNavigationMove: function (ev) {
         var direction = ev.data.direction;

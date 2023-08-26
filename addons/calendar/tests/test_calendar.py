@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 import datetime
 
 from datetime import datetime, timedelta, time
@@ -22,9 +22,9 @@ class TestCalendar(SavepointCaseWithUserDemo):
             'privacy': 'private',
             'start': '2011-04-30 16:00:00',
             'stop': '2011-04-30 18:30:00',
-            'description': 'The Technical Presentation will cover following topics:\n* Creating Dosyt class\n* Views\n* Wizards\n* Workflows',
+            'description': 'The Technical Presentation will cover following topics:\n* Creating etwork class\n* Views\n* Wizards\n* Workflows',
             'duration': 2.5,
-            'location': 'Dosyt S.A.',
+            'location': 'etwork S.A.',
             'name': 'Technical Presentation'
         })
 

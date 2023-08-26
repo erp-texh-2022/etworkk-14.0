@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from unittest.mock import patch
 
@@ -9,11 +9,11 @@ from etwork.tools import mute_logger
 
 
 @tagged("etworkbot")
-class TestDosytbot(TestMailCommon, TestRecipients):
+class Testetworkbot(TestMailCommon, TestRecipients):
 
     @classmethod
     def setUpClass(cls):
-        super(TestDosytbot, cls).setUpClass()
+        super(Testetworkbot, cls).setUpClass()
         cls.test_record = cls.env['mail.test.simple'].with_context(cls._test_context).create({'name': 'Test', 'email_from': 'ignasse@example.com'})
 
         cls.etworkbot = cls.env.ref("base.partner_root")
@@ -24,7 +24,7 @@ class TestDosytbot(TestMailCommon, TestRecipients):
             'partner_ids': [],
             'subtype_xmlid': 'mail.mt_comment'
         }
-        cls.etworkbot_ping_body = '<a href="http://etwork.com/web#model=res.partner&amp;id=%s" class="o_mail_redirect" data-oe-id="%s" data-oe-model="res.partner" target="_blank">@DosytBot</a>' % (cls.etworkbot.id, cls.etworkbot.id)
+        cls.etworkbot_ping_body = '<a href="http://etwork.com/web#model=res.partner&amp;id=%s" class="o_mail_redirect" data-oe-id="%s" data-oe-model="res.partner" target="_blank">@etworkBot</a>' % (cls.etworkbot.id, cls.etworkbot.id)
         cls.test_record_employe = cls.test_record.with_user(cls.user_employee)
 
     @mute_logger('etwork.addons.mail.models.mail_mail')
@@ -46,7 +46,7 @@ class TestDosytbot(TestMailCommon, TestRecipients):
                 sender=self.etworkbot,
                 answer=False
             )
-        # Dosytbot should not be a follower but user_employee and user_admin should
+        # etworkbot should not be a follower but user_employee and user_admin should
         follower = self.test_record.message_follower_ids.mapped('partner_id')
         self.assertNotIn(self.etworkbot, follower)
         self.assertIn(self.user_employee.partner_id, follower)
@@ -67,7 +67,7 @@ class TestDosytbot(TestMailCommon, TestRecipients):
         self.assertNextMessage(
             last_message,  # no message will be post with command help, use last etworkbot message instead
             sender=self.etworkbot,
-            answer=("@DosytBot",)
+            answer=("@etworkBot",)
         )
         kwargs['body'] = ''
         kwargs['partner_ids'] = [self.env['ir.model.data'].xmlid_to_res_id("base.partner_root")]

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -19,7 +19,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-09 16:49+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
@@ -2158,8 +2158,8 @@ msgstr "شناسه"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Dosyt Point Of Sale"
-msgstr "مهم: گزارش اشکال از پایانه فروش Dosyt"
+msgid "IMPORTANT: Bug Report From etwork Point Of Sale"
+msgstr "مهم: گزارش اشکال از پایانه فروش etwork"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2898,7 +2898,7 @@ msgstr "تعداد پیام‌های خوانده نشده"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Dosyt Logo"
+msgid "etwork Logo"
 msgstr "لوگوی اودو"
 
 #. module: point_of_sale
@@ -5291,19 +5291,19 @@ msgstr "این محصول به عنوان مرجع در رسید مشتریان 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Dosyt but you can change it to "
+"This sequence is automatically created by etwork but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"این دنباله به طور خودکار توسط Dosyt ایجاد می شود، اما شما می توانید آن را "
+"این دنباله به طور خودکار توسط etwork ایجاد می شود، اما شما می توانید آن را "
 "برای سفارشی کردن شماره مرجع سطرهای سفارشات خود تغییر دهید."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Dosyt but you can change it to "
+"This sequence is automatically created by etwork but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"این دنباله به طور خودکار توسط Dosyt ایجاد می شود، اما شما می توانید آن را "
+"این دنباله به طور خودکار توسط etwork ایجاد می شود، اما شما می توانید آن را "
 "برای سفارشی کردن شماره مرجع سفارشات خود تغییر دهید."
 
 #. module: point_of_sale

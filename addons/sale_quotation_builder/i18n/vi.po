@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* sale_quotation_builder
 # 
@@ -13,7 +13,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:18+0000\n"
@@ -343,13 +343,13 @@ msgstr "Mô tả Website"
 #. module: sale_quotation_builder
 #: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
 msgid ""
-"You can <strong>set a description per product</strong>. Dosyt will\n"
+"You can <strong>set a description per product</strong>. etwork will\n"
 "                        automatically create a quotation using the descriptions\n"
 "                        of all products in the proposal. The table of content\n"
 "                        on the left is generated automatically using the styles you\n"
 "                        used in your description (heading 1, heading 2, ...)"
 msgstr ""
-"Bạn có thể <strong>thiết lập mô tả cho từng sản phẩm</strong>. Dosyt sẽ tự động\n"
+"Bạn có thể <strong>thiết lập mô tả cho từng sản phẩm</strong>. etwork sẽ tự động\n"
 "                        tạo một báo giá sử dụng mô tả của các sản phẩm ở trong báo\n"
 "                        giá. Mục lục ở bên trái được tạo tự động sử dụng các style\n"
 "                        mà bạn đã sử dụng ở trong mô tả của bạn (heading 1, heading 2, ...)"

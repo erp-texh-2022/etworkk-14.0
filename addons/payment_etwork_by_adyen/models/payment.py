@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import hashlib
 import hmac
@@ -9,16 +9,16 @@ from werkzeug import urls
 
 from etwork import _, api, fields, models
 from etwork.exceptions import ValidationError
-from etwork.addons.payment_etwork_by_adyen.controllers.main import DosytByAdyenController
+from etwork.addons.payment_etwork_by_adyen.controllers.main import etworkByAdyenController
 
 _logger = logging.getLogger(__name__)
 
 
-class AcquirerDosytByAdyen(models.Model):
+class AcquireretworkByAdyen(models.Model):
     _inherit = 'payment.acquirer'
 
     provider = fields.Selection(selection_add=[
-       ('etwork_adyen', 'Dosyt Payments by Adyen')
+       ('etwork_adyen', 'etwork Payments by Adyen')
     ], ondelete={'etwork_adyen': 'set default'})
     etwork_adyen_account_id = fields.Many2one('adyen.account', required_if_provider='etwork_adyen', related='company_id.adyen_account_id')
     etwork_adyen_payout_id = fields.Many2one('adyen.payout', required_if_provider='etwork_adyen', string='Adyen Payout', domain="[('adyen_account_id', '=', etwork_adyen_account_id)]")
@@ -27,10 +27,10 @@ class AcquirerDosytByAdyen(models.Model):
     def _check_etwork_adyen_test(self):
         for payment_acquirer in self:
             if payment_acquirer.provider == 'etwork_adyen' and payment_acquirer.state == 'test':
-                raise ValidationError(_('Dosyt Payments by Adyen is not available in test mode.'))
+                raise ValidationError(_('etwork Payments by Adyen is not available in test mode.'))
 
     def _get_feature_support(self):
-        res = super(AcquirerDosytByAdyen, self)._get_feature_support()
+        res = super(AcquireretworkByAdyen, self)._get_feature_support()
         res['tokenize'].append('etwork_adyen')
         return res
 
@@ -64,7 +64,7 @@ class AcquirerDosytByAdyen(models.Model):
             'shopperLocale': values.get('partner_lang'),
             'metadata': {
                 'merchant_signature': self._etwork_adyen_compute_signature(values['amount'],values['currency'],values['reference']),
-                'notification_url': urls.url_join(base_url, DosytByAdyenController._notification_url),
+                'notification_url': urls.url_join(base_url, etworkByAdyenController._notification_url),
             },
             'returnUrl': urls.url_join(self.get_base_url(), '/payment/process'),
         }
@@ -89,7 +89,7 @@ class AcquirerDosytByAdyen(models.Model):
     def etwork_adyen_create_account(self):
         return self.env['adyen.account'].action_create_redirect()
 
-class TxDosytByAdyen(models.Model):
+class TxetworkByAdyen(models.Model):
     _inherit = 'payment.transaction'
 
     def etwork_adyen_s2s_do_transaction(self, **kwargs):
@@ -110,7 +110,7 @@ class TxDosytByAdyen(models.Model):
             'shopperInteraction': 'ContAuth',
             'metadata': {
                 'merchant_signature': self.acquirer_id._etwork_adyen_compute_signature(self.amount, self.currency_id, self.reference),
-                'notification_url': urls.url_join(base_url, DosytByAdyenController._notification_url),
+                'notification_url': urls.url_join(base_url, etworkByAdyenController._notification_url),
             },
             'returnUrl': urls.url_join(self.get_base_url(), '/payment/process'),
         }
@@ -120,13 +120,13 @@ class TxDosytByAdyen(models.Model):
     def _etwork_adyen_form_get_tx_from_data(self, data):
         reference = data.get('merchantReference')
         if not reference:
-            error_msg = _('Dosyt Payments by Adyen: received data with missing reference (%s)', reference)
+            error_msg = _('etwork Payments by Adyen: received data with missing reference (%s)', reference)
             _logger.info(error_msg)
             raise ValidationError(error_msg)
 
         tx = self.env['payment.transaction'].search([('reference', '=', reference)])
         if not tx or len(tx) > 1:
-            error_msg = _('Dosyt Payments by Adyen: received data for reference %s') % (reference)
+            error_msg = _('etwork Payments by Adyen: received data for reference %s') % (reference)
             if not tx:
                 error_msg += _('; no order found')
             else:
@@ -173,7 +173,7 @@ class TxDosytByAdyen(models.Model):
             self._set_transaction_done()
             return True
         else:
-            error = _('Dosyt Payment by Adyen: feedback error')
+            error = _('etwork Payment by Adyen: feedback error')
             _logger.info(error)
             self.write({'state_message': error})
             self._set_transaction_cancel()

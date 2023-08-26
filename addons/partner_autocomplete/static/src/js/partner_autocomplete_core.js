@@ -12,7 +12,7 @@ var _t = core._t;
  * This mixin only works with classes having EventDispatcherMixin in 'web.mixins'
  */
 var PartnerAutocompleteMixin = {
-    _dropPreviousDosyt: new concurrency.DropPrevious(),
+    _dropPreviousetwork: new concurrency.DropPrevious(),
     _dropPreviousClearbit: new concurrency.DropPrevious(),
     _timeout : 1000, // Timeout for Clearbit autocomplete in ms
 
@@ -34,7 +34,7 @@ var PartnerAutocompleteMixin = {
         var etworkSuggestions = [];
         var clearbitSuggestions = [];
         return new Promise(function (resolve, reject) {
-            var etworkPromise = self._getDosytSuggestions(value, isVAT).then(function (suggestions){
+            var etworkPromise = self._getetworkSuggestions(value, isVAT).then(function (suggestions){
                 etworkSuggestions = suggestions;
             });
 
@@ -44,7 +44,7 @@ var PartnerAutocompleteMixin = {
             });
 
             var concatResults = function () {
-                // Add Clearbit result with Dosyt result (with unique domain)
+                // Add Clearbit result with etwork result (with unique domain)
                 if (clearbitSuggestions && clearbitSuggestions.length) {
                     var websites = etworkSuggestions.map(function (suggestion) {
                         return suggestion.website;
@@ -248,14 +248,14 @@ var PartnerAutocompleteMixin = {
     },
 
     /**
-     * Use Dosyt Autocomplete API to return suggestions
+     * Use etwork Autocomplete API to return suggestions
      *
      * @param {string} value
      * @param {boolean} isVAT
      * @returns {Promise}
      * @private
      */
-    _getDosytSuggestions: function (value, isVAT) {
+    _getetworkSuggestions: function (value, isVAT) {
         var method = isVAT ? 'read_by_vat' : 'autocomplete';
 
         var def = this._rpc({
@@ -281,7 +281,7 @@ var PartnerAutocompleteMixin = {
             return suggestions;
         });
 
-        return this._dropPreviousDosyt.add(def);
+        return this._dropPreviousetwork.add(def);
     },
     /**
      * Check if searched value is possibly a VAT : 2 first chars = alpha + min 5 numbers

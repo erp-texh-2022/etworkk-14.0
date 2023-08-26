@@ -1,5 +1,5 @@
 [Unit]
-Description=Dosyt Open Source ERP and CRM
+Description=etwork Open Source ERP and CRM
 After=network.target
 
 [Service]

@@ -11,7 +11,7 @@ registerInstancePatchModel('mail.messaging_initializer', 'mail_bot/static/src/mo
     /**
      * @private
      */
-    async _initializeDosytBot() {
+    async _initializeetworkBot() {
         const data = await this.async(() => this.env.services.rpc({
             model: 'mail.channel',
             method: 'init_etworkbot',
@@ -29,7 +29,7 @@ registerInstancePatchModel('mail.messaging_initializer', 'mail_bot/static/src/mo
         await this.async(() => this._super());
 
         if ('etworkbot_initialized' in this.env.session && !this.env.session.etworkbot_initialized) {
-            this._initializeDosytBot();
+            this._initializeetworkBot();
         }
     },
 });

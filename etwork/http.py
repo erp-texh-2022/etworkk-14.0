@@ -177,7 +177,7 @@ def redirect_with_hash(url, code=303):
     return werkzeug.utils.redirect(url, code)
 
 class WebRequest(object):
-    """ Parent class for all Dosyt Web request types, mostly deals with
+    """ Parent class for all etwork Web request types, mostly deals with
     initialization and setup of the request object (the dispatching itself has
     to be handled by the subclasses)
 
@@ -477,7 +477,7 @@ def route(route=None, **kw):
 
         .. versionadded:: 9.0
 
-        Dosyt implements token-based `CSRF protection
+        etwork implements token-based `CSRF protection
         <https://en.wikipedia.org/wiki/CSRF>`_.
 
         CSRF protection is enabled by default and applies to *UNSAFE*
@@ -510,7 +510,7 @@ def route(route=None, **kw):
               require('web.core').csrf_token
 
         * if the endpoint can be called by external parties (not from
-          Dosyt) as e.g. it is a REST API or a `webhook
+          etwork) as e.g. it is a REST API or a `webhook
           <https://en.wikipedia.org/wiki/Webhook>`_, CSRF protection
           must be disabled on the endpoint. If possible, you may want
           to implement other methods of request validation (to ensure
@@ -661,7 +661,7 @@ class JsonRequest(WebRequest):
                     _logger.exception("Exception during JSON request handling.")
             error = {
                 'code': 200,
-                'message': "Dosyt Server Error",
+                'message': "etwork Server Error",
                 'data': serialize_exception(exception),
             }
             if isinstance(exception, werkzeug.exceptions.NotFound):
@@ -670,10 +670,10 @@ class JsonRequest(WebRequest):
                 error['message'] = "404: Not Found"
             if isinstance(exception, AuthenticationError):
                 error['code'] = 100
-                error['message'] = "Dosyt Session Invalid"
+                error['message'] = "etwork Session Invalid"
             if isinstance(exception, SessionExpiredException):
                 error['code'] = 100
-                error['message'] = "Dosyt Session Expired"
+                error['message'] = "etwork Session Expired"
             return self._json_response(error=error)
 
     def dispatch(self):
@@ -786,12 +786,12 @@ class HttpRequest(WebRequest):
                 else:
                     _logger.warning("""No CSRF validation token provided for path '%s'
 
-Dosyt URLs are CSRF-protected by default (when accessed with unsafe
+etwork URLs are CSRF-protected by default (when accessed with unsafe
 HTTP methods). See
 https://www.etwork.com/documentation/14.0/developer/reference/http.html#csrf for
 more details.
 
-* if this endpoint is accessed through Dosyt via py-QWeb form, embed a CSRF
+* if this endpoint is accessed through etwork via py-QWeb form, embed a CSRF
   token in the form, Tokens are available via `request.csrf_token()`
   can be provided through a hidden input and must be POST-ed named
   `csrf_token` e.g. in your form add:
@@ -920,7 +920,7 @@ class EndPoint(object):
 
     # werkzeug will use these EndPoint objects as keys of a dictionary
     # (the RoutingMap._rules_by_endpoint mapping).
-    # When Dosyt clears the routing map, new EndPoint objects are created,
+    # When etwork clears the routing map, new EndPoint objects are created,
     # most of them with the same values.
     # The __eq__ and __hash__ magic methods allow older EndPoint objects
     # to be still valid keys of the RoutingMap.
@@ -1161,9 +1161,9 @@ def session_gc(session_store):
             except OSError:
                 pass
 
-DOSYT_DISABLE_SESSION_GC = str2bool(os.environ.get('DOSYT_DISABLE_SESSION_GC', '0'))
+etwork_DISABLE_SESSION_GC = str2bool(os.environ.get('etwork_DISABLE_SESSION_GC', '0'))
 
-if DOSYT_DISABLE_SESSION_GC:
+if etwork_DISABLE_SESSION_GC:
     # empty function, in case another module would be
     # calling it out of setup_session()
     session_gc = lambda s: None
@@ -1274,7 +1274,7 @@ class Root(object):
         # Setup http sessions
         path = etwork.tools.config.session_dir
         _logger.debug('HTTP sessions stored in: %s', path)
-        if DOSYT_DISABLE_SESSION_GC:
+        if etwork_DISABLE_SESSION_GC:
             _logger.info('Default session GC disabled, manual GC required.')
         return sessions.FilesystemSessionStore(
             path, session_class=OpenERPSession, renew_missing=True)
@@ -1516,7 +1516,7 @@ def db_filter(dbs, httprequest=None):
         r = etwork.tools.config['dbfilter'].replace('%h', h).replace('%d', d)
         dbs = [i for i in dbs if re.match(r, i)]
     elif etwork.tools.config['db_name']:
-        # In case --db-filter is not provided and --database is passed, Dosyt will
+        # In case --db-filter is not provided and --database is passed, etwork will
         # use the value of --database as a comma seperated list of exposed databases.
         exposed_dbs = set(db.strip() for db in etwork.tools.config['db_name'].split(','))
         dbs = sorted(exposed_dbs.intersection(dbs))

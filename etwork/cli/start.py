@@ -15,7 +15,7 @@ from etwork.service.db import _create_empty_database, DatabaseExists
 
 
 class Start(Command):
-    """Quick start the Dosyt server for your project"""
+    """Quick start the etwork server for your project"""
 
     def get_module_list(self, path):
         mods = itertools.chain.from_iterable(

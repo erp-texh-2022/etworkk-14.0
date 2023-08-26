@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -34,7 +34,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-09 16:49+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
@@ -2197,8 +2197,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Dosyt Point Of Sale"
-msgstr "WICHTIG: Fehlerbericht vom Dosyt-Point-of-Sale"
+msgid "IMPORTANT: Bug Report From etwork Point Of Sale"
+msgstr "WICHTIG: Fehlerbericht vom etwork-Point-of-Sale"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2291,7 +2291,7 @@ msgid ""
 "                Invocing/Accounting app will create Bank and Cash payment\n"
 "                methods automatically."
 msgstr ""
-"Die Installation des Kontenplans in den allgemeinen Einstellungen von Dosyt "
+"Die Installation des Kontenplans in den allgemeinen Einstellungen von etwork "
 "Rechnungsstellung/Buchhaltung erstellt automatisch Bank- und "
 "Barzahlungsmethoden."
 
@@ -2942,8 +2942,8 @@ msgstr "Anzahl ungelesener Nachrichten"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Dosyt Logo"
-msgstr "Dosyt-Logo"
+msgid "etwork Logo"
+msgstr "etwork-Logo"
 
 #. module: point_of_sale
 #. openerp-web
@@ -5368,19 +5368,19 @@ msgstr "Dieses Produkt wird als Referenz auf Kundenquittungen verwendet."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Dosyt but you can change it to "
+"This sequence is automatically created by etwork but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Dosyt erstellt diese Reihenfolge automatisch, aber Sie können sie ändern, um "
+"etwork erstellt diese Reihenfolge automatisch, aber Sie können sie ändern, um "
 "die Referenznummern Ihrer Auftragspositionen anzupassen."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Dosyt but you can change it to "
+"This sequence is automatically created by etwork but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Die Nummernfolge wird zwar durch Dosyt automatisch vergeben, kann aber "
+"Die Nummernfolge wird zwar durch etwork automatisch vergeben, kann aber "
 "angepasst werden."
 
 #. module: point_of_sale

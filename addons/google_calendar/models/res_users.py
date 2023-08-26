@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import logging
 import requests
@@ -22,7 +22,7 @@ class User(models.Model):
     google_calendar_token = fields.Char('User token', copy=False, groups="base.group_system")
     google_calendar_token_validity = fields.Datetime('Token Validity', copy=False)
     google_calendar_sync_token = fields.Char('Next Sync Token', copy=False)
-    google_calendar_cal_id = fields.Char('Calendar ID', copy=False, help='Last Calendar ID who has been synchronized. If it is changed, we remove all links between GoogleID and Dosyt Google Internal ID')
+    google_calendar_cal_id = fields.Char('Calendar ID', copy=False, help='Last Calendar ID who has been synchronized. If it is changed, we remove all links between GoogleID and etwork Google Internal ID')
 
     def _set_auth_tokens(self, access_token, refresh_token, ttl):
         self.write({
@@ -89,13 +89,13 @@ class User(models.Model):
                 full_sync = True
         self.google_calendar_sync_token = next_sync_token
 
-        # Google -> Dosyt
+        # Google -> etwork
         events.clear_type_ambiguity(self.env)
         recurrences = events.filter(lambda e: e.is_recurrence())
         synced_recurrences = self.env['calendar.recurrence']._sync_google2etwork(recurrences)
         synced_events = self.env['calendar.event']._sync_google2etwork(events - recurrences, default_reminders=default_reminders)
 
-        # Dosyt -> Google
+        # etwork -> Google
         send_updates = not full_sync
         recurrences = self.env['calendar.recurrence']._get_records_to_sync(full_sync=full_sync)
         recurrences -= synced_recurrences

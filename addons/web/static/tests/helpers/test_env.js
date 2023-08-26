@@ -80,7 +80,7 @@ etwork.define('web.test_env', async function (require) {
     /**
      * Before each test, we want owl.Component.env to be a fresh test environment.
      */
-    QUnit.on('DosytBeforeTestHook', function () {
+    QUnit.on('etworkBeforeTestHook', function () {
         owl.Component.env = makeTestEnvironment();
     });
 

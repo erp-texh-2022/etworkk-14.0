@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
@@ -20,7 +20,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:21+0000\n"
@@ -693,7 +693,7 @@ msgstr "新しい質問"
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_nav_header
 msgid "About"
-msgstr "Dosytについて"
+msgstr "etworkについて"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__karma_answer_accept_own
@@ -3216,8 +3216,8 @@ msgstr "ご投稿ありがとうございます！"
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Dosyt."
-msgstr "このサイトの目標は、Dosytに関連する質問に答える関連知識ベースを作成することです。"
+"questions related to etwork."
+msgstr "このサイトの目標は、etworkに関連する質問に答える関連知識ベースを作成することです。"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
@@ -3813,8 +3813,8 @@ msgstr "こちら"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Dosyt to specific business needs,"
-msgstr "Dosytを特定のビジネスニーズに合わせて構成またはカスタマイズする方法、"
+msgid "how to configure or customize etwork to specific business needs,"
+msgstr "etworkを特定のビジネスニーズに合わせて構成またはカスタマイズする方法、"
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
@@ -3825,8 +3825,8 @@ msgstr "あなた自身の必要に応じてにモジュールを開発する方
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Dosyt on a specific infrastructure,"
-msgstr "Dosytを特定のインフラストラクチャにインストールする方法、"
+msgid "how to install etwork on a specific infrastructure,"
+msgstr "etworkを特定のインフラストラクチャにインストールする方法、"
 
 #. module: website_forum
 #. openerp-web
@@ -3928,8 +3928,8 @@ msgstr "解決済"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Dosyt service offers, etc."
-msgstr "Dosytサービスの提供に関する具体的な質問など。"
+msgid "specific questions about etwork service offers, etc."
+msgstr "etworkサービスの提供に関する具体的な質問など。"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_index
@@ -3985,8 +3985,8 @@ msgstr "自由形式の仮説的な質問があります。: “______が発生�
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Dosyt for a specific business need,"
-msgstr "特定のビジネスニーズにDosytを使用するための最良の方法は何ですか?"
+msgid "what's the best way to use etwork for a specific business need,"
+msgstr "特定のビジネスニーズにetworkを使用するための最良の方法は何ですか?"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.author_box

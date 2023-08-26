@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import http
 from etwork.http import request
@@ -9,11 +9,11 @@ class MicrosoftCalendarController(http.Controller):
 
     @http.route('/microsoft_calendar/sync_data', type='json', auth='user')
     def sync_data(self, model, **kw):
-        """ This route/function is called when we want to synchronize Dosyt
+        """ This route/function is called when we want to synchronize etwork
             calendar with Microsoft Calendar.
             Function return a dictionary with the status :  need_config_from_admin, need_auth,
             need_refresh, sync_stopped, success if not calendar_event
-            The dictionary may contains an url, to allow Dosyt Client to redirect user on
+            The dictionary may contains an url, to allow etwork Client to redirect user on
             this URL for authorization for example
         """
         if model == 'calendar.event':
@@ -32,7 +32,7 @@ class MicrosoftCalendarController(http.Controller):
                     "action": action_id
                 }
 
-            # Checking that user have already accepted Dosyt to access his calendar !
+            # Checking that user have already accepted etwork to access his calendar !
             if not MicrosoftCal.is_authorized(request.env.user):
                 url = MicrosoftCal._microsoft_authentication_url(from_url=kw.get('fromurl'))
                 return {

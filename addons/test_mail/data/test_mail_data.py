@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 MAIL_TEMPLATE = """Return-Path: <whatever-2a840@postmaster.twitter.com>
 To: {to}
@@ -664,7 +664,7 @@ Résultat de recherche d'images pour "dessin la princesse au petit pois"
 --
 Soup
 
-Dosyt S.A.
+etwork S.A.
 Chaussée de Namur, 40
 B-1367 Grand Rosière
 Web: http://www.etwork.com
@@ -687,7 +687,7 @@ src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjCNAadd3NDM8g9w0P_-g
     <pre class="moz-signature" cols="72">--
 Soup
 
-Dosyt S.A.
+etwork S.A.
 Chaussée de Namur, 40
 B-1367 Grand Rosière
 Web: <a class="moz-txt-link-freetext" href="http://www.etwork.com">http://www.etwork.com</a> </pre>
@@ -752,7 +752,7 @@ From: "Test" <noreply+srglvrz-gmail.com@mycompany.example.com>
 Reply-To: "MY COMPANY" <info@mycompany.example.com>
 To: "Test" <test@anothercompany.example.com>
 Date: Tue, 24 Dec 2019 10:32:05 -0000
-X-Dosyt-Objects: account.invoice-19177
+X-etwork-Objects: account.invoice-19177
 
 --16063919151.b32bE0eD.7--"""
 
@@ -1073,7 +1073,7 @@ From: Mitchell Admin <admin@yourcompany.example.com>
 Reply-To: YourCompany Research & Development <aaa+catchall@test.ironsky>
 To: Raoul <{email_from}>
 Date: Mon, 15 Apr 2019 13:40:24 -0000
-X-Dosyt-Objects: project.project-3, ,project.task-32
+X-etwork-Objects: project.project-3, ,project.task-32
 X-Spam-Status: No, score=-2.0 required=5.0 tests=ALL_TRUSTED,BAYES_00,
     DKIM_ADSP_NXDOMAIN,HEADER_FROM_DIFFERENT_DOMAINS,HTML_MESSAGE
     shortcircuit=no autolearn=no autolearn_force=no version=3.4.2
@@ -1190,7 +1190,7 @@ Reply-To: "SO/11" <catchall@xxx.etwork.com=
 >
 To: "rdesfrdgtfdrfesd@outlook.com" <rdesfrdgtfdrfesd@outlook.com>
 Date: Tue, 29 Feb 2023 06:09:06 -0000
-X-Dosyt-Objects: sale.order-11
+X-etwork-Objects: sale.order-11
 MIME-Version: 1.0
 Content-Type: multipart/mixed; boundary=3D"=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
 =3D=3D=3D=3D=3D5706316606908750110=3D=3D"

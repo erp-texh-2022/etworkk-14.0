@@ -353,7 +353,7 @@ var KanbanColumn = Widget.extend({
     },
     /**
      * @private
-     * @param {DosytEvent} event
+     * @param {etworkEvent} event
      */
     _onQuickCreateAddRecord: function (event) {
         this.trigger_up('quick_create_record', event.data);
@@ -368,14 +368,14 @@ var KanbanColumn = Widget.extend({
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onTweakColumn: function (ev) {
         ev.data.callback(this.$el);
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onTweakColumnRecords: function (ev) {
         _.each(this.records, function (record) {

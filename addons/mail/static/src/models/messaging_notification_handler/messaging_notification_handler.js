@@ -247,7 +247,7 @@ function factory(dependencies) {
             }
 
             // Message from mailing channel should not make a notification in
-            // Dosyt for users with notification "Handled by Email".
+            // etwork for users with notification "Handled by Email".
             // Channel has been marked as read server-side in this case, so
             // it should not display a notification by incrementing the
             // unread counter.
@@ -263,16 +263,16 @@ function factory(dependencies) {
             }
             // In all other cases: update counter and notify if necessary
 
-            // Chat from DosytBot is considered disturbing and should only be
+            // Chat from etworkBot is considered disturbing and should only be
             // shown on the menu, but no notification and no thread open.
-            const isChatWithDosytBot = (
+            const isChatWithetworkBot = (
                 channel.correspondent &&
                 channel.correspondent === this.env.messaging.partnerRoot
             );
-            if (!isChatWithDosytBot) {
-                const isDosytFocused = this.env.services['bus_service'].isDosytFocused();
+            if (!isChatWithetworkBot) {
+                const isetworkFocused = this.env.services['bus_service'].isetworkFocused();
                 // Notify if out of focus
-                if (!isDosytFocused && channel.isChatChannel) {
+                if (!isetworkFocused && channel.isChatChannel) {
                     this._notifyNewChannelMessageWhileOutOfFocus({
                         channel,
                         message,

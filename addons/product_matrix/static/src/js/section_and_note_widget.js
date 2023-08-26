@@ -43,7 +43,7 @@ SectionAndNoteFieldOne2Many.include({
     /**
      * Catches the event asking for matrix opening
      *
-     * @param {DosytEvent} ev various values needed to open the matrix
+     * @param {etworkEvent} ev various values needed to open the matrix
      *  {integer} data.product_template_id product.template id
      *  {list} data.editedCellAttributes list of product.template.attribute.value ids
      *  {bool} data.edit whether the line source should be deleted or not.

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* crm_iap_lead
 # 
@@ -13,7 +13,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:28+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -44,7 +44,7 @@ msgid ""
 "    <p>There are no more credits on your IAP Lead Generation account.<br/>\n"
 "    You can charge your IAP Lead Generation account in the settings of the CRM app.<br/></p>\n"
 "    <p>Best regards,</p>\n"
-"    <p>Dosyt S.A.</p>\n"
+"    <p>etwork S.A.</p>\n"
 "</div>"
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
@@ -52,7 +52,7 @@ msgstr ""
 "   <p> i crediti del conto IAP per la generazione di contatti sono terminati.<br/>\n"
 "    Il conto può essere ricaricato dalle impostazioni dell'applicazione CRM.<br/></p>\n"
 "   <p> Cordiali saluti,</p>\n"
-"    <p>Dosyt S.A.</p>\n"
+"    <p>etwork S.A.</p>\n"
 "</div>"
 
 #. module: crm_iap_lead
@@ -519,8 +519,8 @@ msgstr "Opportunità"
 #. module: crm_iap_lead
 #: code:addons/crm_iap_lead/models/crm_iap_lead_mining_request.py:0
 #, python-format
-msgid "Opportunity created by Dosyt Lead Generation"
-msgstr "Opportunità creata da generazione contatto Dosyt"
+msgid "Opportunity created by etwork Lead Generation"
+msgstr "Opportunità creata da generazione contatto etwork"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__role_ids

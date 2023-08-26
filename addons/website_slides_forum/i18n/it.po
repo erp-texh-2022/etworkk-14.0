@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_slides_forum
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:46+0000\n"
 "PO-Revision-Date: 2020-09-07 08:22+0000\n"
@@ -380,10 +380,10 @@ msgstr "Vedi tutti i corsi"
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Dosyt."
+"questions related to etwork."
 msgstr ""
 "L'obiettivo di questo sito è di creare una base rilevante di conoscenze che "
-"risponda a domande relative a Dosyt. "
+"risponda a domande relative a etwork. "
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -500,9 +500,9 @@ msgstr ""
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to configure or customize Dosyt to specific business needs,"
+msgid "how to configure or customize etwork to specific business needs,"
 msgstr ""
-"come configurare o personalizzare Dosyt per particolari esigenze lavorative,"
+"come configurare o personalizzare etwork per particolari esigenze lavorative,"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -513,8 +513,8 @@ msgstr "come sviluppare moduli per le proprie esigenze,"
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to install Dosyt on a specific infrastructure,"
-msgstr "come installare Dosyt in una particolare infrastruttura,"
+msgid "how to install etwork on a specific infrastructure,"
+msgstr "come installare etwork in una particolare infrastruttura,"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -525,8 +525,8 @@ msgstr "è una invettiva mascherata da domanda: “_____ fa schifo, giusto?”"
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "specific questions about Dosyt service offers, etc."
-msgstr "domande su proposte di servizi Dosyt particolari ecc."
+msgid "specific questions about etwork service offers, etc."
+msgstr "domande su proposte di servizi etwork particolari ecc."
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -551,9 +551,9 @@ msgstr ""
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "what's the best way to use Dosyt for a specific business need,"
+msgid "what's the best way to use etwork for a specific business need,"
 msgstr ""
-"qual'è il modo migliore di usare Dosyt per una particolare attività "
+"qual'è il modo migliore di usare etwork per una particolare attività "
 "lavorativa,"
 
 #. module: website_slides_forum

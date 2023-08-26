@@ -225,7 +225,7 @@ var Quiz = publicWidget.Widget.extend({
      * When clicking on an answer, this one should be marked as "checked".
      *
      * @private
-     * @param DosytEvent ev
+     * @param etworkEvent ev
      */
     _onAnswerClick: function (ev) {
         ev.preventDefault();

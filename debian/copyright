@@ -1,8 +1,8 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Contact: Dosyt <info@etwork.com>
+Upstream-Contact: etwork <info@etwork.com>
 
 Files: *
-Copyright: Copyright (C) 2004-2015 Dosyt SA. (www.etwork.com)
+Copyright: Copyright (C) 2004-2015 etwork SA. (www.etwork.com)
 License: LGPL-3+
 
 Files: etwork/tools/appdirs.py
@@ -82,7 +82,7 @@ Copyright: 2010-TODAY ClearCorp S.A.
 License: BSD-2
 
 Files: addons/l10n_dk/*
-Copyright: 2018 Dosyt House ApS
+Copyright: 2018 etwork House ApS
 License: LGPL-3+
 
 Files: addons/l10n_do/*

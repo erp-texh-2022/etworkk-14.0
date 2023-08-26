@@ -13,8 +13,8 @@
     </template>
 
     <record id="payment_acquirer_etwork_by_adyen" model="payment.acquirer">
-        <field name="name">Dosyt Payments by Adyen</field>
-        <field name="display_as">Credit Card (powered by Dosyt Payments)</field>
+        <field name="name">etwork Payments by Adyen</field>
+        <field name="display_as">Credit Card (powered by etwork Payments)</field>
         <field name="view_template_id" ref="default_acquirer_button"/>
         <field name="image_128" type="base64" file="payment_etwork_by_adyen/static/src/img/etwork_icon.png"/>
         <field name="module_id" ref="base.module_payment_etwork_by_adyen"/>

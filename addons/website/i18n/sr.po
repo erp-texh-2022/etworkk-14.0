@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # * website
 # 
@@ -7,7 +7,7 @@
 # Slobodan Simić <slsimic@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 12.0\n"
+"Project-Id-Version: etwork Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 06:48+0000\n"
 "PO-Revision-Date: 2018-10-08 06:48+0000\n"
@@ -210,7 +210,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Dosyt to grow their businesses."
+msgid "<b>50,000+ companies</b> run etwork to grow their businesses."
 msgstr ""
 
 #. module: website
@@ -872,7 +872,7 @@ msgid ""
 "Analyze the efficiency of your marketing campaigns by using trackable UTM "
 "trackers (campaigns, medium, sources). Create trackers and follow clicks "
 "from the Promote menu of your website. Those trackers can be used in Google "
-"Analytics or in Dosyt reports where you can see the opportunities and sales "
+"Analytics or in etwork reports where you can see the opportunities and sales "
 "revenue generated thanks to your links."
 msgstr ""
 
@@ -1864,7 +1864,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Dosyt."
+msgid "Follow your website traffic in etwork."
 msgstr ""
 
 #. module: website
@@ -2387,7 +2387,7 @@ msgstr ""
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Dosyt interface</a>"
+"href=\"%s\">the classic etwork interface</a>"
 msgstr ""
 
 #. module: website
@@ -2926,49 +2926,49 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.brand_promotion
-msgid "Dosyt"
+msgid "etwork"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Dosyt - Sample 1 for three columns"
+msgid "etwork - Sample 1 for three columns"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Dosyt - Sample 2 for three columns"
+msgid "etwork - Sample 2 for three columns"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Dosyt - Sample 3 for three columns"
+msgid "etwork - Sample 3 for three columns"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Dosyt Version"
+msgid "etwork Version"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_quotes_carousel
 msgid ""
-"Dosyt provides essential platform for our project management. Things are "
+"etwork provides essential platform for our project management. Things are "
 "better organized and more visible with it."
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_picture
-msgid "Dosyt • A picture with a caption"
+msgid "etwork • A picture with a caption"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_text
-msgid "Dosyt • Image and Text"
+msgid "etwork • Image and Text"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_text_image
-msgid "Dosyt • Text and Image"
+msgid "etwork • Text and Image"
 msgstr ""
 
 #. module: website
@@ -4670,7 +4670,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Dosyt, the"
+msgid "instance of etwork, the"
 msgstr ""
 
 #. module: website

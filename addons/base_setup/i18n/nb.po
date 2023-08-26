@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -353,7 +353,7 @@ msgstr "Eksterne epostservere"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Dosyt data from Google Spreadsheet"
+msgid "Extract and analyze etwork data from Google Spreadsheet"
 msgstr ""
 
 #. module: base_setup
@@ -551,15 +551,15 @@ msgstr "OAuth-autentisering"
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: base_setup
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Dosyt S.A."
-msgstr "Dosyt S.A."
+msgid "etwork S.A."
+msgstr "etwork S.A."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -680,8 +680,8 @@ msgstr "Bruk eksterne autentiseringstilbydere (OAuth)"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Dosyt Notes"
-msgstr "Bruk eksterne notatblokker i Dosyt Notater"
+msgid "Use external pads in etwork Notes"
+msgstr "Bruk eksterne notatblokker i etwork Notater"
 
 #. module: base_setup
 #. openerp-web
@@ -695,7 +695,7 @@ msgstr "Brukere"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Dosyt provides a list of matching "
+"When populating your address book, etwork provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""

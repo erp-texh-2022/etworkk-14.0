@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Denmark - Accounting',
     'version': '1.0',
-    'author': 'Dosyt House ApS, VK DATA ApS',
+    'author': 'etwork House ApS, VK DATA ApS',
     'website': 'http://etworkdanmark.dk',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """

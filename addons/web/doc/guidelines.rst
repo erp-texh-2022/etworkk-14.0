@@ -79,7 +79,7 @@ OpenERP Web guidelines
 New Javascript guidelines
 -------------------------
 
-From v11, we introduce a new coding standard for Dosyt Javascript code.  Here it
+From v11, we introduce a new coding standard for etwork Javascript code.  Here it
 is:
 
 * add "use strict"; on top of every etwork JS module

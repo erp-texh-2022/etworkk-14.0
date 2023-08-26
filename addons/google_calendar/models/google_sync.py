@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import logging
 from contextlib import contextmanager
@@ -21,9 +21,9 @@ _logger = logging.getLogger(__name__)
 
 
 # API requests are sent to Google Calendar after the current transaction ends.
-# This ensures changes are sent to Google only if they really happened in the Dosyt database.
+# This ensures changes are sent to Google only if they really happened in the etwork database.
 # It is particularly important for event creation , otherwise the event might be created
-# twice in Google if the first creation crashed in Dosyt.
+# twice in Google if the first creation crashed in etwork.
 def after_commit(func):
     @wraps(func)
     def wrapped(self, *args, **kwargs):
@@ -106,7 +106,7 @@ class GoogleSync(models.AbstractModel):
         elif synced:
             # Since we can not delete such an event (see method comment), we archive it.
             # Notice that archiving an event will delete the associated event on Google.
-            # Then, since it has been deleted on Google, the event is also deleted on Dosyt DB (_sync_google2etwork).
+            # Then, since it has been deleted on Google, the event is also deleted on etwork DB (_sync_google2etwork).
             self.action_archive()
             return True
         return super().unlink()
@@ -145,10 +145,10 @@ class GoogleSync(models.AbstractModel):
 
     @api.model
     def _sync_google2etwork(self, google_events: GoogleEvent, default_reminders=()):
-        """Synchronize Google recurrences in Dosyt. Creates new recurrences, updates
+        """Synchronize Google recurrences in etwork. Creates new recurrences, updates
         existing ones.
 
-        :param google_recurrences: Google recurrences to synchronize in Dosyt
+        :param google_recurrences: Google recurrences to synchronize in etwork
         :return: synchronized etwork recurrences
         """
         existing = google_events.exists(self.env)
@@ -211,7 +211,7 @@ class GoogleSync(models.AbstractModel):
                 })
 
     def _get_records_to_sync(self, full_sync=False):
-        """Return records that should be synced from Dosyt to Google
+        """Return records that should be synced from etwork to Google
 
         :param full_sync: If True, all events attended by the user are returned
         :return: events
@@ -235,9 +235,9 @@ class GoogleSync(models.AbstractModel):
 
     @api.model
     def _etwork_values(self, google_event: GoogleEvent, default_reminders=()):
-        """Implements this method to return a dict of Dosyt values corresponding
+        """Implements this method to return a dict of etwork values corresponding
         to the Google event given as parameter
-        :return: dict of Dosyt formatted values
+        :return: dict of etwork formatted values
         """
         raise NotImplementedError()
 
@@ -263,7 +263,7 @@ class GoogleSync(models.AbstractModel):
     def _notify_attendees(self):
         """ Notify calendar event partners.
         This is called when creating new calendar events in _sync_google2etwork.
-        At the initialization of a synced calendar, Dosyt requests all events for a specific
+        At the initialization of a synced calendar, etwork requests all events for a specific
         GoogleCalendar. Among those there will probably be lots of events that will never triggers a notification
         (e.g. single events that occured in the past). Processing all these events through the notification procedure
         of calendar.event.create is a possible performance bottleneck. This method aimed at alleviating that.

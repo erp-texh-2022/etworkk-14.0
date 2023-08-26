@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -24,7 +24,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-16 09:00+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -1800,7 +1800,7 @@ msgstr "Sätter rutter så att de som standard går igenom lagerplatsen"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Dosyt creates automatically requests for "
+"Define a minimum stock rule so that etwork creates automatically requests for "
 "quotations or confirmed manufacturing orders to resupply your stock."
 msgstr ""
 
@@ -1813,14 +1813,14 @@ msgstr "Definiera en ny lagerplats"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Dosyt is able to manage physical locations\n"
+"            organization. etwork is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Definiera dina platser så att de återspeglar din lagerplatsstruktur och\n"
-"            organisation. Dosyt kan hantera fysiska platser\n"
+"            organisation. etwork kan hantera fysiska platser\n"
 "            (lager, hyllor, fack etc.), partnerplatser (kunder,\n"
 "            leverantörer) och virtuella platser som är motsvarigheten till\n"
 "            lagerverksamheten som tillverkningsorder\n"
@@ -2252,12 +2252,12 @@ msgstr ""
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Dosyt barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the etwork barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
 msgstr ""
-"Njut av en snabb upplevelse med Dosyt-appen för streckkoder. Den är "
+"Njut av en snabb upplevelse med etwork-appen för streckkoder. Den är "
 "supersnabb och fungerar även utan en stabil internetuppkoppling. Den stöder "
 "alla flöden: lagerjusteringar, batchplockning, flyttning av partier eller "
 "pallar, kontroll av lågt lager osv. Gå till menyn \"Appa”r för att aktivera "
@@ -2284,15 +2284,15 @@ msgstr "Fel"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Dosyt moves the products from one\n"
+"Every stock operation in etwork moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Dosyt will move products from the Vendor\n"
+"            from a vendor, etwork will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Varje lageroperation i Dosyt flyttar produkterna från en\n"
+"Varje lageroperation i etwork flyttar produkterna från en\n"
 "            till en annan plats.  Om du till exempel tar emot produkter\n"
-"            från en leverantör, flyttar Dosyt produkterna från leverantörens\n"
+"            från en leverantör, flyttar etwork produkterna från leverantörens\n"
 "            till lagerstället. Varje rapport kan utföras på\n"
 "            fysiska, partner- eller virtuella platser."
 
@@ -2870,11 +2870,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Dosyt will automatically pre-fill the detailed "
+"If this checkbox is ticked, etwork will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr ""
-"Om den här kryssrutan är markerad fyller Dosyt automatiskt i de detaljerade "
+"Om den här kryssrutan är markerad fyller etwork automatiskt i de detaljerade "
 "transaktionerna med motsvarande produkter, platser och parti- eller "
 "serienummer."
 
@@ -7792,21 +7792,21 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Dosyt generates a procurement to bring the forecasted "
+"for this field, etwork generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
 msgstr ""
 "När det virtuella lagret är lika med eller går under Min. kvantiteten "
-"specificerad i detta fält skapar Dosyt en inköpsoffert för att föra den "
+"specificerad i detta fält skapar etwork en inköpsoffert för att föra den "
 "prognostiserade kvantiteten till den specificerade Max. kvantiteten."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Dosyt generates a "
+"When the virtual stock goes below the Min Quantity, etwork generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
-"När det virtuella lagret går under Min. kvantitet skapar Dosyt en "
+"När det virtuella lagret går under Min. kvantitet skapar etwork en "
 "inköpsoffert för att föra den prognostiserade kvantiteten till den "
 "specificerade Max. kvantiteten."
 
@@ -8157,7 +8157,7 @@ msgstr "Du har skapat produktrader manuellt, radera dem för att fortsätta."
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on "
-"<i>apply</i> Dosyt will process all the quantities."
+"<i>apply</i> etwork will process all the quantities."
 msgstr ""
 "Du har inte angivit <i>Klara</i> kvantiteter ännu. Genom att klicka på "
 "<i>Verktställ</i> kommer systemet att behandla alla kvantiteter."

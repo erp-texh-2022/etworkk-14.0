@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -11,13 +11,13 @@
 # Martin Trigaux, 2020
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2020
 # gsong <gsong2014@foxmail.com>, 2020
-# Dosyt Thaidev <etworkthaidev@gmail.com>, 2020
+# etwork Thaidev <etworkthaidev@gmail.com>, 2020
 # Krisa C, 2022
 # Wichanon Jamwutthipreecha, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -2018,8 +2018,8 @@ msgstr "ฟูเชีย"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Dosyt Enterprise!"
-msgstr "รับคุณสมบัตินี้และคุณสมบัติอื่นอีกมากมายด้วย Dosyt สำหรับองค์กร"
+msgid "Get this feature and much more with etwork Enterprise!"
+msgstr "รับคุณสมบัตินี้และคุณสมบัติอื่นอีกมากมายด้วย etwork สำหรับองค์กร"
 
 #. module: web
 #. openerp-web
@@ -2615,8 +2615,8 @@ msgstr "ข้อความหลายบรรทัด"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Dosyt.com account"
-msgstr "บัญชี Dosyt.com ของฉัน"
+msgid "My etwork.com account"
+msgstr "บัญชี etwork.com ของฉัน"
 
 #. module: web
 #. openerp-web
@@ -2810,15 +2810,15 @@ msgstr "วัตถุ:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Dosyt Apps will be available soon"
-msgstr "Dosyt Apps will be available soon"
+msgid "etwork Apps will be available soon"
+msgstr "etwork Apps will be available soon"
 
 #. module: web
 #. openerp-web
@@ -2827,36 +2827,36 @@ msgstr "Dosyt Apps will be available soon"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Client Error"
-msgstr "ข้อผิดพลาดลูกค้า Dosyt"
+msgid "etwork Client Error"
+msgstr "ข้อผิดพลาดลูกค้า etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Dosyt Enterprise"
-msgstr "Dosyt สำหรับองค์กร"
+msgid "etwork Enterprise"
+msgstr "etwork สำหรับองค์กร"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Error"
-msgstr "ข้อผิดพลาด Dosyt"
+msgid "etwork Error"
+msgstr "ข้อผิดพลาด etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Session Expired"
-msgstr "เซสชัน Dosyt หมดอายุ"
+msgid "etwork Session Expired"
+msgstr "เซสชัน etwork หมดอายุ"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Warning"
-msgstr "คำเตือน Dosyt"
+msgid "etwork Warning"
+msgstr "คำเตือน etwork"
 
 #. module: web
 #. openerp-web
@@ -3212,8 +3212,8 @@ msgstr "สนับสนุนโดย %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Dosyt</span>"
-msgstr " <span>Dosyt</span>  "
+msgid "Powered by <span>etwork</span>"
+msgstr " <span>etwork</span>  "
 
 #. module: web
 #. openerp-web
@@ -4686,10 +4686,10 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Dosyt with at least two workers to print a pdf version of "
+"You need to start etwork with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"คุณต้องเริ่มต้น Dosyt กับพนักงานอย่างน้อยสองคนเพื่อพิมพ์รายงานในเวอร์ชัน pdf"
+"คุณต้องเริ่มต้น etwork กับพนักงานอย่างน้อยสองคนเพื่อพิมพ์รายงานในเวอร์ชัน pdf"
 
 #. module: web
 #. openerp-web
@@ -4708,8 +4708,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Dosyt session expired. The current page is about to be refreshed."
-msgstr "เซสชัน Dosyt ของคุณหมดอายุแล้ว หน้าปัจจุบันกำลังจะถูกรีเฟรช"
+msgid "Your etwork session expired. The current page is about to be refreshed."
+msgstr "เซสชัน etwork ของคุณหมดอายุแล้ว หน้าปัจจุบันกำลังจะถูกรีเฟรช"
 
 #. module: web
 #. openerp-web

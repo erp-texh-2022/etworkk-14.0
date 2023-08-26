@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -1957,8 +1957,8 @@ msgstr "DESCHIS"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.layout
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image_text
@@ -2558,9 +2558,9 @@ msgstr "Vă mulțumim pentru abonare!"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
-msgid "That way, Dosyt evolves much faster than any other solution."
+msgid "That way, etwork evolves much faster than any other solution."
 msgstr ""
-"În acest fel, Dosyt evoluează mult mai repede decât orice altă soluție."
+"În acest fel, etwork evoluează mult mai repede decât orice altă soluție."
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact_subscription__opt_out
@@ -2580,20 +2580,20 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"The open source model of Dosyt has allowed us to leverage thousands of developers and\n"
+"The open source model of etwork has allowed us to leverage thousands of developers and\n"
 "                                business experts to build hundreds of apps in just a few years."
 msgstr ""
-"Modelul open source al Dosyt ne-a permis să folosim mii de dezvoltatori și\n"
+"Modelul open source al etwork ne-a permis să folosim mii de dezvoltatori și\n"
 "                                experți în afaceri să construiască sute de aplicații în doar câțiva ani."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_text_image
 msgid ""
-"The open source model of Dosyt has allowed us to leverage thousands of "
+"The open source model of etwork has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
 msgstr ""
-"Modelul open source al Dosyt ne-a permis să folosim mii de dezvoltatori și "
+"Modelul open source al etwork ne-a permis să folosim mii de dezvoltatori și "
 "experți în afaceri pentru a construi sute de aplicații în doar câțiva ani."
 
 #. module: mass_mailing
@@ -2780,10 +2780,10 @@ msgstr "Actualizați tema"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"Usability improvements made on Dosyt will automatically apply to all\n"
+"Usability improvements made on etwork will automatically apply to all\n"
 "                                of our fully integrated apps."
 msgstr ""
-"Îmbunătățirile de utilizare făcute pe Dosyt se vor aplica automat la toate\n"
+"Îmbunătățirile de utilizare făcute pe etwork se vor aplica automat la toate\n"
 " aplicațiile noastre complet integrate."
 
 #. module: mass_mailing
@@ -2801,11 +2801,11 @@ msgstr "Utilizați un server dedicat pentru mailings"
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Dosyt relies on the first "
+"Use a specific mail server in priority. Otherwise etwork relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr ""
-"Utilizați un server de e-mail specific cu prioritate. În caz contrar, Dosyt "
+"Utilizați un server de e-mail specific cu prioritate. În caz contrar, etwork "
 "se bazează pe primul server de poștă de ieșire disponibil (bazat pe "
 "secvențierea lor), așa cum se întâmplă pentru e-mailurile normale."
 
@@ -2904,19 +2904,19 @@ msgstr "Când doriți să trimiteți corespondența?"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"With strong technical foundations, Dosyt's framework is unique.\n"
+"With strong technical foundations, etwork's framework is unique.\n"
 "                                It provides top notch usability that scales across all apps."
 msgstr ""
-"Cu fundații tehnice puternice, cadrul Dosyt este unic.\n"
+"Cu fundații tehnice puternice, cadrul etwork este unic.\n"
 "Oferă o utilizare ușoară care se întinde pe toate aplicațiile."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image
 msgid ""
-"With strong technical foundations, Dosyt's framework is unique. It provides "
+"With strong technical foundations, etwork's framework is unique. It provides "
 "<strong>top notch usability that scales across all apps</strong>."
 msgstr ""
-"Cu fundații tehnice puternice, cadrul Dosyt este unic. Oferă <strong>o "
+"Cu fundații tehnice puternice, cadrul etwork este unic. Oferă <strong>o "
 "utilizare ușoară care se întinde pe toate aplicațiile</strong>."
 
 #. module: mass_mailing
@@ -2951,19 +2951,19 @@ msgstr "Nu sunteți abonat la niciuna din lista noastră de corespondență."
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_mailing_action_mail
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Dosyt apps."
+"                send emails<br> to any contact saved in other etwork apps."
 msgstr ""
 "Nu este nevoie să importați listele dvs. de e-mail, puteți cu ușurință să\n"
-"trimiteți e-mailuri <br> către orice contact salvat în alte aplicații Dosyt."
+"trimiteți e-mailuri <br> către orice contact salvat în alte aplicații etwork."
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"            send emails<br> to any contact saved in other Dosyt apps."
+"            send emails<br> to any contact saved in other etwork apps."
 msgstr ""
 "Nu este nevoie să importați listele dvs. de e-mail, puteți cu ușurință să\n"
-"trimiteți e-mailuri <br> către orice contact salvat în alte aplicații Dosyt."
+"trimiteți e-mailuri <br> către orice contact salvat în alte aplicații etwork."
 
 #. module: mass_mailing
 #. openerp-web

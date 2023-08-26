@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -25,7 +25,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-09 16:49+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
@@ -2182,7 +2182,7 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Dosyt Point Of Sale"
+msgid "IMPORTANT: Bug Report From etwork Point Of Sale"
 msgstr "VAŽNO: Izvješće o <i>bugu</i> u radu blagajne (POS)"
 
 #. module: point_of_sale
@@ -2921,8 +2921,8 @@ msgstr "Broj nepročitanih poruka"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Dosyt Logo"
-msgstr "Dosyt Logo"
+msgid "etwork Logo"
+msgstr "etwork Logo"
 
 #. module: point_of_sale
 #. openerp-web
@@ -5329,19 +5329,19 @@ msgstr "Ovaj se proizvod koristi kao referenca na računima kupaca."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Dosyt but you can change it to "
+"This sequence is automatically created by etwork but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Ovaj niz automatski stvara Dosyt, ali ga možete promijeniti kako biste "
+"Ovaj niz automatski stvara etwork, ali ga možete promijeniti kako biste "
 "prilagodili referentne brojeve redaka narudžbi."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Dosyt but you can change it to "
+"This sequence is automatically created by etwork but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Ova je sekvenca automatski kreirana od Dosyt, ali ju možete promijeniti kako "
+"Ova je sekvenca automatski kreirana od etwork, ali ju možete promijeniti kako "
 "biste prilagodili referentni broj narudžbi."
 
 #. module: point_of_sale

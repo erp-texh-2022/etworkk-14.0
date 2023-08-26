@@ -83,7 +83,7 @@ var AbstractFieldUpgrade = {
             $content: $('<div>', {
                 html: message,
             }),
-            title: _t("Dosyt Enterprise"),
+            title: _t("etwork Enterprise"),
         }).open();
     },
     /**

@@ -48,7 +48,7 @@ etwork.define('web.Class', function () {
  *
  * @class Class
  */
-function DosytClass(){}
+function etworkClass(){}
 
 var initializing = false;
 var fnTest = /xyz/.test(function(){xyz();}) ? /\b_super\b/ : /.*/;
@@ -58,7 +58,7 @@ var fnTest = /xyz/.test(function(){xyz();}) ? /\b_super\b/ : /.*/;
  *
  * @param {Object} prop class-level properties (class attributes and instance methods) to set on the new class
  */
-DosytClass.extend = function() {
+etworkClass.extend = function() {
     var _super = this.prototype;
     // Support mixins arguments
     var args = _.toArray(arguments);
@@ -98,7 +98,7 @@ DosytClass.extend = function() {
 
     // The dummy class constructor
     function Class() {
-        if(this.constructor !== DosytClass){
+        if(this.constructor !== etworkClass){
             throw new Error("You can only instanciate objects with the 'new' operator");
         }
         // All construction is actually done in the init method
@@ -151,5 +151,5 @@ DosytClass.extend = function() {
     return Class;
 };
 
-return DosytClass;
+return etworkClass;
 });

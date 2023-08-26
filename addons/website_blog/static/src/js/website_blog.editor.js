@@ -148,7 +148,7 @@ WysiwygMultizone.include({
 
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onSetBlogPostUpdatedTags: function (ev) {
         this.blogTagsPerBlogPost[ev.data.blogPostID] = ev.data.tags;

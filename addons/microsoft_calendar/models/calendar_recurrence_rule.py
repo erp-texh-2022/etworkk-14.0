@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import api, fields, models
 
@@ -25,7 +25,7 @@ class RecurrenceRule(models.Model):
     def _inverse_rrule(self):
         # Note: 'need_sync_m' is set to False to avoid syncing the updated recurrence with
         # Outlook, as this update mainly comes from Outlook (the 'rrule' field is not directly
-        # modified in Dosyt but computed from other fields).
+        # modified in etwork but computed from other fields).
         for recurrence in self.filtered('rrule'):
             values = self._rrule_parse(recurrence.rrule, recurrence.dtstart)
             recurrence.write(dict(values, need_sync_m=False))
@@ -90,7 +90,7 @@ class RecurrenceRule(models.Model):
 
     def _write_from_microsoft(self, microsoft_event, vals):
         current_rrule = self.rrule
-        # event_tz is written on event in Microsoft but on recurrence in Dosyt
+        # event_tz is written on event in Microsoft but on recurrence in etwork
         vals['event_tz'] = microsoft_event.start.get('timeZone')
         super()._write_from_microsoft(microsoft_event, vals)
         new_event_values = self.env["calendar.event"]._microsoft_to_etwork_values(microsoft_event)

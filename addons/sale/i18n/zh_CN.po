@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* sale
 # 
@@ -17,7 +17,7 @@
 # Jeff Yu - Elico Corp <jeff.yu@elico-corp.com>, 2020
 # diaojiaolou <124412206@qq.com>, 2020
 # ChinaMaker <liuct@chinamaker.net>, 2020
-# JZH-Dosyt <jzh@etwork.com>, 2020
+# JZH-etwork <jzh@etwork.com>, 2020
 # wangting <39181819@qq.com>, 2020
 # Felix Yang <felixyangsh@aliyun.com>, 2020
 # Datasource International <Hennessy@datasourcegroup.com>, 2020
@@ -44,7 +44,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-09 15:44+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -1062,7 +1062,7 @@ msgstr "是否确定取消授权交易？此操作经确定后无法撤消。"
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_orders_upselling
 msgid ""
-"As an example, if you sell pre-paid hours of services, Dosyt recommends you\n"
+"As an example, if you sell pre-paid hours of services, etwork recommends you\n"
 "                to sell extra hours when all ordered hours have been consumed."
 msgstr ""
 "举个粟子：超市里，客人从货架拿了瓶茅台到前台买单结账，而此时你收银系统里却显示茅台库存为0，系统显示没库存了，你不可能告诉客人说这瓶茅台不卖让客人别买。当然53度飞天除外。账实不符，库存不准，这些都是真实存在的，存在即合理，etwork默认允许超卖，有个模块，可以禁止超卖。开源了的，自己找吧。"

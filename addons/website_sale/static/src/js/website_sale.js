@@ -411,7 +411,7 @@ publicWidget.registry.WebsiteSale = publicWidget.Widget.extend(VariantMixin, {
             _.each($('.ecom-zoomable img[data-zoom]'), function (el) {
                 onImageLoaded(el, function () {
                     var $img = $(el);
-                    $img.zoomDosyt({event: autoZoom ? 'mouseenter' : 'click', attach: attach});
+                    $img.zoometwork({event: autoZoom ? 'mouseenter' : 'click', attach: attach});
                     $img.attr('data-zoom', 1);
                 });
             });

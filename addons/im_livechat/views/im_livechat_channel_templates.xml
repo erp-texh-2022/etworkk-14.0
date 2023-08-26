@@ -107,14 +107,14 @@
                 <body>
                      <div class="main" style="opacity: 1;">
                         <h1 class="channel_name"><t t-esc="channel.name"/></h1>
-                        <div>Website Live Chat Powered by <strong>Dosyt</strong>.</div>
+                        <div>Website Live Chat Powered by <strong>etwork</strong>.</div>
                     </div>
                 </body>
             </html>
         </template>
 
         <!--
-            Template rendering all the scripts required to execute the Livechat from an external page (which not contain Dosyt)
+            Template rendering all the scripts required to execute the Livechat from an external page (which not contain etwork)
         -->
         <template id="external_loader" name="Livechat : external_script field of livechat channel">
             <!-- css style -->
@@ -127,12 +127,12 @@
 
 
         <!--
-            Bundle of External Librairies of the Livechat (Dosyt + required modules)
+            Bundle of External Librairies of the Livechat (etwork + required modules)
         -->
         <template id="external_lib" name="Livechat : External Librairies of the Livechat, required to make it work">
             <!-- Momentjs -->
             <script type="text/javascript" src="/web/static/lib/moment/moment.js"></script>
-            <!-- Dosyt minimal lib -->
+            <!-- etwork minimal lib -->
             <script type="text/javascript" src="/web/static/lib/underscore/underscore.js"></script>
             <script type="text/javascript" src="/web/static/lib/underscore.string/lib/underscore.string.js"></script>
             <!-- jQuery -->
@@ -142,7 +142,7 @@
             <script type="text/javascript" src="/web/static/lib/jquery.ba-bbq/jquery.ba-bbq.js"></script>
             <!-- Qweb2 lib -->
             <script type="text/javascript" src="/web/static/lib/qweb/qweb2.js"></script>
-            <!-- Dosyt JS Framework -->
+            <!-- etwork JS Framework -->
             <script type="text/javascript" src="/web/static/lib/owl/owl.js"></script>
             <script type="text/javascript" src="/web/static/src/js/promise_extension.js"></script>
             <script type="text/javascript" src="/web/static/src/js/boot.js"></script>

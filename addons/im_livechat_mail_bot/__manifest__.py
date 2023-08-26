@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'DosytBot for livechat',
+    'name': 'etworkBot for livechat',
     'version': '1.0',
     'category': 'Productivity/Discuss',
-    'summary': 'Add livechat support for DosytBot',
+    'summary': 'Add livechat support for etworkBot',
     'description': "",
     'website': 'https://www.etwork.com/page/discuss',
     'depends': ['mail_bot', 'im_livechat'],

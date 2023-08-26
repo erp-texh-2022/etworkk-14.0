@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mail
 # 
@@ -24,7 +24,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -1031,8 +1031,8 @@ msgstr "Automatiseret notifikation"
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_request/notification_request.xml:0
 #, python-format
-msgid "Avatar of DosytBot"
-msgstr "DosytBots Avatar"
+msgid "Avatar of etworkBot"
+msgstr "etworkBots Avatar"
 
 #. module: mail
 #. openerp-web
@@ -2711,8 +2711,8 @@ msgstr "Håndtér via emails"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
-msgid "Handle in Dosyt"
-msgstr "Håndtér i Dosyt"
+msgid "Handle in etwork"
+msgstr "Håndtér i etwork"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -2981,11 +2981,11 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Dosyt server, "
+"If you have setup a catch-all email domain redirected to the etwork server, "
 "enter the domain name here."
 msgstr ""
 "Angiv domæne navnet her, hvis du har konfigureret et catch-all email domæne,"
-" omdirigeret til Dosyt serveren."
+" omdirigeret til etwork serveren."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_resend_cancel_view_form
@@ -4448,18 +4448,18 @@ msgstr "Antal ulæste beskeder"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_alert/notification_alert.xml:0
 #, python-format
 msgid ""
-"Dosyt Push notifications have been blocked. Go to your browser settings to "
+"etwork Push notifications have been blocked. Go to your browser settings to "
 "allow them."
 msgstr ""
-"Dosyt Push notifikationer er blevet blokeret. Gå til dine browser "
+"etwork Push notifikationer er blevet blokeret. Gå til dine browser "
 "indstillinger for at tillade dem."
 
 #. module: mail
@@ -4467,10 +4467,10 @@ msgstr ""
 #: code:addons/mail/static/src/components/notification_request/notification_request.js:0
 #, python-format
 msgid ""
-"Dosyt will not have the permission to send native notifications on this "
+"etwork will not have the permission to send native notifications on this "
 "device."
 msgstr ""
-"Dosyt vil ikke have tilladelse til at sende indfødte underretninger på denne "
+"etwork vil ikke have tilladelse til at sende indfødte underretninger på denne "
 "enhed."
 
 #. module: mail
@@ -4916,11 +4916,11 @@ msgstr "Vent venligst..."
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Dosyt: notifications appear in your Dosyt Inbox"
+"- Handle in etwork: notifications appear in your etwork Inbox"
 msgstr ""
 "Police omkring håndteringen af Chatter notifikationer:\n"
 "- Håndter via emails: Notifikationer sendes til din email adresse\n"
-"- Håndter i Dosyt: Notifikationer vises i din Dosyt indbakke"
+"- Håndter i etwork: Notifikationer vises i din etwork indbakke"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_contact
@@ -6077,11 +6077,11 @@ msgstr "Den interne bruger ansvarlig for denne kontakt."
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Modellen (Dosyt Document Kind), som dette alias svarer til. Enhver indgående "
+"Modellen (etwork Document Kind), som dette alias svarer til. Enhver indgående "
 "e-mail, der ikke svarer til en eksisterende post, vil medføre oprettelse af "
 "en ny rekord af denne model (fx en projektopgave)"
 
@@ -6204,11 +6204,11 @@ msgstr ""
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Dosyt database."
+"storage space of your etwork database."
 msgstr ""
 "Denne indstilling fjerner permanent ethvert spor af emailen efter den er "
 "blevet sendt, inklusiv fra Teknisk menuen i Indstillinger, for at bevare "
-"lagerplads på din Dosyt database."
+"lagerplads på din etwork database."
 
 #. module: mail
 #. openerp-web

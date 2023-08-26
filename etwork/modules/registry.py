@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 """ Models registries.
 
@@ -111,7 +111,7 @@ class Registry(Mapping):
         self.models = {}    # model name/model instance mapping
         self._sql_constraints = set()
         self._init = True
-        self._assertion_report = etwork.tests.runner.DosytTestResult()
+        self._assertion_report = etwork.tests.runner.etworkTestResult()
         self._fields_by_model = None
         self._ordinary_tables = None
         self._constraint_queue = deque()

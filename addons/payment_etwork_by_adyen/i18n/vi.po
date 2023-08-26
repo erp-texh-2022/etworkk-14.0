@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* payment_etwork_by_adyen
 # 
@@ -9,7 +9,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2021-01-08 12:30+0000\n"
@@ -78,31 +78,31 @@ msgstr "Sửa lần cuối vào"
 #. module: payment_etwork_by_adyen
 #: code:addons/payment_etwork_by_adyen/models/payment.py:0
 #, python-format
-msgid "Dosyt Payment by Adyen: feedback error"
-msgstr "Thanh toán Dosyt qua Adyen: lỗi phản hồi"
+msgid "etwork Payment by Adyen: feedback error"
+msgstr "Thanh toán etwork qua Adyen: lỗi phản hồi"
 
 #. module: payment_etwork_by_adyen
 #: model:ir.model.fields.selection,name:payment_etwork_by_adyen.selection__payment_acquirer__provider__etwork_adyen
-msgid "Dosyt Payments by Adyen"
-msgstr "Thanh toán Dosyt của Adyen"
+msgid "etwork Payments by Adyen"
+msgstr "Thanh toán etwork của Adyen"
 
 #. module: payment_etwork_by_adyen
 #: code:addons/payment_etwork_by_adyen/models/payment.py:0
 #, python-format
-msgid "Dosyt Payments by Adyen is not available in test mode."
-msgstr "Thanh toán Dosyt qua Adyen không cho phép dùng ở chế độ chạy thử."
+msgid "etwork Payments by Adyen is not available in test mode."
+msgstr "Thanh toán etwork qua Adyen không cho phép dùng ở chế độ chạy thử."
 
 #. module: payment_etwork_by_adyen
 #: code:addons/payment_etwork_by_adyen/models/payment.py:0
 #, python-format
-msgid "Dosyt Payments by Adyen: received data for reference %s"
-msgstr "Thanh toán Dosyt qua Adyen: đã nhận được dữ liệu với mã %s"
+msgid "etwork Payments by Adyen: received data for reference %s"
+msgstr "Thanh toán etwork qua Adyen: đã nhận được dữ liệu với mã %s"
 
 #. module: payment_etwork_by_adyen
 #: code:addons/payment_etwork_by_adyen/models/payment.py:0
 #, python-format
-msgid "Dosyt Payments by Adyen: received data with missing reference (%s)"
-msgstr "Thanh toán Dosyt qua Adyen: dữ liệu nhận được thiếu mã (%s)"
+msgid "etwork Payments by Adyen: received data with missing reference (%s)"
+msgstr "Thanh toán etwork qua Adyen: dữ liệu nhận được thiếu mã (%s)"
 
 #. module: payment_etwork_by_adyen
 #: model:ir.model,name:payment_etwork_by_adyen.model_payment_acquirer

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
@@ -37,7 +37,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:21+0000\n"
@@ -3221,8 +3221,8 @@ msgstr "谢谢张贴！"
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Dosyt."
-msgstr "该站点的目标是创建一个相关的知识库来回答与 Dosyt 相关的问题。"
+"questions related to etwork."
+msgstr "该站点的目标是创建一个相关的知识库来回答与 etwork 相关的问题。"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
@@ -3819,8 +3819,8 @@ msgstr "这里"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Dosyt to specific business needs,"
-msgstr "如何为特定的业务需求配置或自定义Dosyt，"
+msgid "how to configure or customize etwork to specific business needs,"
+msgstr "如何为特定的业务需求配置或自定义etwork，"
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
@@ -3831,8 +3831,8 @@ msgstr "如何为你的需求开发模块，"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Dosyt on a specific infrastructure,"
-msgstr "如何在特定环境下安装Dosyt，"
+msgid "how to install etwork on a specific infrastructure,"
+msgstr "如何在特定环境下安装etwork，"
 
 #. module: website_forum
 #. openerp-web
@@ -3936,8 +3936,8 @@ msgstr "已解答"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Dosyt service offers, etc."
-msgstr "有关Dosyt服务等具体问题等。"
+msgid "specific questions about etwork service offers, etc."
+msgstr "有关etwork服务等具体问题等。"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_index
@@ -3993,8 +3993,8 @@ msgstr "我们被要求一个开放式的，假设性的问题：“如果发生
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Dosyt for a specific business need,"
-msgstr "什么是为特定业务需求使用Dosyt 的最佳方式，"
+msgid "what's the best way to use etwork for a specific business need,"
+msgstr "什么是为特定业务需求使用etwork 的最佳方式，"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.author_box

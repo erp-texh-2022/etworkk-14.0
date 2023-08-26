@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # * website_event_track
 #
@@ -6,7 +6,7 @@
 # Carlos Eduardo Rodriguez Rossi <crodriguez@samemotion.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt 9.0\n"
+"Project-Id-Version: etwork 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-06-21 17:18+0000\n"
@@ -102,7 +102,7 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track7
 msgid ""
-"A technical explanation of Dosyt as a CMS and a eCommerce platform for "
+"A technical explanation of etwork as a CMS and a eCommerce platform for "
 "version 8."
 msgstr ""
 
@@ -113,7 +113,7 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track19
-msgid "Advanced lead management with Dosyt: tips and tricks from the fields"
+msgid "Advanced lead management with etwork: tips and tricks from the fields"
 msgstr ""
 
 #. module: website_event_track
@@ -224,12 +224,12 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track8
 msgid ""
-"Discover Dosyt CRM: How to optimize your sales, from leads to sales orders."
+"Discover etwork CRM: How to optimize your sales, from leads to sales orders."
 msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track11
-msgid "Discover Dosyt Point-of-Sale: Your shop ready to use in 30 minutes."
+msgid "Discover etwork Point-of-Sale: Your shop ready to use in 30 minutes."
 msgstr ""
 
 #. module: website_event_track
@@ -354,7 +354,7 @@ msgstr ""
 #: model:event.track,name:website_event_track.event_track18
 msgid ""
 "How to build your marketing strategy for the purpose of generating leads "
-"with Dosyt."
+"with etwork."
 msgstr ""
 
 #. module: website_event_track
@@ -364,7 +364,7 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track4
-msgid "How to develop automated tests in the Dosyt web client."
+msgid "How to develop automated tests in the etwork web client."
 msgstr ""
 
 #. module: website_event_track
@@ -374,13 +374,13 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track2
-msgid "How to integrate hardware materials with the Dosyt point of sale."
+msgid "How to integrate hardware materials with the etwork point of sale."
 msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track9
 msgid ""
-"How to use Dosyt for your HR process: recruitment, leaves management, "
+"How to use etwork for your HR process: recruitment, leaves management, "
 "appraisals, expenses, etc."
 msgstr ""
 
@@ -405,7 +405,7 @@ msgstr "Introducción"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track23
-msgid "Key Success factors selling Dosyt."
+msgid "Key Success factors selling etwork."
 msgstr ""
 
 #. module: website_event_track
@@ -462,7 +462,7 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track12
-msgid "Manage your events with Dosyt, the new training modules."
+msgid "Manage your events with etwork, the new training modules."
 msgstr ""
 
 #. module: website_event_track
@@ -531,22 +531,22 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track15
-msgid "Dosyt Mobile for Notes, Meetings and Messages."
+msgid "etwork Mobile for Notes, Meetings and Messages."
 msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track28
-msgid "Dosyt Status & Strategy 2014"
+msgid "etwork Status & Strategy 2014"
 msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track16
-msgid "Dosyt as your Enterprise Social Network."
+msgid "etwork as your Enterprise Social Network."
 msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track27
-msgid "Dosyt in 2014"
+msgid "etwork in 2014"
 msgstr ""
 
 #. module: website_event_track
@@ -620,7 +620,7 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track21
-msgid "Recruiting high skilled talents with Dosyt HR apps"
+msgid "Recruiting high skilled talents with etwork HR apps"
 msgstr ""
 
 #. module: website_event_track
@@ -776,7 +776,7 @@ msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track17
-msgid "The Art of Making an Dosyt Demo."
+msgid "The Art of Making an etwork Demo."
 msgstr ""
 
 #. module: website_event_track
@@ -787,7 +787,7 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track5
 msgid ""
-"The new way to promote your modules in the Apps platform and Dosyt website."
+"The new way to promote your modules in the Apps platform and etwork website."
 msgstr ""
 
 #. module: website_event_track

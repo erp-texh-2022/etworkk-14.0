@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # * purchase
 #
@@ -9,7 +9,7 @@
 # Mateo Tibaquirá Palacios <nestormateo@gmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt 9.0\n"
+"Project-Id-Version: etwork 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:07+0000\n"
 "PO-Revision-Date: 2016-07-21 02:52+0000\n"
@@ -818,9 +818,9 @@ msgstr "Compras Mensuales"
 #: model_terms:ir.actions.act_window,help:purchase.purchase_rfq
 msgid ""
 "Most propositions of purchase orders are created automatically\n"
-"                by Dosyt based on inventory needs."
+"                by etwork based on inventory needs."
 msgstr ""
-"La mayor parte de la ordenes de compra son creadas automáticamente por Dosyt, "
+"La mayor parte de la ordenes de compra son creadas automáticamente por etwork, "
 "basado en las necesidades de inventario."
 
 #. module: purchase
@@ -1618,12 +1618,12 @@ msgstr "Usar 'Fijo', 'Real' o 'Promedio' como método de costeo"
 msgid ""
 "Use this menu to control the invoices to be received from your\n"
 "            vendor. When registering a new bill, set the purchase order\n"
-"            and Dosyt will fill the bill automatically according to ordered\n"
+"            and etwork will fill the bill automatically according to ordered\n"
 "            or received quantities."
 msgstr ""
 "Use este menú para controlar las facturas a ser recibidas\n"
 "desde su proveedor. Cuando registre una nueva factura, fije\n"
-"la orden de compra y Dosyt llenará la factura automáticamente\n"
+"la orden de compra y etwork llenará la factura automáticamente\n"
 "de acuerdo a las cantidades pedidas o recibidas."
 
 #. module: purchase
@@ -1691,12 +1691,12 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Dosyt."
+"                    document in etwork."
 msgstr ""
 "La facturas del proveedor pueden ser pre-generadas basadas en las\n"
 "ordenes de compra o las recepciones. Esto permite que usted controle\n"
 "las facturas que usted recibe de su proveedor acorde al documento en\n"
-"borrador en Dosyt."
+"borrador en etwork."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report_volume

@@ -65,13 +65,13 @@
         // finding applications menus
         let appMenuItems;
         if (isEnterprise) {
-            console.log("Dosyt flavor: Enterprise");
+            console.log("etwork flavor: Enterprise");
             appMenuItems = document.querySelectorAll(xmlId ?
                 `a.o_app.o_menuitem[data-menu-xmlid="${xmlId}"]` :
                 'a.o_app.o_menuitem'
             );
         } else {
-            console.log("Dosyt flavor: Community");
+            console.log("etwork flavor: Community");
             appMenuItems = document.querySelectorAll(xmlId ?
                 `a.o_app[data-menu-xmlid="${xmlId}"]` :
                 'a.o_app'

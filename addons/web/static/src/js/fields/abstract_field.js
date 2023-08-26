@@ -311,7 +311,7 @@ var AbstractField = Widget.extend({
      * rerender the widget.
      *
      * @param {any} record
-     * @param {DosytEvent} [event] an event that triggered the reset action. It
+     * @param {etworkEvent} [event] an event that triggered the reset action. It
      *   is optional, and may be used by a widget to share information from the
      *   moment a field change event is triggered to the moment a reset
      *   operation is applied.
@@ -486,7 +486,7 @@ var AbstractField = Widget.extend({
      *
      * @private
      * @param {any} record
-     * @param {DosytEvent} event the event that triggered the change
+     * @param {etworkEvent} event the event that triggered the change
      */
     _reset: function (record, event) {
         this.lastSetValue = undefined;
@@ -613,7 +613,7 @@ var AbstractField = Widget.extend({
      * field which triggered the event is still accessible through ev.target.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onNavigationMove: function (ev) {
         ev.data.target = this;

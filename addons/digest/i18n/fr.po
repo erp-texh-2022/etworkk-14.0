@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* digest
 # 
@@ -11,14 +11,14 @@
 # Cécile Collart <cco@etwork.com>, 2020
 # Jonathan Castillo <jcs@etwork.com>, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
-# Priscilla (prs) Dosyt <prs@etwork.com>, 2020
+# Priscilla (prs) etwork <prs@etwork.com>, 2020
 # Arnaud Willem <contact@arnaud-willem.eu>, 2020
 # Luc N, 2021
 # Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -37,8 +37,8 @@ msgstr "<span class=\"button\" id=\"button_open_report\">Ouvrir le Rapport</span
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
-msgid "<span class=\"etwork_link_text\">Dosyt</span>"
-msgstr "<span class=\"etwork_link_text\">Dosyt</span>"
+msgid "<span class=\"etwork_link_text\">etwork</span>"
+msgstr "<span class=\"etwork_link_text\">etwork</span>"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
@@ -330,8 +330,8 @@ msgstr "Prochaine date d'envoi"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
-msgid "Dosyt Mobile"
-msgstr "Dosyt Mobile"
+msgid "etwork Mobile"
+msgstr "etwork Mobile"
 
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest__periodicity
@@ -374,8 +374,8 @@ msgstr "Destinataires"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
-msgid "Run your business from anywhere with <b>Dosyt Mobile</b>."
-msgstr "Gérez votre entreprise n'importe où avec <b>Dosyt Mobile</b>."
+msgid "Run your business from anywhere with <b>etwork Mobile</b>."
+msgstr "Gérez votre entreprise n'importe où avec <b>etwork Mobile</b>."
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -425,8 +425,8 @@ msgstr "Description  du pourboire"
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_2
-msgid "Tip: A calculator in Dosyt"
-msgstr "Astuce: Une calculatrice dans Dosyt"
+msgid "Tip: A calculator in etwork"
+msgstr "Astuce: Une calculatrice dans etwork"
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_1
@@ -450,8 +450,8 @@ msgstr "Astuce: Accélérez votre travail grâce aux raccourcis"
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_2
-msgid "Tip: A calculator in Dosyt"
-msgstr "Astuce:  Une calculatrice dans Dosyt"
+msgid "Tip: A calculator in etwork"
+msgstr "Astuce:  Une calculatrice dans etwork"
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_1
@@ -477,10 +477,10 @@ msgstr "Astuce: Accélérez votre travail grâce aux raccourcis"
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_3
 msgid ""
 "Type \"@\" to notify someone in a message, or \"#\" to link to a channel. "
-"Try to notify @DosytBot to test the feature."
+"Try to notify @etworkBot to test the feature."
 msgstr ""
 "Saisissez \"@\" pour notifier quelqu'un dans un message, ou \"#\" pour un "
-"canal de discussion. Essayez de notifier @DosytBot pour tester la "
+"canal de discussion. Essayez de notifier @etworkBot pour tester la "
 "fonctionnalité."
 
 #. module: digest
@@ -561,14 +561,14 @@ msgstr "Vous avez été désinscrit avec succès de"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
-msgid "You may want to add new computed fields with Dosyt Studio:"
+msgid "You may want to add new computed fields with etwork Studio:"
 msgstr ""
-"Vous pourriez vouloir ajouter un nouveau champ calculé avec Dosyt Studio:"
+"Vous pourriez vouloir ajouter un nouveau champ calculé avec etwork Studio:"
 
 #. module: digest
 #: model:digest.digest,name:digest.digest_digest_default
-msgid "Your Dosyt Periodic Digest"
-msgstr "Votre Récapitulatif Périodique Dosyt"
+msgid "Your etwork Periodic Digest"
+msgstr "Votre Récapitulatif Périodique etwork"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form

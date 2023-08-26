@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import itertools
 import random
@@ -44,7 +44,7 @@ class MailBot(models.AbstractModel):
             elif etworkbot_state == 'onboarding_command' and command == 'help':
                 self.env.user.etworkbot_state = "onboarding_ping"
                 self.env.user.etworkbot_failed = False
-                return _("Wow you are a natural!<br/>Ping someone with @username to grab their attention. <b>Try to ping me using</b> <span class=\"o_etworkbot_command\">@DosytBot</span> in a sentence.")
+                return _("Wow you are a natural!<br/>Ping someone with @username to grab their attention. <b>Try to ping me using</b> <span class=\"o_etworkbot_command\">@etworkBot</span> in a sentence.")
             elif etworkbot_state == 'onboarding_ping' and self._is_bot_pinged(values):
                 self.env.user.etworkbot_state = "onboarding_attachement"
                 self.env.user.etworkbot_failed = False
@@ -52,7 +52,7 @@ class MailBot(models.AbstractModel):
             elif etworkbot_state == 'onboarding_attachement' and values.get("attachment_ids"):
                 self.env.user.etworkbot_state = "idle"
                 self.env.user.etworkbot_failed = False
-                return _("I am a simple bot, but if that's a dog, he is the cutest 😊 <br/>Congratulations, you finished this tour. You can now <b>close this chat window</b>. Enjoy discovering Dosyt.")
+                return _("I am a simple bot, but if that's a dog, he is the cutest 😊 <br/>Congratulations, you finished this tour. You can now <b>close this chat window</b>. Enjoy discovering etwork.")
             elif etworkbot_state in (False, "idle", "not_initialized") and (_('start the tour') in body.lower()):
                 self.env.user.etworkbot_state = "onboarding_emoji"
                 return _("To start, try to send me an emoji :)")
@@ -79,7 +79,7 @@ class MailBot(models.AbstractModel):
                     return _("Not sure what you are doing. Please, type <span class=\"o_etworkbot_command\">/</span> and wait for the propositions. Select <span class=\"o_etworkbot_command\">help</span> and press enter")
                 elif etworkbot_state == 'onboarding_ping':
                     self.env.user.etworkbot_failed = True
-                    return _("Sorry, I am not listening. To get someone's attention, <b>ping him</b>. Write <span class=\"o_etworkbot_command\">@DosytBot</span> and select me.")
+                    return _("Sorry, I am not listening. To get someone's attention, <b>ping him</b>. Write <span class=\"o_etworkbot_command\">@etworkBot</span> and select me.")
                 return random.choice([
                     _("I'm not smart enough to answer your question.<br/>To follow my guide, ask: <span class=\"o_etworkbot_command\">start the tour</span>."),
                     _("Hmmm..."),

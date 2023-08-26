@@ -79,7 +79,7 @@ var ServiceProviderMixin = {
      * the target so that it can call back the caller.
      *
      * @private
-     * @param  {DosytEvent} event
+     * @param  {etworkEvent} event
      */
     _call_service: function (event) {
         var args = event.data.args || [];

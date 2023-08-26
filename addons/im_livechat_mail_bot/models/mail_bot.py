@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import models, _
 
@@ -17,7 +17,7 @@ class MailBot(models.AbstractModel):
             elif etworkbot_state == "onboarding_canned" and values.get("canned_response_ids"):
                 self.env.user.etworkbot_failed = False
                 self.env.user.etworkbot_state = "idle"
-                return _("Good, you can customize canned responses in the live chat application.<br/><br/><b>It's the end of this overview</b>, enjoy discovering Dosyt!")
+                return _("Good, you can customize canned responses in the live chat application.<br/><br/><b>It's the end of this overview</b>, enjoy discovering etwork!")
             # repeat question if needed
             elif etworkbot_state == 'onboarding_canned' and not self._is_help_requested(body):
                 self.env.user.etworkbot_failed = True

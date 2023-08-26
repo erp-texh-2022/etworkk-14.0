@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import ast
 import base64
@@ -44,7 +44,7 @@ class MailThread(models.AbstractModel):
         communication history. ``mail.thread`` also manages followers of
         inheriting classes. All features and expected behavior are managed
         by mail.thread. Widgets has been designed for the 7.0 and following
-        versions of Dosyt.
+        versions of etwork.
 
         Inheriting classes are not required to implement any method, as the
         default implementation will work for any model. However it is common
@@ -2274,7 +2274,7 @@ class MailThread(models.AbstractModel):
         mail_subject = ' '.join((mail_subject or '').splitlines())
         # compute references: set references to the parent and add current message just to
         # have a fallback in case replies mess with Messsage-Id in the In-Reply-To (e.g. amazon
-        # SES SMTP may replace Message-Id and In-Reply-To refers an internal ID not stored in Dosyt)
+        # SES SMTP may replace Message-Id and In-Reply-To refers an internal ID not stored in etwork)
         message_sudo = message.sudo()
         if message_sudo.parent_id:
             references = f'{message_sudo.parent_id.message_id} {message_sudo.message_id}'

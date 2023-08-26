@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2011 Smartmode LTD (<http://www.smartmode.co.uk>).
 
@@ -8,7 +8,7 @@
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the latest UK Dosyt localisation necessary to run Dosyt accounting for UK SME's with:
+This is the latest UK etwork localisation necessary to run etwork accounting for UK SME's with:
 =================================================================================================
     - a CT600-ready chart of accounts
     - VAT100-ready tax structure

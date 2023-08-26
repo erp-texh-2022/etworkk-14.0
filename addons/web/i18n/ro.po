@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -12,7 +12,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -2022,7 +2022,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Dosyt Enterprise!"
+msgid "Get this feature and much more with etwork Enterprise!"
 msgstr "Această opțiune este disponibilă în varianta Enterprise!"
 
 #. module: web
@@ -2620,8 +2620,8 @@ msgstr "Text multilin"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Dosyt.com account"
-msgstr "Contul meu Dosyt.com"
+msgid "My etwork.com account"
+msgstr "Contul meu etwork.com"
 
 #. module: web
 #. openerp-web
@@ -2817,15 +2817,15 @@ msgstr "Obiect:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Dosyt Apps will be available soon"
-msgstr "Aplicațiile Dosyt vor fi disponibile în curând"
+msgid "etwork Apps will be available soon"
+msgstr "Aplicațiile etwork vor fi disponibile în curând"
 
 #. module: web
 #. openerp-web
@@ -2834,36 +2834,36 @@ msgstr "Aplicațiile Dosyt vor fi disponibile în curând"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Client Error"
-msgstr "Eroare Client Dosyt"
+msgid "etwork Client Error"
+msgstr "Eroare Client etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Dosyt Enterprise"
-msgstr "Dosyt Enterprise"
+msgid "etwork Enterprise"
+msgstr "etwork Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Error"
-msgstr "Eroare Dosyt"
+msgid "etwork Error"
+msgstr "Eroare etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Session Expired"
-msgstr "Sesiune Dosyt Expirată"
+msgid "etwork Session Expired"
+msgstr "Sesiune etwork Expirată"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Warning"
-msgstr "Avertisment Dosyt"
+msgid "etwork Warning"
+msgstr "Avertisment etwork"
 
 #. module: web
 #. openerp-web
@@ -3224,8 +3224,8 @@ msgstr "Powered by %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Dosyt</span>"
-msgstr "Oferit de <span>Dosyt</span>"
+msgid "Powered by <span>etwork</span>"
+msgstr "Oferit de <span>etwork</span>"
 
 #. module: web
 #. openerp-web
@@ -4708,10 +4708,10 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Dosyt with at least two workers to print a pdf version of "
+"You need to start etwork with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"Trebuie să începeți Dosyt cu cel puțin doi lucrători pentru a imprima o "
+"Trebuie să începeți etwork cu cel puțin doi lucrători pentru a imprima o "
 "versiune pdf a rapoartelor."
 
 #. module: web
@@ -4731,9 +4731,9 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Dosyt session expired. The current page is about to be refreshed."
+msgid "Your etwork session expired. The current page is about to be refreshed."
 msgstr ""
-"Sesiunea dvs. Dosyt a expirat. Pagina curentă este pe cale să fie "
+"Sesiunea dvs. etwork a expirat. Pagina curentă este pe cale să fie "
 "actualizată."
 
 #. module: web

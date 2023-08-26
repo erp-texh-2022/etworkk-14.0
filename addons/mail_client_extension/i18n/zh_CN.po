@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mail_client_extension
 # 
@@ -14,7 +14,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -96,5 +96,5 @@ msgstr "将从IAP检索到的其他信息存储在JSON中"
 
 #. module: mail_client_extension
 #: model_terms:ir.ui.view,arch_db:mail_client_extension.app_auth
-msgid "access your Dosyt database?"
-msgstr "是否访问您的 Dosyt 数据库?"
+msgid "access your etwork database?"
+msgstr "是否访问您的 etwork 数据库?"

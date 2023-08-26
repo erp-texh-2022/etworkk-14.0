@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* base_setup
 # 
@@ -18,7 +18,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -395,8 +395,8 @@ msgstr "Externe E-Mail-Server"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Extract and analyze Dosyt data from Google Spreadsheet"
-msgstr "Extrahieren und analysieren Sie Dosyt-Daten über Google Tabellen"
+msgid "Extract and analyze etwork data from Google Spreadsheet"
+msgstr "Extrahieren und analysieren Sie etwork-Daten über Google Tabellen"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -593,15 +593,15 @@ msgstr "OAuth-Authentifizierung"
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: base_setup
 #. openerp-web
 #: code:addons/base_setup/static/src/xml/res_config_edition.xml:0
 #, python-format
-msgid "Dosyt S.A."
-msgstr "Dosyt S.A."
+msgid "etwork S.A."
+msgstr "etwork S.A."
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
@@ -722,8 +722,8 @@ msgstr "Verwenden Sie externe Authentifizierungsanbieter (OAuth)"
 
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
-msgid "Use external pads in Dosyt Notes"
-msgstr "Verwenden Sie externe Pads in Dosyt Notes"
+msgid "Use external pads in etwork Notes"
+msgstr "Verwenden Sie externe Pads in etwork Notes"
 
 #. module: base_setup
 #. openerp-web
@@ -737,11 +737,11 @@ msgstr "Benutzer"
 #. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid ""
-"When populating your address book, Dosyt provides a list of matching "
+"When populating your address book, etwork provides a list of matching "
 "companies. When selecting one item, the company data and logo are auto-"
 "filled."
 msgstr ""
-"Beim Auffüllen Ihres Adressbuchs stellt Dosyt eine Liste passender "
+"Beim Auffüllen Ihres Adressbuchs stellt etwork eine Liste passender "
 "Unternehmen zur Verfügung. Bei der Auswahl eines Artikels werden die "
 "Firmendaten und das Logo automatisch ausgefüllt."
 

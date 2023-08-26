@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import logging
 from contextlib import contextmanager
@@ -22,9 +22,9 @@ _logger = logging.getLogger(__name__)
 MAX_RECURRENT_EVENT = 720
 
 # API requests are sent to Microsoft Calendar after the current transaction ends.
-# This ensures changes are sent to Microsoft only if they really happened in the Dosyt database.
+# This ensures changes are sent to Microsoft only if they really happened in the etwork database.
 # It is particularly important for event creation , otherwise the event might be created
-# twice in Microsoft if the first creation crashed in Dosyt.
+# twice in Microsoft if the first creation crashed in etwork.
 def after_commit(func):
     @wraps(func)
     def wrapped(self, *args, **kwargs):
@@ -285,7 +285,7 @@ class MicrosoftSync(models.AbstractModel):
 
     def _update_microsoft_recurrence(self, recurrence, events):
         """
-        Update Dosyt events from Outlook recurrence and events.
+        Update etwork events from Outlook recurrence and events.
         """
         # get the list of events to update ...
         events_to_update = events.filter(lambda e: e.seriesMasterId == self.ms_organizer_event_id)
@@ -325,7 +325,7 @@ class MicrosoftSync(models.AbstractModel):
     @api.model
     def _sync_microsoft2etwork(self, microsoft_events: MicrosoftEvent):
         """
-        Synchronize Microsoft recurrences in Dosyt.
+        Synchronize Microsoft recurrences in etwork.
         Creates new recurrences, updates existing ones.
         :return: synchronized etwork
         """
@@ -394,7 +394,7 @@ class MicrosoftSync(models.AbstractModel):
     @after_commit
     def _microsoft_delete(self, user_id, event_id, timeout=TIMEOUT):
         """
-        Once the event has been really removed from the Dosyt database, remove it from the Outlook calendar.
+        Once the event has been really removed from the etwork database, remove it from the Outlook calendar.
 
         Note that all self attributes to use in this method must be provided as method parameters because
         'self' won't exist when this method will be really called due to @after_commit decorator.
@@ -407,7 +407,7 @@ class MicrosoftSync(models.AbstractModel):
     @after_commit
     def _microsoft_patch(self, user_id, event_id, values, timeout=TIMEOUT):
         """
-        Once the event has been really modified in the Dosyt database, modify it in the Outlook calendar.
+        Once the event has been really modified in the etwork database, modify it in the Outlook calendar.
 
         Note that all self attributes to use in this method must be provided as method parameters because
         'self' may have been modified between the call of '_microsoft_patch' and its execution,
@@ -425,7 +425,7 @@ class MicrosoftSync(models.AbstractModel):
     @after_commit
     def _microsoft_insert(self, values, timeout=TIMEOUT):
         """
-        Once the event has been really added in the Dosyt database, add it in the Outlook calendar.
+        Once the event has been really added in the etwork database, add it in the Outlook calendar.
 
         Note that all self attributes to use in this method must be provided as method parameters because
         'self' may have been modified between the call of '_microsoft_insert' and its execution,
@@ -460,7 +460,7 @@ class MicrosoftSync(models.AbstractModel):
 
     def _get_microsoft_records_to_sync(self, full_sync=False):
         """
-        Return records that should be synced from Dosyt to Microsoft
+        Return records that should be synced from etwork to Microsoft
         :param full_sync: If True, all events attended by the user are returned
         :return: events
         """
@@ -479,9 +479,9 @@ class MicrosoftSync(models.AbstractModel):
         self, microsoft_event: MicrosoftEvent, default_reminders=(), default_values=None, with_ids=False
     ):
         """
-        Implements this method to return a dict of Dosyt values corresponding
+        Implements this method to return a dict of etwork values corresponding
         to the Microsoft event given as parameter
-        :return: dict of Dosyt formatted values
+        :return: dict of etwork formatted values
         """
         raise NotImplementedError()
 

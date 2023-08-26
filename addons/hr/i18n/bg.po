@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* hr
 # 
@@ -15,7 +15,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-17 10:35+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -1802,22 +1802,22 @@ msgstr "Брой непрочетени съобщения"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
 msgid ""
-"Dosyt's department structure is used to manage all documents\n"
+"etwork's department structure is used to manage all documents\n"
 "                    related to employees by departments: expenses, timesheets,\n"
 "                    leaves, recruitments, etc."
 msgstr ""
-"Структурата по отдели на Dosyt се използва за управление\n"
+"Структурата по отдели на etwork се използва за управление\n"
 "на всички документи, свързани със служителите по отдели:\n"
 "разходи, разписания, отпуски, набиране и др."
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
 msgid ""
-"Dosyt's department structure is used to manage all documents\n"
+"etwork's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                time off, recruitments, etc."
 msgstr ""
-"Структурата по отдели на Dosyt се използва за управление\n"
+"Структурата по отдели на etwork се използва за управление\n"
 "на всички документи, свързани със служителите по отдели:\n"
 "разходи, разписания, отпуски, набиране и др."
 
@@ -2615,22 +2615,22 @@ msgstr "Вдовец"
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 msgid ""
-"With just a quick glance on the Dosyt employee screen, you\n"
+"With just a quick glance on the etwork employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Само с един бърз поглед към екрана на служителите в Dosyt,\n"
+"Само с един бърз поглед към екрана на служителите в etwork,\n"
 "                можете лесно да откриете цялата необходима информация за всяко лице;\n"
 "                данни за контакт, работна позиция, наличност т.н."
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Dosyt employee screen, you\n"
+"With just a quick glance on the etwork employee screen, you\n"
 "               can easily find all the information you need for each person;\n"
 "               contact data, job position, availability, etc."
 msgstr ""
-"Само с един бърз поглед върху екрана на служителите на Dosyt,\n"
+"Само с един бърз поглед върху екрана на служителите на etwork,\n"
 "можете лесно да намери цялата информация, от която се нуждаете\n"
 "за всеки човек; данни за контакт, длъжност, наличност и т.н."
 

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* sale
 # 
@@ -31,7 +31,7 @@
 # Nicolas Bayet <nicolas.bayet@gmail.com>, 2020
 # Olivier ANDRE <frsw194@gmail.com>, 2020
 # Mohamed BENKIRANE <benkirane.med.ali@gmail.com>, 2020
-# gdp Dosyt <gdp@etwork.com>, 2020
+# gdp etwork <gdp@etwork.com>, 2020
 # Vincent Luba <vincent@biz-4-africa.com>, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
 # Fernanda Marques <fem@etwork.com>, 2020
@@ -50,7 +50,7 @@
 # edc <edc@etwork.com>, 2020
 # Martin Trigaux, 2020
 # Nancy Bolognesi <nb@microcom.ca>, 2020
-# Priscilla (prs) Dosyt <prs@etwork.com>, 2020
+# Priscilla (prs) etwork <prs@etwork.com>, 2020
 # Arnaud Willem <contact@arnaud-willem.eu>, 2020
 # Jonathan Quique <jqu@etwork.com>, 2020
 # Christophe Ricevuto <cri@nalios.be>, 2021
@@ -68,7 +68,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-09 15:44+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -1109,10 +1109,10 @@ msgstr ""
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_orders_upselling
 msgid ""
-"As an example, if you sell pre-paid hours of services, Dosyt recommends you\n"
+"As an example, if you sell pre-paid hours of services, etwork recommends you\n"
 "                to sell extra hours when all ordered hours have been consumed."
 msgstr ""
-"Par exemple, si vous vendez des heures pré-payées, Dosyt recommande de\n"
+"Par exemple, si vous vendez des heures pré-payées, etwork recommande de\n"
 "                vendre les heures supplémentaires quand toutes les heures commandées ont été réalisées."
 
 #. module: sale

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -40,7 +40,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-09 16:49+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
@@ -2180,7 +2180,7 @@ msgstr "المُعرف"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Dosyt Point Of Sale"
+msgid "IMPORTANT: Bug Report From etwork Point Of Sale"
 msgstr "مهم: تقرير خطأ من نقطة البيع بأودو"
 
 #. module: point_of_sale
@@ -2917,7 +2917,7 @@ msgstr "عدد الرسائل الجديدة"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Dosyt Logo"
+msgid "etwork Logo"
 msgstr "شعار أودو"
 
 #. module: point_of_sale
@@ -5304,7 +5304,7 @@ msgstr "يستخدم هذا المنتج كمرجع في فواتير العمي
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Dosyt but you can change it to "
+"This sequence is automatically created by etwork but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
 "يتم إنشاء هذا التسلسل تلقائيًا من قبل أودو ولكن يمكنك تغييره لتخصيص أرقام "
@@ -5313,7 +5313,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Dosyt but you can change it to "
+"This sequence is automatically created by etwork but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
 "يتم إنشاء هذا التسلسل تلقائيًا من قبل أودو ولكن يمكنك تغييره لتخصيص أرقام "

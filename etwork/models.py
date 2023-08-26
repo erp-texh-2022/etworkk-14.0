@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 
 """
@@ -252,9 +252,9 @@ VALID_AGGREGATE_FUNCTIONS = {
 
 
 class BaseModel(MetaModel('DummyModel', (object,), {'_register': False})):
-    """Base class for Dosyt models.
+    """Base class for etwork models.
 
-    Dosyt models are created by inheriting one of the following:
+    etwork models are created by inheriting one of the following:
 
     *   :class:`Model` for regular database-persisted models
 
@@ -6448,9 +6448,9 @@ class RecordCache(MutableMapping):
 AbstractModel = BaseModel
 
 class Model(AbstractModel):
-    """ Main super-class for regular database-persisted Dosyt models.
+    """ Main super-class for regular database-persisted etwork models.
 
-    Dosyt models are created by inheriting from this class::
+    etwork models are created by inheriting from this class::
 
         class user(Model):
             ...

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -6,12 +6,12 @@
 # Martin Trigaux, 2020
 # 李振維, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2022
-# Wil Dosyt, 2023
+# Wil etwork, 2023
 # Tony Ng, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -1996,8 +1996,8 @@ msgstr "紫紅色"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Dosyt Enterprise!"
-msgstr "通過Dosyt企業版獲得該功能及其他更多！"
+msgid "Get this feature and much more with etwork Enterprise!"
+msgstr "通過etwork企業版獲得該功能及其他更多！"
 
 #. module: web
 #. openerp-web
@@ -2586,8 +2586,8 @@ msgstr "多行文本"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Dosyt.com account"
-msgstr "我的 Dosyt.com 帳戶"
+msgid "My etwork.com account"
+msgstr "我的 etwork.com 帳戶"
 
 #. module: web
 #. openerp-web
@@ -2781,15 +2781,15 @@ msgstr "模型:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Dosyt Apps will be available soon"
-msgstr "Dosyt Apps 將即刻可用"
+msgid "etwork Apps will be available soon"
+msgstr "etwork Apps 將即刻可用"
 
 #. module: web
 #. openerp-web
@@ -2798,36 +2798,36 @@ msgstr "Dosyt Apps 將即刻可用"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Client Error"
-msgstr "Dosyt客戶端錯誤"
+msgid "etwork Client Error"
+msgstr "etwork客戶端錯誤"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Dosyt Enterprise"
-msgstr "Dosyt 企業版"
+msgid "etwork Enterprise"
+msgstr "etwork 企業版"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Error"
-msgstr "Dosyt錯誤"
+msgid "etwork Error"
+msgstr "etwork錯誤"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Session Expired"
+msgid "etwork Session Expired"
 msgstr "操作時段過期"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Warning"
-msgstr "Dosyt警告"
+msgid "etwork Warning"
+msgstr "etwork警告"
 
 #. module: web
 #. openerp-web
@@ -3178,8 +3178,8 @@ msgstr "源自 %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Dosyt</span>"
-msgstr "由<span>Dosyt</span>提供支援"
+msgid "Powered by <span>etwork</span>"
+msgstr "由<span>etwork</span>提供支援"
 
 #. module: web
 #. openerp-web
@@ -4640,9 +4640,9 @@ msgstr "您需要在編輯翻譯之前保存此新記錄。是否要繼續？"
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Dosyt with at least two workers to print a pdf version of "
+"You need to start etwork with at least two workers to print a pdf version of "
 "the reports."
-msgstr "您需要至少使用兩個工人來啟動Dosyt以列印報表的pdf版本。"
+msgstr "您需要至少使用兩個工人來啟動etwork以列印報表的pdf版本。"
 
 #. module: web
 #. openerp-web
@@ -4658,8 +4658,8 @@ msgstr "您應該將Wkhtmltopdf的版本至少升級到0.12.0，以便正確顯�
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Dosyt session expired. The current page is about to be refreshed."
-msgstr "你的 Dosyt 操作時段已過期。本頁面即將自動重新載入。"
+msgid "Your etwork session expired. The current page is about to be refreshed."
+msgstr "你的 etwork 操作時段已過期。本頁面即將自動重新載入。"
 
 #. module: web
 #. openerp-web

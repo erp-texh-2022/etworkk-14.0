@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_twitter
 # 
@@ -13,7 +13,7 @@
 # Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2020
 # Eloïse Stilmant <est@etwork.com>, 2020
 # Cécile Collart <cco@etwork.com>, 2020
-# Priscilla (prs) Dosyt <prs@etwork.com>, 2020
+# Priscilla (prs) etwork <prs@etwork.com>, 2020
 # Jonathan Quique <jqu@etwork.com>, 2020
 # Julien Goergen <jgo@etwork.com>, 2020
 # Sébastien BÜHL <buhlsebastien@gmail.com>, 2021
@@ -21,7 +21,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:23+0000\n"
@@ -58,13 +58,13 @@ msgstr "<strong>URL de rappel: </strong>Laisser blanc"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "<strong>Description: </strong> Dosyt Twitter Integration"
-msgstr "<strong>Description: </strong> Intégration Twitter sur Dosyt"
+msgid "<strong>Description: </strong> etwork Twitter Integration"
+msgstr "<strong>Description: </strong> Intégration Twitter sur etwork"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form
-msgid "<strong>Name: </strong> Dosyt Twitter Integration"
-msgstr "<strong>Nom: </strong> Intégration Twitter Dosyt"
+msgid "<strong>Name: </strong> etwork Twitter Integration"
+msgstr "<strong>Nom: </strong> Intégration Twitter etwork"
 
 #. module: website_twitter
 #: model_terms:ir.ui.view,arch_db:website_twitter.res_config_settings_view_form

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 import stdnum
 from etwork import _, api, fields, models
 from etwork.exceptions import UserError, ValidationError

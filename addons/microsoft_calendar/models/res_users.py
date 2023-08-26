@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import logging
 import requests
@@ -88,10 +88,10 @@ class User(models.Model):
                 full_sync = True
         self.microsoft_calendar_sync_token = next_sync_token
 
-        # Microsoft -> Dosyt
+        # Microsoft -> etwork
         synced_events, synced_recurrences = self.env['calendar.event']._sync_microsoft2etwork(events) if events else (self.env['calendar.event'], self.env['calendar.recurrence'])
 
-        # Dosyt -> Microsoft
+        # etwork -> Microsoft
         recurrences = self.env['calendar.recurrence']._get_microsoft_records_to_sync(full_sync=full_sync)
         recurrences -= synced_recurrences
         recurrences._sync_etwork2microsoft()

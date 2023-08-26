@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 """
 OpenERP - Server
@@ -56,7 +56,7 @@ def report_configuration():
     This function assumes the configuration has been initialized.
     """
     config = etwork.tools.config
-    _logger.info("Dosyt version %s", __version__)
+    _logger.info("etwork version %s", __version__)
     if os.path.isfile(config.rcfile):
         _logger.info("Using configuration file at " + config.rcfile)
     _logger.info('addons paths: %s', etwork.addons.__path__)

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -15,7 +15,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:15+0000\n"
 "PO-Revision-Date: 2020-09-07 08:09+0000\n"
@@ -4286,9 +4286,9 @@ msgstr "날짜 모드"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Dosyt. It is the date of the "
+"Date from which the accounting is managed in etwork. It is the date of the "
 "opening entry."
-msgstr "Dosyt에서 회계를 관리하기 시작한 날짜입니다. 개시된 항목의 날짜입니다."
+msgstr "etwork에서 회계를 관리하기 시작한 날짜입니다. 개시된 항목의 날짜입니다."
 
 #. module: account
 #. openerp-web
@@ -7416,39 +7416,39 @@ msgstr "수동"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"수동: Dosyt 외에서 현금, 수표 또는 기타 다른 방식으로 지급받습니다.\n"
+"수동: etwork 외에서 현금, 수표 또는 기타 다른 방식으로 지급받습니다.\n"
 "자동: 온라인에서 매입/구독할 때 고객이 저장한 카드에 대해 거래를 요청한 후 결제를 통해 자동으로 지급받습니다(결제 토큰).\n"
-"일괄 예금: 은행에 예치할 일괄 예금을 생성하여 여러 고객의 전표를 한 번에 묶습니다. Dosyt에서 예금거래 명세서를 인코딩할 때는 일괄 예금으로 거래를 조정하는 것이 좋습니다. 이 옵션은 설정에서 활성화합니다."
+"일괄 예금: 은행에 예치할 일괄 예금을 생성하여 여러 고객의 전표를 한 번에 묶습니다. etwork에서 예금거래 명세서를 인코딩할 때는 일괄 예금으로 거래를 조정하는 것이 좋습니다. 이 옵션은 설정에서 활성화합니다."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Dosyt.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
+"Check: Pay bill by check and print it from etwork.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
-"수동 : Dosyt 외에서 현금, 수표 또는 기타 다른 방식으로 지급받습니다.\n"
+"수동 : etwork 외에서 현금, 수표 또는 기타 다른 방식으로 지급받습니다.\n"
 "자동 : 온라인에서 매입/구독할 때 고객이 저장한 카드에 대해 거래를 요청한 후 결제를 통해 자동으로 지급받습니다(결제 토큰).\n"
-"전표 : 전표로 청구 대금을 지불하고 Dosyt에서 인쇄합니다.\n"
-"일괄 예금 : 은행에 예치할 일괄 예금을 생성하여 여러 고객의 전표를 한 번에 묶습니다. Dosyt에서 예금거래 명세서를 인코딩할 때는 일괄 예금으로 거래를 조정하는 것이 좋습니다. 일괄 예금을 활성화하려면 account_batch_deposit 모듈을 설치해야 합니다.\n"
+"전표 : 전표로 청구 대금을 지불하고 etwork에서 인쇄합니다.\n"
+"일괄 예금 : 은행에 예치할 일괄 예금을 생성하여 여러 고객의 전표를 한 번에 묶습니다. etwork에서 예금거래 명세서를 인코딩할 때는 일괄 예금으로 거래를 조정하는 것이 좋습니다. 일괄 예금을 활성화하려면 account_batch_deposit 모듈을 설치해야 합니다.\n"
 "SEPA 계좌 이체 : 은행에 제출한 SEPA 계좌 이체 파일에서 청구 금액을 지불합니다. SEPA 계좌 이체를 활성화하려면 account_sepa 모듈을 설치해야 합니다."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Dosyt.\n"
-"Check:Pay bill by check and print it from Dosyt.\n"
+"Manual:Pay bill by cash or any other method outside of etwork.\n"
+"Check:Pay bill by check and print it from etwork.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"수동: Dosyt 외에 현금이나 다른 방법으로 청구 금액을 지불합니다.\n"
-"전표: 전표로 청구 금액을 지불하고 Dosyt에서 인쇄합니다.\n"
+"수동: etwork 외에 현금이나 다른 방법으로 청구 금액을 지불합니다.\n"
+"전표: 전표로 청구 금액을 지불하고 etwork에서 인쇄합니다.\n"
 "SEPA 신용 이전: 은행에 제출한 SEPA 신용 이전 파일에서 청구 금액을 지불합니다. 이 옵션은 설정에서 활성화합니다."
 
 #. module: account
@@ -8096,34 +8096,34 @@ msgstr "10월"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__etwork
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Dosyt allows you to reconcile a statement line directly with\n"
+"etwork allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoice(s)."
 msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Dosyt allows you to reconcile a statement line directly with\n"
+"etwork allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
-"Dosyt를 사용하시면 명세서 항목을 해당 판매나 구매 청구서와\n"
+"etwork를 사용하시면 명세서 항목을 해당 판매나 구매 청구서와\n"
 "                 직접 조정하실 수 있습니다."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Dosyt helps you easily track all activities related to a customer."
-msgstr "Dosyt는 고객과 관련된 모든 활동을 쉽게 추적하도록 도와줍니다."
+msgid "etwork helps you easily track all activities related to a customer."
+msgstr "etwork는 고객과 관련된 모든 활동을 쉽게 추적하도록 도와줍니다."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Dosyt helps you easily track all activities related to a supplier."
-msgstr "Dosyt는 공급업체와 관련된 모든 활동을 쉽게 추적할 수 있도록 도와줍니다."
+msgid "etwork helps you easily track all activities related to a supplier."
+msgstr "etwork는 공급업체와 관련된 모든 활동을 쉽게 추적할 수 있도록 도와줍니다."
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account_type__internal_group__off_balance
@@ -8173,7 +8173,7 @@ msgid ""
 "Once installed, set 'Bank Feeds' to 'File Import' in bank account "
 "settings.This adds a button to import from the Accounting dashboard."
 msgstr ""
-"Dosyt를 설치하면 은행 계좌 설정에서 ‘은행 피드’를 ‘파일 가져오기’로 설정합니다. 회계 현황판에서 가져오는 버튼이 추가됩니다."
+"etwork를 설치하면 은행 계좌 설정에서 ‘은행 피드’를 ‘파일 가져오기’로 설정합니다. 회계 현황판에서 가져오는 버튼이 추가됩니다."
 
 #. module: account
 #. openerp-web
@@ -10364,13 +10364,13 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Dosyt"
+"Only PDF and XML files will be interpreted by etwork"
 msgstr ""
 "각각의 청구서별 이메일을 따로 전송합니다.\n"
 "\n"
 "모든 파일 확장이 허용됩니다.\n"
 "\n"
-"PDF와 XML파일이 Dosyt에서 허용됩니다. "
+"PDF와 XML파일이 etwork에서 허용됩니다. "
 
 #. module: account
 #: model:ir.actions.act_window,name:account.account_send_payment_receipt_by_email_action
@@ -12824,9 +12824,9 @@ msgstr "이 이동 항목은 회계 일자 기준으로 발행됩니다: %(date)
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Dosyt database."
+"storage space of your etwork database."
 msgstr ""
-"Dosyt 데이터베이스 저장 공간 확보를 위하여, 이 옵션을 통해 설정에 있는 기술 메뉴에서 발신된 것을 포함하여 보낸 메일 기록 전체를 "
+"etwork 데이터베이스 저장 공간 확보를 위하여, 이 옵션을 통해 설정에 있는 기술 메뉴에서 발신된 것을 포함하여 보낸 메일 기록 전체를 "
 "영구적으로 삭제합니다."
 
 #. module: account
@@ -13700,7 +13700,7 @@ msgstr "통화 포함"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
-msgid "With Dosyt, you won't have to records bills manually"
+msgid "With etwork, you won't have to records bills manually"
 msgstr ""
 
 #. module: account
@@ -13744,8 +13744,8 @@ msgstr "이 상자에 표시하면 이 분개 항목을 관련 협력사와의 �
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Dosyt reference."
-msgstr "참조 유형마다 다른 모델을 선택할 수 있습니다. 기본 설정은 Dosyt 참조입니다."
+"is the etwork reference."
+msgstr "참조 유형마다 다른 모델을 선택할 수 있습니다. 기본 설정은 etwork 참조입니다."
 
 #. module: account
 #: code:addons/account/models/account_journal.py:0

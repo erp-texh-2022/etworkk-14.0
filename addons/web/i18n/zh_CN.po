@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -44,7 +44,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -428,7 +428,7 @@ msgstr "必须为你收藏的筛选输入一个名称。"
 msgid ""
 "A popup window has been blocked. You may need to change your browser "
 "settings to allow popup windows for this page."
-msgstr "Dosyt的弹出窗口已被浏览器阻止弹出。您需要更改浏览器的设置选项以便允许本页的弹出窗口。"
+msgstr "etwork的弹出窗口已被浏览器阻止弹出。您需要更改浏览器的设置选项以便允许本页的弹出窗口。"
 
 #. module: web
 #. openerp-web
@@ -2030,8 +2030,8 @@ msgstr "紫紅色"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Dosyt Enterprise!"
-msgstr "通过Dosyt企业版获得该功能及其他更多！"
+msgid "Get this feature and much more with etwork Enterprise!"
+msgstr "通过etwork企业版获得该功能及其他更多！"
 
 #. module: web
 #. openerp-web
@@ -2620,8 +2620,8 @@ msgstr "多行文字"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Dosyt.com account"
-msgstr "Dosyt.com账户"
+msgid "My etwork.com account"
+msgstr "etwork.com账户"
 
 #. module: web
 #. openerp-web
@@ -2815,15 +2815,15 @@ msgstr "对象:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Dosyt Apps will be available soon"
-msgstr "Dosyt Apps 将马上可用"
+msgid "etwork Apps will be available soon"
+msgstr "etwork Apps 将马上可用"
 
 #. module: web
 #. openerp-web
@@ -2832,36 +2832,36 @@ msgstr "Dosyt Apps 将马上可用"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Client Error"
-msgstr "Dosyt客户端错误"
+msgid "etwork Client Error"
+msgstr "etwork客户端错误"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Dosyt Enterprise"
-msgstr "Dosyt 企业版"
+msgid "etwork Enterprise"
+msgstr "etwork 企业版"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Error"
-msgstr "Dosyt错误"
+msgid "etwork Error"
+msgstr "etwork错误"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Session Expired"
-msgstr "Dosyt会话过期"
+msgid "etwork Session Expired"
+msgstr "etwork会话过期"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Warning"
-msgstr "Dosyt警告"
+msgid "etwork Warning"
+msgstr "etwork警告"
 
 #. module: web
 #. openerp-web
@@ -3214,8 +3214,8 @@ msgstr " %s%s 强力支持"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Dosyt</span>"
-msgstr "由<span>Dosyt</span>提供支持"
+msgid "Powered by <span>etwork</span>"
+msgstr "由<span>etwork</span>提供支持"
 
 #. module: web
 #. openerp-web
@@ -4674,9 +4674,9 @@ msgstr "您需要在编辑翻译之前保存此新记录，您要继续吗？"
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Dosyt with at least two workers to print a pdf version of "
+"You need to start etwork with at least two workers to print a pdf version of "
 "the reports."
-msgstr "你需要至少使用两个工人来启动Dosyt以打印报表的pdf版本。"
+msgstr "你需要至少使用两个工人来启动etwork以打印报表的pdf版本。"
 
 #. module: web
 #. openerp-web
@@ -4692,8 +4692,8 @@ msgstr "您应该将Wkhtmltopdf的版本至少升级到0.12.0，以便正确显�
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Dosyt session expired. The current page is about to be refreshed."
-msgstr "你的Dosyt会话已过期。当前页面即将被刷新。"
+msgid "Your etwork session expired. The current page is about to be refreshed."
+msgstr "你的etwork会话已过期。当前页面即将被刷新。"
 
 #. module: web
 #. openerp-web

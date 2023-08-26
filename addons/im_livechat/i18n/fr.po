@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* im_livechat
 # 
@@ -7,7 +7,7 @@
 # Florian Hatat, 2020
 # Nicolas Roussey <nro@etwork.com>, 2020
 # Aurélien Pillevesse <aurelienpillevesse@hotmail.fr>, 2020
-# gdp Dosyt <gdp@etwork.com>, 2020
+# gdp etwork <gdp@etwork.com>, 2020
 # Celia Tydgat <cty@etwork.com>, 2020
 # guillaume bauer <guillaume.bauer@syentys.fr>, 2020
 # Christophe CHAUVET <christophe.chauvet@gmail.com>, 2020
@@ -17,7 +17,7 @@
 # Eloïse Stilmant <est@etwork.com>, 2020
 # Nathan Grognet <ngr@etwork.com>, 2020
 # omaetwork <oma@etwork.com>, 2020
-# Priscilla (prs) Dosyt <prs@etwork.com>, 2020
+# Priscilla (prs) etwork <prs@etwork.com>, 2020
 # Jonathan Quique <jqu@etwork.com>, 2020
 # Vallen Delobel <edv@etwork.com>, 2020
 # Alexandra Jubert, 2021
@@ -26,7 +26,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 15:41+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
@@ -615,11 +615,11 @@ msgstr "Expliquez votre note"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"For websites built with the Dosyt CMS, go to Website &gt; Configuration &gt; "
+"For websites built with the etwork CMS, go to Website &gt; Configuration &gt; "
 "Settings and select the Website Live Chat Channel you want to add to your "
 "website."
 msgstr ""
-"Pour les sites web créés avec le CMS Dosyt, accédez au Site Web &gt; "
+"Pour les sites web créés avec le CMS etwork, accédez au Site Web &gt; "
 "Paramétrage &gt; Paramètres et sélectionnez le canal de LiveChat du site web"
 " que vous souhaitez ajouter."
 
@@ -1052,8 +1052,8 @@ msgstr "OK"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: im_livechat
 #. openerp-web
@@ -1121,11 +1121,11 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"Operators that do not show any activity In Dosyt for more than 30 minutes "
+"Operators that do not show any activity In etwork for more than 30 minutes "
 "will be considered as disconnected."
 msgstr ""
 "Les opérateurs qui ne montrent pas d'activité pendant plus de 30 minutes sur"
-" Dosyt seront considérés comme déconnectés. "
+" etwork seront considérés comme déconnectés. "
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import ast
 import datetime
@@ -138,7 +138,7 @@ class Team(models.Model):
     as a member of one of the Sales Team.
 </p>""")
             if user_team_id:
-                action['help'] += _("<p>As you don't belong to any Sales Team, Dosyt opens the first one by default.</p>")
+                action['help'] += _("<p>As you don't belong to any Sales Team, etwork opens the first one by default.</p>")
 
         action_context = safe_eval(action['context'], {'uid': self.env.uid})
         if user_team_id:

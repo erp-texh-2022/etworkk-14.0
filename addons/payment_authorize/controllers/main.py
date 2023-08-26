@@ -21,11 +21,11 @@ class AuthorizeController(http.Controller):
     def authorize_form_feedback(self, **post):
         """ Process the data returned by Authorize after redirection.
 
-        The route is flagged with `save_session=False` to prevent Dosyt from assigning a new session
+        The route is flagged with `save_session=False` to prevent etwork from assigning a new session
         to the user if they are redirected to this route with a POST request. Indeed, as the session
         cookie is created without a `SameSite` attribute, some browsers that don't implement the
         recommended default `SameSite=Lax` behavior will not include the cookie in the redirection
-        request from the payment provider to Dosyt. As the redirection to the '/payment/status' page
+        request from the payment provider to etwork. As the redirection to the '/payment/status' page
         will satisfy any specification of the `SameSite` attribute, the session of the user will be
         retrieved and with it the transaction which will be immediately post-processed.
         """

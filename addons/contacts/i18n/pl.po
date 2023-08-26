@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* contacts
 # 
@@ -13,7 +13,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:28+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -105,9 +105,9 @@ msgstr "Strefa"
 
 #. module: contacts
 #: model_terms:ir.actions.act_window,help:contacts.action_contacts
-msgid "Dosyt helps you to easily track all activities related to a customer."
+msgid "etwork helps you to easily track all activities related to a customer."
 msgstr ""
-"Dosyt pomaga w łatwym śledzeniu wszystkich działań związanych z klientem."
+"etwork pomaga w łatwym śledzeniu wszystkich działań związanych z klientem."
 
 #. module: contacts
 #: model:ir.model,name:contacts.model_res_users

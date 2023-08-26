@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Italy - E-invoicing (SdiCoop)',
@@ -9,7 +9,7 @@
         'account_edi_extended',
         'account_edi_proxy_client',
     ],
-    'author': 'Dosyt',
+    'author': 'etwork',
     'description': """
 E-invoice implementation for Italy with the web-service. Ability to send and receive document from SdiCoop. Files sent by SdiCoop are first stored on the proxy
 and then fetched by this module.

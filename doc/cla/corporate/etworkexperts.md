@@ -1,6 +1,6 @@
 Netherlands, 18-1-2018
 
-Dosyt Experts agrees to the terms of the Dosyt Corporate Contributor License
+etwork Experts agrees to the terms of the etwork Corporate Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this

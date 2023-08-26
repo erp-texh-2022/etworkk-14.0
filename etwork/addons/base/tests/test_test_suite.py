@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import difflib
 import logging
@@ -10,7 +10,7 @@ from unittest.mock import patch
 
 from etwork.tests.common import TransactionCase
 from etwork.tests.common import users, warmup
-from etwork.tests.runner import DosytTestResult
+from etwork.tests.runner import etworkTestResult
 
 _logger = logging.getLogger(__name__)
 
@@ -21,7 +21,7 @@ class TestTestSuite(TestCase):
     test_sequence = 0
 
     def test_test_suite(self):
-        """ Check that DosytSuite handles unittest.TestCase correctly. """
+        """ Check that etworkSuite handles unittest.TestCase correctly. """
 
 
 class TestRunnerLoggingCommon(TransactionCase):
@@ -69,7 +69,7 @@ class TestRunnerLoggingCommon(TransactionCase):
                 # disable error logging
                 return
 
-            fake_result = DosytTestResult()
+            fake_result = etworkTestResult()
             with patch('logging.Logger.makeRecord', makeRecord), patch('logging.Logger.handle', handle):
                 super()._feedErrorsToResult(fake_result, errors)
 

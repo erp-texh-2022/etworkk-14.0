@@ -1,8 +1,8 @@
-# Dosyt Corporate Contributor License Agreement
-## Dosyt CCLA v1.0
+# etwork Corporate Contributor License Agreement
+## etwork CCLA v1.0
 Based on the Apache Software Foundation Corporate Contributor License Agreement v2.0, with modifications
 
-Thank you for your interest in an Dosyt S.A. (the "Project Leads") open source project. In order to clarify the intellectual property license granted with Contributions from any person or entity, the Dosyt Project Leads must have a Contributor License Agreement (the "Agreement") on file that has been signed by each Contributor, indicating agreement to the license terms below. This license is for your protection as a Contributor as well as the protection of the Project, its users, and the Dosyt Project Leads; it does not change your rights to use your own Contributions for any other purpose. If you have not already done so, please complete, sign and send the Agreement by:
+Thank you for your interest in an etwork S.A. (the "Project Leads") open source project. In order to clarify the intellectual property license granted with Contributions from any person or entity, the etwork Project Leads must have a Contributor License Agreement (the "Agreement") on file that has been signed by each Contributor, indicating agreement to the license terms below. This license is for your protection as a Contributor as well as the protection of the Project, its users, and the etwork Project Leads; it does not change your rights to use your own Contributions for any other purpose. If you have not already done so, please complete, sign and send the Agreement by:
 
 * Scanning and emailing to cla-submission@etwork.com
 

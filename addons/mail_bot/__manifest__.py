@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'DosytBot',
+    'name': 'etworkBot',
     'version': '1.2',
     'category': 'Productivity/Discuss',
-    'summary': 'Add DosytBot in discussions',
+    'summary': 'Add etworkBot in discussions',
     'description': "",
     'website': 'https://www.etwork.com/page/discuss',
     'depends': ['mail'],

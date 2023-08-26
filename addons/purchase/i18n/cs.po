@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -18,7 +18,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 13:50+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -2937,12 +2937,12 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Dosyt."
+"                    document in etwork."
 msgstr ""
 "Přijaté faktury lze předem vygenerovat na základě nákupu\n"
 "objednávky nebo potvrzení. To vám umožní kontrolovat účty\n"
 "obdržíte od svého dodavatele podle konceptu\n"
-"dokument v Dosyt."
+"dokument v etwork."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume
@@ -3013,26 +3013,26 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Dosyt will send the vendor an email to ask confirmation of shipment"
+"shipment, etwork will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Při vytváření nákupní objednávky se podívejte na hodnocení <i>včasného "
 "dodání dodavatele</i>: procento produktů dodaných včas. Pokud je příliš "
 "nízká, aktivujte <i>automatické upomínky</i>. Několik dní před termínem "
-"odeslání Dosyt zašle dodavateli e-mail s žádostí o potvrzení termínů odeslání"
+"odeslání etwork zašle dodavateli e-mail s žádostí o potvrzení termínů odeslání"
 " a bude vás informovat v případě zpoždění. Chcete-li získat statistiku "
 "výkonnosti dodavatele, klikněte na ukazatel OTD."
 
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Dosyt asks the vendor to acknowledge "
+"When sending a purchase order by email, etwork asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Při odesílání nákupní objednávky e-mailem Dosyt požádá prodejce, aby potvrdil"
+"Při odesílání nákupní objednávky e-mailem etwork požádá prodejce, aby potvrdil"
 " přijetí objednávky. Když prodejce potvrdí objednávku kliknutím na tlačítko "
 "v e-mailu, informace se přidá k objednávce. Pomocí filtrů můžete sledovat "
 "objednávky, které nebyly potvrzeny."

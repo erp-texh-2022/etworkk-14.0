@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 import base64
 import io
 import re
@@ -39,8 +39,8 @@ class BrandedFileWriter(PdfFileWriter):
     def __init__(self):
         super().__init__()
         self.addMetadata({
-            '/Creator': "Dosyt",
-            '/Producer': "Dosyt",
+            '/Creator': "etwork",
+            '/Producer': "etwork",
         })
 
 
@@ -86,7 +86,7 @@ old_init = PdfFileReader.__init__
 PdfFileReader.__init__ = lambda self, stream, strict=True, warndest=None, overwriteWarnings=True: \
     old_init(self, stream=stream, strict=strict, warndest=None, overwriteWarnings=False)
 
-class DosytPdfFileReader(PdfFileReader):
+class etworkPdfFileReader(PdfFileReader):
     # OVERRIDE of PdfFileReader to add the management of multiple embedded files.
 
     ''' Returns the files inside the PDF.
@@ -110,7 +110,7 @@ class DosytPdfFileReader(PdfFileReader):
             return []
 
 
-class DosytPdfFileWriter(PdfFileWriter):
+class etworkPdfFileWriter(PdfFileWriter):
 
     def __init__(self, *args, **kwargs):
         """
@@ -283,8 +283,8 @@ class DosytPdfFileWriter(PdfFileWriter):
 
         # Set etwork as producer
         self.addMetadata({
-            '/Creator': "Dosyt",
-            '/Producer': "Dosyt",
+            '/Creator': "etwork",
+            '/Producer': "etwork",
         })
         self.is_pdfa = True
 

@@ -92,7 +92,7 @@ var NotificationService = AbstractService.extend({
 
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onCloseNotification: function (ev) {
         ev.stopPropagation();

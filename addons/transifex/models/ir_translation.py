@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from configparser import ConfigParser
 from os.path import join as opj
@@ -14,7 +14,7 @@ class IrTranslation(models.Model):
 
     _inherit = 'ir.translation'
 
-    transifex_url = fields.Char("Transifex URL", compute='_get_transifex_url', help="Propose a modification in the official version of Dosyt")
+    transifex_url = fields.Char("Transifex URL", compute='_get_transifex_url', help="Propose a modification in the official version of etwork")
 
     def _get_transifex_url(self):
         """ Construct transifex URL based on the module on configuration """

@@ -148,7 +148,7 @@ options.registry.facebookPage = options.Class.extend({
      * @private
      */
     _checkURL: function () {
-        const defaultURL = 'https://www.facebook.com/Dosyt';
+        const defaultURL = 'https://www.facebook.com/etwork';
         // Patterns matched by the regex (all relate to existing pages,
         // in spite of the URLs containing "profile.php" or "people"):
         // - https://www.facebook.com/<pagewithaname>

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* event
 # 
@@ -25,7 +25,7 @@
 # Xavier Symons <xsy@etwork.com>, 2020
 # Eloïse Stilmant <est@etwork.com>, 2020
 # Olivier ANDRE <frsw194@gmail.com>, 2020
-# Priscilla (prs) Dosyt <prs@etwork.com>, 2020
+# Priscilla (prs) etwork <prs@etwork.com>, 2020
 # Pauline Thiry <pth@etwork.com>, 2020
 # Julien Goergen <jgo@etwork.com>, 2020
 # Arnaud Willem <contact@arnaud-willem.eu>, 2020
@@ -45,7 +45,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -120,10 +120,10 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
-"<b>Technical Rooms</b> - One dedicated to advanced Dosyt developers, one for "
+"<b>Technical Rooms</b> - One dedicated to advanced etwork developers, one for "
 "new developers."
 msgstr ""
-"<b>Salles techniques</b> - une dédiée aux développeurs Dosyt avancés, une aux"
+"<b>Salles techniques</b> - une dédiée aux développeurs etwork avancés, une aux"
 " nouveaux développeurs."
 
 #. module: event
@@ -1338,12 +1338,12 @@ msgid ""
 "At just 13 years old, John DOE was already starting to develop his first "
 "business applications for customers. After mastering civil engineering, he "
 "founded TinyERP. This was the first phase of OpenERP which would later "
-"became Dosyt, the most installed open-source business software worldwide."
+"became etwork, the most installed open-source business software worldwide."
 msgstr ""
 "À seulement 13 ans, John DOE commençait déjà à développer ses premières "
 "applications commerciales pour des clients. Après une maîtrise en génie "
 "civil, il a fondé TinyERP. Ce fut la première phase d'OpenERP qui deviendra "
-"plus tard Dosyt, le logiciel d'entreprise open source le plus installé au "
+"plus tard etwork, le logiciel d'entreprise open source le plus installé au "
 "monde."
 
 #. module: event

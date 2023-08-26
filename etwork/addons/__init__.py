@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 """ Addons module.
 
-This module serves to contain all Dosyt addons, across all configured addons
+This module serves to contain all etwork addons, across all configured addons
 paths. For the code to manage those addons, see etwork.modules.
 
 Addons are made available under `etwork.addons` after

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Belgium - Accounting',
     'version': '2.0',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the base module to manage the accounting chart for Belgium in Dosyt.
+This is the base module to manage the accounting chart for Belgium in etwork.
 ==============================================================================
 
 After installing this module, the Configuration wizard for accounting is launched.
@@ -34,7 +34,7 @@ Wizards provided by this module:
         **Path to access :** Invoicing/Reporting/Legal Reports/Belgium Statements/Annual Listing Of VAT-Subjected Customers
 
     """,
-    'author': 'Noviat, Dosyt SA',
+    'author': 'Noviat, etwork SA',
     'depends': [
         'account',
         'base_iban',

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* google_drive
 # 
@@ -13,7 +13,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -29,14 +29,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:google_drive.view_google_drive_config_form
 msgid ""
 "<b>To create a new filter:</b><br/>\n"
-"                                - Go to the Dosyt document you want to filter. For instance, go to Opportunities and search on Sales Department.<br/>\n"
+"                                - Go to the etwork document you want to filter. For instance, go to Opportunities and search on Sales Department.<br/>\n"
 "                                - In this \"Search\" view, select the option \"Save Current Filter\", enter the name (Ex: Sales Department)<br/>\n"
 "                                - If you select \"Share with all users\", link of google document in \"More\" options will appear for all users in opportunities of Sales Department.<br/>\n"
 "                                - If you don't select \"Share with all users\", link of google document in \"More\" options will not appear for other users in opportunities of Sales Department.<br/>\n"
 "                                - If filter is not specified, link of google document will appear in \"More\" option for all users for all opportunities."
 msgstr ""
 "<b>Norėdami sukurti naują filtrą: </b><br/>\n"
-"- Eikite į \"Dosyt\" dokumentą, kurį norite filtruoti. Pavyzdžiui, eikite į galimybes ir ieškokite pardavimų skyriaus. <br/>\n"
+"- Eikite į \"etwork\" dokumentą, kurį norite filtruoti. Pavyzdžiui, eikite į galimybes ir ieškokite pardavimų skyriaus. <br/>\n"
 "- Šiame paieškos lange, pasirinkite \"Išsaugoti esamą filtrą\", įveskite pavadinimą (pvz., \"Pardavimų skyrius\")<br/>\n"
 "- Jei pasirinksite \"Dalintis su visais vartotojais\", visiems vartotojams prie \"Daugiau\" pasirinkimo pasirodys \"Google\" dokumento nuoroda<br/>\n"
 "- Jei nepasirinksite \"Dalintis su visais vartotojais\", vartotojams dokumento nuoroda nepasirodys<br/>\n"
@@ -239,17 +239,17 @@ msgstr "Paskutinį kartą atnaujinta"
 #. module: google_drive
 #: model_terms:ir.actions.act_window,help:google_drive.action_google_drive_users_config
 msgid ""
-"Link your own google drive templates to any record of Dosyt. If you have "
+"Link your own google drive templates to any record of etwork. If you have "
 "really specific documents you want your collaborator fill in, e.g. Use a "
 "spreadsheet to control the quality of your product or review the delivery "
 "checklist for each order in a foreign country, ... Its very easy to manage "
-"them, link them to Dosyt and use them to collaborate with your employees."
+"them, link them to etwork and use them to collaborate with your employees."
 msgstr ""
-"Susiekite savo \"Google drive\" šablonus su bet kuriuo \"Dosyt\" įrašu. Jei "
+"Susiekite savo \"Google drive\" šablonus su bet kuriuo \"etwork\" įrašu. Jei "
 "turite konkretų dokumentą, kurį norite, kad užpildytų kolega, pvz., naudoti "
 "lentelę produkto kokybės kontrolei ar peržiūrėti pristatymą kiekvienam "
 "užsakymui užsienio šalims, juos valdyti labai lengva. Susiekite juos per "
-"\"Dosyt\" ir naudokite bendradarbiavimui su kolegomis."
+"\"etwork\" ir naudokite bendradarbiavimui su kolegomis."
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__model_id
@@ -329,12 +329,12 @@ msgstr "URL, naudojamas gauti patvirtinimo kodą iš \"Google\""
 msgid ""
 "The name of the attached document can use fixed or variable data. To distinguish between documents in\n"
 "                                Google Drive, use fixed words and fields. For instance, in the example above, if you wrote Deco_Addict_%(name)s_Sales\n"
-"                                in the Google Drive name field, the document in your Google Drive and in Dosyt attachment will be named\n"
+"                                in the Google Drive name field, the document in your Google Drive and in etwork attachment will be named\n"
 "                                'Deco_Addict_SO0001_Sales'."
 msgstr ""
 "Prisegto dokumento pavadinimas gali naudoti fiksuotus arba kintamus duomenis. Norėdami atskirti\n"
 "dokumentus \"Google \"Drive\", naudokite fiksuotus žodžius ir laukus. Pavyzdžiui, pavyzdyje viršuje, jei parašėte wrote Deco_Addict_%(name)s_Sales\n"
-"                                \"Google Drive\" pavadinimo lauke, dokumentas jūsų \"Google Drive\" ir \"Dosyt\" prisegtuke bus pavadintas\n"
+"                                \"Google Drive\" pavadinimo lauke, dokumentas jūsų \"Google Drive\" ir \"etwork\" prisegtuke bus pavadintas\n"
 "                                'Deco_Addict_SO0001_Sales'."
 
 #. module: google_drive

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_sale_stock
 # 
@@ -9,12 +9,12 @@
 # Cas Vissers <casvissers@brahoo.nl>, 2020
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2020
 # Melroy van den Berg <webmaster1989@gmail.com>, 2020
-# Dosyt Experts Consultants <consultants@etworkexperts.nl>, 2020
+# etwork Experts Consultants <consultants@etworkexperts.nl>, 2020
 # Erwin van der Ploeg <erwin@etworkexperts.nl>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:22+0000\n"

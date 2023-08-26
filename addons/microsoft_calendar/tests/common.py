@@ -55,7 +55,7 @@ class TestCommon(HttpCase):
             })
 
         # -----------------------------------------------------------------------------------------
-        # To create Dosyt events
+        # To create etwork events
         # -----------------------------------------------------------------------------------------
         self.start_date = datetime(2021, 9, 22, 10, 0, 0, 0)
         self.end_date = datetime(2021, 9, 22, 11, 0, 0, 0)
@@ -65,7 +65,7 @@ class TestCommon(HttpCase):
             days=self.recurrent_event_interval * self.recurrent_events_count
         )
 
-        # simple event values to create a Dosyt event
+        # simple event values to create a etwork event
         self.simple_event_values = {
             "name": "simple_event",
             "description": "my simple event",
@@ -96,7 +96,7 @@ class TestCommon(HttpCase):
         }
 
         # -----------------------------------------------------------------------------------------
-        # Expected values for Dosyt events converted to Outlook events (to be posted through API)
+        # Expected values for etwork events converted to Outlook events (to be posted through API)
         # -----------------------------------------------------------------------------------------
 
         # simple event values converted in the Outlook format to be posted through the API
@@ -230,7 +230,7 @@ class TestCommon(HttpCase):
         self.simple_event_from_outlook_attendee.update(isOrganizer=False)
 
         # -----------------------------------------------------------------------------------------
-        # Expected values for Outlook events converted to Dosyt events
+        # Expected values for Outlook events converted to etwork events
         # -----------------------------------------------------------------------------------------
 
         self.expected_etwork_event_from_outlook = {
@@ -466,7 +466,7 @@ class TestCommon(HttpCase):
 
     def assert_etwork_event(self, etwork_event, expected_values):
         """
-        Assert that an Dosyt event has the same values than in the expected_values dictionary,
+        Assert that an etwork event has the same values than in the expected_values dictionary,
         for the keys present in expected_values.
         """
         self.assertTrue(expected_values)
@@ -483,7 +483,7 @@ class TestCommon(HttpCase):
 
     def assert_etwork_recurrence(self, etwork_recurrence, expected_values):
         """
-        Assert that an Dosyt recurrence has the same values than in the expected_values dictionary,
+        Assert that an etwork recurrence has the same values than in the expected_values dictionary,
         for the keys present in expected_values.
         """
         etwork_recurrence_values = etwork_recurrence.read(list(expected_values.keys()))[0]

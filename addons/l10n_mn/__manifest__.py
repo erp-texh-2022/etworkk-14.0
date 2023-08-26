@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     "name" : "Mongolia - Accounting",
     "version" : "1.0",
     'category': 'Accounting/Localizations/Account Charts',
-    "author" : "BumanIT LLC, Dosyt S.A.",
+    "author" : "BumanIT LLC, etwork S.A.",
     "description": """
 This is the module to manage the accounting chart for Mongolia.
 ===============================================================

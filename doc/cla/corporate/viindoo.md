@@ -1,6 +1,6 @@
 Vietnam, 2020-06-24
 
-Viindoo Technology Joint Stock Company agrees to the terms of the Dosyt Corporate Contributor License
+Viindoo Technology Joint Stock Company agrees to the terms of the etwork Corporate Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this

@@ -91,7 +91,7 @@ $.fn.extend({
         return o;
     },
     /**
-     * Makes DOM elements bounce the way Dosyt decided it.
+     * Makes DOM elements bounce the way etwork decided it.
      *
      * @param {string} [extraClass]
      */

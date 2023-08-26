@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
@@ -13,7 +13,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:15+0000\n"
@@ -462,8 +462,8 @@ msgstr "Captați Tranzacție"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__capture_manually
-msgid "Capture the amount from Dosyt, when the delivery is completed."
-msgstr "Captați valoarea de la Dosyt la finalizarea livrării."
+msgid "Capture the amount from etwork, when the delivery is completed."
+msgstr "Captați valoarea de la etwork la finalizarea livrării."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
@@ -633,8 +633,8 @@ msgstr "Card Credit (powered by Ingenico)"
 
 #. module: payment
 #: model:payment.acquirer,display_as:payment.payment_acquirer_etwork_by_adyen
-msgid "Credit Card (powered by Dosyt Payments)"
-msgstr "Card de Credit (powered by Dosyt Payments)"
+msgid "Credit Card (powered by etwork Payments)"
+msgstr "Card de Credit (powered by etwork Payments)"
 
 #. module: payment
 #: model:payment.acquirer,display_as:payment.payment_acquirer_payulatam
@@ -1091,13 +1091,13 @@ msgstr "Manual"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Manual: plătit prin numerar, cec sau orice altă metodă în afara Dosyt.\n"
+"Manual: plătit prin numerar, cec sau orice altă metodă în afara etwork.\n"
 "Electronic: plătite automat prin intermediul unui dobânditor de plăți, solicitând o tranzacție pe un card salvat de client atunci când cumpără sau abonează online (jeton de plată).\n"
-"Depunerea lotului: încurcați mai multe verificări ale clienților simultan, generând un depozit pe care să îl transmiteți băncii dvs. Atunci când codificați extrasul bancar în Dosyt, vi se recomandă să reconciliați tranzacția cu depozitul de lot. Activați această opțiune din setări."
+"Depunerea lotului: încurcați mai multe verificări ale clienților simultan, generând un depozit pe care să îl transmiteți băncii dvs. Atunci când codificați extrasul bancar în etwork, vi se recomandă să reconciliați tranzacția cu depozitul de lot. Activați această opțiune din setări."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_onboarding_wizard__paypal_seller_account
@@ -1234,12 +1234,12 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer__module_to_buy
-msgid "Dosyt Enterprise Module"
-msgstr "Modul Dosyt Enterprise "
+msgid "etwork Enterprise Module"
+msgstr "Modul etwork Enterprise "
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_etwork_by_adyen
-msgid "Dosyt Payments by Adyen"
+msgid "etwork Payments by Adyen"
 msgstr "Plăți Oddo by Adyen"
 
 #. module: payment
@@ -1431,7 +1431,7 @@ msgstr "Instrucțiuni de configurare procesator de plăți"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_acquirer__payment_flow__s2s
-msgid "Payment from Dosyt"
+msgid "Payment from etwork"
 msgstr "Plată de la Oddo"
 
 #. module: payment
@@ -1923,8 +1923,8 @@ msgstr "Tip"
 #. openerp-web
 #: code:addons/payment/static/src/xml/payment_processing.xml:0
 #, python-format
-msgid "Unable to contact the Dosyt server."
-msgstr "Imposibil de contactat serverul Dosyt."
+msgid "Unable to contact the etwork server."
+msgstr "Imposibil de contactat serverul etwork."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.acquirer_form

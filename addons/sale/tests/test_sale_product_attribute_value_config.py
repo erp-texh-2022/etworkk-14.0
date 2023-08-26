@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import fields
 from etwork.addons.product.tests.test_product_attribute_value_config import TestProductAttributeValueCommon

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import api, fields, models, _
 from etwork.addons.base_iban.models.res_partner_bank import normalize_iban, pretty_iban, validate_iban

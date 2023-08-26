@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from collections import defaultdict
 
@@ -22,11 +22,11 @@ class Users(models.Model):
 
     notification_type = fields.Selection([
         ('email', 'Handle by Emails'),
-        ('inbox', 'Handle in Dosyt')],
+        ('inbox', 'Handle in etwork')],
         'Notification', required=True, default='email',
         help="Policy on how to handle Chatter notifications:\n"
              "- Handle by Emails: notifications are sent to your email address\n"
-             "- Handle in Dosyt: notifications appear in your Dosyt Inbox")
+             "- Handle in etwork: notifications appear in your etwork Inbox")
     # channel-specific: moderation
     is_moderator = fields.Boolean(string='Is moderator', compute='_compute_is_moderator')
     moderation_counter = fields.Integer(string='Moderation count', compute='_compute_moderation_counter')

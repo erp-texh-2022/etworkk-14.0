@@ -211,7 +211,7 @@ var PublicRoot = publicWidget.RootWidget.extend({
      * context to RPCs.
      *
      * @private
-     * @param {DosytEvent} event
+     * @param {etworkEvent} event
      */
     _onCallService: function (ev) {
         function _computeContext(context, noContextKeys) {
@@ -251,7 +251,7 @@ var PublicRoot = publicWidget.RootWidget.extend({
      * Called when someone asked for the global public context.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onContextGet: function (ev) {
         if (ev.data.extra) {
@@ -264,7 +264,7 @@ var PublicRoot = publicWidget.RootWidget.extend({
      * Checks information about the page main object.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onMainObjectRequest: function (ev) {
         var repr = $('html').data('main-object');
@@ -279,7 +279,7 @@ var PublicRoot = publicWidget.RootWidget.extend({
      * (re)started.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onWidgetsStartRequest: function (ev) {
         this._startWidgets(ev.data.$target, ev.data.options)
@@ -291,7 +291,7 @@ var PublicRoot = publicWidget.RootWidget.extend({
      * stopped.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onWidgetsStopRequest: function (ev) {
         this._stopWidgets(ev.data.$target);

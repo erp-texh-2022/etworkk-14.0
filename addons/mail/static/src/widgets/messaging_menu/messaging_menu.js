@@ -9,7 +9,7 @@ const SystrayMenu = require('web.SystrayMenu');
 const Widget = require('web.Widget');
 
 /**
- * Dosyt Widget, necessary to instantiate component.
+ * etwork Widget, necessary to instantiate component.
  */
 const MessagingMenu = Widget.extend({
     template: 'mail.widgets.MessagingMenu',

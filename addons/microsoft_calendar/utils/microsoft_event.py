@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 from etwork.api import model
 from typing import Iterator, Mapping
 from collections import abc
@@ -9,7 +9,7 @@ from etwork.addons.microsoft_calendar.utils.event_id_storage import combine_ids
 class MicrosoftEvent(abc.Set):
     """
     This helper class holds the values of a Microsoft event.
-    Inspired by Dosyt recordset, one instance can be a single Microsoft event or a
+    Inspired by etwork recordset, one instance can be a single Microsoft event or a
     (immutable) set of Microsoft events.
     All usual set operations are supported (union, intersection, etc).
 
@@ -71,7 +71,7 @@ class MicrosoftEvent(abc.Set):
         return self._etwork_id
 
     def _meta_etwork_id(self, microsoft_guid):
-        """Returns the Dosyt id stored in the Microsoft Event metadata.
+        """Returns the etwork id stored in the Microsoft Event metadata.
         This id might not actually exists in the database.
         """
         return None
@@ -79,15 +79,15 @@ class MicrosoftEvent(abc.Set):
     @property
     def etwork_ids(self):
         """
-        Get the list of Dosyt event ids already mapped with Outlook events (self)
+        Get the list of etwork event ids already mapped with Outlook events (self)
         """
         return tuple(e._etwork_id for e in self if e._etwork_id)
 
     def _load_etwork_ids_from_db(self, env, force_model=None):
         """
-        Map Microsoft events to existing Dosyt events:
+        Map Microsoft events to existing etwork events:
         1) extract unmapped events only,
-        2) match Dosyt events and Outlook events which have both a ICalUId set,
+        2) match etwork events and Outlook events which have both a ICalUId set,
         3) match remaining events,
         Returns the list of mapped events
         """
@@ -106,7 +106,7 @@ class MicrosoftEvent(abc.Set):
             ('ms_organizer_event_id', "in", unmapped_events.ids)
         ]).with_env(env)
 
-        # 1. try to match unmapped events with Dosyt events using their iCalUId
+        # 1. try to match unmapped events with etwork events using their iCalUId
         unmapped_events_with_uids = unmapped_events.filter(lambda e: e.iCalUId)
         etwork_events_with_uids = etwork_events.filtered(lambda e: e.ms_universal_event_id)
         mapping = {e.ms_universal_event_id: e.id for e in etwork_events_with_uids}
@@ -117,7 +117,7 @@ class MicrosoftEvent(abc.Set):
                 ms_event._events[ms_event.id]['_etwork_id'] = etwork_id
                 mapped_events.append(ms_event.id)
 
-        # 2. try to match unmapped events with Dosyt events using their id
+        # 2. try to match unmapped events with etwork events using their id
         unmapped_events = self.filter(lambda e: e.id not in mapped_events)
         mapping = {e.ms_organizer_event_id: e for e in etwork_events}
 
@@ -127,7 +127,7 @@ class MicrosoftEvent(abc.Set):
                 ms_event._events[ms_event.id]['_etwork_id'] = etwork_event.id
                 mapped_events.append(ms_event.id)
 
-                # don't forget to also set the global event ID on the Dosyt event to ease
+                # don't forget to also set the global event ID on the etwork event to ease
                 # and improve reliability of future mappings
                 etwork_event.write({
                     'microsoft_id': combine_ids(ms_event.id, ms_event.iCalUId),
@@ -141,16 +141,16 @@ class MicrosoftEvent(abc.Set):
         Indicates who is the owner of an event (i.e the organizer of the event).
 
         There are several possible cases:
-        1) the current Dosyt user is the organizer of the event according to Outlook event, so return his id.
-        2) the current Dosyt user is NOT the organizer and:
-           2.1) we are able to find a Dosyt user using the Outlook event organizer email address and we use his id,
-           2.2) we are NOT able to find a Dosyt user matching the organizer email address and we return False, meaning
-                that no Dosyt user will be able to modify this event. All modifications will be done from Outlook.
+        1) the current etwork user is the organizer of the event according to Outlook event, so return his id.
+        2) the current etwork user is NOT the organizer and:
+           2.1) we are able to find a etwork user using the Outlook event organizer email address and we use his id,
+           2.2) we are NOT able to find a etwork user matching the organizer email address and we return False, meaning
+                that no etwork user will be able to modify this event. All modifications will be done from Outlook.
         """
         if self.isOrganizer:
             return env.user.id
         if self.organizer.get('emailAddress') and self.organizer.get('emailAddress').get('address'):
-            # Warning: In Microsoft: 1 email = 1 user; but in Dosyt several users might have the same email
+            # Warning: In Microsoft: 1 email = 1 user; but in etwork several users might have the same email
             user = env['res.users'].search([('email', '=', self.organizer.get('emailAddress').get('address'))], limit=1)
             return user.id if user else False
         return False
@@ -236,7 +236,7 @@ class MicrosoftEvent(abc.Set):
 
     def match_with_etwork_events(self, env) -> 'MicrosoftEvent':
         """
-        Match Outlook events (self) with existing Dosyt events, and return the list of matched events
+        Match Outlook events (self) with existing etwork events, and return the list of matched events
         """
         # first, try to match recurrences
         # Note that when a recurrence is removed, there is no field in Outlook data to identify

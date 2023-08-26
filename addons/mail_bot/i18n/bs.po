@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # * mail_bot
 # 
@@ -8,7 +8,7 @@
 # Bole <bole@dajmi5.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~11.5\n"
+"Project-Id-Version: etwork Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-02 10:05+0000\n"
 "PO-Revision-Date: 2018-10-02 10:05+0000\n"
@@ -77,7 +77,7 @@ msgstr ""
 #: code:addons/mail_bot/models/mail_channel.py:38
 #, python-format
 msgid ""
-"Hello,<br/>Dosyt's chat helps employees collaborate efficiently. I'm here to "
+"Hello,<br/>etwork's chat helps employees collaborate efficiently. I'm here to "
 "help you discover its features.<br/><b>Try to send me an emoji :)</b>"
 msgstr ""
 
@@ -163,7 +163,7 @@ msgstr ""
 #: code:addons/mail_bot/static/src/js/systray_messaging_menu.js:64
 #, python-format
 msgid ""
-"Dosyt has now the permission to send you native notifications on this device."
+"etwork has now the permission to send you native notifications on this device."
 msgstr ""
 
 #. module: mail_bot
@@ -171,20 +171,20 @@ msgstr ""
 #: code:addons/mail_bot/static/src/js/systray_messaging_menu.js:61
 #, python-format
 msgid ""
-"Dosyt will not have the permission to send native notifications on this "
+"etwork will not have the permission to send native notifications on this "
 "device."
 msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__etworkbot_state
-msgid "DosytBot Status"
+msgid "etworkBot Status"
 msgstr ""
 
 #. module: mail_bot
 #. openerp-web
 #: code:addons/mail_bot/static/src/js/mailbot_service.js:39
 #, python-format
-msgid "DosytBot has a request"
+msgid "etworkBot has a request"
 msgstr ""
 
 #. module: mail_bot
@@ -271,7 +271,7 @@ msgstr "Korisnici"
 #, python-format
 msgid ""
 "Wow you are a natural!<br/>Ping someone to grab its attention with "
-"@nameoftheuser. <b>Try to ping me using @DosytBot</b> in a sentence."
+"@nameoftheuser. <b>Try to ping me using @etworkBot</b> in a sentence."
 msgstr ""
 
 #. module: mail_bot
@@ -286,13 +286,13 @@ msgstr ""
 #, python-format
 msgid ""
 "Yep, I am here! 🎉 <br/>You finished the tour, you can <b>close this chat "
-"window</b>. Enjoy discovering Dosyt."
+"window</b>. Enjoy discovering etwork."
 msgstr ""
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:79
 #, python-format
-msgid "Yep, DosytBot is in the place!"
+msgid "Yep, etworkBot is in the place!"
 msgstr ""
 
 #. module: mail_bot

@@ -1,7 +1,7 @@
-Dosyt CRM
+etwork CRM
 --------
 
-Boost sales productivity, improve win rates, grow revenue with the Dosyt
+Boost sales productivity, improve win rates, grow revenue with the etwork
 <a href="https://www.etwork.com/page/crm">Open Source CRM</a>.
 
 Manage your sales funnel with no effort. Attract leads, follow-up on phone
@@ -41,7 +41,7 @@ Work with the email applications you already use every day. Whether your
 company uses Microsoft Outlook or Gmail, no one needs to change the way they
 work, so everyone stays productive.
 
-Route, sort and filter incoming emails automatically. Dosyt CRM handles incoming
+Route, sort and filter incoming emails automatically. etwork CRM handles incoming
 emails and route them to the right opportunities or Sales Team. New leads are
 created on the fly and interested salespersons are notified automatically.
 
@@ -55,7 +55,7 @@ see what your team is busy with.
 Lead Automation and Marketing Campaigns
 ---------------------------------------
 
-Drive performance by automating tasks with Dosyt <a href="https://www.etwork.com/page/crm">CRM</a>.
+Drive performance by automating tasks with etwork <a href="https://www.etwork.com/page/crm">CRM</a>.
 
 Use our marketing campaigns to automate lead acquisition, follow ups and
 promotions. Define automated actions (e.g. ask a salesperson to call, send an

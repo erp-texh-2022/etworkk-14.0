@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* payment_paypal
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:28+0000\n"
 "PO-Revision-Date: 2020-09-07 08:15+0000\n"
@@ -27,17 +27,17 @@ msgstr ""
 msgid ""
 "<br/><br/>\n"
 "                Thanks,<br/>\n"
-"                <b>The Dosyt Team</b>"
+"                <b>The etwork Team</b>"
 msgstr ""
 "<br/><br/>\n"
 "                Danke,<br/>\n"
-"                <b>Das Dosyt-Team</b>"
+"                <b>Das etwork-Team</b>"
 
 #. module: payment_paypal
 #: code:addons/payment_paypal/models/payment.py:0
 #, python-format
-msgid "Add your Paypal account to Dosyt"
-msgstr "Fügen Sie Ihr Paypal-Konto zu Dosyt hinzu"
+msgid "Add your Paypal account to etwork"
+msgstr "Fügen Sie Ihr Paypal-Konto zu etwork hinzu"
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_acquirer__display_name
@@ -67,13 +67,13 @@ msgid ""
 "                <br/><br/>\n"
 "                You have received a payment through PayPal.<br/>\n"
 "                Kindly follow the instructions given by PayPal to create your account.<br/>\n"
-"                Then, help us complete your Paypal credentials in Dosyt.<br/><br/>"
+"                Then, help us complete your Paypal credentials in etwork.<br/><br/>"
 msgstr ""
 "Guten Tag\n"
 "                <br/><br/>\n"
 "                Sie haben eine Zahlung von Paypal erhalten.<br/>\n"
 "                Bitte folgen Sie den Anweisungen von Paypal, um Ihr Konto zu konfigurieren.<br/>\n"
-"                Anschließend helfen Sie uns, Ihre Anmeldeinformation für Paypal in Dosyt zu vervollständigen.<br/><br/>"
+"                Anschließend helfen Sie uns, Ihre Anmeldeinformation für Paypal in etwork zu vervollständigen.<br/><br/>"
 
 #. module: payment_paypal
 #: model_terms:ir.ui.view,arch_db:payment_paypal.acquirer_form_paypal

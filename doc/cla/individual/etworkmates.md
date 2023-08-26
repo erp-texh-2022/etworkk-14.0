@@ -1,6 +1,6 @@
 India, 2021-07-22
 
-I hereby agree to the terms of the Dosyt Individual Contributor License
+I hereby agree to the terms of the etwork Individual Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this
@@ -8,4 +8,4 @@ declaration.
 
 Signed,
 
-Dosyt Mates etworkmates@gmail.com https://github.com/etworkmates
+etwork Mates etworkmates@gmail.com https://github.com/etworkmates

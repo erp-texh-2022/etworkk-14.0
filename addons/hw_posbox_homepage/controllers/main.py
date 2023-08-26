@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import json
 import jinja2
@@ -115,7 +115,7 @@ class IoTboxHomepage(web.Home):
             if interface != '__pycache__':
                 interfaces_list.append(interface)
         return handler_list_template.render({
-            'title': "Dosyt's IoT Box - Handlers list",
+            'title': "etwork's IoT Box - Handlers list",
             'breadcrumb': 'Handlers list',
             'drivers_list': drivers_list,
             'interfaces_list': interfaces_list,
@@ -131,7 +131,7 @@ class IoTboxHomepage(web.Home):
     @http.route('/list_credential', type='http', auth='none', website=True)
     def list_credential(self):
         return list_credential_template.render({
-            'title': "Dosyt's IoT Box - List credential",
+            'title': "etwork's IoT Box - List credential",
             'breadcrumb': 'List credential',
             'db_uuid': helpers.read_file_first_line('etwork-db-uuid.conf'),
             'enterprise_code': helpers.read_file_first_line('etwork-enterprise-code.conf'),
@@ -174,7 +174,7 @@ class IoTboxHomepage(web.Home):
         if server:
             res_payload['server'] = {
                 'url': server,
-                'message': 'Redirect to Dosyt Server'
+                'message': 'Redirect to etwork Server'
             }
         else:
             res_payload['server'] = {
@@ -245,8 +245,8 @@ class IoTboxHomepage(web.Home):
     @http.route('/server', type='http', auth='none', website=True)
     def server(self):
         return server_config_template.render({
-            'title': 'IoT -> Dosyt server configuration',
-            'breadcrumb': 'Configure Dosyt Server',
+            'title': 'IoT -> etwork server configuration',
+            'breadcrumb': 'Configure etwork Server',
             'hostname': subprocess.check_output('hostname').decode('utf-8').strip('\n'),
             'server_status': helpers.get_etwork_server_url() or 'Not configured yet',
             'loading_message': 'Configure Domain Server'
@@ -302,7 +302,7 @@ class IoTboxHomepage(web.Home):
         if flashToVersion:
             flashToVersion = '%s.%s' % (flashToVersion.get('major', ''), flashToVersion.get('minor', ''))
         return upgrade_page_template.render({
-            'title': "Dosyt's IoTBox - Software Upgrade",
+            'title': "etwork's IoTBox - Software Upgrade",
             'breadcrumb': 'IoT Box Software Upgrade',
             'loading_message': 'Updating IoT box',
             'commit': commit,

@@ -2,7 +2,7 @@ etwork.define('web.GraphController', function (require) {
 "use strict";
 
 /*---------------------------------------------------------
- * Dosyt Graph view
+ * etwork Graph view
  *---------------------------------------------------------*/
 
 const AbstractController = require('web.AbstractController');
@@ -287,7 +287,7 @@ var GraphController = AbstractController.extend({
 
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onItemSelected(ev) {
         const item = ev.data.item;
@@ -326,7 +326,7 @@ var GraphController = AbstractController.extend({
 
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      * @param {Array[]} ev.data.domain
      */
     _onOpenView(ev) {

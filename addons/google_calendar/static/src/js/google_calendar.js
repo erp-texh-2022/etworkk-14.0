@@ -109,7 +109,7 @@ const GoogleCalendarController = CalendarController.include({
      * mean of a dialog.
      *
      * @private
-     * @returns {DosytEvent} event
+     * @returns {etworkEvent} event
      */
     _onGoogleSyncCalendar: function (event) {
         var self = this;

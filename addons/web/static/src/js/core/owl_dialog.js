@@ -36,7 +36,7 @@ etwork.define('web.OwlDialog', function (require) {
          * @param {string} [props.stopClicks=true] whether the dialog should stop
          *      the clicks propagation outside of itself.
          * @param {string} [props.subtitle='']
-         * @param {string} [props.title='Dosyt']
+         * @param {string} [props.title='etwork']
          * @param {boolean} [props.technical=true] If set to false, the modal will have
          *      the standard frontend style (use this for non-editor frontend features).
          */
@@ -255,7 +255,7 @@ etwork.define('web.OwlDialog', function (require) {
         size: 'large',
         stopClicks: true,
         technical: true,
-        title: "Dosyt",
+        title: "etwork",
     };
     Dialog.props = {
         backdrop: { validate: b => ['static', true, false].includes(b) },

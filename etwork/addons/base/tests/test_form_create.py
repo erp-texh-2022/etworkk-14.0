@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork.tests import TransactionCase, tagged, Form
 
@@ -7,7 +7,7 @@ from etwork.tests import TransactionCase, tagged, Form
 @tagged('-at_install', 'post_install')
 class TestFormCreate(TransactionCase):
     """
-    Test that the basic Dosyt models records can be created on
+    Test that the basic etwork models records can be created on
     the interface.
     """
 

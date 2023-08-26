@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* fleet
 # 
@@ -19,7 +19,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -1207,11 +1207,11 @@ msgstr "Vytvořit"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Dosyt will automatically warn\n"
+"            their related services, costs. etwork will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 "Spravujte všechny své smlouvy (leasing, pojištění atd.) S\n"
-"jejich souvisejícími službami, náklady. Dosyt automaticky upozorní,\n"
+"jejich souvisejícími službami, náklady. etwork automaticky upozorní,\n"
 "když musíte některé smlouvy obnovit."
 
 #. module: fleet
@@ -1484,10 +1484,10 @@ msgstr "Odometry"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Dosyt helps you managing the costs for your different vehicles\n"
+"etwork helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
-"Dosyt vám pomůže spravovat náklady na různá vozidla\n"
+"etwork vám pomůže spravovat náklady na různá vozidla\n"
 "Náklady se obvykle vytvářejí ze služeb a smlouvy a objevují se zde."
 
 #. module: fleet
@@ -1869,10 +1869,10 @@ msgstr "Podmínky"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Thanks to the different filters, Dosyt can only print the effective\n"
+"Thanks to the different filters, etwork can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"Díky různým filtrům je možné tisknout Dosyt jen za efektivní\n"
+"Díky různým filtrům je možné tisknout etwork jen za efektivní\n"
 "          náklady, třídit je podle typu a podle vozidla."
 
 #. module: fleet

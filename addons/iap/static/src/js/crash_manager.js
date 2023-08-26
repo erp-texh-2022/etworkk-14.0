@@ -20,7 +20,7 @@ CrashManager.include({
      */
     _getButtonMessage: function (isTrial){
         var isEnterprise = _.last(etwork.session_info.server_version_info) === 'e';
-        return isTrial && isEnterprise ? _t('Start a Trial at Dosyt') : _t('Buy credits');
+        return isTrial && isEnterprise ? _t('Start a Trial at etwork') : _t('Buy credits');
     },
     /**
      * @override

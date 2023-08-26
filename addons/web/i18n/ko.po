@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -15,7 +15,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -2000,8 +2000,8 @@ msgstr "후시아"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Dosyt Enterprise!"
-msgstr "Dosyt 유료버전용에서 이 기능을 비롯한 다양한 기능을 활용하십시오!"
+msgid "Get this feature and much more with etwork Enterprise!"
+msgstr "etwork 유료버전용에서 이 기능을 비롯한 다양한 기능을 활용하십시오!"
 
 #. module: web
 #. openerp-web
@@ -2590,8 +2590,8 @@ msgstr "여러 줄 문자"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Dosyt.com account"
-msgstr "내 Dosyt.com 계정"
+msgid "My etwork.com account"
+msgstr "내 etwork.com 계정"
 
 #. module: web
 #. openerp-web
@@ -2787,15 +2787,15 @@ msgstr "객체 :"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Dosyt Apps will be available soon"
-msgstr "Dosyt 앱이 곧 사용가능해 질 것입니다"
+msgid "etwork Apps will be available soon"
+msgstr "etwork 앱이 곧 사용가능해 질 것입니다"
 
 #. module: web
 #. openerp-web
@@ -2804,36 +2804,36 @@ msgstr "Dosyt 앱이 곧 사용가능해 질 것입니다"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Client Error"
-msgstr "Dosyt 클라이언트 오류"
+msgid "etwork Client Error"
+msgstr "etwork 클라이언트 오류"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Dosyt Enterprise"
-msgstr "Dosyt 유료버전"
+msgid "etwork Enterprise"
+msgstr "etwork 유료버전"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Error"
-msgstr "Dosyt 오류"
+msgid "etwork Error"
+msgstr "etwork 오류"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Session Expired"
-msgstr "Dosyt 세션 만료"
+msgid "etwork Session Expired"
+msgstr "etwork 세션 만료"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Warning"
-msgstr "Dosyt 경고"
+msgid "etwork Warning"
+msgstr "etwork 경고"
 
 #. module: web
 #. openerp-web
@@ -3184,8 +3184,8 @@ msgstr "제공자 %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Dosyt</span>"
-msgstr "제공자 <span>Dosyt</span>"
+msgid "Powered by <span>etwork</span>"
+msgstr "제공자 <span>etwork</span>"
 
 #. module: web
 #. openerp-web
@@ -4646,9 +4646,9 @@ msgstr "번역을 편집하기 전에 이 새 레코드를 저장해야 합니�
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Dosyt with at least two workers to print a pdf version of "
+"You need to start etwork with at least two workers to print a pdf version of "
 "the reports."
-msgstr "pdf 버전의 보고서를 인쇄하려면 두 명 이상의 직원으로 Dosyt를 시작해야 합니다."
+msgstr "pdf 버전의 보고서를 인쇄하려면 두 명 이상의 직원으로 etwork를 시작해야 합니다."
 
 #. module: web
 #. openerp-web
@@ -4666,8 +4666,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Dosyt session expired. The current page is about to be refreshed."
-msgstr "Dosyt 세션이 만료되었습니다. 현재 페이지를 새로고침 합니다."
+msgid "Your etwork session expired. The current page is about to be refreshed."
+msgstr "etwork 세션이 만료되었습니다. 현재 페이지를 새로고침 합니다."
 
 #. module: web
 #. openerp-web

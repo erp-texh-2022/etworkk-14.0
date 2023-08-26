@@ -28,10 +28,10 @@ define([
     var typing = new Typing();
     var bullet = new Bullet();
 
-    this.style = style;   // DOSYT: allow access for override
-    this.table = table;   // DOSYT: allow access for override
-    this.typing = typing; // DOSYT: allow access for override
-    this.bullet = bullet; // DOSYT: allow access for override
+    this.style = style;   // etwork: allow access for override
+    this.table = table;   // etwork: allow access for override
+    this.typing = typing; // etwork: allow access for override
+    this.bullet = bullet; // etwork: allow access for override
 
     /**
      * @method createRange
@@ -55,13 +55,13 @@ define([
      * @param {Boolean} [thenCollapse=false]
      */
     this.saveRange = function ($editable, thenCollapse) {
-      // DOSYT: scroll to top when click on input in editable m (start_modification
+      // etwork: scroll to top when click on input in editable m (start_modification
       // this.focus($editable);
       var r = range.create();
       if (!r || ($editable[0] !== r.sc && !$.contains($editable[0], r.sc))) {
         $editable.focus();
       }
-      // DOSYT: end_modication)
+      // etwork: end_modication)
       $editable.data('range', range.create());
       if (thenCollapse) {
         range.create().collapse().select();
@@ -631,7 +631,7 @@ define([
       }
 
       var anchors = [];
-      // DOSYT: adding this branch to modify existing anchor if it fully contains the range
+      // etwork: adding this branch to modify existing anchor if it fully contains the range
       var ancestor_anchor = dom.ancestor(rng.sc, pred);
       if (ancestor_anchor && ancestor_anchor === dom.ancestor(rng.ec, pred)) {
           anchors.push($(ancestor_anchor).html(linkText).get(0));
@@ -651,8 +651,8 @@ define([
         if (!linkInfo.isButton) {
           $(anchor).attr('href', linkUrl);
         }
-        $(anchor).attr('class', linkInfo.className || null); // DOSYT: addition
-        $(anchor).css(linkInfo.style || {}); // DOSYT: addition
+        $(anchor).attr('class', linkInfo.className || null); // etwork: addition
+        $(anchor).css(linkInfo.style || {}); // etwork: addition
         if (isNewWindow) {
           $(anchor).attr('target', '_blank');
         } else {
@@ -687,7 +687,7 @@ define([
      * @return {String} [return.url=""]
      */
     this.getLinkInfo = function ($editable) {
-      // DOSYT MODIFICATION START
+      // etwork MODIFICATION START
       var selection;
       var currentSelection = null;
       if (document.getSelection) {
@@ -696,11 +696,11 @@ define([
           currentSelection = selection.getRangeAt(0);
         }
       }
-      // DOSYT MODIFICATION END
+      // etwork MODIFICATION END
 
       this.focus($editable);
 
-      // DOSYT MODIFICATION START
+      // etwork MODIFICATION START
       if (currentSelection && document.getSelection) {
         selection = document.getSelection();
         if (!selection || selection.rangeCount === 0) {
@@ -708,7 +708,7 @@ define([
           selection.addRange(currentSelection);
         }
       }
-      // DOSYT MODIFICATION END
+      // etwork MODIFICATION END
 
       var rng = range.create().expand(dom.isAnchor);
 

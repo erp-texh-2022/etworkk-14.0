@@ -2,7 +2,7 @@ etwork.define('web.ReportService', function (require) {
 "use strict";
 
 /**
- * This file defines the service for the report generation in Dosyt.
+ * This file defines the service for the report generation in etwork.
  */
 
 var AbstractService = require('web.AbstractService');

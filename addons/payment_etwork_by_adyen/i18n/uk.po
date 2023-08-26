@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* payment_etwork_by_adyen
 # 
@@ -8,7 +8,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2021-01-08 12:30+0000\n"
@@ -77,31 +77,31 @@ msgstr "Останні зміни"
 #. module: payment_etwork_by_adyen
 #: code:addons/payment_etwork_by_adyen/models/payment.py:0
 #, python-format
-msgid "Dosyt Payment by Adyen: feedback error"
-msgstr "Dosyt платіж через Adyen: помилка"
+msgid "etwork Payment by Adyen: feedback error"
+msgstr "etwork платіж через Adyen: помилка"
 
 #. module: payment_etwork_by_adyen
 #: model:ir.model.fields.selection,name:payment_etwork_by_adyen.selection__payment_acquirer__provider__etwork_adyen
-msgid "Dosyt Payments by Adyen"
-msgstr "Dosyt платежі через Adyen"
+msgid "etwork Payments by Adyen"
+msgstr "etwork платежі через Adyen"
 
 #. module: payment_etwork_by_adyen
 #: code:addons/payment_etwork_by_adyen/models/payment.py:0
 #, python-format
-msgid "Dosyt Payments by Adyen is not available in test mode."
-msgstr "Dosyt платежі через Adyen недоступні у тестовому режимі."
+msgid "etwork Payments by Adyen is not available in test mode."
+msgstr "etwork платежі через Adyen недоступні у тестовому режимі."
 
 #. module: payment_etwork_by_adyen
 #: code:addons/payment_etwork_by_adyen/models/payment.py:0
 #, python-format
-msgid "Dosyt Payments by Adyen: received data for reference %s"
-msgstr "Dosyt платежі через Adyen: отримані дані для референсу %s"
+msgid "etwork Payments by Adyen: received data for reference %s"
+msgstr "etwork платежі через Adyen: отримані дані для референсу %s"
 
 #. module: payment_etwork_by_adyen
 #: code:addons/payment_etwork_by_adyen/models/payment.py:0
 #, python-format
-msgid "Dosyt Payments by Adyen: received data with missing reference (%s)"
-msgstr "Dosyt платежі через Adyen: отримані дані з відсутнім референсом (%s)"
+msgid "etwork Payments by Adyen: received data with missing reference (%s)"
+msgstr "etwork платежі через Adyen: отримані дані з відсутнім референсом (%s)"
 
 #. module: payment_etwork_by_adyen
 #: model:ir.model,name:payment_etwork_by_adyen.model_payment_acquirer

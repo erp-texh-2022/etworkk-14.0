@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* microsoft_calendar
 # 
@@ -7,7 +7,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:24+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -115,8 +115,8 @@ msgstr "創建時間"
 
 #. module: microsoft_calendar
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_etwork
-msgid "Delete from Dosyt"
-msgstr "從 Dosyt 紀錄刪除"
+msgid "Delete from etwork"
+msgstr "從 etwork 紀錄刪除"
 
 #. module: microsoft_calendar
 #: model:ir.model.fields.selection,name:microsoft_calendar.selection__microsoft_calendar_account_reset__delete_policy__delete_both
@@ -147,11 +147,11 @@ msgstr "活動重複規則"
 #: code:addons/microsoft_calendar/models/calendar.py:0
 #, python-format
 msgid ""
-"For a correct synchronization between Dosyt and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
+"For a correct synchronization between etwork and Outlook Calendar, all attendees must have an email address. However, some events do not respect this condition. As long as the events are incorrect, the calendars will not be synchronized.\n"
 "Either update the events/attendees or archive these events %s:\n"
 "%s"
 msgstr ""
-"為了在 Dosyt 和 Outlook 日曆之間正確同步，所有與會者都必須有一個電子郵件地址。但是，某些事件不遵守此條件。只要事件不正確，日曆就不會同步。\n"
+"為了在 etwork 和 Outlook 日曆之間正確同步，所有與會者都必須有一個電子郵件地址。但是，某些事件不遵守此條件。只要事件不正確，日曆就不會同步。\n"
 "更新事件/參與者或歸檔這些事件 %s：\n"
 "%s"
 

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* web_editor
 # 
@@ -12,7 +12,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:13+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
@@ -1503,11 +1503,11 @@ msgstr "Calitate"
 msgid ""
 "Quality options are unavailable for external images. If you want to change "
 "this image's quality, please first download it from the original source and "
-"upload it in Dosyt."
+"upload it in etwork."
 msgstr ""
 "Opțiunile de calitate nu sunt disponibile pentru imaginile externe. Dacă "
 "doriți să schimbați calitatea acestei imagini, vă rugăm mai întâi să o "
-"descărcați din sursa originală și să o încărcați în Dosyt."
+"descărcați din sursa originală și să o încărcați în etwork."
 
 #. module: web_editor
 #. openerp-web
@@ -2095,11 +2095,11 @@ msgstr "Acest lucru reduce calitatea pentru a crește performanța."
 #, python-format
 msgid ""
 "This type of image is not supported for cropping.<br/>If you want to crop "
-"it, please first download it from the original source and upload it in Dosyt."
+"it, please first download it from the original source and upload it in etwork."
 msgstr ""
 "Acest tip de imagine nu este acceptat pentru decupare. <br/>Dacă doriți să o"
 " decupați, vă rugăm mai întâi să o descărcați din sursa originală și să o "
-"încărcați în Dosyt."
+"încărcați în etwork."
 
 #. module: web_editor
 #. openerp-web

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_slides_forum
 # 
@@ -13,7 +13,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:46+0000\n"
 "PO-Revision-Date: 2020-09-07 08:22+0000\n"
@@ -360,7 +360,7 @@ msgstr "Kuva kõik kursused"
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Dosyt."
+"questions related to etwork."
 msgstr ""
 
 #. module: website_slides_forum
@@ -469,9 +469,9 @@ msgstr "iga vastus on võrdselt kehtiv: \"Milline on teie lemmik______?\""
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to configure or customize Dosyt to specific business needs,"
+msgid "how to configure or customize etwork to specific business needs,"
 msgstr ""
-"kuidas konfigureerida või kohandada Dosytt konkreetsetele ärivajadustele,"
+"kuidas konfigureerida või kohandada etworkt konkreetsetele ärivajadustele,"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -482,8 +482,8 @@ msgstr "kuidas arendada mooduleid vastavalt oma vajadustele,"
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to install Dosyt on a specific infrastructure,"
-msgstr "kuidas installida Dosyt konkreetsele infrastruktuurile,"
+msgid "how to install etwork on a specific infrastructure,"
+msgstr "kuidas installida etwork konkreetsele infrastruktuurile,"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -494,8 +494,8 @@ msgstr "tegemist on solvava küsimusega: \"______ on nõme, kas mul on õigus?\"
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "specific questions about Dosyt service offers, etc."
-msgstr "küsimused Dosyt teenuse jms kohta."
+msgid "specific questions about etwork service offers, etc."
+msgstr "küsimused etwork teenuse jms kohta."
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -520,8 +520,8 @@ msgstr ""
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "what's the best way to use Dosyt for a specific business need,"
-msgstr "milline on parim viis Dosyt kasutamiseks konkreetse ärivajaduse jaoks,"
+msgid "what's the best way to use etwork for a specific business need,"
+msgstr "milline on parim viis etwork kasutamiseks konkreetse ärivajaduse jaoks,"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0

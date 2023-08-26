@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -29,7 +29,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -2023,8 +2023,8 @@ msgstr "Fushia"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Dosyt Enterprise!"
-msgstr "Получите эту функцию и многое другое с Dosyt Enterprise!"
+msgid "Get this feature and much more with etwork Enterprise!"
+msgstr "Получите эту функцию и многое другое с etwork Enterprise!"
 
 #. module: web
 #. openerp-web
@@ -2621,8 +2621,8 @@ msgstr "Многострочный текст"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Dosyt.com account"
-msgstr "Личный кабинет на Dosyt.com"
+msgid "My etwork.com account"
+msgstr "Личный кабинет на etwork.com"
 
 #. module: web
 #. openerp-web
@@ -2816,15 +2816,15 @@ msgstr "Объект:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Dosyt Apps will be available soon"
-msgstr "Приложения Dosyt скоро будут доступны"
+msgid "etwork Apps will be available soon"
+msgstr "Приложения etwork скоро будут доступны"
 
 #. module: web
 #. openerp-web
@@ -2833,36 +2833,36 @@ msgstr "Приложения Dosyt скоро будут доступны"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Client Error"
-msgstr "Ошибка клиента Dosyt"
+msgid "etwork Client Error"
+msgstr "Ошибка клиента etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Dosyt Enterprise"
-msgstr "Dosyt Enterprise"
+msgid "etwork Enterprise"
+msgstr "etwork Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Error"
-msgstr "Ошибка Dosyt"
+msgid "etwork Error"
+msgstr "Ошибка etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Session Expired"
+msgid "etwork Session Expired"
 msgstr "Сессия устарела"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Warning"
-msgstr "Предупреждение Dosyt"
+msgid "etwork Warning"
+msgstr "Предупреждение etwork"
 
 #. module: web
 #. openerp-web
@@ -3225,8 +3225,8 @@ msgstr "На базе %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Dosyt</span>"
-msgstr "На базе <span>Dosyt</span>"
+msgid "Powered by <span>etwork</span>"
+msgstr "На базе <span>etwork</span>"
 
 #. module: web
 #. openerp-web
@@ -4704,10 +4704,10 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Dosyt with at least two workers to print a pdf version of "
+"You need to start etwork with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"Dosyt должна быть запущена по крайней мере с двумя рабочими процессами, чтобы"
+"etwork должна быть запущена по крайней мере с двумя рабочими процессами, чтобы"
 " формировать PDF-версию отчетов."
 
 #. module: web
@@ -4727,7 +4727,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Dosyt session expired. The current page is about to be refreshed."
+msgid "Your etwork session expired. The current page is about to be refreshed."
 msgstr "Текущая сессия завершена сервером. Обновите страницу."
 
 #. module: web

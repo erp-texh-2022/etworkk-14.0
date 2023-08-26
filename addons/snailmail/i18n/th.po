@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* snailmail
 # 
@@ -6,12 +6,12 @@
 # Martin Trigaux, 2020
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2020
 # Pornvibool Tippayawat <pornvibool.t@gmail.com>, 2020
-# Dosyt Thaidev <etworkthaidev@gmail.com>, 2020
+# etwork Thaidev <etworkthaidev@gmail.com>, 2020
 # Wichanon Jamwutthipreecha, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:24+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"

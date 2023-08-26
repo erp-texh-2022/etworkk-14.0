@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
 # 
@@ -26,7 +26,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -1973,8 +1973,8 @@ msgstr "AVATTU"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.layout
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image_text
@@ -2572,8 +2572,8 @@ msgstr "Kiitos tilauksestasi!"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
-msgid "That way, Dosyt evolves much faster than any other solution."
-msgstr "Näin Dosyt kehittyy paljon nopeammin, kuin mikään muu ratkaisu."
+msgid "That way, etwork evolves much faster than any other solution."
+msgstr "Näin etwork kehittyy paljon nopeammin, kuin mikään muu ratkaisu."
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact_subscription__opt_out
@@ -2594,20 +2594,20 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"The open source model of Dosyt has allowed us to leverage thousands of developers and\n"
+"The open source model of etwork has allowed us to leverage thousands of developers and\n"
 "                                business experts to build hundreds of apps in just a few years."
 msgstr ""
-"Dosytn avoimen lähdekoodin malli on mahdollistanut satojen sovellusten luomisen\n"
+"etworkn avoimen lähdekoodin malli on mahdollistanut satojen sovellusten luomisen\n"
 "                                tuhansien kehittäjien ja konsulttien avulla, vain muutamien vuosien aikana."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_text_image
 msgid ""
-"The open source model of Dosyt has allowed us to leverage thousands of "
+"The open source model of etwork has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
 msgstr ""
-"Dosytn avoimen lähdekoodin malli on mahdollistanut satojen sovellusten "
+"etworkn avoimen lähdekoodin malli on mahdollistanut satojen sovellusten "
 "luomisen tuhansien kehittäjien ja konsulttien avulla, vain muutamien vuosien"
 " aikana."
 
@@ -2794,10 +2794,10 @@ msgstr "Päivitä teema"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"Usability improvements made on Dosyt will automatically apply to all\n"
+"Usability improvements made on etwork will automatically apply to all\n"
 "                                of our fully integrated apps."
 msgstr ""
-"Dosytn käytettävyyteen tehdyt parannukset ovat automaattisesti saatavilla "
+"etworkn käytettävyyteen tehdyt parannukset ovat automaattisesti saatavilla "
 "kaikissa integroiduissa sovelluksissamme."
 
 #. module: mass_mailing
@@ -2815,11 +2815,11 @@ msgstr "Käytä dedikoitua palvelinta postituksiin"
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Dosyt relies on the first "
+"Use a specific mail server in priority. Otherwise etwork relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr ""
-"Käytä ensimmäisenä tiettyä sähköpostipalvelinta. Muutoin Dosyt käyttää "
+"Käytä ensimmäisenä tiettyä sähköpostipalvelinta. Muutoin etwork käyttää "
 "ensimmäistä saatavilla olevaa lähtevän postin palvelinta "
 "(järjestysnumerointiin perustuen), kuten tavallisissa sähköpostiviesteissä."
 
@@ -2915,19 +2915,19 @@ msgstr "Milloin haluat lähettää postituksesi?"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"With strong technical foundations, Dosyt's framework is unique.\n"
+"With strong technical foundations, etwork's framework is unique.\n"
 "                                It provides top notch usability that scales across all apps."
 msgstr ""
-"Luotettavan teknisen perustan ansiosta, Dosyt on ainutlaatuinen. Se tarjoaa "
+"Luotettavan teknisen perustan ansiosta, etwork on ainutlaatuinen. Se tarjoaa "
 "huippuluokan käytettävyyden jokaisessa sovelluksessa."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image
 msgid ""
-"With strong technical foundations, Dosyt's framework is unique. It provides "
+"With strong technical foundations, etwork's framework is unique. It provides "
 "<strong>top notch usability that scales across all apps</strong>."
 msgstr ""
-"Luotettavan teknisen perustan ansiosta, Dosyt on ainutlaatuinen. Se tarjoaa "
+"Luotettavan teknisen perustan ansiosta, etwork on ainutlaatuinen. Se tarjoaa "
 "<strong>huippuluokan käytettävyyden jokaisessa sovelluksessa</strong>."
 
 #. module: mass_mailing
@@ -2962,19 +2962,19 @@ msgstr "Et ole tilaajana yhdelläkään postituslistalla."
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_mailing_action_mail
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Dosyt apps."
+"                send emails<br> to any contact saved in other etwork apps."
 msgstr ""
 "Sinun ei tarvitse tuoda postituslistojasi, voit helposti\n"
-"                lähettää sähköposteja<br> mille tahansa yhteystiedolle, joka on tallennettu muihin Dosyt-sovelluksiin."
+"                lähettää sähköposteja<br> mille tahansa yhteystiedolle, joka on tallennettu muihin etwork-sovelluksiin."
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"            send emails<br> to any contact saved in other Dosyt apps."
+"            send emails<br> to any contact saved in other etwork apps."
 msgstr ""
 "Sinun ei tarvitse tuoda postituslistojasi, voit helposti\n"
-"            lähettää sähköposteja<br> mille tahansa yhteystiedolle, joka on tallennettu muihin Dosyt-sovelluksiin."
+"            lähettää sähköposteja<br> mille tahansa yhteystiedolle, joka on tallennettu muihin etwork-sovelluksiin."
 
 #. module: mass_mailing
 #. openerp-web

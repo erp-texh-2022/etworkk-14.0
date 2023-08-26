@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
@@ -25,7 +25,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:15+0000\n"
@@ -465,8 +465,8 @@ msgstr "Capture Transaction"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__capture_manually
-msgid "Capture the amount from Dosyt, when the delivery is completed."
-msgstr "Capture the amount from Dosyt, when the delivery is completed."
+msgid "Capture the amount from etwork, when the delivery is completed."
+msgstr "Capture the amount from etwork, when the delivery is completed."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
@@ -636,7 +636,7 @@ msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,display_as:payment.payment_acquirer_etwork_by_adyen
-msgid "Credit Card (powered by Dosyt Payments)"
+msgid "Credit Card (powered by etwork Payments)"
 msgstr ""
 
 #. module: payment
@@ -1089,9 +1089,9 @@ msgstr "Käsitsi"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
 "Manuaalne: Võta vastu sularaha makseid.\n"
 "Elektrooniline: Võta vastu makseid läbi maksete vahendajate, kasutades selleks kliendi poolt salvestatud krediitkaarti andmeid."
@@ -1229,13 +1229,13 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer__module_to_buy
-msgid "Dosyt Enterprise Module"
-msgstr "Dosyt Enterprise Moodul"
+msgid "etwork Enterprise Module"
+msgstr "etwork Enterprise Moodul"
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_etwork_by_adyen
-msgid "Dosyt Payments by Adyen"
-msgstr "Dosyt maksed Adyeniga"
+msgid "etwork Payments by Adyen"
+msgstr "etwork maksed Adyeniga"
 
 #. module: payment
 #. openerp-web
@@ -1426,8 +1426,8 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_acquirer__payment_flow__s2s
-msgid "Payment from Dosyt"
-msgstr "Payment from Dosyt"
+msgid "Payment from etwork"
+msgstr "Payment from etwork"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
@@ -1906,8 +1906,8 @@ msgstr "Tüüp"
 #. openerp-web
 #: code:addons/payment/static/src/xml/payment_processing.xml:0
 #, python-format
-msgid "Unable to contact the Dosyt server."
-msgstr "Ei saa ühendust Dosyt serveriga. "
+msgid "Unable to contact the etwork server."
+msgstr "Ei saa ühendust etwork serveriga. "
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.acquirer_form

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
@@ -29,7 +29,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-07 14:40+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
@@ -343,8 +343,8 @@ msgstr "50%"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
-msgid "50,000+ companies run Dosyt to grow their businesses."
-msgstr "över 50 000 företag använder Dosyt för att utveckla sin verksamhet."
+msgid "50,000+ companies run etwork to grow their businesses."
+msgstr "över 50 000 företag använder etwork för att utveckla sin verksamhet."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_hr_options
@@ -361,9 +361,9 @@ msgstr "80% Utveckling"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Dosyt to grow their businesses."
+msgid "<b>50,000+ companies</b> run etwork to grow their businesses."
 msgstr ""
-"<b>över 50 000 företag</b> använder Dosyt för att utveckla sin verksamhet."
+"<b>över 50 000 företag</b> använder etwork för att utveckla sin verksamhet."
 
 #. module: website
 #. openerp-web
@@ -1931,10 +1931,10 @@ msgstr "Byt ikon"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Change theme in a few clicks, and browse through Dosyt's catalog of\n"
+"Change theme in a few clicks, and browse through etwork's catalog of\n"
 "                            ready-to-use themes available in our app store."
 msgstr ""
-"Byt tema med några få klick och bläddra igenom Dosyts katalog med\n"
+"Byt tema med några få klick och bläddra igenom etworks katalog med\n"
 "                            färdiga teman som finns tillgängliga i vår appbutik."
 
 #. module: website
@@ -3099,10 +3099,10 @@ msgstr "Dynamiskt innehåll"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Easily design your own Dosyt templates thanks to clean HTML\n"
+"Easily design your own etwork templates thanks to clean HTML\n"
 "                            structure and bootstrap CSS."
 msgstr ""
-"Designa enkelt dina egna Dosyt-mallar tack vare ren HTML-struktur\n"
+"Designa enkelt dina egna etwork-mallar tack vare ren HTML-struktur\n"
 "                            struktur och bootstrap CSS."
 
 #. module: website
@@ -3552,8 +3552,8 @@ msgstr "Följ oss"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Dosyt."
-msgstr "Följ din webbplatstrafik i Dosyt."
+msgid "Follow your website traffic in etwork."
+msgstr "Följ din webbplatstrafik i etwork."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -3833,7 +3833,7 @@ msgstr "Google Search Console"
 msgid ""
 "Google deprecated both its \"Universal Analytics\" and \"Google Sign-In\" "
 "API. It means that only accounts and keys created before 2020 will be able "
-"to integrate their Analytics dashboard in Dosyt (or any other website). This "
+"to integrate their Analytics dashboard in etwork (or any other website). This "
 "will be possible only up to mid 2023. After that, those services won't work "
 "anymore, at all."
 msgstr ""
@@ -3961,8 +3961,8 @@ msgstr "Hamburgermeny"
 #. openerp-web
 #: code:addons/website/static/src/snippets/s_countdown/000.xml:0
 #, python-format
-msgid "Happy Dosyt Anniversary!"
-msgstr "Grattis på Dosyts årsdag!"
+msgid "Happy etwork Anniversary!"
+msgstr "Grattis på etworks årsdag!"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__has_social_default_image
@@ -4567,12 +4567,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid ""
 "It appears your website is still using the old color system of\n"
-"            Dosyt 13.0 in some places. We made sure it is still working but\n"
+"            etwork 13.0 in some places. We made sure it is still working but\n"
 "            we recommend you to try to use the new color system, which is\n"
 "            still customizable."
 msgstr ""
 "Det verkar som om din webbplats fortfarande använder det gamla färgsystemet i\n"
-"            Dosyt 13.0 på vissa ställen. Vi såg till att det fortfarande fungerar men\n"
+"            etwork 13.0 på vissa ställen. Vi såg till att det fortfarande fungerar men\n"
 "            vi rekommenderar att du försöker använda det nya färgsystemet, som\n"
 "            fortfarande kan anpassas."
 
@@ -5293,12 +5293,12 @@ msgstr "Övervaka Googles sökresultat"
 #. module: website
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_0
 msgid ""
-"Monitor your visitors while they are browsing your website with the Dosyt "
+"Monitor your visitors while they are browsing your website with the etwork "
 "Social app. Engage with them in just a click using a live chat request or a "
 "push notification. If they have completed one of your forms, you can send "
 "them an SMS, or call them right away while they are browsing your website."
 msgstr ""
-"Övervaka dina besökare medan de surfar på din webbplats med Dosyt Social-"
+"Övervaka dina besökare medan de surfar på din webbplats med etwork Social-"
 "appen. Ta kontakt med dem med bara ett klick med hjälp av en livechatt eller"
 " ett pushmeddelande. Om de har fyllt i ett av dina formulär kan du skicka "
 "ett SMS eller ringa dem direkt medan de surfar på din webbplats."
@@ -5581,8 +5581,8 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Dosyt Version"
-msgstr "Dosytversion"
+msgid "etwork Version"
+msgstr "etworkversion"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -6554,12 +6554,12 @@ msgstr "Sök besökare"
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_1
 msgid ""
 "Search in the media dialogue when you need photos to illustrate your "
-"website. Dosyt's integration with Unsplash, featuring millions of royalty "
+"website. etwork's integration with Unsplash, featuring millions of royalty "
 "free and high quality photos, makes it possible for you to get the perfect "
 "picture, in just a few clicks."
 msgstr ""
 "Sök i media-dialogen när du behöver foton för att illustrera din webbplats. "
-"Dosyt’s integration med Unsplash, som har miljontals royaltyfria och "
+"etwork’s integration med Unsplash, som har miljontals royaltyfria och "
 "högkvalitativa foton, gör det möjligt för dig att hitta den perfekta bilden "
 "med bara några få klick."
 
@@ -6814,11 +6814,11 @@ msgstr "Inloggad"
 msgid ""
 "Sitemap.xml: Help search engine crawlers to find out what pages are present "
 "and which have recently changed, and to crawl your site accordingly. This "
-"file is automatically generated by Dosyt."
+"file is automatically generated by etwork."
 msgstr ""
 "Sitemap.xml: Hjälper sökmotorns crawlers att ta reda på vilka sidor som "
 "finns och vilka som nyligen har ändrats, och att genomsöka din webbplats "
-"därefter. Denna fil genereras automatiskt av Dosyt."
+"därefter. Denna fil genereras automatiskt av etwork."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_alert_options
@@ -7661,12 +7661,12 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_2
 msgid ""
 "To get more visitors, you should target keywords that are often searched in "
-"Google. With the built-in SEO tool, once you define a few keywords, Dosyt "
+"Google. With the built-in SEO tool, once you define a few keywords, etwork "
 "will recommend you the best keywords to target. Then adapt your title and "
 "description accordingly to boost your traffic."
 msgstr ""
 "För att få fler besökare bör du rikta in dig på nyckelord som ofta söks på "
-"Google. Med det inbyggda SEO-verktyget kommer Dosyt att rekommendera dig de "
+"Google. Med det inbyggda SEO-verktyget kommer etwork att rekommendera dig de "
 "bästa nyckelorden när du definierar några nyckelord. Anpassa sedan din titel"
 " och beskrivning därefter för att öka din trafik."
 
@@ -9138,8 +9138,8 @@ msgstr "gratis webbsida"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
-msgid "frontend_lang (Dosyt)"
-msgstr "frontend_lang (Dosyt)"
+msgid "frontend_lang (etwork)"
+msgstr "frontend_lang (etwork)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -9182,15 +9182,15 @@ msgstr "https://www.etwork.com"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"im_livechat_previous_operator_pid (Dosyt)<br/>\n"
-"                                            utm_campaign (Dosyt)<br/>\n"
-"                                            utm_source (Dosyt)<br/>\n"
-"                                            utm_medium (Dosyt)"
+"im_livechat_previous_operator_pid (etwork)<br/>\n"
+"                                            utm_campaign (etwork)<br/>\n"
+"                                            utm_source (etwork)<br/>\n"
+"                                            utm_medium (etwork)"
 msgstr ""
-"im_livechat_previous_operator_pid (Dosyt)<br/>\n"
-"                                            utm_campaign (Dosyt)<br/>\n"
-"                                            utm_source (Dosyt)<br/>\n"
-"                                            utm_medium (Dosyt)"
+"im_livechat_previous_operator_pid (etwork)<br/>\n"
+"                                            utm_campaign (etwork)<br/>\n"
+"                                            utm_source (etwork)<br/>\n"
+"                                            utm_medium (etwork)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -9222,8 +9222,8 @@ msgstr "info@yourcompany.example.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Dosyt, the"
-msgstr "instans av Dosyt, "
+msgid "instance of etwork, the"
+msgstr "instans av etwork, "
 
 #. module: website
 #: model:ir.model.fields.selection,name:website.selection__theme_ir_ui_view__inherit_id__ir_ui_view
@@ -9326,8 +9326,8 @@ msgstr "separator, avdelare"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"session_id (Dosyt)<br/>\n"
-"                                            fileToken (Dosyt)"
+"session_id (etwork)<br/>\n"
+"                                            fileToken (etwork)"
 msgstr ""
 
 #. module: website

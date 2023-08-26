@@ -375,7 +375,7 @@
                 <t t-raw="preference"/>
             </div>
             <div class="by_etwork">
-                Sent by <a href="https://www.etwork.com" target="_blank" class="etwork_link"><span class="etwork_link_text">Dosyt</span></a> –
+                Sent by <a href="https://www.etwork.com" target="_blank" class="etwork_link"><span class="etwork_link_text">etwork</span></a> –
                 <a t-att-href="'/web#view_type=form&amp;model=digest.digest&amp;id=%s' % object.id" target="_blank" style="text-decoration: none;"><span style="color: #8f8f8f;">Unsubscribe</span></a>
             </div>
         </div>
@@ -388,7 +388,7 @@
 <div class="global_layout" id="footer">
     <p style="font-weight: bold;" t-esc="company.name"/>
     <p class="by_etwork" id="powered">
-        Powered by <a href="https://www.etwork.com" target="_blank" class="etwork_link"><span class="etwork_link_text">Dosyt</span></a>
+        Powered by <a href="https://www.etwork.com" target="_blank" class="etwork_link"><span class="etwork_link_text">etwork</span></a>
     </p>
 </div>
 </div>
@@ -401,10 +401,10 @@
     <template id="digest_section_mobile">
 <div class="global_layout" style="overflow: auto;">
     <div style="width: 50%; float: left; text-align: right;">
-        <img src="https://www.etwork.com/web/image/24717933/etwork-mobile.png" alt="Dosyt Mobile" />
+        <img src="https://www.etwork.com/web/image/24717933/etwork-mobile.png" alt="etwork Mobile" />
     </div>
     <div style="width: 50%; float: left;">
-        <p class="run_business">Run your business from anywhere with <b>Dosyt Mobile</b>.</p>
+        <p class="run_business">Run your business from anywhere with <b>etwork Mobile</b>.</p>
         <div>
             <a href="https://play.google.com/store/apps/details?id=com.etwork.mobile" target="_blank"><img class="download_app" src="https://www.etwork.com/digest/static/src/img/google_play.png" /></a>
         </div>

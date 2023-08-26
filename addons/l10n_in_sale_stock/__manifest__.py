@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': "India Sales and Warehouse Management",
@@ -14,7 +14,7 @@
         useful when you setup the multiple GSTIN units.
     """,
 
-    'author': "Dosyt",
+    'author': "etwork",
     'website': "https://www.etwork.com",
     'category': 'Accounting/Localizations/Sale',
     'version': '0.1',

@@ -5,7 +5,7 @@ var AbstractAction = require('web.AbstractAction');
 var core = require('web.core');
 
 
-var IapDosytCreditRedirect = AbstractAction.extend({
+var IapetworkCreditRedirect = AbstractAction.extend({
     template: 'iap.redirect_to_etwork_credit',
     events : {
         "click .redirect_confirm" : "etwork_redirect",
@@ -22,5 +22,5 @@ var IapDosytCreditRedirect = AbstractAction.extend({
     },
 
 });
-core.action_registry.add('iap_etwork_credit_redirect', IapDosytCreditRedirect);
+core.action_registry.add('iap_etwork_credit_redirect', IapetworkCreditRedirect);
 });

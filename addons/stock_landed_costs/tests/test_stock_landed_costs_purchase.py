@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 import unittest
 from etwork.addons.stock_landed_costs.tests.common import TestStockLandedCostsCommon
 from etwork.addons.stock_landed_costs.tests.test_stockvaluationlayer import TestStockValuationLCCommon

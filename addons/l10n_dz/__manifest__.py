@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Algeria - Accounting',
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the module to manage the accounting chart for Algeria in Dosyt.
+This is the module to manage the accounting chart for Algeria in etwork.
 ======================================================================
 This module applies to companies based in Algeria.
 """,

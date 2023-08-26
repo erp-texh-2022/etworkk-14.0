@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import logging
 import os
@@ -21,7 +21,7 @@ class TestConflictMarkers(lint_case.LintCase):
             self.assertFalse(any(m in content for m in MARKERS), 'Conflict markers found in %s' % fullpath_name)
 
     def test_conflict_markers(self):
-        """ Test that there are no conflict markers left in Dosyt files """
+        """ Test that there are no conflict markers left in etwork files """
 
         counter = 0
 

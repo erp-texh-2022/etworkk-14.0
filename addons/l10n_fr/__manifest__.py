@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 # Copyright (c) 2008 JAILLET Simon - CrysaLEAD - www.crysalead.fr
 
@@ -8,7 +8,7 @@
     'version': '2.1',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the module to manage the accounting chart for France in Dosyt.
+This is the module to manage the accounting chart for France in etwork.
 ========================================================================
 
 This module applies to companies based in France mainland. It doesn't apply to

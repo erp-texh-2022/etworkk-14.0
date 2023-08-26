@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -28,7 +28,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-16 09:00+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -1757,7 +1757,7 @@ msgstr "Predefinirane rute kroz skladište"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Dosyt creates automatically requests for "
+"Define a minimum stock rule so that etwork creates automatically requests for "
 "quotations or confirmed manufacturing orders to resupply your stock."
 msgstr ""
 
@@ -1770,14 +1770,14 @@ msgstr "Definirajte novo skladište"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Dosyt is able to manage physical locations\n"
+"            organization. etwork is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Definirajte svoje lokacije kako bi odražavale vašu strukturu skladišta i\n"
-"               organizacija. Dosyt je u mogućnosti upravljati fizičkim lokacijama\n"
+"               organizacija. etwork je u mogućnosti upravljati fizičkim lokacijama\n"
 "               (skladišta, police, kanta itd.), lokacije partnera (kupci,\n"
 "               dobavljači) i virtualne lokacije koje su pandan\n"
 "               dionice poput proizvodnih naloga\n"
@@ -2208,7 +2208,7 @@ msgstr ""
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Dosyt barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the etwork barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
@@ -2235,9 +2235,9 @@ msgstr "Greška"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Dosyt moves the products from one\n"
+"Every stock operation in etwork moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Dosyt will move products from the Vendor\n"
+"            from a vendor, etwork will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
@@ -2798,11 +2798,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Dosyt will automatically pre-fill the detailed "
+"If this checkbox is ticked, etwork will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr ""
-"Ako je označeno, Dosyt će automatski unaprijed ispuniti detaljne operacije s "
+"Ako je označeno, etwork će automatski unaprijed ispuniti detaljne operacije s "
 "odgovarajućim proizvodima, lokacijama i lotovima/serijskim brojevima."
 
 #. module: stock
@@ -7567,18 +7567,18 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Dosyt generates a procurement to bring the forecasted "
+"for this field, etwork generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
 msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Dosyt generates a "
+"When the virtual stock goes below the Min Quantity, etwork generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
-"Kada se virtualna zaliha spusti ispod minimalne količine, Dosyt stvara nabavu"
+"Kada se virtualna zaliha spusti ispod minimalne količine, etwork stvara nabavu"
 " kako bi predviđenu količinu doveo do količine koja je definirana kao "
 "maksimalna količina."
 
@@ -7883,7 +7883,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on "
-"<i>apply</i> Dosyt will process all the quantities."
+"<i>apply</i> etwork will process all the quantities."
 msgstr ""
 
 #. module: stock

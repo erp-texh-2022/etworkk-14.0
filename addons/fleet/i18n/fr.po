@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* fleet
 # 
@@ -8,7 +8,7 @@
 # Olivier ANDRE <frsw194@gmail.com>, 2020
 # Daniel Deyris <daniel.deyris@phidias.fr>, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
-# Priscilla (prs) Dosyt <prs@etwork.com>, 2020
+# Priscilla (prs) etwork <prs@etwork.com>, 2020
 # Julien Goergen <jgo@etwork.com>, 2020
 # Florian <fll@etwork.com>, 2020
 # bb76cd9ac0cb7e20167a14728edb858b, 2020
@@ -36,7 +36,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -1224,11 +1224,11 @@ msgstr "Marque"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Dosyt will automatically warn\n"
+"            their related services, costs. etwork will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 "Gère tous vos contrats (leasing, assurances, etc ) ainsi que leurs services "
-"et coûts associés. Dosyt vous avertira automatiquement dès que des contrats "
+"et coûts associés. etwork vous avertira automatiquement dès que des contrats "
 "devront être renouvelés. "
 
 #. module: fleet
@@ -1501,10 +1501,10 @@ msgstr "Odomètres"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Dosyt helps you managing the costs for your different vehicles\n"
+"etwork helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
-"Dosyt vous aide à gérer les coûts de vos différents véhicules. Ces coûts sont"
+"etwork vous aide à gérer les coûts de vos différents véhicules. Ces coûts sont"
 " généralement créés à partir des services et contrats et apparaissent ici."
 
 #. module: fleet
@@ -1887,10 +1887,10 @@ msgstr "Conditions générales"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Thanks to the different filters, Dosyt can only print the effective\n"
+"Thanks to the different filters, etwork can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"Grâce aux différents filtres, Dosyt peut n'imprimer que les coûts\n"
+"Grâce aux différents filtres, etwork peut n'imprimer que les coûts\n"
 "effectifs, triez les par type et par véhicule."
 
 #. module: fleet

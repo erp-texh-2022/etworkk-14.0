@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 import logging
 
 from etwork import api, fields, models, tools, _
@@ -55,7 +55,7 @@ class ProductPricelist(models.Model):
         if data.get('company_id') and not data.get('website_id'):
             # l10n modules install will change the company currency, creating a
             # pricelist for that currency. Do not use user's company in that
-            # case as module install are done with DosytBot (company 1)
+            # case as module install are done with etworkBot (company 1)
             self = self.with_context(default_company_id=data['company_id'])
         res = super(ProductPricelist, self).create(data)
         self.clear_cache()

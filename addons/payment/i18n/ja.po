@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
@@ -21,7 +21,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:15+0000\n"
@@ -463,7 +463,7 @@ msgstr "トランザクションをキャプチャする"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__capture_manually
-msgid "Capture the amount from Dosyt, when the delivery is completed."
+msgid "Capture the amount from etwork, when the delivery is completed."
 msgstr ""
 
 #. module: payment
@@ -634,7 +634,7 @@ msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,display_as:payment.payment_acquirer_etwork_by_adyen
-msgid "Credit Card (powered by Dosyt Payments)"
+msgid "Credit Card (powered by etwork Payments)"
 msgstr ""
 
 #. module: payment
@@ -1085,13 +1085,13 @@ msgstr "手動"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Manual：Dosyt以外の現金、小切手、またはその他の方法で支払いを受けます。\n"
+"Manual：etwork以外の現金、小切手、またはその他の方法で支払いを受けます。\n"
 "電子：オンラインで購入またはサブスクライブするときに顧客が保存したカード（支払いトークン）でトランザクションを要求することにより、支払い取得者を通じて自動的に支払いを受け取ります。\n"
-"バッチ預金：銀行に提出するバッチ預金を生成することにより、一度に複数の顧客小切手を含包します。Dosytで銀行取引明細書をエンコードするときは、トランザクションをバッチデポジットと照合することをお勧めします。設定からこのオプションを有効にします。"
+"バッチ預金：銀行に提出するバッチ預金を生成することにより、一度に複数の顧客小切手を含包します。etworkで銀行取引明細書をエンコードするときは、トランザクションをバッチデポジットと照合することをお勧めします。設定からこのオプションを有効にします。"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_onboarding_wizard__paypal_seller_account
@@ -1218,13 +1218,13 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer__module_to_buy
-msgid "Dosyt Enterprise Module"
-msgstr "Dosytエンタープライズモジュール"
+msgid "etwork Enterprise Module"
+msgstr "etworkエンタープライズモジュール"
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_etwork_by_adyen
-msgid "Dosyt Payments by Adyen"
-msgstr "AdyenによるDosytペイメント"
+msgid "etwork Payments by Adyen"
+msgstr "Adyenによるetworkペイメント"
 
 #. module: payment
 #. openerp-web
@@ -1415,7 +1415,7 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_acquirer__payment_flow__s2s
-msgid "Payment from Dosyt"
+msgid "Payment from etwork"
 msgstr ""
 
 #. module: payment
@@ -1887,7 +1887,7 @@ msgstr "タイプ"
 #. openerp-web
 #: code:addons/payment/static/src/xml/payment_processing.xml:0
 #, python-format
-msgid "Unable to contact the Dosyt server."
+msgid "Unable to contact the etwork server."
 msgstr ""
 
 #. module: payment

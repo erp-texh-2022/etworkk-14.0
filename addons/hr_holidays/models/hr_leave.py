@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 # Copyright (c) 2005-2006 Axelor SARL. (http://www.axelor.com)
 
@@ -790,7 +790,7 @@ class HolidaysRequest(models.Model):
                     # Automatic validation should be done in sudo, because user might not have the rights to do it by himself
                     holiday_sudo.action_validate()
                     holiday_sudo.message_subscribe(partner_ids=[holiday._get_responsible_for_approval().partner_id.id])
-                    holiday_sudo.message_post(body=_("The time off has been automatically approved"), subtype_xmlid="mail.mt_comment") # Message from DosytBot (sudo)
+                    holiday_sudo.message_post(body=_("The time off has been automatically approved"), subtype_xmlid="mail.mt_comment") # Message from etworkBot (sudo)
                 elif not self._context.get('import_file'):
                     holiday_sudo.activity_update()
         return holidays

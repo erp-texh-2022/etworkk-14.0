@@ -156,7 +156,7 @@ var EditPageMenu = websiteNavbarData.WebsiteNavbarActionWidget.extend({
      * WebsiteRoot that is should stop the public widgets.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onContentWillBeDestroyed: function (ev) {
         this.trigger_up('widgets_stop_request', {
@@ -168,7 +168,7 @@ var EditPageMenu = websiteNavbarData.WebsiteNavbarActionWidget.extend({
      * WebsiteRoot that is should start the public widgets.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onContentWasRecreated: function (ev) {
         this.trigger_up('widgets_start_request', {
@@ -181,7 +181,7 @@ var EditPageMenu = websiteNavbarData.WebsiteNavbarActionWidget.extend({
      * WebsiteRoot that is should stop the public widgets.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onEditionWillStop: function (ev) {
         this.$editorMessageElements && this.$editorMessageElements.removeAttr('data-editor-message');
@@ -200,7 +200,7 @@ var EditPageMenu = websiteNavbarData.WebsiteNavbarActionWidget.extend({
      * WebsiteRoot that is should start the public widgets.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onEditionWasStopped: function (ev) {
         this.trigger_up('widgets_start_request', {
@@ -213,7 +213,7 @@ var EditPageMenu = websiteNavbarData.WebsiteNavbarActionWidget.extend({
      * WebsiteRoot that is should destroy the animations for this snippet.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onSnippetWillBeCloned: function (ev) {
         this.trigger_up('widgets_stop_request', {
@@ -226,7 +226,7 @@ var EditPageMenu = websiteNavbarData.WebsiteNavbarActionWidget.extend({
      * was cloned from.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onSnippetCloned: function (ev) {
         this.trigger_up('widgets_start_request', {
@@ -247,7 +247,7 @@ var EditPageMenu = websiteNavbarData.WebsiteNavbarActionWidget.extend({
      * editor messages.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onSnippetDropped: function (ev) {
         this.trigger_up('widgets_start_request', {

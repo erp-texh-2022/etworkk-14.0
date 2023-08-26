@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -19,7 +19,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:15+0000\n"
 "PO-Revision-Date: 2020-09-07 08:09+0000\n"
@@ -4448,7 +4448,7 @@ msgstr "Chế độ Ngày"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Dosyt. It is the date of the "
+"Date from which the accounting is managed in etwork. It is the date of the "
 "opening entry."
 msgstr ""
 "Ngày kể từ khi kế toán được quản lý bởi hệ thống. Nó là ngày của bút toán "
@@ -7674,9 +7674,9 @@ msgstr "Thủ công"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
 "Thủ công: thanh toán bằng tiền mặt, séc hoặc thực hiện bất kỳ phương thức thanh toán khác ngoài hệ thống.\n"
 "Thanh toán điện tử: thanh toán tự động thông qua tổ chức thanh toán bằng tạo giao dịch trên thẻ được lưu bởi khách hàng khi mua hoặc đăng ký trực tuyến (mã bảo mật thanh toán)\n"
@@ -7686,23 +7686,23 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Dosyt.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
+"Check: Pay bill by check and print it from etwork.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
-"Thủ công: Dùng cho thanh toán bảng tiền mặt, séc hoặc bất kỳ loại thanh toán nào bên ngoài Dosyt.\n"
+"Thủ công: Dùng cho thanh toán bảng tiền mặt, séc hoặc bất kỳ loại thanh toán nào bên ngoài etwork.\n"
 "Điện tử: Ghi nhận thanh toán tự đống thông qua nhà cung cấp dịch vụ thanh toán bằng cách yêu cầu thực hiện giao dịch chuyện khoản được lưu trong thông tin hồ sơ khách hàng khi mua hoặc thanh toán chi phí (mã thanh toán).\n"
-"Séc: Thanh toán hóa đơn bằng séc và in từ trong Dosyt.\n"
-"Giao dịch hàng loạt: Ghi lại nhiều số séc khách hàng cùng một lúc bằng cách tạo một khoản tiền gửi hàng loạt để gửi tới ngân hàng của bạn. Khi điền sao kê ngân hàng trong Dosyt, bạn được đề nghị đối chiếu giao dịch với tiền gửi theo đợt. Để kích hoạt tiền gửi theo đợt, tài khoản mô-đun_batch_payment phải được cài đặt.\n"
+"Séc: Thanh toán hóa đơn bằng séc và in từ trong etwork.\n"
+"Giao dịch hàng loạt: Ghi lại nhiều số séc khách hàng cùng một lúc bằng cách tạo một khoản tiền gửi hàng loạt để gửi tới ngân hàng của bạn. Khi điền sao kê ngân hàng trong etwork, bạn được đề nghị đối chiếu giao dịch với tiền gửi theo đợt. Để kích hoạt tiền gửi theo đợt, tài khoản mô-đun_batch_payment phải được cài đặt.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Dosyt.\n"
-"Check:Pay bill by check and print it from Dosyt.\n"
+"Manual:Pay bill by cash or any other method outside of etwork.\n"
+"Check:Pay bill by check and print it from etwork.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
 "Thủ công:Trả qua tiền mặt hoặc bất kì phương thức nào khác bên ngoài hệ thống.\n"
@@ -8373,13 +8373,13 @@ msgstr "Tháng Mười"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__etwork
-msgid "Dosyt"
+msgid "etwork"
 msgstr "Hệ thống"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Dosyt allows you to reconcile a statement line directly with\n"
+"etwork allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoice(s)."
 msgstr ""
 "Hệ thống cho phép bạn đối soát dòng sao kê trực tiếp với các\n"
@@ -8388,7 +8388,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Dosyt allows you to reconcile a statement line directly with\n"
+"etwork allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
 "Hệ thống cho phép bạn đối soát dòng sao kê trực tiếp với các\n"
@@ -8396,12 +8396,12 @@ msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Dosyt helps you easily track all activities related to a customer."
+msgid "etwork helps you easily track all activities related to a customer."
 msgstr "Hệ thống giúp bạn quản lý các hoạt động liên quan tới khách hàng."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Dosyt helps you easily track all activities related to a supplier."
+msgid "etwork helps you easily track all activities related to a supplier."
 msgstr ""
 "Hệ thống giúp bạn dễ dàng truy xuất và theo dõi tất cả các hoạt động liên "
 "quan đến nhà cung cấp."
@@ -10699,13 +10699,13 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Dosyt"
+"Only PDF and XML files will be interpreted by etwork"
 msgstr ""
 "Gửi một email riêng cho mỗi hóa đơn.\n"
 "\n"
 "Mọi file mở rộng đều sẽ được chấp nhận.\n"
 "\n"
-"Chỉ các tệp PDF và XML sẽ được Dosyt phiên dịch"
+"Chỉ các tệp PDF và XML sẽ được etwork phiên dịch"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.account_send_payment_receipt_by_email_action
@@ -13361,7 +13361,7 @@ msgstr "Bút toán này sẽ được vào sổ vào ngày kế toán: %(date)s"
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Dosyt database."
+"storage space of your etwork database."
 msgstr ""
 "Tùy chọn này sẽ xóa vĩnh viễn mọi dấu vết của email sau khi nó được gửi đi, "
 "bao gồm cả từ menu Kỹ thuật trong Cài đặt, để duy trì không gian lưu trữ "
@@ -14270,7 +14270,7 @@ msgstr "Với tiền tệ"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
-msgid "With Dosyt, you won't have to records bills manually"
+msgid "With etwork, you won't have to records bills manually"
 msgstr "Với hệ thống, bạn sẽ không còn phải ghi nhận bút toán bằng tay"
 
 #. module: account
@@ -14316,7 +14316,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Dosyt reference."
+"is the etwork reference."
 msgstr ""
 "Bạn có thể chọn các mẫu khác nhau cho từng loại để tham khảo. Cái mặc định "
 "là tham chiếu hệ thống."

@@ -23,7 +23,7 @@ class TestUpdateEvents(TestCommon):
         self.create_events_for_tests()
 
     # -------------------------------------------------------------------------------
-    # Update from Dosyt to Outlook
+    # Update from etwork to Outlook
     # -------------------------------------------------------------------------------
 
     # ------ Simple event ------
@@ -31,7 +31,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_simple_event_from_etwork(self, mock_patch):
         """
-        Update an Dosyt event with Outlook sync enabled
+        Update an etwork event with Outlook sync enabled
         """
 
         # arrange
@@ -55,7 +55,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_simple_event_from_etwork_attendee_calendar(self, mock_patch):
         """
-        Update an Dosyt event from the attendee calendar.
+        Update an etwork event from the attendee calendar.
         """
 
         # arrange
@@ -81,7 +81,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_name_of_one_event_of_recurrence_from_etwork(self, mock_patch):
         """
-        Update one Dosyt event name from a recurrence from the organizer calendar.
+        Update one etwork event name from a recurrence from the organizer calendar.
         """
 
         # arrange
@@ -114,7 +114,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_start_of_one_event_of_recurrence_from_etwork(self, mock_patch):
         """
-        Update one Dosyt event start date from a recurrence from the organizer calendar.
+        Update one etwork event start date from a recurrence from the organizer calendar.
         """
 
         # arrange
@@ -160,7 +160,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_start_of_one_event_of_recurrence_from_etwork_with_overlap(self, mock_patch):
         """
-        Update one Dosyt event start date from a recurrence from the organizer calendar, in order to
+        Update one etwork event start date from a recurrence from the organizer calendar, in order to
         overlap another existing event.
         """
         # arrange
@@ -182,7 +182,7 @@ class TestUpdateEvents(TestCommon):
     @patch.object(MicrosoftCalendarService, 'patch')
     def test_update_name_of_one_event_of_recurrence_from_etwork_attendee_calendar(self, mock_patch):
         """
-        Update one Dosyt event name from a recurrence from the atendee calendar.
+        Update one etwork event name from a recurrence from the atendee calendar.
         """
 
         # arrange
@@ -217,7 +217,7 @@ class TestUpdateEvents(TestCommon):
         self, mock_patch, mock_insert, mock_delete
     ):
         """
-        Update a Dosyt event name and future events from a recurrence from the organizer calendar.
+        Update a etwork event name and future events from a recurrence from the organizer calendar.
         """
 
         # arrange
@@ -256,7 +256,7 @@ class TestUpdateEvents(TestCommon):
         self, mock_patch, mock_insert, mock_delete
     ):
         """
-        Update a Dosyt event start date and future events from a recurrence from the organizer calendar.
+        Update a etwork event start date and future events from a recurrence from the organizer calendar.
         """
 
         # When a time-related field is changed, the event does not follow the recurrence scheme anymore.
@@ -332,7 +332,7 @@ class TestUpdateEvents(TestCommon):
         self, mock_patch, mock_insert, mock_delete
     ):
         """
-        Update a Dosyt event start date and future events from a recurrence from the organizer calendar,
+        Update a etwork event start date and future events from a recurrence from the organizer calendar,
         overlapping an existing event.
         """
 
@@ -404,7 +404,7 @@ class TestUpdateEvents(TestCommon):
         self, mock_patch, mock_insert, mock_delete
     ):
         """
-        Update a Dosyt event name and future events from a recurrence from the attendee calendar.
+        Update a etwork event name and future events from a recurrence from the attendee calendar.
         """
 
         # arrange
@@ -545,7 +545,7 @@ class TestUpdateEvents(TestCommon):
             self.recurrent_events.invalidate_cache()
 
     # -------------------------------------------------------------------------------
-    # Update from Outlook to Dosyt
+    # Update from Outlook to etwork
     # -------------------------------------------------------------------------------
 
     @patch.object(MicrosoftCalendarService, 'get_events')

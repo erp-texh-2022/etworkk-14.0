@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # * hr_recruitment
 # 
@@ -6,7 +6,7 @@
 # Martin Trigaux <mat@etwork.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 11.0\n"
+"Project-Id-Version: etwork Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
@@ -159,7 +159,7 @@ msgid ""
 "                        See you soon,\n"
 "                    </p><p style=\"font-size:16px;color: grey;\">\n"
 "                        -- <br/>\n"
-"                        Dosyt HR Team\n"
+"                        etwork HR Team\n"
 "                    </p>\n"
 "\n"
 "                    <hr style=\"margin: 30px 0\"/>\n"
@@ -177,7 +177,7 @@ msgid ""
 "                    <h3 style=\"color:#9A6C8E;\"><strong>Want to learn about us?</strong></h3>\n"
 "                    <ol>\n"
 "                        <li><a style=\"color:#1CC5A9\" href=\"https://www.etwork.com/blog/etwork-news-5/post/the-etwork-story-56\">Founders' story</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-etwork-culture\">The Dosyt Culture</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-etwork-culture\">The etwork Culture</a></li>\n"
 "                        <li><a style=\"color:#1CC5A9\" href=\"https://www.etwork.com/page/about-us\">About us</a></li>\n"
 "                    </ol>\n"
 "\n"
@@ -311,7 +311,7 @@ msgid ""
 "                    <h3 style=\"color:#9A6C8E;\"><strong>Want to learn more?</strong></h3>\n"
 "                    <ol>\n"
 "                        <li><a style=\"color:#1CC5A9\" href=\"https://www.etwork.com/blog/etwork-news-5/post/the-etwork-story-56\">Founders' story</a></li>\n"
-"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-etwork-culture\">The Dosyt Culture</a></li>\n"
+"                        <li><a style=\"color:#1CC5A9\" href=\"https://www.slideshare.net/openobject/the-etwork-culture\">The etwork Culture</a></li>\n"
 "                        <li><a style=\"color:#1CC5A9\" href=\"https://www.etwork.com/page/about-us\">About us</a></li>\n"
 "                    </ol>\n"
 "\n"
@@ -1351,14 +1351,14 @@ msgstr ""
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Dosyt helps you track applicants in the recruitment\n"
+"etwork helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr ""
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Dosyt helps you track applicants in the recruitment\n"
+"etwork helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
 
@@ -1727,7 +1727,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job_alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
@@ -1782,7 +1782,7 @@ msgstr "Este Año"
 #: model_terms:ir.actions.act_window,help:hr_recruitment.hr_applicant_resumes
 msgid ""
 "This menu helps you search through resumes and motivation\n"
-"                letters. Dosyt automatically indexes .PDF, .DOC, DOCX, .TXT\n"
+"                letters. etwork automatically indexes .PDF, .DOC, DOCX, .TXT\n"
 "                files so that you can search keywords from the content of these\n"
 "                files."
 msgstr ""
@@ -1876,7 +1876,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_no_employee
 msgid ""
-"With just a quick glance on the Dosyt employee screen, you\n"
+"With just a quick glance on the etwork employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""

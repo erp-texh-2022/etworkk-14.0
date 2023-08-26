@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* repair
 # 
@@ -7,13 +7,13 @@
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2020
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2020
 # Martijn <martijn.kluijtmans@gmail.com>, 2020
-# Dosyt Experts Consultants <consultants@etworkexperts.nl>, 2020
+# etwork Experts Consultants <consultants@etworkexperts.nl>, 2020
 # Erwin van der Ploeg <erwin@etworkexperts.nl>, 2023
 # Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"

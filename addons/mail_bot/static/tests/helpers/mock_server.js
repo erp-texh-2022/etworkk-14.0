@@ -13,7 +13,7 @@ MockServer.include({
      */
     async _performRpc(route, args) {
         if (args.model === 'mail.channel' && args.method === 'init_etworkbot') {
-            return this._mockMailChannelInitDosytBot();
+            return this._mockMailChannelInitetworkBot();
         }
         return this._super(...arguments);
     },
@@ -27,9 +27,9 @@ MockServer.include({
      *
      * @private
      */
-    _mockMailChannelInitDosytBot() {
+    _mockMailChannelInitetworkBot() {
         // TODO implement this mock task-2300480
-        // and improve test "DosytBot initialized after 2 minutes"
+        // and improve test "etworkBot initialized after 2 minutes"
     },
 });
 

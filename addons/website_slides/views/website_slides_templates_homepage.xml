@@ -2,7 +2,7 @@
 <etwork><data>
 
 <!-- Channels home template -->
-<template id='courses_home' name="Dosyt Courses Homepage">
+<template id='courses_home' name="etwork Courses Homepage">
     <t t-set="body_classname" t-value="'o_wslides_body'"/>
     <t t-call="website.layout">
         <div id="wrap" class="wrap o_wslides_wrap">
@@ -169,7 +169,7 @@
 </template>
 
 <!-- Channel all/main template -->
-<template id='courses_all' name="Dosyt All Courses">
+<template id='courses_all' name="etwork All Courses">
     <t t-set="body_classname" t-value="'o_wslides_body'"/>
     <t t-call="website.layout">
         <div id="wrap" class="wrap o_wslides_wrap">

@@ -190,7 +190,7 @@ class PaymentAcquirerOgone(models.Model):
         }
         if self.save_token in ['ask', 'always']:
             temp_ogone_tx_values.update({
-                'ALIAS': 'DOSYT-NEW-ALIAS-%s' % time.time(),    # something unique,
+                'ALIAS': 'etwork-NEW-ALIAS-%s' % time.time(),    # something unique,
                 'ALIASUSAGE': values.get('alias_usage') or self.ogone_alias_usage,
             })
         shasign = self._ogone_generate_shasign('in', temp_ogone_tx_values)
@@ -357,7 +357,7 @@ class PaymentTxOgone(models.Model):
     def ogone_s2s_do_transaction(self, **kwargs):
         # TODO: create tx with s2s type
         account = self.acquirer_id
-        reference = self.reference or "DOSYT-%s-%s" % (datetime.datetime.now().strftime('%y%m%d_%H%M%S'), self.partner_id.id)
+        reference = self.reference or "etwork-%s-%s" % (datetime.datetime.now().strftime('%y%m%d_%H%M%S'), self.partner_id.id)
 
         param_plus = {
             'return_url': kwargs.get('return_url', False)
@@ -417,7 +417,7 @@ class PaymentTxOgone(models.Model):
 
     def ogone_s2s_do_refund(self, **kwargs):
         account = self.acquirer_id
-        reference = self.reference or "DOSYT-%s-%s" % (datetime.datetime.now().strftime('%y%m%d_%H%M%S'), self.partner_id.id)
+        reference = self.reference or "etwork-%s-%s" % (datetime.datetime.now().strftime('%y%m%d_%H%M%S'), self.partner_id.id)
 
         data = {
             'PSPID': account.ogone_pspid,
@@ -514,7 +514,7 @@ class PaymentTxOgone(models.Model):
 
     def _ogone_s2s_get_tx_status(self):
         account = self.acquirer_id
-        #reference = tx.reference or "DOSYT-%s-%s" % (datetime.datetime.now().strftime('%Y%m%d_%H%M%S'), tx.partner_id.id)
+        #reference = tx.reference or "etwork-%s-%s" % (datetime.datetime.now().strftime('%Y%m%d_%H%M%S'), tx.partner_id.id)
 
         data = {
             'PAYID': self.acquirer_reference,
@@ -551,7 +551,7 @@ class PaymentToken(models.Model):
             # create a alias via batch
             values['cc_number'] = values['cc_number'].replace(' ', '')
             acquirer = self.env['payment.acquirer'].browse(values['acquirer_id'])
-            alias = 'DOSYT-NEW-ALIAS-%s' % time.time()
+            alias = 'etwork-NEW-ALIAS-%s' % time.time()
 
             expiry = str(values['cc_expiry'][:2]) + str(values['cc_expiry'][-2:])
             line = 'ADDALIAS;%(alias)s;%(cc_holder_name)s;%(cc_number)s;%(expiry)s;%(cc_brand)s;%(pspid)s'

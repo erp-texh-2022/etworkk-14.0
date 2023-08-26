@@ -101,7 +101,7 @@ var SidebarFilter = Widget.extend(FieldManagerMixin, {
 
     /**
      * @private
-     * @param {DosytEvent} event
+     * @param {etworkEvent} event
      */
     _onFieldChanged: function (event) {
         var self = this;
@@ -991,7 +991,7 @@ return AbstractRenderer.extend({
     },
     /**
      * @private
-     * @param {DosytEvent} event
+     * @param {etworkEvent} event
      */
     _onEditEvent: function (event) {
         this._unselectEvent();
@@ -1002,7 +1002,7 @@ return AbstractRenderer.extend({
     },
     /**
      * @private
-     * @param {DosytEvent} event
+     * @param {etworkEvent} event
      */
     _onDeleteEvent: function (event) {
         this._unselectEvent();

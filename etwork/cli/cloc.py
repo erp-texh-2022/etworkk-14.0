@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 import argparse
 import os
 import sys
@@ -10,7 +10,7 @@ from . import Command
 
 class Cloc(Command):
     """\
-    Dosyt cloc is a tool to count the number of relevant lines written in
+    etwork cloc is a tool to count the number of relevant lines written in
     Python, Javascript or XML. This can be used as rough metric for pricing
     maintenance of customizations.
 

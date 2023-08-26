@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mail
 # 
@@ -27,7 +27,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -1002,8 +1002,8 @@ msgstr "自動通知"
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_request/notification_request.xml:0
 #, python-format
-msgid "Avatar of DosytBot"
-msgstr "DosytBotのアバター"
+msgid "Avatar of etworkBot"
+msgstr "etworkBotのアバター"
 
 #. module: mail
 #. openerp-web
@@ -2659,8 +2659,8 @@ msgstr "メール送信"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
-msgid "Handle in Dosyt"
-msgstr "Dosyt内にとどめる"
+msgid "Handle in etwork"
+msgstr "etwork内にとどめる"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -2914,9 +2914,9 @@ msgstr "関連パートナーがアクティブな場合(存在する場合)ま�
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Dosyt server, "
+"If you have setup a catch-all email domain redirected to the etwork server, "
 "enter the domain name here."
-msgstr "Dosytサーバーにリダイレクトされるキャッチオール電子メールドメインをセットアップした場合は、ここにドメイン名を入力します。"
+msgstr "etworkサーバーにリダイレクトされるキャッチオール電子メールドメインをセットアップした場合は、ここにドメイン名を入力します。"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_resend_cancel_view_form
@@ -4342,26 +4342,26 @@ msgstr "未読メッセージ件数"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_alert/notification_alert.xml:0
 #, python-format
 msgid ""
-"Dosyt Push notifications have been blocked. Go to your browser settings to "
+"etwork Push notifications have been blocked. Go to your browser settings to "
 "allow them."
-msgstr "Dosytプッシュ通知はブロックされています。ブラウザの設定に移動して許可します。"
+msgstr "etworkプッシュ通知はブロックされています。ブラウザの設定に移動して許可します。"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_request/notification_request.js:0
 #, python-format
 msgid ""
-"Dosyt will not have the permission to send native notifications on this "
+"etwork will not have the permission to send native notifications on this "
 "device."
-msgstr "Dosytには、このデバイスでネイティブ通知を送信する権限がありません。"
+msgstr "etworkには、このデバイスでネイティブ通知を送信する権限がありません。"
 
 #. module: mail
 #. openerp-web
@@ -4790,11 +4790,11 @@ msgstr "お待ちください..."
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Dosyt: notifications appear in your Dosyt Inbox"
+"- Handle in etwork: notifications appear in your etwork Inbox"
 msgstr ""
 "Chatter通知の処理方法に関するポリシー:\n"
 "-電子メールによる処理:通知は電子メールアドレスに送信されます\n"
-"-Dosytでの処理:通知はDosyt受信ボックスに表示されます"
+"-etworkでの処理:通知はetwork受信ボックスに表示されます"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_contact
@@ -5935,11 +5935,11 @@ msgstr "この連絡先を担当する内部ユーザー。"
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"このエイリアスに対応した(Dosytドキュメント種別)モデル。既存のレコードに返信しない任意の受信メールは、このモデルの新しいレコード(例えば、プロジェクトタスク)の作成を引き起こします"
+"このエイリアスに対応した(etworkドキュメント種別)モデル。既存のレコードに返信しない任意の受信メールは、このモデルの新しいレコード(例えば、プロジェクトタスク)の作成を引き起こします"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_name
@@ -6051,9 +6051,9 @@ msgstr "このグループは、非メンバーによって表示されます。
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Dosyt database."
+"storage space of your etwork database."
 msgstr ""
-"このオプションは、Dosytデータベースのストレージスペースを維持するために、[設定]の[テクニカル]メニューを含め、送信後に電子メールのトラックを完全に削除します"
+"このオプションは、etworkデータベースのストレージスペースを維持するために、[設定]の[テクニカル]メニューを含め、送信後に電子メールのトラックを完全に削除します"
 
 #. module: mail
 #. openerp-web

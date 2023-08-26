@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-16 09:00+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -1826,10 +1826,10 @@ msgstr "Маршрути всередині складу за замовчува
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Dosyt creates automatically requests for "
+"Define a minimum stock rule so that etwork creates automatically requests for "
 "quotations or confirmed manufacturing orders to resupply your stock."
 msgstr ""
-"Визначте правило мінімального запасу, щоб Dosyt автоматично створювала запити"
+"Визначте правило мінімального запасу, щоб etwork автоматично створювала запити"
 " на пропозиції або підтверджені замовлення на виробництво для поповнення "
 "запасів."
 
@@ -1842,14 +1842,14 @@ msgstr "Визначте новий склад"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Dosyt is able to manage physical locations\n"
+"            organization. etwork is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Визначте ваше місцезнаходження, щоб відобразити структуру вашого складу та\n"
-"організацію. Dosyt може керувати фізичними місцями\n"
+"організацію. etwork може керувати фізичними місцями\n"
 "(склади, полиці, кошики тощо), місцезнаходженням партнерів (клієнти,\n"
 "постачальники) та віртуальними місцезнаходженнями, які є аналогом\n"
 "складських операцій, такі як замовлення на виробництво\n"
@@ -2286,12 +2286,12 @@ msgstr "Пустий склад"
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Dosyt barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the etwork barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
 msgstr ""
-"Насолоджуйтесь швидким досвідом роботи з модулем штрих-коду Dosyt. Ві швидко "
+"Насолоджуйтесь швидким досвідом роботи з модулем штрих-коду etwork. Ві швидко "
 "працює навіть без стабільного підключення до Інтернету. Він підтримує всі "
 "процеси: коригування запасів, групове надходження, переміщення партій або "
 "піддонів, перевірку низького запасу тощо. Перейдіть до меню \"Додатки\", щоб"
@@ -2318,15 +2318,15 @@ msgstr "Помилка"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Dosyt moves the products from one\n"
+"Every stock operation in etwork moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Dosyt will move products from the Vendor\n"
+"            from a vendor, etwork will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Кожна складська операція в Dosyt переміщує товари з одного\n"
+"Кожна складська операція в etwork переміщує товари з одного\n"
 "місцезнаходження на інше. Наприклад, якщо ви отримуєте товари\n"
-"від постачальника, Dosyt буде переміщати товари від місцезнаходження постачальника\n"
+"від постачальника, etwork буде переміщати товари від місцезнаходження постачальника\n"
 "до складу. Кожен звіт може бути виконаний на\n"
 "фізичні, партнерські або віртуальні місцезнаходження."
 
@@ -2907,11 +2907,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Dosyt will automatically pre-fill the detailed "
+"If this checkbox is ticked, etwork will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr ""
-"Якщо це позначено, Dosyt автоматично попередньо заповнить детальні операції "
+"Якщо це позначено, etwork автоматично попередньо заповнить детальні операції "
 "відповідними товарами, місцезнаходженнями та партійними/серійними номерами."
 
 #. module: stock
@@ -7880,21 +7880,21 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Dosyt generates a procurement to bring the forecasted "
+"for this field, etwork generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
 msgstr ""
 "Коли віртуальний запас дорівнює чи є меншим за Мінімальну кількість, "
-"визначену для цього поля, Dosyt створює закупівлі для надходжень "
+"визначену для цього поля, etwork створює закупівлі для надходжень "
 "прогнозованих кількостей на Максимальну кількість."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Dosyt generates a "
+"When the virtual stock goes below the Min Quantity, etwork generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
-"Коли віртуальний запас перевищує мінімальну кількість, Dosyt генерує "
+"Коли віртуальний запас перевищує мінімальну кількість, etwork генерує "
 "закупівлю, щоб довести прогнозовану кількість до кількості, зазначеної як "
 "максимальна."
 
@@ -8260,10 +8260,10 @@ msgstr "Ви створили рядки товарів вручну, видал
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on "
-"<i>apply</i> Dosyt will process all the quantities."
+"<i>apply</i> etwork will process all the quantities."
 msgstr ""
 "Ви ще не записали <i>виконані</i> кількості, натиснувши <i>застосувати</i> "
-"Dosyt обробить всі кількості."
+"etwork обробить всі кількості."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation

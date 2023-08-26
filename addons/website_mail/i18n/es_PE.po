@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # * website_mail
 #
@@ -6,7 +6,7 @@
 # Carlos Eduardo Rodriguez Rossi <crodriguez@samemotion.com>, 2016
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt 9.0\n"
+"Project-Id-Version: etwork 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-06-13 21:04+0000\n"
@@ -153,7 +153,7 @@ msgid ""
 "\"text-decoration:underline;\">\n"
 "                                help@etwork.com</span></a> if you have any "
 "question. You can also discover \n"
-"                                how to get the best out of Dosyt with our </"
+"                                how to get the best out of etwork with our </"
 "span>\n"
 "                                <a href=\"https://www.etwork.com/documentation/"
 "user/9.0/project.html\">\n"
@@ -167,14 +167,14 @@ msgid ""
 "                            </p>\n"
 "                            <br>\n"
 "                            <p dir=\"ltr\" style=\"font-size:13px;margin-"
-"top:0pt;margin-bottom:8pt;\"><span>Enjoy your Dosyt experience,</span></p>\n"
+"top:0pt;margin-bottom:8pt;\"><span>Enjoy your etwork experience,</span></p>\n"
 "                        </td>\n"
 "                    </tr>\n"
 "                </tbody>\n"
 "            </table>\n"
 "            <div dir=\"ltr\" style=\"font-size:13px;margin-top:0pt;margin-"
 "bottom:8pt;color:grey\">\n"
-"                <span><br/>-- <br/>The Dosyt Team<br/>PS: People love Dosyt, "
+"                <span><br/>-- <br/>The etwork Team<br/>PS: People love etwork, "
 "check </span><a href=\"https://twitter.com/etwork/favorites\"><span style="
 "\"text-decoration:underline;\">what they say about it.</span></a></span>\n"
 "            </div>\n"

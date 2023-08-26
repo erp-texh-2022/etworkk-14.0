@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* hr_recruitment
 # 
@@ -17,7 +17,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
@@ -1970,7 +1970,7 @@ msgstr "Số tin chưa đọc"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Dosyt helps you track applicants in the recruitment\n"
+"etwork helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr ""
 "Hệ thống giúp bạn theo dõi người nộp đơn trong tuyển dụng\n"
@@ -1979,7 +1979,7 @@ msgstr ""
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Dosyt helps you track applicants in the recruitment\n"
+"etwork helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
 "Hệ thống giúp bạn theo dõi người nộp đơn trong tuyển dụng\n"
@@ -2481,11 +2481,11 @@ msgstr "Ngày mà tại đó ứng viên sẵn sàng bắt đầu công việc"
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Model (kiểu tài liệu Dosyt) mà bí danh này ứng với nó. Bất kỳ tin nhắn email "
+"Model (kiểu tài liệu etwork) mà bí danh này ứng với nó. Bất kỳ tin nhắn email "
 "nào không phản hồi lại một bản ghi có sẵn sẽ tự động tạo một bản ghi mới cho"
 " model này (vd: tạo mới một nhiệm vụ dự án nếu model là project.task)"
 

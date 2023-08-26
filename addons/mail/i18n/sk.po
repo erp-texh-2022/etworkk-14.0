@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mail
 # 
@@ -22,7 +22,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -1020,7 +1020,7 @@ msgstr "Automatické oznámenia"
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_request/notification_request.xml:0
 #, python-format
-msgid "Avatar of DosytBot"
+msgid "Avatar of etworkBot"
 msgstr ""
 
 #. module: mail
@@ -2699,8 +2699,8 @@ msgstr "Spracovať emailom"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
-msgid "Handle in Dosyt"
-msgstr "Spracovať v Dosyt"
+msgid "Handle in etwork"
+msgstr "Spracovať v etwork"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -2964,10 +2964,10 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Dosyt server, "
+"If you have setup a catch-all email domain redirected to the etwork server, "
 "enter the domain name here."
 msgstr ""
-"Ak máte nastavenú catch-all emailovú doménu presmerovanú na server Dosyt, tu "
+"Ak máte nastavenú catch-all emailovú doménu presmerovanú na server etwork, tu "
 "zadajte názov domény."
 
 #. module: mail
@@ -4417,15 +4417,15 @@ msgstr "Počet neprečítaných správ"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_alert/notification_alert.xml:0
 #, python-format
 msgid ""
-"Dosyt Push notifications have been blocked. Go to your browser settings to "
+"etwork Push notifications have been blocked. Go to your browser settings to "
 "allow them."
 msgstr ""
 
@@ -4434,10 +4434,10 @@ msgstr ""
 #: code:addons/mail/static/src/components/notification_request/notification_request.js:0
 #, python-format
 msgid ""
-"Dosyt will not have the permission to send native notifications on this "
+"etwork will not have the permission to send native notifications on this "
 "device."
 msgstr ""
-"Dosyt nebude mať oprávnenie zasielať natívne upozornenia na tomto zariadení."
+"etwork nebude mať oprávnenie zasielať natívne upozornenia na tomto zariadení."
 
 #. module: mail
 #. openerp-web
@@ -4876,11 +4876,11 @@ msgstr ""
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Dosyt: notifications appear in your Dosyt Inbox"
+"- Handle in etwork: notifications appear in your etwork Inbox"
 msgstr ""
 "Pravidlá ako spracovať upozornenia chatteru:\n"
 "- spracovať mailom: upozornenia budú zaslané na vašu mailovú adresu\n"
-"- spracovať v Dosyt: upozornenia sa zobrazia vo vašej schránke Dosyt Inbox"
+"- spracovať v etwork: upozornenia sa zobrazia vo vašej schránke etwork Inbox"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_contact
@@ -6031,11 +6031,11 @@ msgstr "Interný užívateľ, ktorý má na starosti komunikáciu s týmto konta
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Model (Dosyt druh dokumentu), ktorému odpovedá tento alias. Každý "
+"Model (etwork druh dokumentu), ktorému odpovedá tento alias. Každý "
 "prichádzajúci email ktorý neodpovie na existujúci záznam, spôsobí vytvorenie"
 " nového záznamu tohto modelu (napr požiadavku projektu)"
 
@@ -6159,11 +6159,11 @@ msgstr ""
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Dosyt database."
+"storage space of your etwork database."
 msgstr ""
 "Táto možnosť natrvalo odstráni všetky stopy e-mailov po ich odoslaní, a to "
 "aj z ponuky technické v ponuke nastavenia, aby sa zachoval úložný priestor "
-"vašej databázy Dosyt."
+"vašej databázy etwork."
 
 #. module: mail
 #. openerp-web

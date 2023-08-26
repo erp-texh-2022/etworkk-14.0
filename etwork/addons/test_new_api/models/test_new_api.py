@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import datetime
 
@@ -1404,7 +1404,7 @@ class Prisoner(models.Model):
 
 class Team(models.Model):
     _name = 'test_new_api.team'
-    _description = 'Dosyt Team'
+    _description = 'etwork Team'
 
     name = fields.Char()
     parent_id = fields.Many2one('test_new_api.team')
@@ -1413,7 +1413,7 @@ class Team(models.Model):
 
 class TeamMember(models.Model):
     _name = 'test_new_api.team.member'
-    _description = 'Dosyt Developer'
+    _description = 'etwork Developer'
 
     name = fields.Char('Name')
     team_id = fields.Many2one('test_new_api.team')

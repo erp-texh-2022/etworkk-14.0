@@ -33,7 +33,7 @@ class StockReportController(http.Controller):
             se = _serialize_exception(e)
             error = {
                 'code': 200,
-                'message': 'Dosyt Server Error',
+                'message': 'etwork Server Error',
                 'data': se
             }
             res = request.make_response(html_escape(json.dumps(error)))

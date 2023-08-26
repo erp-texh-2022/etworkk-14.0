@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mrp
 # 
@@ -40,7 +40,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-29 15:48+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -4860,12 +4860,12 @@ msgstr "当需要产品在<b>%s</b>时，<br/>创建生产单以满足需要。"
 #. module: mrp
 #: model_terms:digest.tip,tip_description:mrp.digest_tip_mrp_0
 msgid ""
-"With the Dosyt work center control panel, your worker can start work orders "
+"With the etwork work center control panel, your worker can start work orders "
 "in the shop and follow instructions of the worksheet. Quality tests are "
 "perfectly integrated into the process. Workers can trigger feedback loops, "
 "maintenance alerts, scrap products, etc."
 msgstr ""
-"使用Dosyt工作中心控制面板，您的工人可以在商店中启动工作订单并遵循工作表中的说明。 质量测试已完美集成到流程中。 "
+"使用etwork工作中心控制面板，您的工人可以在商店中启动工作订单并遵循工作表中的说明。 质量测试已完美集成到流程中。 "
 "工人可以触发反馈流程，维护警报，报废产品等。"
 
 #. module: mrp
@@ -5211,9 +5211,9 @@ msgstr "您已经处理了 %(quantity)s. 请输入比 %(minimum)s 更高的数�
 #: model_terms:ir.ui.view,arch_db:mrp.view_immediate_production
 msgid ""
 "You have not recorded <i>produced</i> quantities yet, by clicking on "
-"<i>apply</i> Dosyt will produce all the finished products and consume all "
+"<i>apply</i> etwork will produce all the finished products and consume all "
 "components."
-msgstr "您尚未记录<i>生产量</i>，通过单击<i>应用</i>Dosyt将生产所有成品并消耗所有组件。"
+msgstr "您尚未记录<i>生产量</i>，通过单击<i>应用</i>etwork将生产所有成品并消耗所有组件。"
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_production.py:0

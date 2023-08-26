@@ -1,10 +1,10 @@
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Peru - Accounting',
     "version": "2.0",
     'summary': "PCGE Simplified",
     'category': 'Accounting/Localizations/Account Charts',
-    'author': 'Vauxoo, Dosyt',
+    'author': 'Vauxoo, etwork',
     'website': 'https://www.etwork.com/documentation/user/14.0/accounting/fiscal_localizations/localizations/peru.html',
     'license': 'LGPL-3',
     'depends': [

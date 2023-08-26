@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # * survey
 # 
@@ -9,7 +9,7 @@
 # Nemanja Dragovic <nemanjadragovic94@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 10.saas~18\n"
+"Project-Id-Version: etwork Server 10.saas~18\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-10-02 11:26+0000\n"
 "PO-Revision-Date: 2017-10-02 11:26+0000\n"
@@ -218,7 +218,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.page,title:survey.feedback_1
-msgid "About your Dosyt usage"
+msgid "About your etwork usage"
 msgstr ""
 
 #. module: survey
@@ -294,7 +294,7 @@ msgstr "Arhivirani"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Dosyt on a daily basis?"
+msgid "Are you using etwork on a daily basis?"
 msgstr ""
 
 #. module: survey
@@ -661,7 +661,7 @@ msgstr "Grupiši po"
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Dosyt?"
+msgid "How do you contribute or plan to contribute to etwork?"
 msgstr ""
 
 #. module: survey
@@ -696,7 +696,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Github, like all official Dosyt projects"
+msgid "I use Github, like all official etwork projects"
 msgstr ""
 
 #. module: survey
@@ -706,7 +706,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Dosyt"
+msgid "I use the contextual help in etwork"
 msgstr ""
 
 #. module: survey
@@ -768,7 +768,7 @@ msgstr ""
 
 #. module: survey
 #: model_terms:survey.page,description:survey.feedback_4
-msgid "If you do not contribute or develop in Dosyt, skip this page."
+msgid "If you do not contribute or develop in etwork, skip this page."
 msgstr ""
 
 #. module: survey
@@ -1721,7 +1721,7 @@ msgstr ""
 #. module: survey
 #: model_terms:survey.page,description:survey.feedback_2
 msgid ""
-"These questions relate to the ergonomy and ease of use of Dosyt. Try to remind your firsts days on Dosyt and\n"
+"These questions relate to the ergonomy and ease of use of etwork. Try to remind your firsts days on etwork and\n"
 "what have been your difficulties."
 msgstr ""
 
@@ -1737,7 +1737,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Dosyt"
+msgid "They help new users to understand etwork"
 msgstr ""
 
 #. module: survey
@@ -1980,7 +1980,7 @@ msgstr ""
 #. module: survey
 #: model:survey.question,question:survey.feedback_2_2
 msgid ""
-"What do you think about the process views of Dosyt, available in the web "
+"What do you think about the process views of etwork, available in the web "
 "client ?"
 msgstr ""
 
@@ -2019,7 +2019,7 @@ msgstr ""
 
 #. module: survey
 #: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Dosyt"
+msgid "Yes, I use the online version of etwork"
 msgstr ""
 
 #. module: survey

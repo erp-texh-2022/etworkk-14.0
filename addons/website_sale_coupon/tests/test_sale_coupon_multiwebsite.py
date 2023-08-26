@@ -1,4 +1,4 @@
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork.addons.sale_coupon.tests.test_program_numbers import TestSaleCouponProgramNumbers
 from etwork.addons.website.tools import MockRequest

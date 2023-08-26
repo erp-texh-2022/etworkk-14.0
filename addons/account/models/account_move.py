@@ -2324,7 +2324,7 @@ class AccountMove(models.Model):
         return reference
 
     def _get_invoice_reference_etwork_invoice(self):
-        """ This computes the reference based on the Dosyt format.
+        """ This computes the reference based on the etwork format.
             We simply return the number of the invoice, defined on the journal
             sequence.
         """
@@ -2332,7 +2332,7 @@ class AccountMove(models.Model):
         return self.name
 
     def _get_invoice_reference_etwork_partner(self):
-        """ This computes the reference based on the Dosyt format.
+        """ This computes the reference based on the etwork format.
             The data used is the reference set on the partner or its database
             id otherwise. For instance if the reference of the customer is
             'dumb customer 97', the reference will be 'CUST/dumb customer 97'.

@@ -3,7 +3,7 @@
     <data>
         <!--
             Integrate Livechat in Common Frontend for Website
-            Template registering all the assets required to execute the Livechat from a page containing Dosyt
+            Template registering all the assets required to execute the Livechat from a page containing etwork
         -->
         <template id="assets_frontend" name="im_livechat assets frontend" inherit_id="website.assets_frontend">
             <xpath expr="." position="inside">

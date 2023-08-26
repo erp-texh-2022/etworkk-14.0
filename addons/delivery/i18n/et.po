@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* delivery
 # 
@@ -20,7 +20,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -59,11 +59,11 @@ msgstr "<i class=\"fa fa-arrow-right mr-1\"/>Arvuta hind"
 #, python-format
 msgid ""
 "<p class=\"o_view_nocontent\">\n"
-"                    Buy Dosyt Enterprise now to get more providers.\n"
+"                    Buy etwork Enterprise now to get more providers.\n"
 "                </p>"
 msgstr ""
 "<p class=\"o_view_nocontent\">\n"
-"                    Osta Dosyt Enterprise kohe, et hankida rohkem teenusepakkujaid.\n"
+"                    Osta etwork Enterprise kohe, et hankida rohkem teenusepakkujaid.\n"
 "                </p>"
 
 #. module: delivery

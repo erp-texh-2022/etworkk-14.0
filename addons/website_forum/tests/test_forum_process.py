@@ -1,4 +1,4 @@
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork.addons.base.tests.common import HttpCaseWithUserDemo
 from etwork.tests import tagged

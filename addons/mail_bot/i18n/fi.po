@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
 # 
@@ -12,7 +12,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:24+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -77,11 +77,11 @@ msgstr "HTTP-reititys"
 #: code:addons/mail_bot/models/mail_channel.py:0
 #, python-format
 msgid ""
-"Hello,<br/>Dosyt's chat helps employees collaborate efficiently. I'm here to "
+"Hello,<br/>etwork's chat helps employees collaborate efficiently. I'm here to "
 "help you discover its features.<br/><b>Try to send me an emoji</b> <span "
 "class=\"o_etworkbot_command\">:)</span>"
 msgstr ""
-"Hei,<br/>Dosytn chat auttaa työntekijöitä tekemään yhteistyötä tehokkaasti. "
+"Hei,<br/>etworkn chat auttaa työntekijöitä tekemään yhteistyötä tehokkaasti. "
 "Olen täällä auttamassa sinua tutustumaan sen ominaisuuksiin.<br/><b>Kokeile "
 "lähettää minulle emoji</b> <span class=\"o_etworkbot_command\">:)</span>"
 
@@ -97,11 +97,11 @@ msgstr "Hmmm..."
 msgid ""
 "I am a simple bot, but if that's a dog, he is the cutest 😊 "
 "<br/>Congratulations, you finished this tour. You can now <b>close this chat"
-" window</b>. Enjoy discovering Dosyt."
+" window</b>. Enjoy discovering etwork."
 msgstr ""
 "Olen yksinkertainen robotti, mutta jos tuo on koira, se on söpöin 😊 "
 "<br/>Onneksi olkoon, sait tämän kierroksen päätökseen. Voit nyt <b>sulkea "
-"tämän keskusteluikkunan</b>. Nauti Dosytsta."
+"tämän keskusteluikkunan</b>. Nauti etworksta."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
@@ -176,13 +176,13 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__etworkbot_state
-msgid "DosytBot Status"
-msgstr "DosytBotin tila"
+msgid "etworkBot Status"
+msgstr "etworkBotin tila"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__etworkbot_failed
-msgid "Dosytbot Failed"
-msgstr "Dosytbot epäonnistui"
+msgid "etworkbot Failed"
+msgstr "etworkbot epäonnistui"
 
 #. module: mail_bot
 #: model:ir.model.fields.selection,name:mail_bot.selection__res_users__etworkbot_state__onboarding_attachement
@@ -221,10 +221,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-"Write <span class=\"o_etworkbot_command\">@DosytBot</span> and select me."
+"Write <span class=\"o_etworkbot_command\">@etworkBot</span> and select me."
 msgstr ""
 "Anteeksi, en kuunnellut. Jos haluat saada huomiota joltain, <b>pingaa "
-"häntä</b>. Kirjoita <span class=\"o_etworkbot_command\">@DosytBot</span> ja "
+"häntä</b>. Kirjoita <span class=\"o_etworkbot_command\">@etworkBot</span> ja "
 "valitse minut."
 
 #. module: mail_bot
@@ -271,11 +271,11 @@ msgstr "Käyttäjät"
 msgid ""
 "Wow you are a natural!<br/>Ping someone with @username to grab their "
 "attention. <b>Try to ping me using</b> <span "
-"class=\"o_etworkbot_command\">@DosytBot</span> in a sentence."
+"class=\"o_etworkbot_command\">@etworkBot</span> in a sentence."
 msgstr ""
 "Vau, olet luonnonlahjakkuus!<br/>Pingaa joku @käyttäjänimi -nimellä "
 "saadaksesi hänen huomionsa. <b>Yritä pingata minua käyttämällä</b> <span "
-"class=\"o_etworkbot_command\">@DosytBot</span> lauseessa."
+"class=\"o_etworkbot_command\">@etworkBot</span> lauseessa."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0

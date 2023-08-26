@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import models, fields
 
@@ -15,7 +15,7 @@ class Users(models.Model):
             ('onboarding_ping', 'Onboarding ping'),
             ('idle', 'Idle'),
             ('disabled', 'Disabled'),
-        ], string="DosytBot Status", readonly=True, required=False)  # keep track of the state: correspond to the code of the last message sent
+        ], string="etworkBot Status", readonly=True, required=False)  # keep track of the state: correspond to the code of the last message sent
     etworkbot_failed = fields.Boolean(readonly=True)
 
     def __init__(self, pool, cr):

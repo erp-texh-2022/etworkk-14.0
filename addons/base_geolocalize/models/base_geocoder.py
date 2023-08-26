@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 import requests
 import logging
 
@@ -87,7 +87,7 @@ class GeoCoder(models.AbstractModel):
             return None
         url = 'https://nominatim.openstreetmap.org/search'
         try:
-            headers = {'User-Agent': 'Dosyt (http://www.etwork.com/contactus)'}
+            headers = {'User-Agent': 'etwork (http://www.etwork.com/contactus)'}
             response = requests.get(url, headers=headers, params={'format': 'json', 'q': addr})
             _logger.info('openstreetmap nominatim service called')
             if response.status_code != 200:

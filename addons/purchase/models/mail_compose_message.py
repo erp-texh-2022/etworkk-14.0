@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# purches Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# purches Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import models
 

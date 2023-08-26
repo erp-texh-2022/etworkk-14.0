@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* crm
 # 
@@ -25,7 +25,7 @@
 # Alexandre Fellner <afe@etwork.com>, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
 # Fernanda Marques <fem@etwork.com>, 2020
-# Priscilla (prs) Dosyt <prs@etwork.com>, 2020
+# Priscilla (prs) etwork <prs@etwork.com>, 2020
 # Jonathan Quique <jqu@etwork.com>, 2020
 # Maxime Chambreuil <mchambreuil@ursainfosystems.com>, 2020
 # Cyrille de Lambert <cyrille.delambert@auguria.fr>, 2020
@@ -45,7 +45,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -217,10 +217,10 @@ msgstr "<span class=\"o_stat_text\"> Pistes</span>"
 #: code:addons/crm/models/crm_team.py:0
 #, python-format
 msgid ""
-"<p>As you don't belong to any Sales Team, Dosyt opens the first one by "
+"<p>As you don't belong to any Sales Team, etwork opens the first one by "
 "default.</p>"
 msgstr ""
-"<p>Etant donné que vous ne faites partie d'aucune équipe commerciale, Dosyt "
+"<p>Etant donné que vous ne faites partie d'aucune équipe commerciale, etwork "
 "ouvre la première par défaut.</p>"
 
 #. module: crm
@@ -270,7 +270,7 @@ msgid ""
 "                        <div>\n"
 "                            Hi ${object.partner_id and object.partner_id.name or ''},<br/><br/>\n"
 "                            Welcome to ${object.company_id.name}.\n"
-"                            It's great to meet you! Now that you're on board, you'll discover what ${object.company_id.name} has to offer. My name is ${object.user_id.name} and I'll help you get the most out of Dosyt. Could we plan a quick demo soon?<br/>\n"
+"                            It's great to meet you! Now that you're on board, you'll discover what ${object.company_id.name} has to offer. My name is ${object.user_id.name} and I'll help you get the most out of etwork. Could we plan a quick demo soon?<br/>\n"
 "                            Feel free to reach out at any time!<br/><br/>\n"
 "                            Best,<br/>\n"
 "                            % if object.user_id:\n"
@@ -307,7 +307,7 @@ msgid ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    Powered by <a target=\"_blank\" href=\"https://www.etwork.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Dosyt</a>\n"
+"    Powered by <a target=\"_blank\" href=\"https://www.etwork.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">etwork</a>\n"
 "</td></tr>\n"
 "</table>\n"
 "        "
@@ -342,7 +342,7 @@ msgstr ""
 "                        <div>\n"
 "                            Bonjour ${object.partner_id and object.partner_id.name or ''},<br/><br/>\n"
 "                            Bienvenue à ${object.company_id.name}.\n"
-"                            Je suis ravi de vous rencontrer ! Maintenant que vous faites parti de l'aventure, vous découvrirez ce que ${object.company_id.name} a à offrir. Je m'appelle ${object.user_id.name} et je vous aiderai à tirer le meilleur parti d'Dosyt. Pourrions-nous planifier une démonstration rapidement ?<br/>\n"
+"                            Je suis ravi de vous rencontrer ! Maintenant que vous faites parti de l'aventure, vous découvrirez ce que ${object.company_id.name} a à offrir. Je m'appelle ${object.user_id.name} et je vous aiderai à tirer le meilleur parti d'etwork. Pourrions-nous planifier une démonstration rapidement ?<br/>\n"
 "                            N'hésitez pas à me contacter à tout moment !<br/><br/>\n"
 "                            Cordialement,<br/>\n"
 "                            % if object.user_id:\n"
@@ -379,7 +379,7 @@ msgstr ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    Généré par <a target=\"_blank\" href=\"https://www.etwork.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Dosyt</a>\n"
+"    Généré par <a target=\"_blank\" href=\"https://www.etwork.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">etwork</a>\n"
 "</td></tr>\n"
 "</table>\n"
 "        "
@@ -1122,11 +1122,11 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
 msgid ""
 "Did you know you can search a company by name or VAT number to instantly "
-"fill in all its data? Dosyt autocompletes everything for you: logo, address, "
+"fill in all its data? etwork autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
 msgstr ""
 "Saviez-vous que vous pouvez chercher le nom ou le numéro de TVA d'une "
-"société pour instantanément charger ses données? Dosyt complète "
+"société pour instantanément charger ses données? etwork complète "
 "automatiquement toutes les infos pour vous: logo, adresse, taille "
 "d'entreprise, infos sur la société, réseaux sociaux, etc."
 
@@ -1134,11 +1134,11 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
 msgid ""
 "Did you know you can turn a list of opportunities into a map view, using the"
-" top-right map icon? A lot of screens in Dosyt can be turned into a map: "
+" top-right map icon? A lot of screens in etwork can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
 msgstr ""
 "Saviez-vous que vous pouvez transformer une liste d'opportunité en une carte"
-" d'un simple clic sur l'icône en haut à droite? Beaucoup d'écrans dans Dosyt "
+" d'un simple clic sur l'icône en haut à droite? Beaucoup d'écrans dans etwork "
 "peuvent se transformer en carte: les tâches, les contacts, les livraisons, "
 "etc."
 
@@ -2289,23 +2289,23 @@ msgstr "Nombre de messages non lus"
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Dosyt helps you keep track of your sales pipeline to follow\n"
+"etwork helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
-"Dosyt vous aide à suivre votre canal de vente pour faire le suivi des "
+"etwork vous aide à suivre votre canal de vente pour faire le suivi des "
 "potentielles ventes et pour mieux prévoir vos revenus futurs. "
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
 msgid ""
-"Dosyt's artificial intelligence engine predicts the success rate of each "
+"etwork's artificial intelligence engine predicts the success rate of each "
 "opportunity based on your history. You can always update the success rate "
-"manually, but if you let Dosyt do the job the score is updated while the "
+"manually, but if you let etwork do the job the score is updated while the "
 "opportunity moves forward in your sales cycle."
 msgstr ""
-"Le moteur d'intelligence artificielle d'Dosyt prévoit le taux de réussite de "
+"Le moteur d'intelligence artificielle d'etwork prévoit le taux de réussite de "
 "chaque opportunité en fonction de son historique. Vous pouvez toujours "
-"actualiser le taux de réussite manuellement, mais si vous laissez Dosyt le "
+"actualiser le taux de réussite manuellement, mais si vous laissez etwork le "
 "faire, le taux est actualisé pendant que l'opportunité avance dans votre "
 "cycle de vente."
 
@@ -3054,11 +3054,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Le modèle (sorte de document Dosyt) auquel correspond cet alias. Tout les "
+"Le modèle (sorte de document etwork) auquel correspond cet alias. Tout les "
 "e-mail entrant ne correspondant pas à un enregistrement existant entraînera "
 "la création d'un nouvel enregistrement de ce modèle (Ex. : une tâche d'un "
 "projet)"
@@ -3208,8 +3208,8 @@ msgstr "Astuce: Convertissez les emails entrants en opportunités"
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_1
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
-msgid "Tip: Did you know Dosyt has built-in lead mining?"
-msgstr "Astuce: Saviez-vous qu'Dosyt contient un outil de recherche de pistes?"
+msgid "Tip: Did you know etwork has built-in lead mining?"
+msgstr "Astuce: Saviez-vous qu'etwork contient un outil de recherche de pistes?"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_4

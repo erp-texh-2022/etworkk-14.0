@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
@@ -34,7 +34,7 @@
 # Alex T <alt@etwork.com>, 2020
 # Jonathan Castillo <jcs@etwork.com>, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
-# Priscilla (prs) Dosyt <prs@etwork.com>, 2020
+# Priscilla (prs) etwork <prs@etwork.com>, 2020
 # Martin Trigaux, 2020
 # Sébastien BÜHL <buhlsebastien@gmail.com>, 2021
 # Alexandra Jubert, 2021
@@ -46,7 +46,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:21+0000\n"
@@ -3299,10 +3299,10 @@ msgstr "Merci pour votre message! "
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Dosyt."
+"questions related to etwork."
 msgstr ""
 "Le but de ce site est de créer une base de connaissances pertinente qui "
-"répond aux questions liées à Dosyt."
+"répond aux questions liées à etwork."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
@@ -3925,9 +3925,9 @@ msgstr "ici"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Dosyt to specific business needs,"
+msgid "how to configure or customize etwork to specific business needs,"
 msgstr ""
-"comment configurer ou personnaliser Dosyt aux besoins business spécifiques,"
+"comment configurer ou personnaliser etwork aux besoins business spécifiques,"
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
@@ -3938,8 +3938,8 @@ msgstr "comment développer des modules pour vos propres besoins,"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Dosyt on a specific infrastructure,"
-msgstr "Comment installer Dosyt pour une infrastructure spécifique,"
+msgid "how to install etwork on a specific infrastructure,"
+msgstr "Comment installer etwork pour une infrastructure spécifique,"
 
 #. module: website_forum
 #. openerp-web
@@ -4043,8 +4043,8 @@ msgstr "résolu"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Dosyt service offers, etc."
-msgstr "questions spécifiques sur les services, offres,... d'Dosyt."
+msgid "specific questions about etwork service offers, etc."
+msgstr "questions spécifiques sur les services, offres,... d'etwork."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_index
@@ -4104,9 +4104,9 @@ msgstr ""
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Dosyt for a specific business need,"
+msgid "what's the best way to use etwork for a specific business need,"
 msgstr ""
-"quelle est la meilleure manière d'utiliser Dosyt pour un besoin business "
+"quelle est la meilleure manière d'utiliser etwork pour un besoin business "
 "spécifique,"
 
 #. module: website_forum

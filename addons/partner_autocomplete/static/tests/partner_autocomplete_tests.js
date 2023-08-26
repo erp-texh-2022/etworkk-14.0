@@ -37,7 +37,7 @@ etwork.define('partner_autocomplete.tests', function (require) {
     }
 
     var suggestions = [{
-        name: "Dosyt",
+        name: "etwork",
         website: "etwork.com",
         domain: "etwork.com",
         logo: "etwork.com/logo.png",
@@ -69,7 +69,7 @@ etwork.define('partner_autocomplete.tests', function (require) {
                     _enrichCompany: function (company) {
                         return Promise.resolve(enrichData);
                     },
-                    _getDosytSuggestions: function (value, isVAT) {
+                    _getetworkSuggestions: function (value, isVAT) {
                         var results = _.filter(suggestions, function (suggestion) {
                             value = value ? value.toLowerCase() : '';
                             if (isVAT) return (suggestion.vat.toLowerCase().indexOf(value) >= 0);
@@ -78,7 +78,7 @@ etwork.define('partner_autocomplete.tests', function (require) {
                         return Promise.resolve(results);
                     },
                     _getClearbitSuggestions: function (value) {
-                        return this._getDosytSuggestions(value);
+                        return this._getetworkSuggestions(value);
                     },
                     do_notify: function (title, message, sticky, className) {
                         return this.displayNotification({
@@ -102,7 +102,7 @@ etwork.define('partner_autocomplete.tests', function (require) {
                 state_id: false,
                 partner_gid: 1,
                 website: "etwork.com",
-                comment: "Comment on Dosyt",
+                comment: "Comment on etwork",
                 street: "40 Chaussée de Namur",
                 city: "Ramillies",
                 zip: "1367",
@@ -232,7 +232,7 @@ etwork.define('partner_autocomplete.tests', function (require) {
 
             await testUtils.dom.click($dropdown.find("a").first());
             $input = form.$(".o_field_partner_autocomplete > input");
-            assert.strictEqual($input.val(), "Dosyt", "Input value should have been updated to \"Dosyt\"");
+            assert.strictEqual($input.val(), "etwork", "Input value should have been updated to \"etwork\"");
             assert.strictEqual(form.$("input.o_field_widget").val(), "etwork.com", "website value should have been updated to \"etwork.com\"");
 
             _compareResultFields(assert, form, fields, createData);
@@ -313,7 +313,7 @@ etwork.define('partner_autocomplete.tests', function (require) {
             await testUtils.dom.click($dropdown.find("a").first());
 
             $input = form.$(".o_field_partner_autocomplete > input");
-            assert.strictEqual($input.val(), "Dosyt", "Input value should have been updated to \"Dosyt\"");
+            assert.strictEqual($input.val(), "etwork", "Input value should have been updated to \"etwork\"");
 
             _compareResultFields(assert, form, fields, createData);
             await testUtils.nextTick();
@@ -327,7 +327,7 @@ etwork.define('partner_autocomplete.tests', function (require) {
             await testUtils.dom.click($dropdown.find("a").first());
 
             $input = form.$(".o_field_partner_autocomplete > input");
-            assert.strictEqual($input.val(), "Dosyt", "Input value should have been updated to \"Dosyt\"");
+            assert.strictEqual($input.val(), "etwork", "Input value should have been updated to \"etwork\"");
 
             _compareResultFields(assert, form, fields, createData);
 

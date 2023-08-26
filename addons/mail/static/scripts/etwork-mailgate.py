@@ -1,5 +1,5 @@
 #!/usr/bin/env python2
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 #
 # etwork-mailgate
 #
@@ -23,11 +23,11 @@ import xmlrpclib
 
 def main():
     op = optparse.OptionParser(usage='usage: %prog [options]', version='%prog v1.2')
-    op.add_option("-d", "--database", dest="database", help="Dosyt database name (default: %default)", default='etwork')
-    op.add_option("-u", "--userid", dest="userid", help="Dosyt user id to connect with (default: %default)", default=1, type=int)
-    op.add_option("-p", "--password", dest="password", help="Dosyt user password (default: %default)", default='admin')
-    op.add_option("--host", dest="host", help="Dosyt host (default: %default)", default='localhost')
-    op.add_option("--port", dest="port", help="Dosyt port (default: %default)", default=8069, type=int)
+    op.add_option("-d", "--database", dest="database", help="etwork database name (default: %default)", default='etwork')
+    op.add_option("-u", "--userid", dest="userid", help="etwork user id to connect with (default: %default)", default=1, type=int)
+    op.add_option("-p", "--password", dest="password", help="etwork user password (default: %default)", default='admin')
+    op.add_option("--host", dest="host", help="etwork host (default: %default)", default='localhost')
+    op.add_option("--port", dest="port", help="etwork port (default: %default)", default=8069, type=int)
     (o, args) = op.parse_args()
 
     try:

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import models, fields, api, _
 from etwork.addons.account_edi_extended.models.account_edi_document import DEFAULT_BLOCKING_LEVEL

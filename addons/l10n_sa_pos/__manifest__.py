@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 {
     'name': 'K.S.A. - Point of Sale',
-    'author': 'Dosyt S.A',
+    'author': 'etwork S.A',
     'category': 'Accounting/Localizations/Point of Sale',
     'description': """
 K.S.A. POS Localization

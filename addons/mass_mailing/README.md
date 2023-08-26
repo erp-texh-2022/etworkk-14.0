@@ -1,8 +1,8 @@
-Dosyt Mass Mailing
+etwork Mass Mailing
 -----------------
 
 Easily send mass mailing to your leads, opportunities or customers
-with Dosyt <a href="https://www.etwork.com/page/mailing#">Email Marketing</a>. Track
+with etwork <a href="https://www.etwork.com/page/mailing#">Email Marketing</a>. Track
 marketing campaigns performance to improve conversion rates. Design
 professional emails and reuse templates in a few clicks.
 
@@ -26,13 +26,13 @@ rate. Track mails sent, received, opened and answered.
 Easily manage your marketing campaigns, discussion groups, leads and
 opportunities in one simple and powerful platform.
 
-Integrated with Dosyt Apps
+Integrated with etwork Apps
 -------------------------
 
-Get access to mass mailing features from every Dosyt app to improve the way your
+Get access to mass mailing features from every etwork app to improve the way your
 users communicate.
 
-Send template of emails from Dosyt <a href="https://www.etwork.com/page/mailing">CRM opportunities</a>, select leads based
+Send template of emails from etwork <a href="https://www.etwork.com/page/mailing">CRM opportunities</a>, select leads based
 on marketing segments, send <a href="https://www.etwork.com/page/recruitment">job offers</a> and automate
 answers to applicants, reuse email template in the lead automation marketing
 campaigns.
@@ -44,7 +44,7 @@ Clean Your Lead Database
 ------------------------
 
 Get a clean lead database that improves over the time using the performance of
-your mails. Dosyt handle bounce mails efficiently, flag erroneous leads
+your mails. etwork handle bounce mails efficiently, flag erroneous leads
 accordingly and gives you statistics on the quality of your leads.
 
 One click emails send
@@ -64,7 +64,7 @@ Follow-up On Answers
 The chatter feature enables you to communicate faster and more efficiently with
 your customer. Get documents created automatically (leads, opportunities,
 tasks, ...) based on answers to your mass mailing campaigns Follow the
-discussion directly on the business documents within Dosyt or via email.
+discussion directly on the business documents within etwork or via email.
 
 Get all the negotiations and discussions attached to the right document and
 relevent managers notified on specific events.
@@ -88,7 +88,7 @@ about where to invest and show the impact of your marketing activities on your
 company's bottom line.
 
 Integrate a contact form in your website easily. Forms submissions create leads
-automatically in Dosyt CRM. Leads can be used in marketing campaigns.
+automatically in etwork CRM. Leads can be used in marketing campaigns.
 
 Manage your <a href="https://www.etwork.com/page/crm">sales funnel</a> with no
 effort. Attract leads, follow-up on phone calls and meetings. Analyse the

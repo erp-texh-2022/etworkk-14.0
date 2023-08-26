@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-09 16:49+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
@@ -2185,8 +2185,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Dosyt Point Of Sale"
-msgstr "IMPORTANTE: Reporte de error del Punto de venta de Dosyt"
+msgid "IMPORTANT: Bug Report From etwork Point Of Sale"
+msgstr "IMPORTANTE: Reporte de error del Punto de venta de etwork"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2929,8 +2929,8 @@ msgstr "Número de mensajes sin leer"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Dosyt Logo"
-msgstr "Logo de Dosyt"
+msgid "etwork Logo"
+msgstr "Logo de etwork"
 
 #. module: point_of_sale
 #. openerp-web
@@ -5354,19 +5354,19 @@ msgstr "Este producto se utiliza como referencia en los recibos del cliente."
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Dosyt but you can change it to "
+"This sequence is automatically created by etwork but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Dosyt crea esta secuencia de manera automática pero puede cambiarla para "
+"etwork crea esta secuencia de manera automática pero puede cambiarla para "
 "personalizar los números de referencia de sus líneas de orden."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Dosyt but you can change it to "
+"This sequence is automatically created by etwork but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"La secuencia es creada automáticamente por Dosyt, pero puede cambiarla para "
+"La secuencia es creada automáticamente por etwork, pero puede cambiarla para "
 "personalizar los números de referencia de sus órdenes."
 
 #. module: point_of_sale

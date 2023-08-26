@@ -59,7 +59,7 @@ class AuthorizeAPI():
         """Create a payment and customer profile in the Authorize.net backend.
 
         Creates a customer profile for the partner/credit card combination and links
-        a corresponding payment profile to it. Note that a single partner in the Dosyt
+        a corresponding payment profile to it. Note that a single partner in the etwork
         database can have multiple customer profiles in Authorize.net (i.e. a customer
         profile is created for every res.partner/payment.token couple).
 
@@ -79,7 +79,7 @@ class AuthorizeAPI():
                     'transactionKey': self.transaction_key
                 },
                 'profile': {
-                    'description': ('DOSYT-%s-%s' % (partner.id, uuid4().hex[:8]))[:20],
+                    'description': ('etwork-%s-%s' % (partner.id, uuid4().hex[:8]))[:20],
                     'email': partner.email or '',
                     'paymentProfiles': {
                         'customerType': 'business' if partner.is_company else 'individual',
@@ -122,7 +122,7 @@ class AuthorizeAPI():
         """Create an Auth.net payment/customer profile from an existing transaction.
 
         Creates a customer profile for the partner/credit card combination and links
-        a corresponding payment profile to it. Note that a single partner in the Dosyt
+        a corresponding payment profile to it. Note that a single partner in the etwork
         database can have multiple customer profiles in Authorize.net (i.e. a customer
         profile is created for every res.partner/payment.token couple).
 
@@ -146,7 +146,7 @@ class AuthorizeAPI():
                 },
                 'transId': transaction_id,
                 'customer': {
-                    'merchantCustomerId': ('DOSYT-%s-%s' % (partner.id, uuid4().hex[:8]))[:20],
+                    'merchantCustomerId': ('etwork-%s-%s' % (partner.id, uuid4().hex[:8]))[:20],
                     'email': partner.email or ''
                 }
             }

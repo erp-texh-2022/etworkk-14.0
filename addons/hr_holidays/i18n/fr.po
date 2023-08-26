@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* hr_holidays
 # 
@@ -10,7 +10,7 @@
 # Melanie Bernard <mbe@etwork.com>, 2020
 # Aurore Lesage, 2020
 # Benoît Fontaine <benoitfontaine.ba@gmail.com>, 2020
-# Priscilla (prs) Dosyt <prs@etwork.com>, 2020
+# Priscilla (prs) etwork <prs@etwork.com>, 2020
 # Pauline Thiry <pth@etwork.com>, 2020
 # Nicolas Roussey <nro@etwork.com>, 2020
 # Eloïse Stilmant <est@etwork.com>, 2020
@@ -37,7 +37,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 15:27+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"

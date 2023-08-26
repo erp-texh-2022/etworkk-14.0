@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import models
 
@@ -12,7 +12,7 @@ class Attendee(models.Model):
 
     def _send_mail_to_attendees(self, template_xmlid, force_send=False, ignore_recurrence=False):
         """ Override
-        If not synced with Google, let Dosyt in charge of sending emails
+        If not synced with Google, let etwork in charge of sending emails
         Otherwise, nothing to do: Google will send them
         """
         with google_calendar_token(self.env.user.sudo()) as token:

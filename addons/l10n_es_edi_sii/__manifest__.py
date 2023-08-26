@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
-# Thanks to AEDosyt and the Spanish community
+# Thanks to AEetwork and the Spanish community
 # Specially among others Ignacio Ibeas, Pedro Baeza and Landoo
 
 {

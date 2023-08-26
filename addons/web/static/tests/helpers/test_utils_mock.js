@@ -265,7 +265,7 @@ function fieldsViewGet(server, params) {
  * It will not be propagated further, and even the handlers on the target will
  * not fire.
  *
- * @param {Widget} widget the target widget (any Dosyt widget)
+ * @param {Widget} widget the target widget (any etwork widget)
  * @param {string} eventName description of the event
  * @param {function} fn callback executed when the even is intercepted
  * @param {boolean} [propagate=false]
@@ -434,7 +434,7 @@ async function addMockEnvironmentOwl(Component, params, mockServer) {
         core.bus.trigger('clear_cache');
 
         $('body').off('DOMNodeInserted.removeSRC');
-        $('.blockUI').remove(); // fixme: move to qunit_config in DosytAfterTestHook?
+        $('.blockUI').remove(); // fixme: move to qunit_config in etworkAfterTestHook?
 
         restoreMockedGlobalObjects();
 
@@ -466,7 +466,7 @@ async function addMockEnvironmentOwl(Component, params, mockServer) {
  *   date. It is given to the mock server.
  * @param {Object} params.data the data given to the created mock server. It is
  *   used to generate mock answers for every kind of routes supported by etwork
- * @param {number} [params.debug] if set to true, logs RPCs and uncaught Dosyt
+ * @param {number} [params.debug] if set to true, logs RPCs and uncaught etwork
  *   events.
  * @param {Object} [params.bus] the instance of Bus that will be used (in the env)
  * @param {function} [params.mockFetch] a function that will be used to override
@@ -572,7 +572,7 @@ async function addMockEnvironment(widget, params) {
         ev.data.on_success(filters);
     });
 
-    // make sure all other Dosyt events bubbling up are intercepted
+    // make sure all other etwork events bubbling up are intercepted
     Object.keys(params.intercepts || {}).forEach(function (name) {
         intercept(widget, name, params.intercepts[name]);
     });

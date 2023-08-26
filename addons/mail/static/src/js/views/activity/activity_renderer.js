@@ -17,7 +17,7 @@ const _t = core._t;
 const { useState } = owl.hooks;
 
 /**
- * Owl Component Adapter for ActivityRecord which is KanbanRecord (Dosyt Widget)
+ * Owl Component Adapter for ActivityRecord which is KanbanRecord (etwork Widget)
  * TODO: Remove this adapter when ActivityRecord is a Component
  */
 class ActivityRecordAdapter extends ComponentAdapter {
@@ -48,7 +48,7 @@ class ActivityCellAdapter extends ComponentAdapter {
 }
 
 /**
- * Owl Component Adapter for KanbanColumnProgressBar (Dosyt Widget)
+ * Owl Component Adapter for KanbanColumnProgressBar (etwork Widget)
  * TODO: Remove this adapter when KanbanColumnProgressBar is a Component
  */
 class KanbanColumnProgressBarAdapter extends ComponentAdapter {

@@ -1,9 +1,9 @@
-Dosyt Blogs
+etwork Blogs
 ----------
 
-Write, Design, Promote and Engage with <a href="https://www.etwork.com/page/blog-engine">Dosyt Blogs</a>.
+Write, Design, Promote and Engage with <a href="https://www.etwork.com/page/blog-engine">etwork Blogs</a>.
 
-Express yourself with the Dosyt enterprise grade blogging platform. Write
+Express yourself with the etwork enterprise grade blogging platform. Write
 beautiful blog posts, engage with visitors, translate content and moderate
 social streams.
 
@@ -50,17 +50,17 @@ visitors to share your best blog posts easily.
 Google Analytics Integration
 ----------------------------
 
-Get a clear visibility of your sales funnel. Dosyt's Google Analytics trackers
+Get a clear visibility of your sales funnel. etwork's Google Analytics trackers
 are configured by default to track all kinds of events related to shopping
 carts, call-to-actions, etc.
 
-As Dosyt marketing tools (mass mailing, campaigns, etc) are also linked with
+As etwork marketing tools (mass mailing, campaigns, etc) are also linked with
 Google Analytics, you get a 360° view of your business.
 
 SEO Optimized Blog Posts
 ------------------------
 
-SEO tools are ready to use, with no configuration required. Dosyt suggests
+SEO tools are ready to use, with no configuration required. etwork suggests
 keywords for your titles according to Google's most searched terms, Google
 Analytics tracks interests of your visitors, sitemaps are created automatically
 for quick Google indexing, etc.
@@ -87,5 +87,5 @@ layout of the site, editors approve content and authors write that content.
 This lets you organize your publishing process according to your needs.
 
 Other access rights are related to business objects (products, people, events,
-etc) and directly following Dosyt's standard access rights management, so you do
+etc) and directly following etwork's standard access rights management, so you do
 not have to configure things twice.

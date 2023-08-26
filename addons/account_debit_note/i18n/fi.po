@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* account_debit_note
 # 
@@ -14,7 +14,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:28+0000\n"
 "PO-Revision-Date: 2020-09-07 08:09+0000\n"
@@ -108,7 +108,7 @@ msgid ""
 "copy them.  We won't copy them for debit notes from credit notes. "
 msgstr ""
 "Mikäli korjauksia täytyy tehdä jokaiselle riville, voi olla kätevintä "
-"kopioida ne. Dosyt ei kopioi hyvityslaskuista huomioita veloituslaskuihin."
+"kopioida ne. etwork ei kopioi hyvityslaskuista huomioita veloituslaskuihin."
 
 #. module: account_debit_note
 #: model:ir.model,name:account_debit_note.model_account_move

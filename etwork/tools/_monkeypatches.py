@@ -35,8 +35,8 @@ orig_literal_eval = ast.literal_eval
 def literal_eval(expr):
     # limit the size of the expression to avoid segmentation faults
     # the default limit is set to 100KiB
-    # can be overridden by setting the DOSYT_LIMIT_LITEVAL_BUFFER environment variable
-    buffer_size = os.getenv("DOSYT_LIMIT_LITEVAL_BUFFER") or 1.024e5
+    # can be overridden by setting the etwork_LIMIT_LITEVAL_BUFFER environment variable
+    buffer_size = os.getenv("etwork_LIMIT_LITEVAL_BUFFER") or 1.024e5
     if isinstance(expr, str) and len(expr) > int(buffer_size):
         raise ValueError("expression can't exceed buffer limit")
 

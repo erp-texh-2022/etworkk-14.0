@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* im_livechat
 # 
@@ -20,7 +20,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 15:41+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
@@ -595,11 +595,11 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"For websites built with the Dosyt CMS, go to Website &gt; Configuration &gt; "
+"For websites built with the etwork CMS, go to Website &gt; Configuration &gt; "
 "Settings and select the Website Live Chat Channel you want to add to your "
 "website."
 msgstr ""
-"Dosyt CMSで構築されたウェブサイトの場合、ウェブサイト > 設定 > "
+"etwork CMSで構築されたウェブサイトの場合、ウェブサイト > 設定 > "
 "設定で、ウェブサイトに追加したいウェブサイトライブチャットチャネルを選択してください。"
 
 #. module: im_livechat
@@ -1020,8 +1020,8 @@ msgstr "OK"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: im_livechat
 #. openerp-web
@@ -1089,9 +1089,9 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"Operators that do not show any activity In Dosyt for more than 30 minutes "
+"Operators that do not show any activity In etwork for more than 30 minutes "
 "will be considered as disconnected."
-msgstr "30分以上、Dosytで何の活動も見られないオペレーターは、切断されたものとみなされます。"
+msgstr "30分以上、etworkで何の活動も見られないオペレーターは、切断されたものとみなされます。"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form

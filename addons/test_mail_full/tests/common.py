@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork.addons.phone_validation.tools import phone_validation
 from etwork.addons.mass_mailing_sms.tests.common import MassSMSCommon

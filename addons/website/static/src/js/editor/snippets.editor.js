@@ -163,7 +163,7 @@ weSnippetEditor.Class.include({
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      * @param {string} gmapRequestEventName
      */
     async _handleGMapRequest(ev, gmapRequestEventName) {
@@ -192,14 +192,14 @@ weSnippetEditor.Class.include({
 
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onGMapAPIRequest(ev) {
         this._handleGMapRequest(ev, 'gmap_api_request');
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onGMapAPIKeyRequest(ev) {
         this._handleGMapRequest(ev, 'gmap_api_key_request');

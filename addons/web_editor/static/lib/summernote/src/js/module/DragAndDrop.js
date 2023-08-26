@@ -70,9 +70,9 @@ define([
         var dataTransfer = event.originalEvent.dataTransfer;
         var layoutInfo = dom.makeLayoutInfo(event.currentTarget || event.target);
 
-        /* DOSYT: start_modification */
+        /* etwork: start_modification */
         event.preventDefault();
-        /* DOSYT: end_modification */
+        /* etwork: end_modification */
 
         if (dataTransfer && dataTransfer.files && dataTransfer.files.length) {
           event.preventDefault();
@@ -87,11 +87,11 @@ define([
             var type = dataTransfer.types[i];
             var content = dataTransfer.getData(type);
 
-            /* DOSYT: start_modification */
+            /* etwork: start_modification */
             if (type.toLowerCase().indexOf('_moz_') > -1) {
               return;
             }
-            /* DOSYT: end_modification */
+            /* etwork: end_modification */
 
             if (type.toLowerCase().indexOf('text') > -1) {
               layoutInfo.holder().summernote('pasteHTML', content);

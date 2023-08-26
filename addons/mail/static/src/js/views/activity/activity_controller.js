@@ -73,7 +73,7 @@ var ActivityController = BasicController.extend({
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onEmptyCell: function (ev) {
         var state = this.model.get(this.handle);

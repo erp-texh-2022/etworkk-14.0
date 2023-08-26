@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mrp
 # 
@@ -16,9 +16,9 @@
 # Xavier Brochard <xavier@alternatif.org>, 2020
 # Fred Gilson <fgi@etwork.com>, 2020
 # Olivier ANDRE <frsw194@gmail.com>, 2020
-# gdp Dosyt <gdp@etwork.com>, 2020
+# gdp etwork <gdp@etwork.com>, 2020
 # Celia Tydgat <cty@etwork.com>, 2020
-# Priscilla (prs) Dosyt <prs@etwork.com>, 2020
+# Priscilla (prs) etwork <prs@etwork.com>, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
 # Xavier Symons <xsy@etwork.com>, 2020
 # Xavier Belmere <Info@cartmeleon.com>, 2020
@@ -52,7 +52,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-29 15:48+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -5037,12 +5037,12 @@ msgstr ""
 #. module: mrp
 #: model_terms:digest.tip,tip_description:mrp.digest_tip_mrp_0
 msgid ""
-"With the Dosyt work center control panel, your worker can start work orders "
+"With the etwork work center control panel, your worker can start work orders "
 "in the shop and follow instructions of the worksheet. Quality tests are "
 "perfectly integrated into the process. Workers can trigger feedback loops, "
 "maintenance alerts, scrap products, etc."
 msgstr ""
-"Grâce au panneau de contrôle du poste de travail d'Dosyt, votre opérateur "
+"Grâce au panneau de contrôle du poste de travail d'etwork, votre opérateur "
 "peut démarrer les ordres de travail dans l'atelier et suivre les "
 "instructions de la feuille de travail. Les contrôles qualité sont "
 "parfaitement intégrés dans la procédure. Les opérateurs peuvent déclencher "
@@ -5417,11 +5417,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.view_immediate_production
 msgid ""
 "You have not recorded <i>produced</i> quantities yet, by clicking on "
-"<i>apply</i> Dosyt will produce all the finished products and consume all "
+"<i>apply</i> etwork will produce all the finished products and consume all "
 "components."
 msgstr ""
 "Vous n'avez pas encore encodé <i>la quantité</i> produite, en cliquant sur "
-"<i>appliquer</i> Dosyt va produire les produits finis et consommera les "
+"<i>appliquer</i> etwork va produire les produits finis et consommera les "
 "matières premières. "
 
 #. module: mrp

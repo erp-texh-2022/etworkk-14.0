@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -22,7 +22,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-16 09:00+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -1789,7 +1789,7 @@ msgstr "Předvolené trasy skrz sklad"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Dosyt creates automatically requests for "
+"Define a minimum stock rule so that etwork creates automatically requests for "
 "quotations or confirmed manufacturing orders to resupply your stock."
 msgstr ""
 
@@ -1802,13 +1802,13 @@ msgstr "Definovat nový sklad"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Dosyt is able to manage physical locations\n"
+"            organization. etwork is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
-"Definujte umístění tak, aby odrážely strukturu a organizaci skladu. Dosyt je "
+"Definujte umístění tak, aby odrážely strukturu a organizaci skladu. etwork je "
 "schopen spravovat fyzická místa (sklady, police, přihrádky atd.), Partnerská"
 " místa (zákazníci, prodejci) a virtuální místa, která jsou protějškem "
 "skladových operací, jako jsou spotřeby výrobních objednávek, zásoby atd."
@@ -2243,12 +2243,12 @@ msgstr ""
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Dosyt barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the etwork barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
 msgstr ""
-"Vychutnejte si rychlý zážitek s aplikací čárových kódů Dosyt. Je bleskurychlá"
+"Vychutnejte si rychlý zážitek s aplikací čárových kódů etwork. Je bleskurychlá"
 " a funguje i bez stabilního připojení k internetu. Podporuje všechny toky: "
 "úpravy zásob, vychystávání dávek, přesuny šarží nebo palet, kontroly nízkých"
 " zásob atd. Přejděte do nabídky \"Aplikace\" a aktivujte rozhraní čárového "
@@ -2275,14 +2275,14 @@ msgstr "Chyba"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Dosyt moves the products from one\n"
+"Every stock operation in etwork moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Dosyt will move products from the Vendor\n"
+"            from a vendor, etwork will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Každá skladová operace v Dosyt přesouvá produkty z jednoho místa na druhé. "
-"Pokud například obdržíte produkty od dodavatele, Dosyt bude přesouvat "
+"Každá skladová operace v etwork přesouvá produkty z jednoho místa na druhé. "
+"Pokud například obdržíte produkty od dodavatele, etwork bude přesouvat "
 "produkty z místa dodavatele do místa skladu. Každá sestava může být "
 "prováděna na fyzických, partnerských nebo virtuálních místech."
 
@@ -2863,11 +2863,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Dosyt will automatically pre-fill the detailed "
+"If this checkbox is ticked, etwork will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr ""
-"If this checkbox is ticked, Dosyt will automatically pre-fill the detailed "
+"If this checkbox is ticked, etwork will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 
@@ -7745,21 +7745,21 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Dosyt generates a procurement to bring the forecasted "
+"for this field, etwork generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
 msgstr ""
 "Když se virtuální zásoba rovná nebo klesne pod minimální množství určené pro"
-" toto pole, Dosyt vygeneruje zakázku s cílem přivést předpokládané množství "
+" toto pole, etwork vygeneruje zakázku s cílem přivést předpokládané množství "
 "na maximální množství."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Dosyt generates a "
+"When the virtual stock goes below the Min Quantity, etwork generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
-"Když virtuální zásoba klesne pod Min Množství, Dosyt vygeneruje zakázku, "
+"Když virtuální zásoba klesne pod Min Množství, etwork vygeneruje zakázku, "
 "která uvede předpokládané množství na Množství určené jako Max Množství."
 
 #. module: stock
@@ -8089,7 +8089,7 @@ msgstr "Ručně jste vytvořili produktové trasy, pokračujte prosím odstraně
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on "
-"<i>apply</i> Dosyt will process all the quantities."
+"<i>apply</i> etwork will process all the quantities."
 msgstr ""
 
 #. module: stock

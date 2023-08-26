@@ -1,4 +1,4 @@
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     "name": "Philippines - Accounting",
@@ -7,7 +7,7 @@
     """,
     "category": "Accounting/Localizations/Account Charts",
     "version": "1.0",
-    "author": "Dosyt PS",
+    "author": "etwork PS",
     "website": "https://www.etwork.com",
     "depends": [
         "account",

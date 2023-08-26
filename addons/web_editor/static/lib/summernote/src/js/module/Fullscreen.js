@@ -1,4 +1,4 @@
-define([], function () { // DOSYT: remove error from Dosyt define
+define([], function () { // etwork: remove error from etwork define
   var Fullscreen = function (handler) {
     var $window = $(window);
     var $scrollbar = $('html, body');

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 
 {
@@ -9,7 +9,7 @@
     'description': """
        Auto-complete partner companies' data
     """,
-    'author': "Dosyt SA",
+    'author': "etwork SA",
     'category': 'Hidden/Tools',
     'version': '1.0',
     'depends': [

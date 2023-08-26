@@ -1,4 +1,4 @@
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 from etwork import fields
 from etwork.tests.common import Form
 from etwork.addons.account.tests.common import AccountTestInvoicingCommon
@@ -248,7 +248,7 @@ class TestAr(AccountTestInvoicingCommon):
         })
         cls.product_iva_exento = cls.env['product.product'].create({
             # demo product_product_exento
-            'name': 'Book: Development in Dosyt (VAT Exempt)',
+            'name': 'Book: Development in etwork (VAT Exempt)',
             'uom_id': uom_unit.id,
             'uom_po_id': uom_unit.id,
             "list_price": 80.0,

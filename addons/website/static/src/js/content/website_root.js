@@ -69,7 +69,7 @@ var WebsiteRoot = publicRootData.PublicRoot.extend(KeyboardNavigationMixin, {
         }
 
         // Enable magnify on zommable img
-        this.$('.zoomable img[data-zoom]').zoomDosyt();
+        this.$('.zoomable img[data-zoom]').zoometwork();
 
         return this._super.apply(this, arguments);
     },
@@ -241,7 +241,7 @@ var WebsiteRoot = publicRootData.PublicRoot.extend(KeyboardNavigationMixin, {
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     async _onGMapAPIRequest(ev) {
         ev.stopPropagation();
@@ -250,7 +250,7 @@ var WebsiteRoot = publicRootData.PublicRoot.extend(KeyboardNavigationMixin, {
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     async _onGMapAPIKeyRequest(ev) {
         ev.stopPropagation();
@@ -262,7 +262,7 @@ var WebsiteRoot = publicRootData.PublicRoot.extend(KeyboardNavigationMixin, {
      * Checks information about the page SEO object.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onSeoObjectRequest: function (ev) {
         var res = this._unslugHtmlDataObject('seo-object');

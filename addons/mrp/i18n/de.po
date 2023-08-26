@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mrp
 # 
@@ -30,7 +30,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-29 15:48+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -5014,12 +5014,12 @@ msgstr ""
 #. module: mrp
 #: model_terms:digest.tip,tip_description:mrp.digest_tip_mrp_0
 msgid ""
-"With the Dosyt work center control panel, your worker can start work orders "
+"With the etwork work center control panel, your worker can start work orders "
 "in the shop and follow instructions of the worksheet. Quality tests are "
 "perfectly integrated into the process. Workers can trigger feedback loops, "
 "maintenance alerts, scrap products, etc."
 msgstr ""
-"Mit dem Dosyt Work Center Control Panel kann Ihr Mitarbeiter Arbeitsaufträge "
+"Mit dem etwork Work Center Control Panel kann Ihr Mitarbeiter Arbeitsaufträge "
 "im Shop starten und den Anweisungen des Arbeitsblattes folgen. "
 "Qualitätstests sind perfekt in den Prozess integriert. Die Mitarbeiter "
 "können Feedback-Schleifen, Wartungswarnungen, Ausschussprodukte usw. "
@@ -5397,11 +5397,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.view_immediate_production
 msgid ""
 "You have not recorded <i>produced</i> quantities yet, by clicking on "
-"<i>apply</i> Dosyt will produce all the finished products and consume all "
+"<i>apply</i> etwork will produce all the finished products and consume all "
 "components."
 msgstr ""
 "Sie haben noch keine <i>produzierten Mengen</i> erfasst. Wenn Sie auf "
-"<i>Anwenden</i> klicken, wird Dosyt alle Fertigprodukte produzieren und alle "
+"<i>Anwenden</i> klicken, wird etwork alle Fertigprodukte produzieren und alle "
 "Komponenten verbrauchen."
 
 #. module: mrp

@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 {
     'name': "Shopper's Wishlist",
     'summary': 'Allow shoppers to enlist products',
     'description': """
 Allow shoppers of your eCommerce store to create personalized collections of products they want to buy and save them for future reference.
     """,
-    'author': 'Dosyt SA',
+    'author': 'etwork SA',
     'category': 'Website/Website',
     'version': '1.0',
     'depends': ['website_sale'],

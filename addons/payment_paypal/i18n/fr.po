@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* payment_paypal
 # 
@@ -12,7 +12,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:28+0000\n"
 "PO-Revision-Date: 2020-09-07 08:15+0000\n"
@@ -29,17 +29,17 @@ msgstr ""
 msgid ""
 "<br/><br/>\n"
 "                Thanks,<br/>\n"
-"                <b>The Dosyt Team</b>"
+"                <b>The etwork Team</b>"
 msgstr ""
 "<br/><br/>\n"
 "                Merci,<br/>\n"
-"                <b>L' équipe d'Dosyt</b>"
+"                <b>L' équipe d'etwork</b>"
 
 #. module: payment_paypal
 #: code:addons/payment_paypal/models/payment.py:0
 #, python-format
-msgid "Add your Paypal account to Dosyt"
-msgstr "Ajoutez votre compte Paypal à Dosyt"
+msgid "Add your Paypal account to etwork"
+msgstr "Ajoutez votre compte Paypal à etwork"
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_acquirer__display_name
@@ -69,13 +69,13 @@ msgid ""
 "                <br/><br/>\n"
 "                You have received a payment through PayPal.<br/>\n"
 "                Kindly follow the instructions given by PayPal to create your account.<br/>\n"
-"                Then, help us complete your Paypal credentials in Dosyt.<br/><br/>"
+"                Then, help us complete your Paypal credentials in etwork.<br/><br/>"
 msgstr ""
 "Bonjour,\n"
 "                <br/><br/>\n"
 "                 Vous avez reçu un paiement via PayPal.<br/>\n"
 "                 Veuillez suivre les instructions données par PayPal pour créer votre compte.<br/>\n"
-"                 Ensuite, aidez-nous à compléter vos identifiants Paypal dans Dosyt.<br/><br/>"
+"                 Ensuite, aidez-nous à compléter vos identifiants Paypal dans etwork.<br/><br/>"
 
 #. module: payment_paypal
 #: model_terms:ir.ui.view,arch_db:payment_paypal.acquirer_form_paypal

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* transifex
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -39,8 +39,8 @@ msgstr "Última modificació el "
 
 #. module: transifex
 #: model:ir.model.fields,help:transifex.field_ir_translation__transifex_url
-msgid "Propose a modification in the official version of Dosyt"
-msgstr "Proposar una modificació a la versió oficial d’Dosyt"
+msgid "Propose a modification in the official version of etwork"
+msgstr "Proposar una modificació a la versió oficial d’etwork"
 
 #. module: transifex
 #: model_terms:ir.ui.view,arch_db:transifex.ir_translation_dialog_view_tree_transifex

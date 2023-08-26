@@ -1,4 +1,4 @@
-define(['summernote/core/range', 'summernote/core/dom'], function (range, dom) { // DOSYT: suggest upstream
+define(['summernote/core/range', 'summernote/core/dom'], function (range, dom) { // etwork: suggest upstream
   /**
    * @class editing.History
    *
@@ -16,7 +16,7 @@ define(['summernote/core/range', 'summernote/core/dom'], function (range, dom) {
       return {
         contents: $editable.html(),
         bookmark: (rng && dom.ancestor(rng.sc, dom.isEditable) ? rng.bookmark(editable) : emptyBookmark)
-        // DOSYT: suggest upstream added " && dom.ancestor(rng.sc, dom.isEditable) "
+        // etwork: suggest upstream added " && dom.ancestor(rng.sc, dom.isEditable) "
       };
     };
 
@@ -44,7 +44,7 @@ define(['summernote/core/range', 'summernote/core/dom'], function (range, dom) {
       }
     };
 
-    /* DOSYT: to suggest upstream */
+    /* etwork: to suggest upstream */
     this.hasUndo = function () {
         return 0 < stackOffset;
     };
@@ -59,17 +59,17 @@ define(['summernote/core/range', 'summernote/core/dom'], function (range, dom) {
       }
     };
 
-    /* DOSYT: to suggest upstream */
+    /* etwork: to suggest upstream */
     this.hasRedo = function () {
         return stack.length - 1 > stackOffset;
     };
 
-    var last; // DOSYT: to suggest upstream (since we may have several editor)
+    var last; // etwork: to suggest upstream (since we may have several editor)
     /**
      * recorded undo
      */
     this.recordUndo = function () {
-      // DOSYT: method totally rewritten
+      // etwork: method totally rewritten
       // test event for firefox: remove stack of history because event doesn't exists
       var key = typeof event !== 'undefined' ? event : false;
       if (key && !event.metaKey && !event.ctrlKey && !event.altKey && event.type === "keydown") {
@@ -97,12 +97,12 @@ define(['summernote/core/range', 'summernote/core/dom'], function (range, dom) {
       stack.push(makeSnapshot());
     };
 
-    /* DOSYT: to suggest upstream */
+    /* etwork: to suggest upstream */
     this.splitNext = function () {
         last = false;
     };
 
-    /* DOSYT: to suggest upstream */
+    /* etwork: to suggest upstream */
     this.reset = function () {
         last = false;
         stack = [];

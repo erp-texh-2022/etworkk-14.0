@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mrp
 # 
@@ -8,12 +8,12 @@
 # Mandy Choy <mnc@etwork.com>, 2021
 # 敬雲 林 <chingyun@yuanchih-consult.com>, 2021
 # Benson <Benson.Dr@Gmail.com>, 2023
-# Wil Dosyt, 2023
+# Wil etwork, 2023
 # Tony Ng, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-29 15:48+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -4834,12 +4834,12 @@ msgstr "當需要產品在<b>%s</b>時，<br/>創建生產單以滿足需要。"
 #. module: mrp
 #: model_terms:digest.tip,tip_description:mrp.digest_tip_mrp_0
 msgid ""
-"With the Dosyt work center control panel, your worker can start work orders "
+"With the etwork work center control panel, your worker can start work orders "
 "in the shop and follow instructions of the worksheet. Quality tests are "
 "perfectly integrated into the process. Workers can trigger feedback loops, "
 "maintenance alerts, scrap products, etc."
 msgstr ""
-"使用 Dosyt 工作中心控制面板，您的員工可以在工廠開始工作訂單並按照工作表的說明進行操作。 品質測試完美地融入了流程中。 "
+"使用 etwork 工作中心控制面板，您的員工可以在工廠開始工作訂單並按照工作表的說明進行操作。 品質測試完美地融入了流程中。 "
 "工人可以觸發反饋循環、維護警報、報廢產品等."
 
 #. module: mrp
@@ -5187,9 +5187,9 @@ msgstr "您已經處理了 %(quantity)s 個。 請輸入大於 %(minimum)s 的�
 #: model_terms:ir.ui.view,arch_db:mrp.view_immediate_production
 msgid ""
 "You have not recorded <i>produced</i> quantities yet, by clicking on "
-"<i>apply</i> Dosyt will produce all the finished products and consume all "
+"<i>apply</i> etwork will produce all the finished products and consume all "
 "components."
-msgstr "您尚未記錄<i>生產</i>數量，點擊<i>應用</i> Dosyt將生產所有成品並消耗所有組件."
+msgstr "您尚未記錄<i>生產</i>數量，點擊<i>應用</i> etwork將生產所有成品並消耗所有組件."
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_production.py:0

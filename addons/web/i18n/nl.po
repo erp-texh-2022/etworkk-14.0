@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -19,7 +19,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -2026,8 +2026,8 @@ msgstr "Fuchsia"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Dosyt Enterprise!"
-msgstr "Krijg deze optie en veel meer met Dosyt Enterprise!"
+msgid "Get this feature and much more with etwork Enterprise!"
+msgstr "Krijg deze optie en veel meer met etwork Enterprise!"
 
 #. module: web
 #. openerp-web
@@ -2623,8 +2623,8 @@ msgstr "Meerdere regels tekst"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Dosyt.com account"
-msgstr "Mijn Dosyt.com account"
+msgid "My etwork.com account"
+msgstr "Mijn etwork.com account"
 
 #. module: web
 #. openerp-web
@@ -2819,15 +2819,15 @@ msgstr "Object:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Dosyt Apps will be available soon"
-msgstr "Dosyt apps zijn binnenkort beschikbaar"
+msgid "etwork Apps will be available soon"
+msgstr "etwork apps zijn binnenkort beschikbaar"
 
 #. module: web
 #. openerp-web
@@ -2836,36 +2836,36 @@ msgstr "Dosyt apps zijn binnenkort beschikbaar"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Client Error"
-msgstr "Dosyt cliënt fout"
+msgid "etwork Client Error"
+msgstr "etwork cliënt fout"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Dosyt Enterprise"
-msgstr "Dosyt Enterprise"
+msgid "etwork Enterprise"
+msgstr "etwork Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Error"
-msgstr "Dosyt fout"
+msgid "etwork Error"
+msgstr "etwork fout"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Session Expired"
-msgstr "Dosyt sessie verlopen"
+msgid "etwork Session Expired"
+msgstr "etwork sessie verlopen"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Warning"
-msgstr "Dosyt foutmelding"
+msgid "etwork Warning"
+msgstr "etwork foutmelding"
 
 #. module: web
 #. openerp-web
@@ -3227,8 +3227,8 @@ msgstr "Aangeboden door %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Dosyt</span>"
-msgstr "Aangeboden door <span>Dosyt</span>"
+msgid "Powered by <span>etwork</span>"
+msgstr "Aangeboden door <span>etwork</span>"
 
 #. module: web
 #. openerp-web
@@ -3953,7 +3953,7 @@ msgstr "Labels"
 #, python-format
 msgid "Take a minute to get a coffee,<br />because it's loading..."
 msgstr ""
-"Neem een minuutje om koffie te halen,<br />want Dosyt is aan het laden..."
+"Neem een minuutje om koffie te halen,<br />want etwork is aan het laden..."
 
 #. module: web
 #: model:ir.model.fields,field_description:web.field_base_document_layout__vat
@@ -4692,7 +4692,7 @@ msgstr "Het is niet toegestaan om de wachtwoord velden leeg te laten."
 msgid ""
 "You may not believe it,<br />but the application is actually loading..."
 msgstr ""
-"Je zou het haast niet geloven,<br />maar Dosyt is wel degelijk aan het "
+"Je zou het haast niet geloven,<br />maar etwork is wel degelijk aan het "
 "laden..."
 
 #. module: web
@@ -4711,10 +4711,10 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Dosyt with at least two workers to print a pdf version of "
+"You need to start etwork with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"U moet Dosyt starten met minimaal twee werkers om een PDF versie van de "
+"U moet etwork starten met minimaal twee werkers om een PDF versie van de "
 "rapporten te kunnen afdrukken."
 
 #. module: web
@@ -4734,9 +4734,9 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Dosyt session expired. The current page is about to be refreshed."
+msgid "Your etwork session expired. The current page is about to be refreshed."
 msgstr ""
-"Uw Dosyt-sessie is verlopen. De huidige pagina wordt binnenkort vernieuwd."
+"Uw etwork-sessie is verlopen. De huidige pagina wordt binnenkort vernieuwd."
 
 #. module: web
 #. openerp-web

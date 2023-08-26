@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -19,7 +19,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 13:50+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -2950,12 +2950,12 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Dosyt."
+"                    document in etwork."
 msgstr ""
 "Le fatture fornitore possono essere pregenerate in base agli\n"
 "                    ordini di acquisto o alle ricezioni. Ciò consente di tenere\n"
 "                    sotto controllo le fatture ricevute dal fornitore in conformità\n"
-"                    con il documento in bozza di Dosyt."
+"                    con il documento in bozza di etwork."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume
@@ -3026,14 +3026,14 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Dosyt will send the vendor an email to ask confirmation of shipment"
+"shipment, etwork will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Quando viene creato un ordine di acquisto, dai un'occhiata al tasso di "
 "<i>consegne puntuali</i> del venditore: è la percentuale di prodotti spediti"
 " in tempo. Se è troppo basso, attiva i <i>promemoria automatici</i>. Qualche"
-" giorno prima della spedizione prevista, Dosyt invia al fornitore una e-mail "
+" giorno prima della spedizione prevista, etwork invia al fornitore una e-mail "
 "per chiedere conferma delle date di spedizione, tenendoti informato in caso "
 "di ritardi. Per ottenere le statistiche di rendimento del fornitore, fai "
 "clic sul tasso di puntualità."
@@ -3041,12 +3041,12 @@ msgstr ""
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Dosyt asks the vendor to acknowledge "
+"When sending a purchase order by email, etwork asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Quando viene inviato un ordine di acquisto via e-mail, Dosyt chiede al "
+"Quando viene inviato un ordine di acquisto via e-mail, etwork chiede al "
 "fornitore di confermare la ricezione dell'ordine. Dopo aver riconosciuto "
 "l'ordine con un clic su un pulsante dentro l'e-mail, l'informazione viene "
 "aggiunta all'ordine di acquisto. Utilizza i filtri per monitorare gli ordini"

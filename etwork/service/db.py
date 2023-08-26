@@ -372,7 +372,7 @@ def list_dbs(force=False):
         raise etwork.exceptions.AccessDenied()
 
     if not etwork.tools.config['dbfilter'] and etwork.tools.config['db_name']:
-        # In case --db-filter is not provided and --database is passed, Dosyt will not
+        # In case --db-filter is not provided and --database is passed, etwork will not
         # fetch the list of databases available on the postgres server and instead will
         # use the value of --database as comma seperated list of exposed databases.
         res = sorted(db.strip() for db in etwork.tools.config['db_name'].split(','))
@@ -391,7 +391,7 @@ def list_dbs(force=False):
     return res
 
 def list_db_incompatible(databases):
-    """"Check a list of databases if they are compatible with this version of Dosyt
+    """"Check a list of databases if they are compatible with this version of etwork
 
         :param databases: A list of existing Postgresql databases
         :return: A list of databases that are incompatible

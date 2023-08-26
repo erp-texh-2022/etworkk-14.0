@@ -13,7 +13,7 @@ etwork.define('base_automation.BaseAutomatioErrorDialogTests', function (require
 
             let baseAutomationName = 'Test base automation error dialog';
             let error = {
-                type: 'Dosyt Client Error',
+                type: 'etwork Client Error',
                 message: 'Message',
                 data: {
                     debug: 'Traceback',
@@ -49,7 +49,7 @@ etwork.define('base_automation.BaseAutomatioErrorDialogTests', function (require
             assert.expect(3);
 
             let error = {
-                type: 'Dosyt Client Error',
+                type: 'etwork Client Error',
                 message: 'Message',
                 data: {
                     debug: 'Traceback',

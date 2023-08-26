@@ -72,7 +72,7 @@ var BoardController = FormController.extend({
 
     /**
      * @private
-     * @param {DosytEvent} event
+     * @param {etworkEvent} event
      */
     _onChangeLayout: function (event) {
         var self = this;
@@ -96,7 +96,7 @@ var BoardController = FormController.extend({
      * do_action (which will open the record in a different breadcrumb).
      *
      * @private
-     * @param {DosytEvent} event
+     * @param {etworkEvent} event
      */
     _onSwitchView: function (event) {
         event.stopPropagation();
@@ -428,7 +428,7 @@ var BoardRenderer = FormRenderer.extend({
      * window action of the sub controller that is switching view
      *
      * @private
-     * @param {DosytEvent} event
+     * @param {etworkEvent} event
      */
     _onSwitchView: function (event) {
         event.data.formViewID = this._boardFormViewIDs[event.target.handle];
@@ -439,7 +439,7 @@ var BoardRenderer = FormRenderer.extend({
      * interfering with the ActionManager.
      *
      * @private
-     * @param {DosytEvent} event
+     * @param {etworkEvent} event
      */
     _onUpdateFilters: function (event) {
         event.stopPropagation();

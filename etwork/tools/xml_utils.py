@@ -9,7 +9,7 @@ from etwork.exceptions import UserError
 
 
 class etwork_resolver(etree.Resolver):
-    """Dosyt specific file resolver that can be added to the XML Parser.
+    """etwork specific file resolver that can be added to the XML Parser.
 
     It will search filenames in the ir.attachments
     """

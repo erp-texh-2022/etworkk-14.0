@@ -45,7 +45,7 @@
 
 <template id="snippet_options_image_optimization_widgets">
     <div class="o_we_external_warning d-none">
-        <we-title title="Quality options are unavailable for external images. If you want to change this image's quality, please first download it from the original source and upload it in Dosyt.">
+        <we-title title="Quality options are unavailable for external images. If you want to change this image's quality, please first download it from the original source and upload it in etwork.">
             <i class="fa fa-warning" /> External Image
         </we-title>
     </div>

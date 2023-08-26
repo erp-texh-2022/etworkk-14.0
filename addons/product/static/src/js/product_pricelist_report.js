@@ -267,7 +267,7 @@ var GeneratePriceList = AbstractAction.extend(StandaloneFieldManagerMixin, {
      * Reload report when quantities changed.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      * @param {integer[]} event.data.quantities
      */
     _onQtyChanged: function (ev) {

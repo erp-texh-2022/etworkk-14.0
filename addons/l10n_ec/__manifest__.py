@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2010-2012 Cristian Salamea Gnuthink Software Labs Cia. Ltda
 
@@ -8,7 +8,7 @@
     'version': '1.1',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the base module to manage the accounting chart for Ecuador in Dosyt.
+This is the base module to manage the accounting chart for Ecuador in etwork.
 ==============================================================================
 
 Accounting chart and localization for Ecuador.

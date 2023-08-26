@@ -117,15 +117,15 @@ class TestDeleteEvents(TestCommon):
 
     def test_delete_simple_event_from_outlook_attendee_calendar(self):
         """
-        If an attendee deletes an event from its Outlook calendar, during the sync, Dosyt will be notified that
+        If an attendee deletes an event from its Outlook calendar, during the sync, etwork will be notified that
         this event has been deleted BUT only with the attendees's calendar event id and not with the global one
-        (called iCalUId). That means, it's not possible to match this deleted event with an Dosyt event.
+        (called iCalUId). That means, it's not possible to match this deleted event with an etwork event.
 
         LIMITATION:
 
         Unfortunately, there is no magic solution:
-            1) keep the list of calendar events ids linked to a unique iCalUId but all Dosyt users may not have synced
-            their Dosyt calendar, leading to missing ids in the list => bad solution.
+            1) keep the list of calendar events ids linked to a unique iCalUId but all etwork users may not have synced
+            their etwork calendar, leading to missing ids in the list => bad solution.
             2) call the microsoft API to get the iCalUId matching the received event id => as the event has already
             been deleted, this call may return an error.
         """

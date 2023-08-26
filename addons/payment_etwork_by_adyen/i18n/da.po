@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* payment_etwork_by_adyen
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2021-01-08 12:30+0000\n"
@@ -80,31 +80,31 @@ msgstr "Sidst ændret den"
 #. module: payment_etwork_by_adyen
 #: code:addons/payment_etwork_by_adyen/models/payment.py:0
 #, python-format
-msgid "Dosyt Payment by Adyen: feedback error"
-msgstr "Dosyt Betaling af Adyen: feedback fejl"
+msgid "etwork Payment by Adyen: feedback error"
+msgstr "etwork Betaling af Adyen: feedback fejl"
 
 #. module: payment_etwork_by_adyen
 #: model:ir.model.fields.selection,name:payment_etwork_by_adyen.selection__payment_acquirer__provider__etwork_adyen
-msgid "Dosyt Payments by Adyen"
-msgstr "Dosyt Betalinger af Adyen"
+msgid "etwork Payments by Adyen"
+msgstr "etwork Betalinger af Adyen"
 
 #. module: payment_etwork_by_adyen
 #: code:addons/payment_etwork_by_adyen/models/payment.py:0
 #, python-format
-msgid "Dosyt Payments by Adyen is not available in test mode."
-msgstr "Dosyt Betaling af Adyen er ikke tilgængelig i test tilstand."
+msgid "etwork Payments by Adyen is not available in test mode."
+msgstr "etwork Betaling af Adyen er ikke tilgængelig i test tilstand."
 
 #. module: payment_etwork_by_adyen
 #: code:addons/payment_etwork_by_adyen/models/payment.py:0
 #, python-format
-msgid "Dosyt Payments by Adyen: received data for reference %s"
-msgstr "Dosyt Betaling af Adyen: modtog data for reference %s"
+msgid "etwork Payments by Adyen: received data for reference %s"
+msgstr "etwork Betaling af Adyen: modtog data for reference %s"
 
 #. module: payment_etwork_by_adyen
 #: code:addons/payment_etwork_by_adyen/models/payment.py:0
 #, python-format
-msgid "Dosyt Payments by Adyen: received data with missing reference (%s)"
-msgstr "Dosyt Betaling af Adyen: modtog data med manglende reference (%s)"
+msgid "etwork Payments by Adyen: received data with missing reference (%s)"
+msgstr "etwork Betaling af Adyen: modtog data med manglende reference (%s)"
 
 #. module: payment_etwork_by_adyen
 #: model:ir.model,name:payment_etwork_by_adyen.model_payment_acquirer

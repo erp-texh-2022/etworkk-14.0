@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
@@ -12,7 +12,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:21+0000\n"
@@ -3259,10 +3259,10 @@ msgstr "Дякуємо за публікацію!"
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Dosyt."
+"questions related to etwork."
 msgstr ""
 "Мета цього сайту - створити відповідну базу знань, яка відповідатиме на "
-"питання, пов'язані з Dosyt."
+"питання, пов'язані з etwork."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
@@ -3884,8 +3884,8 @@ msgstr "тут"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Dosyt to specific business needs,"
-msgstr "як налаштувати Dosyt для конкретних бізнес-потреб,"
+msgid "how to configure or customize etwork to specific business needs,"
+msgstr "як налаштувати etwork для конкретних бізнес-потреб,"
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
@@ -3896,8 +3896,8 @@ msgstr "як розробляти модулі для власної потре�
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Dosyt on a specific infrastructure,"
-msgstr "як встановити Dosyt на певну інфраструктуру,"
+msgid "how to install etwork on a specific infrastructure,"
+msgstr "як встановити etwork на певну інфраструктуру,"
 
 #. module: website_forum
 #. openerp-web
@@ -4001,8 +4001,8 @@ msgstr "вирішено"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Dosyt service offers, etc."
-msgstr "конкретні питання про послуги Dosyt та ін."
+msgid "specific questions about etwork service offers, etc."
+msgstr "конкретні питання про послуги etwork та ін."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_index
@@ -4062,9 +4062,9 @@ msgstr ""
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Dosyt for a specific business need,"
+msgid "what's the best way to use etwork for a specific business need,"
 msgstr ""
-"який найкращий спосіб використовувати Dosyt для конкретної бізнес-потреби,"
+"який найкращий спосіб використовувати etwork для конкретної бізнес-потреби,"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.author_box

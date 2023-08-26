@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -22,7 +22,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 13:50+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -2942,11 +2942,11 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Dosyt."
+"                    document in etwork."
 msgstr ""
 "Leverandørregninger kan forud-genereres baseret på købsordre eller kvitteringer. Dette gør dig i stand til at kontrollere regninger\n"
 "                      du modtager fra din leverandør, ud fra kladde\n"
-"                      dokumentet i Dosyt."
+"                      dokumentet i etwork."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume
@@ -3017,14 +3017,14 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Dosyt will send the vendor an email to ask confirmation of shipment"
+"shipment, etwork will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Under oprettelse af en købsordre, tag et kig på sælgerens <i>Levering Til "
 "Tiden</i> rate: Procentdelen af produkter afsendt til tiden. Aktiver "
 "<i>automatisk påmindelser</i> hvis den er for lav. Et par dage før forventet"
-" afsendelse, vil Dosyt sende sælgeren en email, og spørge om bekræftelse af "
+" afsendelse, vil etwork sende sælgeren en email, og spørge om bekræftelse af "
 "forsendelsesdatoerne, og holde dig informeret i tilfælde af forsinkelser. "
 "For at indhente sælgerens præstation statistikker, kan du klikke på LTT "
 "raten."
@@ -3032,12 +3032,12 @@ msgstr ""
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Dosyt asks the vendor to acknowledge "
+"When sending a purchase order by email, etwork asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Dosyt spørger sælgeren om at anerkende modtagelsen af ordren, ved at sende en"
+"etwork spørger sælgeren om at anerkende modtagelsen af ordren, ved at sende en"
 " købsordre per email. Når sælgeren godkender ordren ved at klikke på en knap"
 " i emailen, vil informationen blive tilføjet købsordren. Brug filtre til at "
 "spore ordre der ikke er blevet anerkendt."

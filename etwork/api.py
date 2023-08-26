@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
-"""The Dosyt API module defines Dosyt Environments and method decorators.
+"""The etwork API module defines etwork Environments and method decorators.
 
 .. todo:: Document this module
 """

@@ -8,7 +8,7 @@ etwork.define('web.CustomCheckbox', function (require) {
     /**
      * Custom checkbox
      * 
-     * Component that can be used in templates to render the custom checkbox of Dosyt.
+     * Component that can be used in templates to render the custom checkbox of etwork.
      * 
      * <CustomCheckbox
      *     value="boolean"

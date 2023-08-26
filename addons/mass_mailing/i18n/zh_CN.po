@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
 # 
@@ -30,7 +30,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -1929,8 +1929,8 @@ msgstr ""
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.layout
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image_text
@@ -2521,8 +2521,8 @@ msgstr "感谢订阅！"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
-msgid "That way, Dosyt evolves much faster than any other solution."
-msgstr "采用这种方式，Dosyt 比其他解决方案发展更快。"
+msgid "That way, etwork evolves much faster than any other solution."
+msgstr "采用这种方式，etwork 比其他解决方案发展更快。"
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact_subscription__opt_out
@@ -2539,19 +2539,19 @@ msgstr "收件人在取消订阅页面可以访问邮件列表，以允许他更
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"The open source model of Dosyt has allowed us to leverage thousands of developers and\n"
+"The open source model of etwork has allowed us to leverage thousands of developers and\n"
 "                                business experts to build hundreds of apps in just a few years."
 msgstr ""
-"Dosyt 的开源模式已允许我们利用数以千计的开发人员和\n"
+"etwork 的开源模式已允许我们利用数以千计的开发人员和\n"
 " 商务专家，在短短数年内打造数百款应用。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_text_image
 msgid ""
-"The open source model of Dosyt has allowed us to leverage thousands of "
+"The open source model of etwork has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
-msgstr "Dosyt 的开源模式已允许我们利用数以千计的开发人员和商务专家，在短短数年内打造数百款应用。"
+msgstr "etwork 的开源模式已允许我们利用数以千计的开发人员和商务专家，在短短数年内打造数百款应用。"
 
 #. module: mass_mailing
 #: code:addons/mass_mailing/models/mailing.py:0
@@ -2720,10 +2720,10 @@ msgstr "升级主题"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"Usability improvements made on Dosyt will automatically apply to all\n"
+"Usability improvements made on etwork will automatically apply to all\n"
 "                                of our fully integrated apps."
 msgstr ""
-"对 Dosyt 所做的可用性改进将自动应用于所有\n"
+"对 etwork 所做的可用性改进将自动应用于所有\n"
 " 完全集成的应用。"
 
 #. module: mass_mailing
@@ -2741,10 +2741,10 @@ msgstr "使用专用的邮件服务器"
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Dosyt relies on the first "
+"Use a specific mail server in priority. Otherwise etwork relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
-msgstr "优先使用指定的邮件服务器。否则，Dosyt依赖于可用的第一个外发邮件服务器（基于它们的顺序），就像普通邮件一样。"
+msgstr "优先使用指定的邮件服务器。否则，etwork依赖于可用的第一个外发邮件服务器（基于它们的顺序），就像普通邮件一样。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_discount2
@@ -2779,7 +2779,7 @@ msgid ""
 " back please accept this 20% discount on you next purchase by clicking the "
 "button."
 msgstr ""
-"我们在不断成长，迫切地想看到您成为 Dosyt 的一员！我们已延长商店营业时间，并提供大量新品牌。为了欢迎您的归来，单击此按钮即可在下次购买时享受 20%"
+"我们在不断成长，迫切地想看到您成为 etwork 的一员！我们已延长商店营业时间，并提供大量新品牌。为了欢迎您的归来，单击此按钮即可在下次购买时享受 20%"
 " 的折扣。"
 
 #. module: mass_mailing
@@ -2830,18 +2830,18 @@ msgstr "你想什么时候发邮件？"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"With strong technical foundations, Dosyt's framework is unique.\n"
+"With strong technical foundations, etwork's framework is unique.\n"
 "                                It provides top notch usability that scales across all apps."
 msgstr ""
-"借助强大的技术基础，Dosyt 独一无二的框架应运而生。\n"
+"借助强大的技术基础，etwork 独一无二的框架应运而生。\n"
 " 它能够在全部应用范围内提供最顶级的可用性。"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image
 msgid ""
-"With strong technical foundations, Dosyt's framework is unique. It provides "
+"With strong technical foundations, etwork's framework is unique. It provides "
 "<strong>top notch usability that scales across all apps</strong>."
-msgstr "凭借强大的技术基础，Dosyt 的框架是独一无二的。<strong>它能够在全部应用范围内提供最顶级的可用性。 </strong>"
+msgstr "凭借强大的技术基础，etwork 的框架是独一无二的。<strong>它能够在全部应用范围内提供最顶级的可用性。 </strong>"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_two_cols
@@ -2875,16 +2875,16 @@ msgstr "您没有订阅任何我们的邮件列表。"
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_mailing_action_mail
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Dosyt apps."
+"                send emails<br> to any contact saved in other etwork apps."
 msgstr ""
 "你不需要导入你的邮件列表，你可以轻松地\n"
-"               <br>向保存在其他Dosyt应用程序中的任何联系人</br>发送电子邮件<br>。</br>"
+"               <br>向保存在其他etwork应用程序中的任何联系人</br>发送电子邮件<br>。</br>"
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"            send emails<br> to any contact saved in other Dosyt apps."
+"            send emails<br> to any contact saved in other etwork apps."
 msgstr ""
 
 #. module: mass_mailing

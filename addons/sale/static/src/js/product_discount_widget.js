@@ -19,7 +19,7 @@ etwork.define('sale.product_discount', function (require) {
          * Override changes at a discount.
          *
          * @override
-         * @param {DosytEvent} ev
+         * @param {etworkEvent} ev
          *
          */
         async reset(record, ev) {

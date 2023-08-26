@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'IoT Box Homepage',
@@ -11,12 +11,12 @@
 IoT Box Homepage
 ================
 
-This module overrides Dosyt web interface to display a simple
+This module overrides etwork web interface to display a simple
 Homepage that explains what's the iotbox and shows the status,
 and where to find documentation.
 
 If you activate this module, you won't be able to access the 
-regular Dosyt interface anymore.
+regular etwork interface anymore.
 
 """,
     'installable': False,

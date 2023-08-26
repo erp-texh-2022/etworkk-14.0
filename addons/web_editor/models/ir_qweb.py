@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 """
 Web_editor-context rendering needs to add some metadata to rendered and allow to edit fields,
 as well as render a few fields differently.
 
-Also, adds methods to convert values back to Dosyt models.
+Also, adds methods to convert values back to etwork models.
 """
 
 import ast

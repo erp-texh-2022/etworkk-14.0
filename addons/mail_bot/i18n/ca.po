@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mail_bot
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:24+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -76,11 +76,11 @@ msgstr "Enrutament HTTP"
 #: code:addons/mail_bot/models/mail_channel.py:0
 #, python-format
 msgid ""
-"Hello,<br/>Dosyt's chat helps employees collaborate efficiently. I'm here to "
+"Hello,<br/>etwork's chat helps employees collaborate efficiently. I'm here to "
 "help you discover its features.<br/><b>Try to send me an emoji</b> <span "
 "class=\"o_etworkbot_command\">:)</span>"
 msgstr ""
-"Hola,<br/>El xat d'Dosyt ajuda els empleats a col·laborar de manera eficient."
+"Hola,<br/>El xat d'etwork ajuda els empleats a col·laborar de manera eficient."
 " Soc aquí per ajudar-te a descobrir les seves "
 "característiques.<br/><b>Intenta enviar-me un emoji</b> <span "
 "class=\"o_etworkbot_command\">:)</span>"
@@ -97,11 +97,11 @@ msgstr "Hmmm..."
 msgid ""
 "I am a simple bot, but if that's a dog, he is the cutest 😊 "
 "<br/>Congratulations, you finished this tour. You can now <b>close this chat"
-" window</b>. Enjoy discovering Dosyt."
+" window</b>. Enjoy discovering etwork."
 msgstr ""
 "Soc un bot senzill, però si és un gos, és el més bonic 😊 <br/>Felicitats, "
 "has acabat aquesta gira. Ara pots <b>tancar aquesta finestra de xat</b>. "
-"Gaudeix de descobrir Dosyt."
+"Gaudeix de descobrir etwork."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
@@ -176,13 +176,13 @@ msgstr ""
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__etworkbot_state
-msgid "DosytBot Status"
-msgstr "Estat de l'DosytBot"
+msgid "etworkBot Status"
+msgstr "Estat de l'etworkBot"
 
 #. module: mail_bot
 #: model:ir.model.fields,field_description:mail_bot.field_res_users__etworkbot_failed
-msgid "Dosytbot Failed"
-msgstr "Dosytbot ha fallat"
+msgid "etworkbot Failed"
+msgstr "etworkbot ha fallat"
 
 #. module: mail_bot
 #: model:ir.model.fields.selection,name:mail_bot.selection__res_users__etworkbot_state__onboarding_attachement
@@ -221,10 +221,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Sorry, I am not listening. To get someone's attention, <b>ping him</b>. "
-"Write <span class=\"o_etworkbot_command\">@DosytBot</span> and select me."
+"Write <span class=\"o_etworkbot_command\">@etworkBot</span> and select me."
 msgstr ""
 "Ho sento, no estic escoltant. Per cridar l'atenció d'algú,<b>ping a ell</b>."
-" Escriu <span class=\"o_etworkbot_command\">@DosytBot</span> i selecciona'm."
+" Escriu <span class=\"o_etworkbot_command\">@etworkBot</span> i selecciona'm."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0
@@ -270,11 +270,11 @@ msgstr "Usuaris"
 msgid ""
 "Wow you are a natural!<br/>Ping someone with @username to grab their "
 "attention. <b>Try to ping me using</b> <span "
-"class=\"o_etworkbot_command\">@DosytBot</span> in a sentence."
+"class=\"o_etworkbot_command\">@etworkBot</span> in a sentence."
 msgstr ""
 "Vaja, tens un talent natural<br/>Fes ping a algú amb @nomd'usuario per a "
 "cridar la seva atenció.<b>Prova d'enviarme un ping fent servir</b> <span "
-"class=\"o_etworkbot_command\">@DosytBot</span> en una frase."
+"class=\"o_etworkbot_command\">@etworkBot</span> en una frase."
 
 #. module: mail_bot
 #: code:addons/mail_bot/models/mail_bot.py:0

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* event
 # 
@@ -20,7 +20,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -95,9 +95,9 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
-"<b>Technical Rooms</b> - One dedicated to advanced Dosyt developers, one for "
+"<b>Technical Rooms</b> - One dedicated to advanced etwork developers, one for "
 "new developers."
-msgstr "<b>Tekniske rum</b> - Et til øvede Dosyt udviklere, et til begyndere."
+msgstr "<b>Tekniske rum</b> - Et til øvede etwork udviklere, et til begyndere."
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -1309,11 +1309,11 @@ msgid ""
 "At just 13 years old, John DOE was already starting to develop his first "
 "business applications for customers. After mastering civil engineering, he "
 "founded TinyERP. This was the first phase of OpenERP which would later "
-"became Dosyt, the most installed open-source business software worldwide."
+"became etwork, the most installed open-source business software worldwide."
 msgstr ""
 "Bare 13 år gammel begyndte John DOE at udvikle virksomheds programmer til "
 "til kunder. Efter sin uddannelse som civil-ingeniør oprettede han TinyERP. "
-"Dette var det første del der sidenhen blev OpenERP og som nu er Dosyt. "
+"Dette var det første del der sidenhen blev OpenERP og som nu er etwork. "
 "Verdens mest installerede open-source virksomheds software."
 
 #. module: event
@@ -3120,7 +3120,7 @@ msgid ""
 "Schedule and organize your events efficiently:\n"
 "                track registrations and participations, automate the confirmation emails, sell tickets, etc."
 msgstr ""
-"Dosyt hjælper dig med at planlægge og organisere dine arrangementer:\n"
+"etwork hjælper dig med at planlægge og organisere dine arrangementer:\n"
 "    Hold styr på tilmeldinger og deltagelser, automatisér bekræftelses e-mails,\n"
 "    sælg billetter m.v."
 

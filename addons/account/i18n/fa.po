@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -30,7 +30,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:15+0000\n"
 "PO-Revision-Date: 2020-09-07 08:09+0000\n"
@@ -4446,7 +4446,7 @@ msgstr "حالت تاریخ"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Dosyt. It is the date of the "
+"Date from which the accounting is managed in etwork. It is the date of the "
 "opening entry."
 msgstr ""
 "تاریخی که حسابداری در اودو مدیریت شده است. این تاریخ ثبت سند ابتدای دوره "
@@ -7648,9 +7648,9 @@ msgstr "دستی"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
 "روش دستی: به صورت نقدی ، چک یا هر روش دیگری خارج از موارد تعیین شده دریافت کنید\n"
 "روش الکترونیکی: با درخواست تراکنش روی کارت ذخیره شده توسط مشتری در هنگام خرید یا اشتراک آنلاین (نشان پرداخت) ، به طور خودکار از طریق دریافت کننده پرداخت پول دریافت کنید.\n"
@@ -7660,10 +7660,10 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Dosyt.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
+"Check: Pay bill by check and print it from etwork.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
 "روش دستی: به صورت نقدی ، چک یا هر روش دیگری خارج از موراد تعیین شده دریافت کنید.\n"
@@ -7675,8 +7675,8 @@ msgstr ""
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Dosyt.\n"
-"Check:Pay bill by check and print it from Dosyt.\n"
+"Manual:Pay bill by cash or any other method outside of etwork.\n"
+"Check:Pay bill by check and print it from etwork.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
 "روش دستی: صورتحساب را به صورت نقدی یا هر روش دیگری خارج از سیستم پرداخت کنید.\n"
@@ -8341,13 +8341,13 @@ msgstr "اکتبر"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__etwork
-msgid "Dosyt"
+msgid "etwork"
 msgstr "اودو"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Dosyt allows you to reconcile a statement line directly with\n"
+"etwork allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoice(s)."
 msgstr ""
 "سیستم به شما این  امکان را می دهد که یک ردیف صورتحساب را مستقیماً با آن تطبیق دهید\n"
@@ -8356,7 +8356,7 @@ msgstr ""
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Dosyt allows you to reconcile a statement line directly with\n"
+"etwork allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
 "سیستم به شما این  امکان را می دهد که یک ردیف صورتحساب را مستقیماً با آن تطبیق دهید\n"
@@ -8364,13 +8364,13 @@ msgstr ""
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Dosyt helps you easily track all activities related to a customer."
+msgid "etwork helps you easily track all activities related to a customer."
 msgstr ""
 "اودو به شما کمک می کند همه فعالیت های مربوط به یک مشتری را رهگیری کنید."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Dosyt helps you easily track all activities related to a supplier."
+msgid "etwork helps you easily track all activities related to a supplier."
 msgstr ""
 "اودو به شما کمک می کند همه فعالیت های مربوط به یک فروشنده را رهگیری کنید."
 
@@ -10652,7 +10652,7 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Dosyt"
+"Only PDF and XML files will be interpreted by etwork"
 msgstr ""
 "برای هر فاکتور یک ایمیل جداگانه ارسال کنید.\n"
 "\n"
@@ -13261,7 +13261,7 @@ msgstr "این عملکرد در تاریخ حسابداری ارسال می ش�
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Dosyt database."
+"storage space of your etwork database."
 msgstr ""
 "این گزینه به منظور حفظ فضای ذخیره سازی پایگاه داده شما ، هرگونه ایمیل را پس "
 "از ارسال ، از جمله از منوی فنی در تنظیمات ، برای همیشه حذف می کند."
@@ -14165,7 +14165,7 @@ msgstr "با ارز"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
-msgid "With Dosyt, you won't have to records bills manually"
+msgid "With etwork, you won't have to records bills manually"
 msgstr ""
 "با استفاده از سیستم ، مجبور نیستید صورتحساب ها را به صورت دستی ذخیره کنید"
 
@@ -14213,7 +14213,7 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Dosyt reference."
+"is the etwork reference."
 msgstr ""
 "شما می توانید مدل های مختلف برای هر نوع شماره پیگیری انتخاب کنید. مورد "
 "پیشفرض شماره پیگیری اودو است."

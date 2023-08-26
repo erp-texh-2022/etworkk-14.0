@@ -30,7 +30,7 @@ var renderer = $.summernote.renderer;
 // some problems by making the DOM and style easier to understand for the
 // base function for the duration of their executions. This won't obviously
 // solves all problems but this is an improvement while waiting for the new
-// Dosyt editor coming in future versions.
+// etwork editor coming in future versions.
 function protectCommand(callback) {
     return function () {
         var rng = range.create();

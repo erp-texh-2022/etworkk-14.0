@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from email.message import EmailMessage
 from email.utils import make_msgid
@@ -224,7 +224,7 @@ class IrMailServer(models.Model):
         if smtp_encryption == 'ssl':
             if 'SMTP_SSL' not in smtplib.__all__:
                 raise UserError(
-                    _("Your Dosyt Server does not support SMTP-over-SSL. "
+                    _("Your etwork Server does not support SMTP-over-SSL. "
                       "You could use STARTTLS instead. "
                        "If SSL is needed, an upgrade to Python 2.6 on the server-side "
                        "should do the trick."))

@@ -126,7 +126,7 @@ class TestAnswerEvents(TestCommon):
 
         LIMITATION:
 
-        But, as there is no way to get the iCalUId to identify the corresponding Dosyt event,
+        But, as there is no way to get the iCalUId to identify the corresponding etwork event,
         there is no way to update the attendee status to "declined".
         """
 

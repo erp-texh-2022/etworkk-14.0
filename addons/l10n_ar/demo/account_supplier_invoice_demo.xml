@@ -82,7 +82,7 @@
         ]"/>
     </record>
 
-    <!-- Service Import to Dosyt, fiscal position changes tax not correspond -->
+    <!-- Service Import to etwork, fiscal position changes tax not correspond -->
     <record id="demo_sup_invoice_6" model="account.move">
         <field name="partner_id" ref="res_partner_etwork"/>
         <field name="invoice_user_id" ref="base.user_demo"/>

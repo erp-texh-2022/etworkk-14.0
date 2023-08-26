@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 from datetime import datetime, timedelta
 
 from etwork import models, api, fields
@@ -119,7 +119,7 @@ class AccountClosing(models.Model):
         @param {recordset} company: the company for which the closing is done
         @return {dict} the theoretical date from which account move lines are fetched.
             date_stop date to which the move lines are fetched, always now()
-            the dates are in their Dosyt Database string representation
+            the dates are in their etwork Database string representation
         """
         date_stop = datetime.utcnow()
         interval_from = None

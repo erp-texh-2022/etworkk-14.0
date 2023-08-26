@@ -2,16 +2,16 @@ etwork.define('web.mvc', function (require) {
 "use strict";
 
 /**
- * This file contains a 'formalization' of a MVC pattern, applied to Dosyt
+ * This file contains a 'formalization' of a MVC pattern, applied to etwork
  * idioms.
  *
  * For a simple widget/component, this is definitely overkill.  However, when
- * working on complex systems, such as Dosyt views (or the control panel, or some
+ * working on complex systems, such as etwork views (or the control panel, or some
  * client actions), it is useful to clearly separate the code in concerns.
  *
  * We define here 4 classes: Factory, Model, Renderer, Controller.  Note that
  * for various historical reasons, we use the term Renderer instead of View. The
- * main issue is that the term 'View' is used way too much in Dosyt land, and
+ * main issue is that the term 'View' is used way too much in etwork land, and
  * adding it would increase the confusion.
  *
  * In short, here are the responsabilities of the four classes:

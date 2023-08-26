@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -33,7 +33,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 13:50+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -2900,12 +2900,12 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Dosyt."
+"                    document in etwork."
 msgstr ""
 "Toimittajien ostolaskut voidaan luoda etukäteen oston perusteella\n"
 "                    tilausten tai kuittien perusteella. Näin voit valvoa laskuja\n"
 "                    joita saat myyjältäsi luonnoksen mukaan\n"
-"                    asiakirjan mukaisesti Dosytssa."
+"                    asiakirjan mukaisesti etworkssa."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume
@@ -2976,14 +2976,14 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Dosyt will send the vendor an email to ask confirmation of shipment"
+"shipment, etwork will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Kun luot ostotilausta, katso toimittajan <i>Toimitettu ajallaan</i> "
 "-prosentti: ajallaan toimitettujen tuotteiden prosenttiosuus. Jos se on "
 "liian alhainen, aktivoi <i>automaattiset muistutukset</i>. Muutama päivä "
-"ennen erääntynyttä toimitusta Dosyt lähettää toimittajalle sähköpostin, jossa"
+"ennen erääntynyttä toimitusta etwork lähettää toimittajalle sähköpostin, jossa"
 " se pyytää vahvistusta toimituspäivistä ja pitää sinut ajan tasalla, jos "
 "viivästyksiä ilmenee. Saat myyjän suoritustilastot näkyviin napsauttamalla "
 "OTD-astetta."
@@ -2991,12 +2991,12 @@ msgstr ""
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Dosyt asks the vendor to acknowledge "
+"When sending a purchase order by email, etwork asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"Kun ostotilaus lähetetään sähköpostitse, Dosyt pyytää toimittajaa kuittaamaan"
+"Kun ostotilaus lähetetään sähköpostitse, etwork pyytää toimittajaa kuittaamaan"
 " tilauksen vastaanottamisen. Kun toimittaja kuittaa tilauksen klikkaamalla "
 "sähköpostissa olevaa painiketta, tiedot lisätään ostotilaukseen. Voit "
 "seurata suodattimien avulla tilauksia, joita ei ole kuitattu."

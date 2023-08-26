@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_forum
 # 
@@ -16,7 +16,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:21+0000\n"
@@ -3206,7 +3206,7 @@ msgstr "Илгээсэнд баярлалаа!"
 #: model_terms:ir.ui.view,arch_db:website_forum.faq_karma
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Dosyt."
+"questions related to etwork."
 msgstr ""
 
 #. module: website_forum
@@ -3805,8 +3805,8 @@ msgstr "энд"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to configure or customize Dosyt to specific business needs,"
-msgstr "Dosyt - г хэрхэн өөрчилж тодорхой бизнес хэрэгцээнд тааруулах,"
+msgid "how to configure or customize etwork to specific business needs,"
+msgstr "etwork - г хэрхэн өөрчилж тодорхой бизнес хэрэгцээнд тааруулах,"
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
@@ -3817,8 +3817,8 @@ msgstr "хэрхэн өөрийн хэрэгцээнд зориулж модул
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "how to install Dosyt on a specific infrastructure,"
-msgstr "хэрхэн Dosyt - г тодорхой дэд бүтэц дээр суулгах,"
+msgid "how to install etwork on a specific infrastructure,"
+msgstr "хэрхэн etwork - г тодорхой дэд бүтэц дээр суулгах,"
 
 #. module: website_forum
 #. openerp-web
@@ -3923,8 +3923,8 @@ msgstr "Шийдвэрлэсэн"
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "specific questions about Dosyt service offers, etc."
-msgstr "Dosyt үйлчилгээний саналуудын тухай тодорхой асуултууд, г.м."
+msgid "specific questions about etwork service offers, etc."
+msgstr "etwork үйлчилгээний саналуудын тухай тодорхой асуултууд, г.м."
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_index
@@ -3981,8 +3981,8 @@ msgstr "бидэнд нээлттэй, таамагласан асуулт та�
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
 #: model_terms:ir.ui.view,arch_db:website_forum.default_faq
-msgid "what's the best way to use Dosyt for a specific business need,"
-msgstr "Dosyt - г тодорхой бизнес хэрэгцээнд ашиглах хамгийн сайн арга юу вэ,"
+msgid "what's the best way to use etwork for a specific business need,"
+msgstr "etwork - г тодорхой бизнес хэрэгцээнд ашиглах хамгийн сайн арга юу вэ,"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.author_box

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from base64 import b64decode
 from cups import IPPError, IPP_PRINTER_IDLE, IPP_PRINTER_PROCESSING, IPP_PRINTER_STOPPED
@@ -156,7 +156,7 @@ class PrinterDriver(Driver):
             self.send_status()
 
     def send_status(self):
-        """ Sends the current status of the printer to the connected Dosyt instance.
+        """ Sends the current status of the printer to the connected etwork instance.
         """
         self.data = {
             'value': '',

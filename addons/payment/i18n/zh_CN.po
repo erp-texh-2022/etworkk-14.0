@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
@@ -23,7 +23,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:15+0000\n"
@@ -463,8 +463,8 @@ msgstr "捕捉交易"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__capture_manually
-msgid "Capture the amount from Dosyt, when the delivery is completed."
-msgstr "完成交货后，从 Dosyt 获取金额。"
+msgid "Capture the amount from etwork, when the delivery is completed."
+msgstr "完成交货后，从 etwork 获取金额。"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
@@ -634,8 +634,8 @@ msgstr "信用卡（由Ingenico提供）"
 
 #. module: payment
 #: model:payment.acquirer,display_as:payment.payment_acquirer_etwork_by_adyen
-msgid "Credit Card (powered by Dosyt Payments)"
-msgstr "信用卡（由Dosyt支付提供支持）"
+msgid "Credit Card (powered by etwork Payments)"
+msgstr "信用卡（由etwork支付提供支持）"
 
 #. module: payment
 #: model:payment.acquirer,display_as:payment.payment_acquirer_payulatam
@@ -1088,13 +1088,13 @@ msgstr "手动"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"手动：通过现金、支票或除 Dosyt 以外的其他方法获取报酬.\n"
+"手动：通过现金、支票或除 etwork 以外的其他方法获取报酬.\n"
 "电子方式：在客户线上购买或订阅时（支付令），在已保存的卡中请求交易，通过付款受让人自动获取报酬.\n"
-"批量存款：几个客户同时支票付款时，可生成批量存款提交到银行中。当在 Dosyt 进行编码银行对账单时，建议您对账批量存款与交易之间的关系。从设置中启用该选项."
+"批量存款：几个客户同时支票付款时，可生成批量存款提交到银行中。当在 etwork 进行编码银行对账单时，建议您对账批量存款与交易之间的关系。从设置中启用该选项."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_onboarding_wizard__paypal_seller_account
@@ -1221,13 +1221,13 @@ msgstr "注意：订阅不考虑此字段，"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer__module_to_buy
-msgid "Dosyt Enterprise Module"
-msgstr "Dosyt 企业版专属模块"
+msgid "etwork Enterprise Module"
+msgstr "etwork 企业版专属模块"
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_etwork_by_adyen
-msgid "Dosyt Payments by Adyen"
-msgstr "Dosyt 的 Adyen支付模块"
+msgid "etwork Payments by Adyen"
+msgstr "etwork 的 Adyen支付模块"
 
 #. module: payment
 #. openerp-web
@@ -1418,8 +1418,8 @@ msgstr "付款获得onboarding向导"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_acquirer__payment_flow__s2s
-msgid "Payment from Dosyt"
-msgstr "Dosyt付款"
+msgid "Payment from etwork"
+msgstr "etwork付款"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
@@ -1904,8 +1904,8 @@ msgstr "类型"
 #. openerp-web
 #: code:addons/payment/static/src/xml/payment_processing.xml:0
 #, python-format
-msgid "Unable to contact the Dosyt server."
-msgstr "无法连接到Dosyt服务器。"
+msgid "Unable to contact the etwork server."
+msgstr "无法连接到etwork服务器。"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.acquirer_form

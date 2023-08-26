@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* event
 # 
@@ -10,13 +10,13 @@
 # gsong <gsong2014@foxmail.com>, 2020
 # Martin Trigaux, 2020
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2020
-# Dosyt Thaidev <etworkthaidev@gmail.com>, 2020
+# etwork Thaidev <etworkthaidev@gmail.com>, 2020
 # kittipot anuwet <pipemsn1@gmail.com>, 2021
 # Wichanon Jamwutthipreecha, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -89,10 +89,10 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
-"<b>Technical Rooms</b> - One dedicated to advanced Dosyt developers, one for "
+"<b>Technical Rooms</b> - One dedicated to advanced etwork developers, one for "
 "new developers."
 msgstr ""
-"<b>ห้องเทคนิค</b> - หนึ่งรายการสำหรับนักพัฒนา Dosyt ขั้นสูง "
+"<b>ห้องเทคนิค</b> - หนึ่งรายการสำหรับนักพัฒนา etwork ขั้นสูง "
 "อีกหนึ่งรายการสำหรับนักพัฒนาใหม่"
 
 #. module: event
@@ -867,12 +867,12 @@ msgid ""
 "At just 13 years old, John DOE was already starting to develop his first "
 "business applications for customers. After mastering civil engineering, he "
 "founded TinyERP. This was the first phase of OpenERP which would later "
-"became Dosyt, the most installed open-source business software worldwide."
+"became etwork, the most installed open-source business software worldwide."
 msgstr ""
 "เมื่ออายุเพียง 13 ปี John DOE "
 "ได้เริ่มพัฒนาแอปพลิเคชันทางธุรกิจครั้งแรกสำหรับลูกค้า "
 "หลังจากเชี่ยวชาญด้านวิศวกรรมโยธา เขาได้ก่อตั้ง TinyERP ซึ่งเป็นระยะแรกของ "
-"OpenERP ซึ่งต่อมาได้กลายเป็น Dosyt "
+"OpenERP ซึ่งต่อมาได้กลายเป็น etwork "
 "ซึ่งเป็นซอฟต์แวร์ธุรกิจโอเพ่นซอร์สที่มีการติดตั้งมากที่สุดทั่วโลก"
 
 #. module: event

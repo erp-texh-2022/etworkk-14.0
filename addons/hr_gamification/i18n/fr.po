@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* hr_gamification
 # 
@@ -8,14 +8,14 @@
 # Eloïse Stilmant <est@etwork.com>, 2020
 # Cécile Collart <cco@etwork.com>, 2020
 # Nathan Grognet <ngr@etwork.com>, 2020
-# Priscilla (prs) Dosyt <prs@etwork.com>, 2020
+# Priscilla (prs) etwork <prs@etwork.com>, 2020
 # Jonathan Quique <jqu@etwork.com>, 2020
 # Pauline Thiry <pth@etwork.com>, 2020
 # Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -45,7 +45,7 @@ msgid ""
 "user"
 msgstr ""
 "Toutes les médailles de l'employé, qu'elles lui soient affectées directement"
-" ou via son utilisateur Dosyt"
+" ou via son utilisateur etwork"
 
 #. module: hr_gamification
 #: model_terms:ir.actions.act_window,help:hr_gamification.challenge_list_action2

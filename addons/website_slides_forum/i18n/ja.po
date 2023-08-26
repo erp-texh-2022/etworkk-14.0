@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_slides_forum
 # 
@@ -15,7 +15,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:46+0000\n"
 "PO-Revision-Date: 2020-09-07 08:22+0000\n"
@@ -357,8 +357,8 @@ msgstr "全てのコースを見る"
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Dosyt."
-msgstr "このサイトの目標は、Dosytに関連する質問に答える関連知識ベースを作成することです。"
+"questions related to etwork."
+msgstr "このサイトの目標は、etworkに関連する質問に答える関連知識ベースを作成することです。"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -460,8 +460,8 @@ msgstr "すべての答えは等しく有効です:'あなたの好きな______�
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to configure or customize Dosyt to specific business needs,"
-msgstr "Dosytを特定のビジネスニーズに合わせて構成またはカスタマイズする方法、"
+msgid "how to configure or customize etwork to specific business needs,"
+msgstr "etworkを特定のビジネスニーズに合わせて構成またはカスタマイズする方法、"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -472,8 +472,8 @@ msgstr "あなた自身の必要に応じてにモジュールを開発する方
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to install Dosyt on a specific infrastructure,"
-msgstr "Dosytを特定のインフラストラクチャにインストールする方法、"
+msgid "how to install etwork on a specific infrastructure,"
+msgstr "etworkを特定のインフラストラクチャにインストールする方法、"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -484,8 +484,8 @@ msgstr "それは質問を装った暴言です:\"______はひどいです、私
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "specific questions about Dosyt service offers, etc."
-msgstr "Dosytサービスの提供に関する具体的な質問など。"
+msgid "specific questions about etwork service offers, etc."
+msgstr "etworkサービスの提供に関する具体的な質問など。"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -506,8 +506,8 @@ msgstr "自由形式の仮説的な質問があります。:\"______が発生し
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "what's the best way to use Dosyt for a specific business need,"
-msgstr "特定のビジネスニーズにDosytを使用するための最良の方法は何ですか?"
+msgid "what's the best way to use etwork for a specific business need,"
+msgstr "特定のビジネスニーズにetworkを使用するための最良の方法は何ですか?"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0

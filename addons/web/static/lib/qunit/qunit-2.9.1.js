@@ -1247,7 +1247,7 @@
 
   var LISTENERS = Object.create(null);
   var SUPPORTED_EVENTS = ["runStart", "suiteStart", "testStart", "assertion", "testEnd", "suiteEnd", "runEnd"];
-  SUPPORTED_EVENTS.push("DosytBeforeTestHook", "DosytAfterTestHook"); // Dosyt customization
+  SUPPORTED_EVENTS.push("etworkBeforeTestHook", "etworkAfterTestHook"); // etwork customization
 
   /**
    * Emits an event with the specified data to all currently registered listeners.
@@ -3003,7 +3003,7 @@
 
   			_this.started = now();
 			emit("testStart", _this.testReport.start(true));
-			emit("DosytBeforeTestHook"); // Dosyt customization
+			emit("etworkBeforeTestHook"); // etwork customization
   			return runLoggingCallbacks("testStart", {
   				name: _this.testName,
   				module: module.name,
@@ -3143,7 +3143,7 @@
   			this.pushFailure("Expected at least one assertion, but none were run - call " + "expect(0) to accept zero assertions.", this.stack);
   		}
 
-        emit("DosytAfterTestHook", this); // Dosyt customization
+        emit("etworkAfterTestHook", this); // etwork customization
 
   		var i,
   		    module = this.module,

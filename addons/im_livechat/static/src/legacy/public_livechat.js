@@ -395,7 +395,7 @@ var LivechatButton = Widget.extend({
 
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onCloseChatWindow: function (ev) {
         ev.stopPropagation();
@@ -423,7 +423,7 @@ var LivechatButton = Widget.extend({
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      * @param {Object} ev.data.messageData
      */
     _onPostMessageChatWindow: function (ev) {
@@ -437,7 +437,7 @@ var LivechatButton = Widget.extend({
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onSaveChatWindow: function (ev) {
         ev.stopPropagation();
@@ -445,7 +445,7 @@ var LivechatButton = Widget.extend({
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onUpdatedTypingPartners(ev) {
         ev.stopPropagation();
@@ -453,7 +453,7 @@ var LivechatButton = Widget.extend({
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onUpdatedUnreadCounter: function (ev) {
         ev.stopPropagation();
@@ -1298,7 +1298,7 @@ var ThreadTypingMixin = {
      * The choice of the members name for display is not random: it displays
      * the user that have been typing for the longest time. Also, this function
      * is hard-coded to display at most 2 partners. This limitation comes from
-     * how translation works in Dosyt, for which unevaluated string cannot be
+     * how translation works in etwork, for which unevaluated string cannot be
      * translated.
      *
      * @returns {string} list of members that are typing something on the thread

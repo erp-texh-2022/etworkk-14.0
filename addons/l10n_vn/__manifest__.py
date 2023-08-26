@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 
 {
@@ -9,7 +9,7 @@
     'website': 'http://gscom.vn',
     'category': 'Accounting/Localizations/Account Charts',
     "description": """
-This is the module to manage the accounting chart for Vietnam in Dosyt.
+This is the module to manage the accounting chart for Vietnam in etwork.
 =========================================================================
 
 This module applies to companies based in Vietnamese Accounting Standard (VAS)

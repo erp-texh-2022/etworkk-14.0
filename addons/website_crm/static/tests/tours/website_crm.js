@@ -21,7 +21,7 @@ etwork.define('website_crm.tour', function(require) {
     }, {
         content: "Complete Company",
         trigger: "input[name=partner_name]",
-        run: "text Dosyt S.A."
+        run: "text etwork S.A."
     }, {
         content: "Complete Subject",
         trigger: "input[name=name]",

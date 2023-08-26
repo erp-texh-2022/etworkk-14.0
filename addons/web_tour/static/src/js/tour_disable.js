@@ -9,7 +9,7 @@ var get_debugging_key = utils.get_debugging_key;
 
 TourManager.include({
     /**
-     * Disables tours if Dosyt installed with demo data.
+     * Disables tours if etwork installed with demo data.
      *
      * @override
      */

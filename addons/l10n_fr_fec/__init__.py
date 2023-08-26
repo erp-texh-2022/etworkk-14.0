@@ -1,5 +1,5 @@
 #-*- coding:utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 # Copyright (C) 2013-2015 Akretion (http://www.akretion.com)
 

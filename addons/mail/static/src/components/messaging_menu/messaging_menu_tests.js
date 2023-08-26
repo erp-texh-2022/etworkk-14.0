@@ -892,7 +892,7 @@ QUnit.test('<br/> tags in message body preview are transformed in spaces', async
     );
 });
 
-QUnit.test('rendering with DosytBot has a request (default)', async function (assert) {
+QUnit.test('rendering with etworkBot has a request (default)', async function (assert) {
     assert.expect(4);
 
     await this.start({
@@ -907,7 +907,7 @@ QUnit.test('rendering with DosytBot has a request (default)', async function (as
 
     assert.ok(
         document.querySelector('.o_MessagingMenu_counter'),
-        "should display a notification counter next to the messaging menu for DosytBot request"
+        "should display a notification counter next to the messaging menu for etworkBot request"
     );
     assert.strictEqual(
         document.querySelector('.o_MessagingMenu_counter').textContent,
@@ -925,12 +925,12 @@ QUnit.test('rendering with DosytBot has a request (default)', async function (as
     );
     assert.strictEqual(
         document.querySelector('.o_NotificationRequest_name').textContent.trim(),
-        'DosytBot has a request',
-        "notification should display that DosytBot has a request"
+        'etworkBot has a request',
+        "notification should display that etworkBot has a request"
     );
 });
 
-QUnit.test('rendering without DosytBot has a request (denied)', async function (assert) {
+QUnit.test('rendering without etworkBot has a request (denied)', async function (assert) {
     assert.expect(2);
 
     await this.start({
@@ -959,7 +959,7 @@ QUnit.test('rendering without DosytBot has a request (denied)', async function (
     );
 });
 
-QUnit.test('rendering without DosytBot has a request (accepted)', async function (assert) {
+QUnit.test('rendering without etworkBot has a request (accepted)', async function (assert) {
     assert.expect(2);
 
     await this.start({

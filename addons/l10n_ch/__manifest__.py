@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 # Main contributor: Nicolas Bessi. Camptocamp SA
 # Financial contributors: Hasa SA, Open Net SA,
 #                         Prisme Solutions Informatique SA, Quod SA

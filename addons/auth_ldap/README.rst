@@ -1,7 +1,7 @@
 Adds support for authentication by LDAP server.
 ===============================================
 This module allows users to login with their LDAP username and password, and
-will automatically create Dosyt users for them on the fly.
+will automatically create etwork users for them on the fly.
 
 **Note:** This module only work on servers that have Python's ``python-ldap`` module installed.
 
@@ -10,7 +10,7 @@ Configuration:
 After installing this module, you need to configure the LDAP parameters in the
 General Settings menu. Different companies may have different
 LDAP servers, as long as they have unique usernames (usernames need to be unique
-in Dosyt, even across multiple companies).
+in etwork, even across multiple companies).
 
 Anonymous LDAP binding is also supported (for LDAP servers that allow it), by
 simply keeping the LDAP user and password empty in the LDAP configuration.
@@ -26,24 +26,24 @@ manpage: manpage:`ldap.conf(5)`.
 
 Security Considerations:
 ------------------------
-Users' LDAP passwords are never stored in the Dosyt database, the LDAP server
+Users' LDAP passwords are never stored in the etwork database, the LDAP server
 is queried whenever a user needs to be authenticated. No duplication of the
 password occurs, and passwords are managed in one place only.
 
-Dosyt does not manage password changes in the LDAP, so any change of password
+etwork does not manage password changes in the LDAP, so any change of password
 should be conducted by other means in the LDAP directory directly (for LDAP users).
 
-It is also possible to have local Dosyt users in the database along with
+It is also possible to have local etwork users in the database along with
 LDAP-authenticated users (the Administrator account is one obvious example).
 
 Here is how it works:
 ---------------------
-    * The system first attempts to authenticate users against the local Dosyt
+    * The system first attempts to authenticate users against the local etwork
       database;
     * if this authentication fails (for example because the user has no local
       password), the system then attempts to authenticate against LDAP;
 
-As LDAP users have blank passwords by default in the local Dosyt database
+As LDAP users have blank passwords by default in the local etwork database
 (which means no access), the first step always fails and the LDAP server is
 queried to do the authentication.
 
@@ -61,6 +61,6 @@ allows pre-setting the default groups and menus of the first-time users.
          assigned as local password for each new LDAP user, effectively setting
          a *master password* for these users (until manually changed). You
          usually do not want this. One easy way to setup a template user is to
-         login once with a valid LDAP user, let Dosyt create a blank local
+         login once with a valid LDAP user, let etwork create a blank local
          user with the same login (and a blank password), then rename this new
          user to a username that does not exist in LDAP, and setup its groups

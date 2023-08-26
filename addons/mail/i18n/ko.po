@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mail
 # 
@@ -15,7 +15,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -994,8 +994,8 @@ msgstr "자동 알림"
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_request/notification_request.xml:0
 #, python-format
-msgid "Avatar of DosytBot"
-msgstr "DosytBot 아바타"
+msgid "Avatar of etworkBot"
+msgstr "etworkBot 아바타"
 
 #. module: mail
 #. openerp-web
@@ -2650,8 +2650,8 @@ msgstr "이메일로 처리"
 
 #. module: mail
 #: model:ir.model.fields.selection,name:mail.selection__res_users__notification_type__inbox
-msgid "Handle in Dosyt"
-msgstr "Dosyt에서 처리"
+msgid "Handle in etwork"
+msgstr "etwork에서 처리"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_resend_message__has_cancel
@@ -2902,9 +2902,9 @@ msgstr ""
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings__alias_domain
 msgid ""
-"If you have setup a catch-all email domain redirected to the Dosyt server, "
+"If you have setup a catch-all email domain redirected to the etwork server, "
 "enter the domain name here."
-msgstr "Dosyt 서버로 리디렉션되는 도메인에 모든 이메일을 수집하도록 설정한 경우 여기에 도메인 이름을 입력합니다."
+msgstr "etwork 서버로 리디렉션되는 도메인에 모든 이메일을 수집하도록 설정한 경우 여기에 도메인 이름을 입력합니다."
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_resend_cancel_view_form
@@ -4331,26 +4331,26 @@ msgstr "읽지 않은 메시지 수"
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_light
 #: model_terms:ir.ui.view,arch_db:mail.mail_notification_paynow
 #: model_terms:ir.ui.view,arch_db:mail.message_notification_email
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_alert/notification_alert.xml:0
 #, python-format
 msgid ""
-"Dosyt Push notifications have been blocked. Go to your browser settings to "
+"etwork Push notifications have been blocked. Go to your browser settings to "
 "allow them."
-msgstr "Dosyt 푸시 알림이 차단되었습니다. 브라우저 설정으로 이동하여 허용해 주세요."
+msgstr "etwork 푸시 알림이 차단되었습니다. 브라우저 설정으로 이동하여 허용해 주세요."
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/components/notification_request/notification_request.js:0
 #, python-format
 msgid ""
-"Dosyt will not have the permission to send native notifications on this "
+"etwork will not have the permission to send native notifications on this "
 "device."
-msgstr "Dosyt는 지금 이 장치에서 기본 알림을 보낼 수 있는 권한이 없습니다."
+msgstr "etwork는 지금 이 장치에서 기본 알림을 보낼 수 있는 권한이 없습니다."
 
 #. module: mail
 #. openerp-web
@@ -4781,11 +4781,11 @@ msgstr "잠시 기다려 주십시오..."
 msgid ""
 "Policy on how to handle Chatter notifications:\n"
 "- Handle by Emails: notifications are sent to your email address\n"
-"- Handle in Dosyt: notifications appear in your Dosyt Inbox"
+"- Handle in etwork: notifications appear in your etwork Inbox"
 msgstr ""
 "대화 알림을 처리하는 방법에 대한 정책 :\n"
 "- 이메일로 처리 : 이메일 주소로 알림이 전송됩니다\n"
-"- Dosyt로 처리 : Dosyt 수신함에 알림으로 나타납니다."
+"- etwork로 처리 : etwork 수신함에 알림으로 나타납니다."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_alias__alias_contact
@@ -5927,11 +5927,11 @@ msgstr "연락처 담당 내부 사용자를 담당합니다."
 #: model:ir.model.fields,help:mail.field_mail_alias_mixin__alias_model_id
 #: model:ir.model.fields,help:mail.field_mail_channel__alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"이 별칭에 해당하는 모델(Dosyt 문서 종류)입니다. 모든 받는 메일은 기존 레코드로 기록되지 않고 이 모델의 새 레코드로 작성됩니다. "
+"이 별칭에 해당하는 모델(etwork 문서 종류)입니다. 모든 받는 메일은 기존 레코드로 기록되지 않고 이 모델의 새 레코드로 작성됩니다. "
 "(예. 프로젝트 작업)"
 
 #. module: mail
@@ -6044,9 +6044,9 @@ msgstr "비 참여자가 이 그룹을 볼 수 있습니다. 보이지 않는 �
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Dosyt database."
+"storage space of your etwork database."
 msgstr ""
-"Dosyt 데이터베이스 저장 공간 확보를 위하여, 이 옵션을 통해 설정에 있는 기술 메뉴에서 발신된 것을 포함하여 보낸 메일 기록 전체를 "
+"etwork 데이터베이스 저장 공간 확보를 위하여, 이 옵션을 통해 설정에 있는 기술 메뉴에서 발신된 것을 포함하여 보낸 메일 기록 전체를 "
 "영구적으로 삭제합니다."
 
 #. module: mail

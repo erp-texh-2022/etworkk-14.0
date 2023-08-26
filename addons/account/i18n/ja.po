@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -31,7 +31,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:15+0000\n"
 "PO-Revision-Date: 2020-09-07 08:09+0000\n"
@@ -4349,9 +4349,9 @@ msgstr "日付モード"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Dosyt. It is the date of the "
+"Date from which the accounting is managed in etwork. It is the date of the "
 "opening entry."
-msgstr "会計がDosytで管理された日付。これは、開始エントリの日付です。"
+msgstr "会計がetworkで管理された日付。これは、開始エントリの日付です。"
 
 #. module: account
 #. openerp-web
@@ -7473,37 +7473,37 @@ msgstr "手動"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Manual：Dosyt以外の現金、小切手、またはその他の方法で支払いを受けます。\n"
+"Manual：etwork以外の現金、小切手、またはその他の方法で支払いを受けます。\n"
 "電子：オンラインで購入またはサブスクライブするときに顧客が保存したカード（支払いトークン）でトランザクションを要求することにより、支払い取得者を通じて自動的に支払いを受け取ります。\n"
-"バッチ預金：銀行に提出するバッチ預金を生成することにより、一度に複数の顧客小切手を含包します。Dosytで銀行取引明細書をエンコードするときは、トランザクションをバッチデポジットと照合することをお勧めします。設定からこのオプションを有効にします。"
+"バッチ預金：銀行に提出するバッチ預金を生成することにより、一度に複数の顧客小切手を含包します。etworkで銀行取引明細書をエンコードするときは、トランザクションをバッチデポジットと照合することをお勧めします。設定からこのオプションを有効にします。"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Dosyt.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
+"Check: Pay bill by check and print it from etwork.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
-"小切手：小切手で請求書を支払い、Dosytから印刷します。\n"
-"バッチ預金：銀行に提出するバッチ預金を生成することにより、一度に複数の顧客小切手を含包します。Dosytで銀行取引明細書をエンコードするときは、トランザクションをバッチ預金と照合することをお勧めします。バッチ預金を有効にするには、モジュールaccount_batch_paymentをインストールする必要があります。\n"
+"小切手：小切手で請求書を支払い、etworkから印刷します。\n"
+"バッチ預金：銀行に提出するバッチ預金を生成することにより、一度に複数の顧客小切手を含包します。etworkで銀行取引明細書をエンコードするときは、トランザクションをバッチ預金と照合することをお勧めします。バッチ預金を有効にするには、モジュールaccount_batch_paymentをインストールする必要があります。\n"
 "SEPAクレジット転送：銀行に提出するSEPAクレジット転送ファイルから請求書を支払います。Sepaクレジット転送を有効にするには、モジュールaccount_sepaをインストールする必要があります"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Dosyt.\n"
-"Check:Pay bill by check and print it from Dosyt.\n"
+"Manual:Pay bill by cash or any other method outside of etwork.\n"
+"Check:Pay bill by check and print it from etwork.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"手動：Dosyt以外の現金またはその他の方法で請求書を支払います。\n"
-"小切手：小切手で請求書を支払い、Dosytから印刷します。\n"
+"手動：etwork以外の現金またはその他の方法で請求書を支払います。\n"
+"小切手：小切手で請求書を支払い、etworkから印刷します。\n"
 "SEPAクレジット転送：銀行に提出するSEPAクレジット転送ファイルから請求書を支払います。設定からこのオプションを有効にします。"
 
 #. module: account
@@ -8149,36 +8149,36 @@ msgstr "10月"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__etwork
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Dosyt allows you to reconcile a statement line directly with\n"
+"etwork allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoice(s)."
 msgstr ""
-"Dosytはあなたと直接文の行を消込することができます\n"
+"etworkはあなたと直接文の行を消込することができます\n"
 "関連の販売または購入インボイス(複数可)。"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Dosyt allows you to reconcile a statement line directly with\n"
+"etwork allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
-"Dosytで関連する販売または購入の請求書を利用して\n"
+"etworkで関連する販売または購入の請求書を利用して\n"
 "明細行を消込することができます。"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Dosyt helps you easily track all activities related to a customer."
+msgid "etwork helps you easily track all activities related to a customer."
 msgstr "顧客に関係するあらゆる活動を追跡することができます。"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Dosyt helps you easily track all activities related to a supplier."
-msgstr "Dosytは、サプライヤーに関連するすべての活動を簡単に追跡するのに役立ちます。"
+msgid "etwork helps you easily track all activities related to a supplier."
+msgstr "etworkは、サプライヤーに関連するすべての活動を簡単に追跡するのに役立ちます。"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account_type__internal_group__off_balance
@@ -10415,7 +10415,7 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Dosyt"
+"Only PDF and XML files will be interpreted by etwork"
 msgstr ""
 "各請求書のために1通の別個の電子メールを送信します。\n"
 "\n"
@@ -10423,7 +10423,7 @@ msgstr ""
 "任意のファイル拡張子は受け入れられます。\n"
 "\n"
 "\n"
-"PDFとXMLファイルのみがDosytによって解釈されます"
+"PDFとXMLファイルのみがetworkによって解釈されます"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.account_send_payment_receipt_by_email_action
@@ -12892,9 +12892,9 @@ msgstr "この仕訳は、会計日付で記帳されます:%(date)s"
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Dosyt database."
+"storage space of your etwork database."
 msgstr ""
-"このオプションは、Dosytデータベースのストレージスペースを維持するために、[設定]の[テクニカル]メニューを含め、送信後に電子メールのトラックを完全に削除します"
+"このオプションは、etworkデータベースのストレージスペースを維持するために、[設定]の[テクニカル]メニューを含め、送信後に電子メールのトラックを完全に削除します"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_template__chart_template_id
@@ -13759,8 +13759,8 @@ msgstr "通貨表示"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
-msgid "With Dosyt, you won't have to records bills manually"
-msgstr "Dosytでは仕入先請求書を手入力する必要はありません"
+msgid "With etwork, you won't have to records bills manually"
+msgstr "etworkでは仕入先請求書を手入力する必要はありません"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_search
@@ -13803,8 +13803,8 @@ msgstr "仕訳項目が関連取引先と係争状態にあることを示すに
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Dosyt reference."
-msgstr "参照の種類ごとに異なるモデルを選択することができます。デフォルトはDosyt参照です。"
+"is the etwork reference."
+msgstr "参照の種類ごとに異なるモデルを選択することができます。デフォルトはetwork参照です。"
 
 #. module: account
 #: code:addons/account/models/account_journal.py:0

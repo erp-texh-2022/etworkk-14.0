@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Indonesian - Accounting',
     'version': '1.0',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the latest Indonesian Dosyt localisation necessary to run Dosyt accounting for SMEs with:
+This is the latest Indonesian etwork localisation necessary to run etwork accounting for SMEs with:
 =================================================================================================
     - generic Indonesian chart of accounts
     - tax structure""",

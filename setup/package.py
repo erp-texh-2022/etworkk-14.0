@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import argparse
 import logging
@@ -40,11 +40,11 @@ USER etwork
 """ % {'group_id': os.getgid(), 'user_id': os.getuid()}
 
 
-class DosytTestTimeoutError(Exception):
+class etworkTestTimeoutError(Exception):
     pass
 
 
-class DosytTestError(Exception):
+class etworkTestError(Exception):
     pass
 
 
@@ -68,12 +68,12 @@ def _rpc_count_modules(addr='http://127.0.0.1', port=8069, dbname='mycompany'):
         )
         if toinstallmodules:
             logging.error("Package test: FAILED. Not able to install dependencies of base.")
-            raise DosytTestError("Installation of package failed")
+            raise etworkTestError("Installation of package failed")
         else:
             logging.info("Package test: successfuly installed %s modules" % len(modules))
     else:
         logging.error("Package test: FAILED. Not able to install base.")
-        raise DosytTestError("Package test: FAILED. Not able to install base.")
+        raise etworkTestError("Package test: FAILED. Not able to install base.")
 
 
 def publish(args, pub_type, extensions):
@@ -247,7 +247,7 @@ class Docker():
         run_cmd(["docker", "stop", self.container_name]).check_returncode()
 
     def test_etwork(self):
-        logging.info('Starting to test Dosyt install test')
+        logging.info('Starting to test etwork install test')
         start_time = time.time()
         while self.is_running() and (time.time() - start_time) < INSTALL_TIMEOUT:
             time.sleep(5)
@@ -259,8 +259,8 @@ class Docker():
                 return
         if self.is_running():
             self.stop()
-            raise DosytTestTimeoutError('Dosyt pid file never appeared after %s sec' % INSTALL_TIMEOUT)
-        raise DosytTestError('Error while installing/starting Dosyt after %s sec.\nSee testlogs.txt in build dir' % int(time.time() - start_time))
+            raise etworkTestTimeoutError('etwork pid file never appeared after %s sec' % INSTALL_TIMEOUT)
+        raise etworkTestError('Error while installing/starting etwork after %s sec.\nSee testlogs.txt in build dir' % int(time.time() - start_time))
 
     def build(self):
         """To be overriden by specific builder"""
@@ -460,7 +460,7 @@ class KVMWinBuildExe(KVM):
         remote_build_dir = '/cygdrive/c/etworkbuild/server/'
 
         self.ssh("mkdir -p build")
-        logging.info("Syncing Dosyt files to virtual machine...")
+        logging.info("Syncing etwork files to virtual machine...")
         self.rsync(['%s/' % self.args.build_dir, '%s@127.0.0.1:%s' % (self.login, remote_build_dir)])
         self.ssh("cd {}setup/win32;time make allinone;".format(remote_build_dir))
         self.rsync(['%s@127.0.0.1:%ssetup/win32/release/' % (self.login, remote_build_dir), '%s/' % self.args.build_dir])
@@ -476,9 +476,9 @@ class KVMWinTestExe(KVM):
 
         self.rsync(['%s' % setup_path, '%s@127.0.0.1:' % self.login])
         self.ssh("TEMP=/tmp ./%s /S" % setupfile)
-        self.ssh('PGPASSWORD=openpgpwd /cygdrive/c/"Program Files"/"Dosyt %s"/PostgreSQL/bin/createdb.exe -e -U openpg mycompany' % setupversion)
+        self.ssh('PGPASSWORD=openpgpwd /cygdrive/c/"Program Files"/"etwork %s"/PostgreSQL/bin/createdb.exe -e -U openpg mycompany' % setupversion)
         self.ssh('netsh advfirewall set publicprofile state off')
-        self.ssh('/cygdrive/c/"Program Files"/"Dosyt {sv}"/python/python.exe \'c:\\Program Files\\Dosyt {sv}\\server\\etwork-bin\' -d mycompany -i base --stop-after-init'.format(sv=setupversion))
+        self.ssh('/cygdrive/c/"Program Files"/"etwork {sv}"/python/python.exe \'c:\\Program Files\\etwork {sv}\\server\\etwork-bin\' -d mycompany -i base --stop-after-init'.format(sv=setupversion))
         _rpc_count_modules(port=18069)
         logging.info('Finished testing Windows package')
 

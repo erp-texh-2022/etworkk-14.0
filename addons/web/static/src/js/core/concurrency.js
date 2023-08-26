@@ -5,9 +5,9 @@ etwork.define('web.concurrency', function (require) {
  * Concurrency Utils
  *
  * This file contains a short collection of useful helpers designed to help with
- * everything concurrency related in Dosyt.
+ * everything concurrency related in etwork.
  *
- * The basic concurrency primitives in Dosyt JS are the callback, and the
+ * The basic concurrency primitives in etwork JS are the callback, and the
  * promises.  Promises (promise) are more composable, so we usually use them
  * whenever possible.  We use the jQuery implementation.
  *
@@ -136,7 +136,7 @@ return {
         }
     }),
     /**
-     * A (Dosyt) mutex is a primitive for serializing computations.  This is
+     * A (etwork) mutex is a primitive for serializing computations.  This is
      * useful to avoid a situation where two computations modify some shared
      * state and cause some corrupted state.
      *

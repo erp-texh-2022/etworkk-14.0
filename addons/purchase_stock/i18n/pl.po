@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* purchase_stock
 # 
@@ -23,7 +23,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -461,10 +461,10 @@ msgstr "Nie ma jeszcze danych"
 #: code:addons/purchase_stock/models/account_invoice.py:0
 #, python-format
 msgid ""
-"Dosyt is not able to generate the anglo saxon entries. The total valuation of"
+"etwork is not able to generate the anglo saxon entries. The total valuation of"
 " %s is zero."
 msgstr ""
-"Dosyt nie jest w stanie wygenerować zapisów anglo-saksońskich. Całkowita "
+"etwork nie jest w stanie wygenerować zapisów anglo-saksońskich. Całkowita "
 "wycena wartości %s wynosi zero."
 
 #. module: purchase_stock

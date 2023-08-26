@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Generic - Accounting',
     'version': '1.1',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the base module to manage the generic accounting chart in Dosyt.
+This is the base module to manage the generic accounting chart in etwork.
 ==============================================================================
 
 Install some generic chart of accounts.

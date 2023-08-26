@@ -251,7 +251,7 @@ var MediaDialog = Dialog.extend({
      * smaller modal would be displayed on top.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onHideRequest: function (ev) {
         this.$modal.addClass('d-none');
@@ -263,7 +263,7 @@ var MediaDialog = Dialog.extend({
      * click on the modal button, such as double clicking a media to select it.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onSaveRequest: function (ev) {
         ev.stopPropagation();
@@ -275,7 +275,7 @@ var MediaDialog = Dialog.extend({
      * This is for usability, it is the counterpart of @see _onHideRequest.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onShowRequest: function (ev) {
         this.$modal.removeClass('d-none');

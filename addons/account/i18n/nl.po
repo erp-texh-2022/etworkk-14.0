@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* account
 # 
@@ -17,7 +17,7 @@
 # Erik-Jan Bulthuis <ejbulthuis@erpopen.nl>, 2020
 # Yip132 <yannick.renders@gmail.com>, 2020
 # Wynand Tastenhoye <wta@etwork.com>, 2020
-# Dosyt Experts Consultants <consultants@etworkexperts.nl>, 2020
+# etwork Experts Consultants <consultants@etworkexperts.nl>, 2020
 # Eric Geens <ericgeens@yahoo.com>, 2020
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2020
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2021
@@ -28,7 +28,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:15+0000\n"
 "PO-Revision-Date: 2020-09-07 08:09+0000\n"
@@ -4471,10 +4471,10 @@ msgstr "Datum Modus"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_financial_year_op__opening_date
 msgid ""
-"Date from which the accounting is managed in Dosyt. It is the date of the "
+"Date from which the accounting is managed in etwork. It is the date of the "
 "opening entry."
 msgstr ""
-"Datum vanaf wanneer de boekhouding bijgehouden is in Dosyt. Het is de datum "
+"Datum vanaf wanneer de boekhouding bijgehouden is in etwork. Het is de datum "
 "van de openingsbalans boeking."
 
 #. module: account
@@ -7718,39 +7718,39 @@ msgstr "Handmatig"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Handmatig: Krijg betaald met contant geld, cheques of een andere methode buiten Dosyt om.\n"
+"Handmatig: Krijg betaald met contant geld, cheques of een andere methode buiten etwork om.\n"
 "Elektronisch: Betaal automatisch via een betaalprovider door een transactie aan te vragen op een door de klant opgeslagen kaart bij het online kopen of abonneren van (betalingstoken).\n"
-"Batch Deposito: Verzamel meerdere klantcheques tegelijk door een batch deposito te genereren om bij uw bank in te dienen. Wanneer u de rekeningafschriften in Dosyt ingeeft, wordt u voorgesteld om de transactie af te letteren met de batchafbetaling. Schakel deze optie in bij instellingen."
+"Batch Deposito: Verzamel meerdere klantcheques tegelijk door een batch deposito te genereren om bij uw bank in te dienen. Wanneer u de rekeningafschriften in etwork ingeeft, wordt u voorgesteld om de transactie af te letteren met de batchafbetaling. Schakel deze optie in bij instellingen."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_method_id
 #: model:ir.model.fields,help:account.field_account_payment_register__payment_method_id
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Check: Pay bill by check and print it from Dosyt.\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
+"Check: Pay bill by check and print it from etwork.\n"
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork, you are suggested to reconcile the transaction with the batch deposit.To enable batch deposit, module account_batch_payment must be installed.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. To enable sepa credit transfer, module account_sepa must be installed "
 msgstr ""
-"Handmatig: Krijg betaald met contant geld, cheques of een andere methode buiten Dosyt om.\n"
+"Handmatig: Krijg betaald met contant geld, cheques of een andere methode buiten etwork om.\n"
 "Elektronisch: Betaal automatisch via een betalingsverwerker door een transactie aan te vragen op een door de klant opgeslagen kaart bij het online kopen of abonneren van (betalingstoken).\n"
-"Cheque: Betaal factuur met een cheque en druk deze af in Dosyt\n"
-"Batch Deposito: Verzamel meerdere klantcheques tegelijk door een batch deposito te genereren om bij uw bank in te dienen. Wanneer u de rekeningafschriften in Dosyt ingeeft, wordt u voorgesteld om de transactie af te letteren met de batchafbetaling. Schakel deze optie in bij instellingen.\n"
+"Cheque: Betaal factuur met een cheque en druk deze af in etwork\n"
+"Batch Deposito: Verzamel meerdere klantcheques tegelijk door een batch deposito te genereren om bij uw bank in te dienen. Wanneer u de rekeningafschriften in etwork ingeeft, wordt u voorgesteld om de transactie af te letteren met de batchafbetaling. Schakel deze optie in bij instellingen.\n"
 "SEPA overschrijving: Betaal de factuur met een SEPA overschrijvingsbestand welke je upload bij de bank. Om SEPA te activeren dient te module account_sepa worden geïnstalleerd."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_journal__outbound_payment_method_ids
 msgid ""
-"Manual:Pay bill by cash or any other method outside of Dosyt.\n"
-"Check:Pay bill by check and print it from Dosyt.\n"
+"Manual:Pay bill by cash or any other method outside of etwork.\n"
+"Check:Pay bill by check and print it from etwork.\n"
 "SEPA Credit Transfer: Pay bill from a SEPA Credit Transfer file you submit to your bank. Enable this option from the settings."
 msgstr ""
-"Handmatig: Betaal met contant geld of een andere methode buiten Dosyt om\n"
-"Cheque: Betaal rekening per cheque en druk deze af in Dosyt.\n"
+"Handmatig: Betaal met contant geld of een andere methode buiten etwork om\n"
+"Cheque: Betaal rekening per cheque en druk deze af in etwork.\n"
 "SEPA Overboeking: Betaal factuur via een SEPA-bestand dat u bij uw bank indient. Schakel deze optie in bij de instellingen."
 
 #. module: account
@@ -8415,39 +8415,39 @@ msgstr "Oktober"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__invoice_reference_model__etwork
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_line
 msgid ""
-"Dosyt allows you to reconcile a statement line directly with\n"
+"etwork allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoice(s)."
 msgstr ""
-"Dosyt laat u toe om een afschriftregel direct met de gerelateerde\n"
+"etwork laat u toe om een afschriftregel direct met de gerelateerde\n"
 "klant- of leveranciersfactuur af te letteren. "
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_bank_statement_tree
 msgid ""
-"Dosyt allows you to reconcile a statement line directly with\n"
+"etwork allows you to reconcile a statement line directly with\n"
 "                the related sale or purchase invoices."
 msgstr ""
-"Dosyt laat u toe om een afschriftregel direct met de gerelateerde\n"
+"etwork laat u toe om een afschriftregel direct met de gerelateerde\n"
 "klant- of leveranciersfactuur af te letteren. "
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_customer
-msgid "Dosyt helps you easily track all activities related to a customer."
+msgid "etwork helps you easily track all activities related to a customer."
 msgstr ""
-"Dosyt helpt u bij het gemakkelijk opvolgen van alle activiteiten gerelateerd "
+"etwork helpt u bij het gemakkelijk opvolgen van alle activiteiten gerelateerd "
 "aan een klant."
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.res_partner_action_supplier
-msgid "Dosyt helps you easily track all activities related to a supplier."
+msgid "etwork helps you easily track all activities related to a supplier."
 msgstr ""
-"Dosyt helpt u bij het gemakkelijk opvolgen van alle activiteiten gerelateerd "
+"etwork helpt u bij het gemakkelijk opvolgen van alle activiteiten gerelateerd "
 "aan een leverancier."
 
 #. module: account
@@ -10759,13 +10759,13 @@ msgid ""
 "\n"
 "Any file extension will be accepted.\n"
 "\n"
-"Only PDF and XML files will be interpreted by Dosyt"
+"Only PDF and XML files will be interpreted by etwork"
 msgstr ""
 "Stuur een aparte e-mail voor elke factuur.\n"
 "\n"
 "Elke bestandsextensie wordt geaccepteerd.\n"
 "\n"
-"Alleen PDF- en XML-bestanden worden door Dosyt geïnterpreteerd"
+"Alleen PDF- en XML-bestanden worden door etwork geïnterpreteerd"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.account_send_payment_receipt_by_email_action
@@ -13478,11 +13478,11 @@ msgstr "Deze boeking wordt geboekt op de boekhouddatum: %(date)s"
 msgid ""
 "This option permanently removes any track of email after it's been sent, "
 "including from the Technical menu in the Settings, in order to preserve "
-"storage space of your Dosyt database."
+"storage space of your etwork database."
 msgstr ""
 "Deze optie verwijdert permanent elk spoor van e-mail nadat deze is "
 "verzonden, inclusief vanuit het Technisch menu in de Instellingen, om "
-"opslagruimte van uw Dosyt-database te behouden."
+"opslagruimte van uw etwork-database te behouden."
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_account_template__chart_template_id
@@ -14397,8 +14397,8 @@ msgstr "Met valuta"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_tour_upload_bill
-msgid "With Dosyt, you won't have to records bills manually"
-msgstr "Met Dosyt hoeft u facturen niet handmatig te registreren"
+msgid "With etwork, you won't have to records bills manually"
+msgstr "Met etwork hoeft u facturen niet handmatig te registreren"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_reconcile_model_search
@@ -14445,10 +14445,10 @@ msgstr ""
 #: model:ir.model.fields,help:account.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Dosyt reference."
+"is the etwork reference."
 msgstr ""
 "U kunt verschillende modellen kiezen voor elk type referentie. De standaard "
-"is de Dosyt-referentie."
+"is de etwork-referentie."
 
 #. module: account
 #: code:addons/account/models/account_journal.py:0

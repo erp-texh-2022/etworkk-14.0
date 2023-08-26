@@ -5,7 +5,7 @@ define([
     'summernote/core/agent',
     'summernote/core/range'
 ], function (list, dom, key, agent, range) {
-    // DOSYT override: use 0.8.10 version of this, adapted for the old summernote
+    // etwork override: use 0.8.10 version of this, adapted for the old summernote
     // version etwork is using
     var Clipboard = function (handler) {
         /**
@@ -15,7 +15,7 @@ define([
          */
         var pasteByEvent = function (event) {
             if (["INPUT", "TEXTAREA"].indexOf(event.target.tagName) !== -1) {
-                // DOSYT override: from old summernote version
+                // etwork override: from old summernote version
                 return;
             }
 

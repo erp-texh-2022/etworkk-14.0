@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import api, models, fields, _
 from etwork.tests.common import Form
@@ -295,7 +295,7 @@ class AccountEdiFormat(models.Model):
         res = invoice.invoice_generate_xml()
         if invoice._is_commercial_partner_pa():
             invoice.message_post(
-                body=(_("Invoices for PA are not managed by Dosyt, you can download the document and send it on your own."))
+                body=(_("Invoices for PA are not managed by etwork, you can download the document and send it on your own."))
             )
         else:
             invoice.l10n_it_send_state = 'to_send'

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 
 {
@@ -7,7 +7,7 @@
     'version': '1.3',
     'category': 'Hidden',
     'description': """
-The kernel of Dosyt, needed for all installation.
+The kernel of etwork, needed for all installation.
 ===================================================
 """,
     'depends': [],

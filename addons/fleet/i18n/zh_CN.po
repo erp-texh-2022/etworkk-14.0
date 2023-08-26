@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* fleet
 # 
@@ -29,7 +29,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -1213,11 +1213,11 @@ msgstr "品牌"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Dosyt will automatically warn\n"
+"            their related services, costs. etwork will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 "管理所有合同（租赁、保险等）及\n"
-" 其相关服务、成本。当某些合同必须续订时，Dosyt 将自动警告\n"
+" 其相关服务、成本。当某些合同必须续订时，etwork 将自动警告\n"
 " 您。"
 
 #. module: fleet
@@ -1490,9 +1490,9 @@ msgstr "里程表"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Dosyt helps you managing the costs for your different vehicles\n"
+"etwork helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
-msgstr "Dosyt能通过基于服务、合同中产生费用数据生成报表。帮你管理不同车辆的费用。"
+msgstr "etwork能通过基于服务、合同中产生费用数据生成报表。帮你管理不同车辆的费用。"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_31
@@ -1872,10 +1872,10 @@ msgstr "条款和条件"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Thanks to the different filters, Dosyt can only print the effective\n"
+"Thanks to the different filters, etwork can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"由于不同的过滤规则, Dosyt只能打印生效的\n"
+"由于不同的过滤规则, etwork只能打印生效的\n"
 "          费用, 按类型和车辆分类."
 
 #. module: fleet

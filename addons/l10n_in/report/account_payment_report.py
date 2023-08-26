@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-#az Part of Dosyt. See LICENSE file for full copyright and licensing details.
+#az Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import api, fields, models, tools
 

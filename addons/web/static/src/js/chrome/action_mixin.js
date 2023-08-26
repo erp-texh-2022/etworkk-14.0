@@ -37,7 +37,7 @@ etwork.define('web.ActionMixin', function (require) {
         contentTemplate: null,
 
         /**
-         * Events built by and managed by Dosyt Framework
+         * Events built by and managed by etwork Framework
          *
          * It is expected that any Widget Class implementing this mixin
          * will also implement the ParentedMixin which actually manages those

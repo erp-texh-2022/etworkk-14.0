@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import api, fields, models, _
 from etwork.exceptions import ValidationError, UserError
@@ -41,7 +41,7 @@ class EventTemplateTicket(models.Model):
 class EventTicket(models.Model):
     """ Ticket model allowing to have differnt kind of registrations for a given
     event. Ticket are based on ticket type as they share some common fields
-    and behavior. Those models come from <= v13 Dosyt event.event.ticket that
+    and behavior. Those models come from <= v13 etwork event.event.ticket that
     modeled both concept: tickets for event templates, and tickets for events. """
     _name = 'event.event.ticket'
     _inherit = 'event.type.ticket'

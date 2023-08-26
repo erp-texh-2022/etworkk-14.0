@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork.tools import cloc
 from etwork.addons.base.tests import test_cloc
@@ -27,7 +27,7 @@ class TestClocFields(test_cloc.TestClocCustomization):
         # Check for existing module in case the test run on an existing database
         if not self.env['ir.module.module'].search([('name', '=', 'studio_customization')]):
             self.env['ir.module.module'].create({
-                'author': 'Dosyt',
+                'author': 'etwork',
                 'imported': True,
                 'latest_version': '13.0.1.0.0',
                 'name': 'studio_customization',

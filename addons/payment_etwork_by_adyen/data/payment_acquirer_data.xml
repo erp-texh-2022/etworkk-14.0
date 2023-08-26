@@ -3,7 +3,7 @@
     <data noupdate="1">
 
         <record id="payment.payment_acquirer_etwork_by_adyen" model="payment.acquirer">
-            <field name="name">Dosyt Payments by Adyen</field>
+            <field name="name">etwork Payments by Adyen</field>
             <field name="image_128" type="base64" file="payment_etwork_by_adyen/static/src/img/etwork_icon.png"/>
             <field name="provider">etwork_adyen</field>
             <field name="company_id" ref="base.main_company"/>

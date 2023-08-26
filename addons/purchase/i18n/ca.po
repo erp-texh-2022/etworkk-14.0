@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* purchase
 # 
@@ -18,7 +18,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 13:50+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -2898,11 +2898,11 @@ msgid ""
 "Vendors bills can be pre-generated based on purchase\n"
 "                    orders or receipts. This allows you to control bills\n"
 "                    you receive from your vendor according to the draft\n"
-"                    document in Dosyt."
+"                    document in etwork."
 msgstr ""
 "Les factures de proveïdor pregenerades basades en comandes de compra o "
 "rebuts. Això permet controlar les factures que rep d'un venedor d'acord amb "
-"el document esborrany en Dosyt."
+"el document esborrany en etwork."
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__volume
@@ -2973,14 +2973,14 @@ msgid ""
 "When creating a purchase order, have a look at the vendor's <i>On Time "
 "Delivery</i> rate: the percentage of products shipped on time. If it is too "
 "low, activate the <i>automated reminders</i>. A few days before the due "
-"shipment, Dosyt will send the vendor an email to ask confirmation of shipment"
+"shipment, etwork will send the vendor an email to ask confirmation of shipment"
 " dates and keep you informed in case of any delays. To get the vendor's "
 "performance statistics, click on the OTD rate."
 msgstr ""
 "Quan creeu una comanda de compra, feu una ullada a la del proveïdor "
 "<i>Entrega a temps</i> tarifa: el percentatge de productes enviats a temps. "
 "Si és massa baix, activeu el <i>recordatoris automatitzats</i>. Uns dies "
-"abans de l'enviament previst, Dosyt enviarà un email al proveïdor per "
+"abans de l'enviament previst, etwork enviarà un email al proveïdor per "
 "demanar-li confirmació de les dates d'enviament i us mantindrà informat en "
 "cas de retard. Per obtenir les estadístiques de rendiment del proveïdor, feu"
 " clic a la taxa OTD."
@@ -2988,12 +2988,12 @@ msgstr ""
 #. module: purchase
 #: model_terms:digest.tip,tip_description:purchase.digest_tip_purchase_1
 msgid ""
-"When sending a purchase order by email, Dosyt asks the vendor to acknowledge "
+"When sending a purchase order by email, etwork asks the vendor to acknowledge "
 "the reception of the order. When the vendor acknowledges the order by "
 "clicking on a button in the email, the information is added on the purchase "
 "order. Use filters to track orders that have not been acknowledged."
 msgstr ""
-"En enviar una comanda de compra per email, Dosyt demana al proveïdor que "
+"En enviar una comanda de compra per email, etwork demana al proveïdor que "
 "reconegui la recepció del mateix. Quan el proveïdor reconeix la comanda fent"
 " clic en un botó al correu electrònic, la informació s'afegeix a la comanda "
 "de compra. Utilitzeu filtres per fer un seguiment de les comandes que no "

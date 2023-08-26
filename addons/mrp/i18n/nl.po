@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mrp
 # 
@@ -11,13 +11,13 @@
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2020
 # Cas Vissers <casvissers@brahoo.nl>, 2020
 # Melroy van den Berg <webmaster1989@gmail.com>, 2020
-# Dosyt Experts Consultants <consultants@etworkexperts.nl>, 2020
+# etwork Experts Consultants <consultants@etworkexperts.nl>, 2020
 # Erwin van der Ploeg <erwin@etworkexperts.nl>, 2022
 # Jolien De Paepe, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-29 15:48+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -4986,12 +4986,12 @@ msgstr ""
 #. module: mrp
 #: model_terms:digest.tip,tip_description:mrp.digest_tip_mrp_0
 msgid ""
-"With the Dosyt work center control panel, your worker can start work orders "
+"With the etwork work center control panel, your worker can start work orders "
 "in the shop and follow instructions of the worksheet. Quality tests are "
 "perfectly integrated into the process. Workers can trigger feedback loops, "
 "maintenance alerts, scrap products, etc."
 msgstr ""
-"Met het Dosyt werkplekcontrolepaneel kan je werknemer werkbonnen in de winkel"
+"Met het etwork werkplekcontrolepaneel kan je werknemer werkbonnen in de winkel"
 " starten en de instructies van het werkblad volgen. Kwaliteitstesten zijn "
 "perfect geïntegreerd in het proces. Werknemers kunnen feedbackloops, "
 "onderhoudswaarschuwingen, schrootproducten enz. activeren."
@@ -5366,11 +5366,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.view_immediate_production
 msgid ""
 "You have not recorded <i>produced</i> quantities yet, by clicking on "
-"<i>apply</i> Dosyt will produce all the finished products and consume all "
+"<i>apply</i> etwork will produce all the finished products and consume all "
 "components."
 msgstr ""
 "Je hebt nog geen <i>geproduceerde</i> hoeveelheden geregistreerd, door op "
-"<i>toepassen</i> te klikken zal Dosyt alle eindproducten produceren en alle "
+"<i>toepassen</i> te klikken zal etwork alle eindproducten produceren en alle "
 "componenten verbruiken."
 
 #. module: mrp

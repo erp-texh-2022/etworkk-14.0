@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* crm_iap_lead
 # 
@@ -8,13 +8,13 @@
 # Dirk van Donkelaar <dirk@vdde.nl>, 2020
 # Charles Vervaecke <cvk@etwork.com>, 2020
 # Antoine Gilard <ang@etwork.com>, 2020
-# Dosyt Experts Consultants <consultants@etworkexperts.nl>, 2020
+# etwork Experts Consultants <consultants@etworkexperts.nl>, 2020
 # Erwin van der Ploeg <erwin@etworkexperts.nl>, 2020
 # Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:28+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -45,7 +45,7 @@ msgid ""
 "    <p>There are no more credits on your IAP Lead Generation account.<br/>\n"
 "    You can charge your IAP Lead Generation account in the settings of the CRM app.<br/></p>\n"
 "    <p>Best regards,</p>\n"
-"    <p>Dosyt S.A.</p>\n"
+"    <p>etwork S.A.</p>\n"
 "</div>"
 msgstr ""
 "<div style=\"margin: 0px; padding: 0px;\">\n"
@@ -53,7 +53,7 @@ msgstr ""
 "    <p>Er staan geen credits meer op uw IAP Lead Generation-account..<br/>\n"
 "    U kunt uw IAP Lead Generation-account opladen in de instellingen van de CRM-app.<br/></p>\n"
 "    <p>Met vriendelijke groeten,</p>\n"
-"    <p>Dosyt S.A.</p>\n"
+"    <p>etwork S.A.</p>\n"
 "</div>"
 
 #. module: crm_iap_lead
@@ -518,8 +518,8 @@ msgstr "Verkoopkansen"
 #. module: crm_iap_lead
 #: code:addons/crm_iap_lead/models/crm_iap_lead_mining_request.py:0
 #, python-format
-msgid "Opportunity created by Dosyt Lead Generation"
-msgstr "Verkoopkans aangemaakt via de Dosyt Leadgeneratie"
+msgid "Opportunity created by etwork Lead Generation"
+msgstr "Verkoopkans aangemaakt via de etwork Leadgeneratie"
 
 #. module: crm_iap_lead
 #: model:ir.model.fields,field_description:crm_iap_lead.field_crm_iap_lead_mining_request__role_ids

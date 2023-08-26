@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Memos pad',
     'version': '0.1',
     'category': 'Productivity/Notes',
     'description': """
-This module update memos inside Dosyt for using an external pad
+This module update memos inside etwork for using an external pad
 =================================================================
 
 Use for update your text memo in real time with the following user that you invite.

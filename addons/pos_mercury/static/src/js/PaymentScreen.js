@@ -310,7 +310,7 @@ etwork.define('pos_mercury.PaymentScreen', function (require) {
 
                         if (data === 'internal error') {
                             def.resolve({
-                                message: self.env._t('Dosyt error while processing transaction.'),
+                                message: self.env._t('etwork error while processing transaction.'),
                             });
                             return;
                         }
@@ -512,7 +512,7 @@ etwork.define('pos_mercury.PaymentScreen', function (require) {
 
                         if (data === 'internal error') {
                             def.resolve({
-                                message: self.env._t('Dosyt error while processing transaction.'),
+                                message: self.env._t('etwork error while processing transaction.'),
                             });
                             return;
                         }

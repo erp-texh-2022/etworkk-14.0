@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mrp
 # 
@@ -14,7 +14,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-29 15:48+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -4842,12 +4842,12 @@ msgstr "제품이 <b>%s</b>가 필요하면, <br/>필요를 충족시키기 위�
 #. module: mrp
 #: model_terms:digest.tip,tip_description:mrp.digest_tip_mrp_0
 msgid ""
-"With the Dosyt work center control panel, your worker can start work orders "
+"With the etwork work center control panel, your worker can start work orders "
 "in the shop and follow instructions of the worksheet. Quality tests are "
 "perfectly integrated into the process. Workers can trigger feedback loops, "
 "maintenance alerts, scrap products, etc."
 msgstr ""
-"Dosyt 작업장 제어판을 활용하여 작업자가  작업 계획표의 지침을 따를 수 있습니다. 품질 테스트는 프로세스에 완벽하게 통합됩니다. "
+"etwork 작업장 제어판을 활용하여 작업자가  작업 계획표의 지침을 따를 수 있습니다. 품질 테스트는 프로세스에 완벽하게 통합됩니다. "
 "작업자는 피드백 루프, 유지보수 알림, 제품 폐기 등을 트리거할 수 있습니다."
 
 #. module: mrp
@@ -5190,7 +5190,7 @@ msgstr "이미 %(quantity)s을 처리 완료했습니다. %(minimum)s보다 많�
 #: model_terms:ir.ui.view,arch_db:mrp.view_immediate_production
 msgid ""
 "You have not recorded <i>produced</i> quantities yet, by clicking on "
-"<i>apply</i> Dosyt will produce all the finished products and consume all "
+"<i>apply</i> etwork will produce all the finished products and consume all "
 "components."
 msgstr ""
 

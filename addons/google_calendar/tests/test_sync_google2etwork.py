@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork.addons.google_calendar.utils.google_calendar import GoogleEvent
 import pytz
@@ -9,7 +9,7 @@ from etwork.tests.common import new_test_user
 from etwork.addons.google_calendar.tests.test_sync_common import TestSyncGoogle, patch_api
 
 
-class TestSyncGoogle2Dosyt(TestSyncGoogle):
+class TestSyncGoogle2etwork(TestSyncGoogle):
 
     @property
     def now(self):

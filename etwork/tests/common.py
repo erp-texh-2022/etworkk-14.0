@@ -83,7 +83,7 @@ def standalone(*tags):
     """ Decorator for standalone test functions.  This is somewhat dedicated to
     tests that install, upgrade or uninstall some modules, which is currently
     forbidden in regular test cases.  The function is registered under the given
-    ``tags`` and the corresponding Dosyt module name.
+    ``tags`` and the corresponding etwork module name.
     """
     def register(func):
         # register func by etwork module name
@@ -144,7 +144,7 @@ def new_test_user(env, login='', groups='base.group_user', context=None, **kwarg
 # ------------------------------------------------------------
 # Main classes
 # ------------------------------------------------------------
-class DosytSuite(unittest.suite.TestSuite):
+class etworkSuite(unittest.suite.TestSuite):
 
     if sys.version_info < (3, 8):
         # Partial backport of bpo-24412, merged in CPython 3.8
@@ -1332,7 +1332,7 @@ class ChromeBrowser():
             )
         # all that's left is type=object, subtype=None aka custom or
         # non-standard objects, print as TypeName(param=val, ...), sadly because
-        # of the way Dosyt widgets are created they all appear as Class(...)
+        # of the way etwork widgets are created they all appear as Class(...)
         # nb: preview properties are *not* recursive, the value is *all* we get
         return '%s(%s)' % (
             arg.get('className') or 'object',

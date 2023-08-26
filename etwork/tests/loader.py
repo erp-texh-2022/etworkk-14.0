@@ -8,8 +8,8 @@ import unittest
 from pathlib import Path
 
 from .. import tools
-from .common import TagsSelector, DosytSuite
-from .runner import DosytTestResult
+from .common import TagsSelector, etworkSuite
+from .runner import etworkTestResult
 
 
 _logger = logging.getLogger(__name__)
@@ -81,7 +81,7 @@ def make_suite(module_names, position='at_install'):
         for t in unwrap_suite(unittest.TestLoader().loadTestsFromModule(m))
         if position_tag.check(t) and config_tags.check(t)
     )
-    return DosytSuite(sorted(tests, key=lambda t: t.test_sequence))
+    return etworkSuite(sorted(tests, key=lambda t: t.test_sequence))
 
 def run_suite(suite, module_name=None):
     # avoid dependency hell
@@ -89,7 +89,7 @@ def run_suite(suite, module_name=None):
     module.current_test = module_name
     threading.currentThread().testing = True
 
-    results = DosytTestResult()
+    results = etworkTestResult()
     suite(results)
 
     threading.currentThread().testing = False

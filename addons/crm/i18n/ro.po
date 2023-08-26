@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* crm
 # 
@@ -12,7 +12,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -184,10 +184,10 @@ msgstr "<span class=\"o_stat_text\"> Piste</span>"
 #: code:addons/crm/models/crm_team.py:0
 #, python-format
 msgid ""
-"<p>As you don't belong to any Sales Team, Dosyt opens the first one by "
+"<p>As you don't belong to any Sales Team, etwork opens the first one by "
 "default.</p>"
 msgstr ""
-"<p>Deoarece nu aparții niciunei echipe de vânzări, Dosyt deschide prima "
+"<p>Deoarece nu aparții niciunei echipe de vânzări, etwork deschide prima "
 "echipă în mod implicit.</p>"
 
 #. module: crm
@@ -237,7 +237,7 @@ msgid ""
 "                        <div>\n"
 "                            Hi ${object.partner_id and object.partner_id.name or ''},<br/><br/>\n"
 "                            Welcome to ${object.company_id.name}.\n"
-"                            It's great to meet you! Now that you're on board, you'll discover what ${object.company_id.name} has to offer. My name is ${object.user_id.name} and I'll help you get the most out of Dosyt. Could we plan a quick demo soon?<br/>\n"
+"                            It's great to meet you! Now that you're on board, you'll discover what ${object.company_id.name} has to offer. My name is ${object.user_id.name} and I'll help you get the most out of etwork. Could we plan a quick demo soon?<br/>\n"
 "                            Feel free to reach out at any time!<br/><br/>\n"
 "                            Best,<br/>\n"
 "                            % if object.user_id:\n"
@@ -274,7 +274,7 @@ msgid ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    Powered by <a target=\"_blank\" href=\"https://www.etwork.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Dosyt</a>\n"
+"    Powered by <a target=\"_blank\" href=\"https://www.etwork.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">etwork</a>\n"
 "</td></tr>\n"
 "</table>\n"
 "        "
@@ -1015,11 +1015,11 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
 msgid ""
 "Did you know you can search a company by name or VAT number to instantly "
-"fill in all its data? Dosyt autocompletes everything for you: logo, address, "
+"fill in all its data? etwork autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
 msgstr ""
 "Ai știut că poți căuta o companie după nume sau numărul de TVA pentru a "
-"completa instantaneu toate datele sale? Dosyt completează automat toate "
+"completa instantaneu toate datele sale? etwork completează automat toate "
 "datele pentru tine: logo, adresă, dimensiunea companiei, informații de "
 "afaceri, conturi de social media, etc."
 
@@ -1027,11 +1027,11 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
 msgid ""
 "Did you know you can turn a list of opportunities into a map view, using the"
-" top-right map icon? A lot of screens in Dosyt can be turned into a map: "
+" top-right map icon? A lot of screens in etwork can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
 msgstr ""
 "Ai știut că poți transforma o listă de oportunități într-o vedere de hartă, "
-"folosind pictograma de hartă din partea dreaptă sus? Multe ecrane în Dosyt "
+"folosind pictograma de hartă din partea dreaptă sus? Multe ecrane în etwork "
 "pot fi transformate într-o hartă: sarcini, contacte, comenzi de livrare, "
 "etc."
 
@@ -2172,23 +2172,23 @@ msgstr "Număr de mesaje necitite"
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Dosyt helps you keep track of your sales pipeline to follow\n"
+"etwork helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
-"Dosyt vă ajută să urmăriți pipeline-ul de vânzări pentru a urmări\n"
+"etwork vă ajută să urmăriți pipeline-ul de vânzări pentru a urmări\n"
 "                    posibilele vânzări și a prognoza mai bine veniturile viitoare."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
 msgid ""
-"Dosyt's artificial intelligence engine predicts the success rate of each "
+"etwork's artificial intelligence engine predicts the success rate of each "
 "opportunity based on your history. You can always update the success rate "
-"manually, but if you let Dosyt do the job the score is updated while the "
+"manually, but if you let etwork do the job the score is updated while the "
 "opportunity moves forward in your sales cycle."
 msgstr ""
-"Motorul de inteligență artificială Dosyt prezice rata de succes a fiecărei "
+"Motorul de inteligență artificială etwork prezice rata de succes a fiecărei "
 "oportunități pe baza istoricului dvs. Puteți actualiza mereu rata de succes "
-"manual, dar dacă lăsați Dosyt să facă munca scorul este actualizat în timp ce"
+"manual, dar dacă lăsați etwork să facă munca scorul este actualizat în timp ce"
 " oportunitatea se deplasează în ciclul de vânzări."
 
 #. module: crm
@@ -2929,11 +2929,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Modelul (tipul de document Dosyt) căruia îi corespunde acest alias. Orice "
+"Modelul (tipul de document etwork) căruia îi corespunde acest alias. Orice "
 "e-mail care nu răspunde la o înregistrare existentă va determina crearea "
 "unei noi înregistrări a acestui model (de exemplu, o sarcină de proiect)"
 
@@ -3082,8 +3082,8 @@ msgstr "Sfat: convertiți e-mailurile primite în oportunități"
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_1
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
-msgid "Tip: Did you know Dosyt has built-in lead mining?"
-msgstr "Sfat: Știați că Dosyt are o funcție de prelucrare a pistelor?"
+msgid "Tip: Did you know etwork has built-in lead mining?"
+msgstr "Sfat: Știați că etwork are o funcție de prelucrare a pistelor?"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_4

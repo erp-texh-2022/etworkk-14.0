@@ -1,4 +1,4 @@
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 from etwork.tests.common import SavepointCase, tagged
 from etwork.exceptions import ValidationError
 from unittest.mock import patch

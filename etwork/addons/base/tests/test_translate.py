@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 from etwork.exceptions import AccessError, ValidationError
 from etwork.tools import mute_logger
 from etwork.tools.translate import quote, unquote, xml_translate, html_translate

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_links
 # 
@@ -20,7 +20,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:21+0000\n"
@@ -281,10 +281,10 @@ msgstr "Este código ya ha sido apropiado"
 #: model_terms:ir.ui.view,arch_db:website_links.create_shorten_url
 msgid ""
 "Those trackers can be used in Google Analytics to track clicks and visitors,"
-" or in Dosyt reports to track opportunities and related revenues."
+" or in etwork reports to track opportunities and related revenues."
 msgstr ""
 "Es posible usar tales rastreadores en Google Analytics para realizar un "
-"seguimiento de clics y visitas, así como también en informes de Dosyt con el "
+"seguimiento de clics y visitas, así como también en informes de etwork con el "
 "fin de supervisar oportunidades e ingresos relacionados."
 
 #. module: website_links

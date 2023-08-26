@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime, date
 from dateutil.relativedelta import relativedelta
@@ -15,7 +15,7 @@ from etwork.addons.google_calendar.tests.test_sync_common import TestSyncGoogle,
 
 
 @patch.object(User, '_get_google_calendar_token', lambda user: 'dummy-token')
-class TestSyncDosyt2Google(TestSyncGoogle):
+class TestSyncetwork2Google(TestSyncGoogle):
 
     def setUp(self):
         super().setUp()

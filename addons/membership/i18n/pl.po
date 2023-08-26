@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* membership
 # 
@@ -20,7 +20,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -578,10 +578,10 @@ msgstr "Nie jest uczestnikiem"
 #. module: membership
 #: model_terms:ir.actions.act_window,help:membership.action_membership_members
 msgid ""
-"Dosyt helps you easily track all activities related to a member: \n"
+"etwork helps you easily track all activities related to a member: \n"
 "                  Current Membership Status, Discussions and History of Membership, etc."
 msgstr ""
-"Dosyt pomaga łatwo śledzić wszystkie działania związane z członkami: \n"
+"etwork pomaga łatwo śledzić wszystkie działania związane z członkami: \n"
 "Aktualny status członkostwa, dyskusje i historia członkostwa itp."
 
 #. module: membership

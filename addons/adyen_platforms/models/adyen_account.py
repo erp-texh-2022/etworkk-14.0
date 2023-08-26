@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import os
 import requests
@@ -192,7 +192,7 @@ class AdyenAccount(models.Model):
     def action_create_redirect(self):
         '''
         Accessing the FormView to create an Adyen account needs to be done through this action.
-        The action will redirect the user to accounts.etwork.com to link an Dosyt user_id to the Adyen
+        The action will redirect the user to accounts.etwork.com to link an etwork user_id to the Adyen
         account. After logging in on etwork.com the user will be redirected to his DB with a token in
         the URL. This token is then needed to create the Adyen account.
         '''
@@ -390,7 +390,7 @@ class AdyenAccount(models.Model):
         })
 
         if kyc_status_message.decode() != self.kyc_status_message:
-            self.sudo().message_post(body = kyc_status_message, subtype_xmlid="mail.mt_comment") # Message from Dosyt Bot
+            self.sudo().message_post(body = kyc_status_message, subtype_xmlid="mail.mt_comment") # Message from etwork Bot
 
         self.with_context(update_from_adyen=True).write({
             'kyc_status': kyc_status,

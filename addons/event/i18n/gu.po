@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # * event
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 12.0\n"
+"Project-Id-Version: etwork Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 06:49+0000\n"
 "PO-Revision-Date: 2018-08-24 09:17+0000\n"
@@ -72,7 +72,7 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid ""
-"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>Dosyt"
+"<font style=\"color: rgb(255, 255, 255); font-size: 24px;\">to learn <i>etwork"
 " Programming</i></font>"
 msgstr ""
 
@@ -1606,12 +1606,12 @@ msgstr "ન વાંચેલા સંદેશાની સંખ્યા"
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
-msgid "Dosyt Official Website"
+msgid "etwork Official Website"
 msgstr ""
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
-msgid "Dosyt Web Client"
+msgid "etwork Web Client"
 msgstr ""
 
 #. module: event

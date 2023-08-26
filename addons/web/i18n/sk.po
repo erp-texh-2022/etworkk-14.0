@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -21,7 +21,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -2016,8 +2016,8 @@ msgstr "Fushia"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Dosyt Enterprise!"
-msgstr "Získajte túto funkciu a omnoho viac s Dosyt Podnikanie!"
+msgid "Get this feature and much more with etwork Enterprise!"
+msgstr "Získajte túto funkciu a omnoho viac s etwork Podnikanie!"
 
 #. module: web
 #. openerp-web
@@ -2611,8 +2611,8 @@ msgstr "Viacriadkový text"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Dosyt.com account"
-msgstr "Môj Dosyt.com účet"
+msgid "My etwork.com account"
+msgstr "Môj etwork.com účet"
 
 #. module: web
 #. openerp-web
@@ -2807,15 +2807,15 @@ msgstr "Objekt:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Dosyt Apps will be available soon"
-msgstr "Dosyt aplikácie budú dostupné čoskoro"
+msgid "etwork Apps will be available soon"
+msgstr "etwork aplikácie budú dostupné čoskoro"
 
 #. module: web
 #. openerp-web
@@ -2824,36 +2824,36 @@ msgstr "Dosyt aplikácie budú dostupné čoskoro"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Client Error"
-msgstr "Chyba klienta Dosyt"
+msgid "etwork Client Error"
+msgstr "Chyba klienta etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Dosyt Enterprise"
-msgstr "Dosyt Enterprise"
+msgid "etwork Enterprise"
+msgstr "etwork Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Error"
-msgstr "Chyba  Dosyt"
+msgid "etwork Error"
+msgstr "Chyba  etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Session Expired"
-msgstr "Dosyt relácia vypršala"
+msgid "etwork Session Expired"
+msgstr "etwork relácia vypršala"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Warning"
-msgstr "Varovanie Dosyt"
+msgid "etwork Warning"
+msgstr "Varovanie etwork"
 
 #. module: web
 #. openerp-web
@@ -3210,8 +3210,8 @@ msgstr "Poháňaný %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Dosyt</span>"
-msgstr "Poháňané <span>Dosyt</span>"
+msgid "Powered by <span>etwork</span>"
+msgstr "Poháňané <span>etwork</span>"
 
 #. module: web
 #. openerp-web
@@ -4685,10 +4685,10 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Dosyt with at least two workers to print a pdf version of "
+"You need to start etwork with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"Treba nakonfigurovať Dosyt: etwork.conf min (workers =2) pre tlač PDF verzie "
+"Treba nakonfigurovať etwork: etwork.conf min (workers =2) pre tlač PDF verzie "
 "výkazov."
 
 #. module: web
@@ -4708,7 +4708,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Dosyt session expired. The current page is about to be refreshed."
+msgid "Your etwork session expired. The current page is about to be refreshed."
 msgstr ""
 
 #. module: web

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 import ast
 import pathlib
 import os
@@ -226,7 +226,7 @@ class Cloc(object):
         fmt = '{k:%d}{lines:>8}{other:>8}{code:>8}\n' % (width,)
 
         # Render
-        s = fmt.format(k="Dosyt cloc", lines="Line", other="Other", code="Code")
+        s = fmt.format(k="etwork cloc", lines="Line", other="Other", code="Code")
         s += hr
         for m in sorted(self.modules):
             s += fmt.format(k=m, lines=self.total[m], other=self.total[m]-self.code[m], code=self.code[m])

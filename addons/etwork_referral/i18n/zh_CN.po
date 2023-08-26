@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* etwork_referral
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-10-05 06:33+0000\n"
@@ -30,7 +30,7 @@ msgstr ""
 msgid ""
 "A popup window has been blocked. You may need to change your browser "
 "settings to allow popup windows for this page."
-msgstr "Dosyt的弹出窗口已被浏览器阻止弹出。您需要更改浏览器的设置选项以便允许本页的弹出窗口。"
+msgstr "etwork的弹出窗口已被浏览器阻止弹出。您需要更改浏览器的设置选项以便允许本页的弹出窗口。"
 
 #. module: etwork_referral
 #: model:ir.model.fields,field_description:etwork_referral.field_res_users__display_name
@@ -52,8 +52,8 @@ msgstr "最后修改日"
 #: code:addons/etwork_referral/static/src/xml/systray.xml:0
 #: code:addons/etwork_referral/static/src/xml/systray.xml:0
 #, python-format
-msgid "Dosyt Referral Program"
-msgstr "Dosyt参考程序"
+msgid "etwork Referral Program"
+msgstr "etwork参考程序"
 
 #. module: etwork_referral
 #: model:ir.model,name:etwork_referral.model_res_users

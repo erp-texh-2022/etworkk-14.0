@@ -512,8 +512,8 @@ define([
       return $notePopover;
     };
 
-    this.tplButtonInfo = tplButtonInfo; // DOSYT: allow access for override
-    this.tplPopovers = tplPopovers; // DOSYT: allow access for override
+    this.tplButtonInfo = tplButtonInfo; // etwork: allow access for override
+    this.tplPopovers = tplPopovers; // etwork: allow access for override
 
     var tplHandles = function (options) {
       return '<div class="note-handle">' +
@@ -775,7 +775,7 @@ define([
       });
     };
 
-    this.createPalette = createPalette; // DOSYT: allow access for override
+    this.createPalette = createPalette; // etwork: allow access for override
 
     /**
      * create summernote layout (air mode)
@@ -788,9 +788,9 @@ define([
       var keyMap = options.keyMap[agent.isMac ? 'mac' : 'pc'];
       var id = func.uniqueId();
 
-      $holder.addClass('note-air-editor note-editable'); // DOSYT: removing panel-body class to remove unwanted style
+      $holder.addClass('note-air-editor note-editable'); // etwork: removing panel-body class to remove unwanted style
       $holder.attr({
-        'data-note-id': id, // DOSYT: we use [data-note-id="{id}"] instead of [id="{id}"]
+        'data-note-id': id, // etwork: we use [data-note-id="{id}"] instead of [id="{id}"]
         // 'id': 'note-editor-' + id,
         'contentEditable': true
       });
@@ -799,12 +799,12 @@ define([
       var $container = $('#web_editor-toolbars')
 
       // create Popover
-      var $popover = $(this.tplPopovers(langInfo, options)); // DOSYT: user (maybe) overrided method
+      var $popover = $(this.tplPopovers(langInfo, options)); // etwork: user (maybe) overrided method
       $popover.addClass('note-air-layout');
       $popover.attr('id', 'note-popover-' + id);
       $popover.appendTo($container);
       createTooltip($popover, keyMap);
-      this.createPalette($popover, options); // DOSYT: use (maybe) overrided method
+      this.createPalette($popover, options); // etwork: use (maybe) overrided method
 
       // create Handle
       var $handle = $(tplHandles(options));
@@ -865,8 +865,8 @@ define([
       $('<textarea class="note-codable"></textarea>').prependTo($editingArea);
 
       //04. create Popover
-      var $popover = $(this.tplPopovers(langInfo, options)).prependTo($editingArea); // DOSYT: use (maybe) overrided method
-      this.createPalette($popover, options); // DOSYT: use (maybe) overrided method
+      var $popover = $(this.tplPopovers(langInfo, options)).prependTo($editingArea); // etwork: use (maybe) overrided method
+      this.createPalette($popover, options); // etwork: use (maybe) overrided method
       createTooltip($popover, keyMap);
 
       //05. handle(control selection, ...)
@@ -894,7 +894,7 @@ define([
       }
 
       var keyMap = options.keyMap[agent.isMac ? 'mac' : 'pc'];
-      this.createPalette($toolbar, options); // DOSYT: use (maybe) overrided method
+      this.createPalette($toolbar, options); // etwork: use (maybe) overrided method
       createTooltip($toolbar, keyMap, 'bottom');
       $toolbar.prependTo($editor);
 
@@ -970,7 +970,7 @@ define([
     this.removeLayout = function ($holder, layoutInfo, options) {
       if (options.airMode) {
         $holder.removeClass('note-air-editor note-editable')
-               .removeAttr('contentEditable'); // DOSYT: removed id 'id contentEditable'
+               .removeAttr('contentEditable'); // etwork: removed id 'id contentEditable'
 
         layoutInfo.popover().remove();
         layoutInfo.handle().remove();
@@ -998,7 +998,7 @@ define([
         button: tplButton,
         iconButton: tplIconButton,
         dialog: tplDialog,
-        dropdown: tplDropdown // DOSYT: suggest upstream
+        dropdown: tplDropdown // etwork: suggest upstream
       };
     };
 

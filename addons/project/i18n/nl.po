@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
@@ -10,13 +10,13 @@
 # Wynand Tastenhoye <wta@etwork.com>, 2020
 # Alice Van Goethem <vga@etwork.com>, 2020
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2020
-# Dosyt Experts Consultants <consultants@etworkexperts.nl>, 2020
+# etwork Experts Consultants <consultants@etworkexperts.nl>, 2020
 # Erwin van der Ploeg <erwin@etworkexperts.nl>, 2021
 # Jolien De Paepe, 2022
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -1219,11 +1219,11 @@ msgstr "Klantbeoordeling op taken"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Dosyt creates tasks automatically, and "
+"Customers propose feedbacks by email; etwork creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the %s column. %s"
 msgstr ""
-"Klanten stellen feedback per e-mail voor; Dosyt maakt automatisch taken aan "
+"Klanten stellen feedback per e-mail voor; etwork maakt automatisch taken aan "
 "en u kunt rechtstreeks over de taak communiceren. Je leidinggevende beslist "
 "welke feedback wordt geaccepteerd %s en welke feedback naar de %s kolom %s "
 "wordt verplaatst."
@@ -3692,7 +3692,7 @@ msgstr "Testen"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""

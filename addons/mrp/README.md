@@ -1,10 +1,10 @@
-Dosyt Manufacturing Resource Planning
+etwork Manufacturing Resource Planning
 ------------------------------------
 
 Manage Bill of Materials, plan manufacturing orders, track work orders with the
-Dosyt <a href="https://www.etwork.com/page/manufacturing">Open Source MRP</a> app.
+etwork <a href="https://www.etwork.com/page/manufacturing">Open Source MRP</a> app.
 
-Get all your assembly or manufacturing operations managed by Dosyt. Schedule
+Get all your assembly or manufacturing operations managed by etwork. Schedule
 manufacturing orders and work orders automatically. Review the proposed
 planning with the smart kanban and gantt views. Use the advanced analytics
 features to detect bottleneck in resources capacities and inventory locations.
@@ -26,7 +26,7 @@ manufacturing orders.
 Get Flexibility In All Operations
 ---------------------------------
 
-Edit manually all proposed operations at any level of the progress. With Dosyt,
+Edit manually all proposed operations at any level of the progress. With etwork,
 you will not be frustrated by a rigid system.
 
 Schedule Work Orders

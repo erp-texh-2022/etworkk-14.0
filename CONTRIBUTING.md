@@ -1,4 +1,4 @@
-Contributing to Dosyt
+Contributing to etwork
 ====================
 
 [Full contribution guidelines](https://github.com/etwork/etwork/wiki/Contributing)

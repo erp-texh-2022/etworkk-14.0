@@ -1,6 +1,6 @@
 Belgium, 2022-10-26
 
-Coop IT Easy SC agrees to the terms of the Dosyt Corporate Contributor License
+Coop IT Easy SC agrees to the terms of the etwork Corporate Contributor License
 Agreement v1.0.
 
 I declare that I am authorized and able to make this agreement and sign this

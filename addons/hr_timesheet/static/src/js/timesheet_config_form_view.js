@@ -12,7 +12,7 @@ etwork.define('hr_timesheet.res.config.form', function (require) {
         async _renderView() {
             const self = this;
             await this._super(...arguments);
-            const google_url = "https://play.google.com/store/apps/details?id=com.etwork.DosytTimesheets";
+            const google_url = "https://play.google.com/store/apps/details?id=com.etwork.etworkTimesheets";
             const apple_url = "https://apps.apple.com/be/app/awesome-timesheet/id1078657549";
             const action_desktop = {
                 name: _t('Download our App'),

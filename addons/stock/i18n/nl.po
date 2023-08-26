@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* stock
 # 
@@ -10,14 +10,14 @@
 # Martin Trigaux, 2020
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2020
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2020
-# Dosyt Experts Consultants <consultants@etworkexperts.nl>, 2021
+# etwork Experts Consultants <consultants@etworkexperts.nl>, 2021
 # Pauline Thiry <pth@etwork.com>, 2022
 # Erwin van der Ploeg <erwin@etworkexperts.nl>, 2023
 # Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-08-16 09:00+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -1832,10 +1832,10 @@ msgstr "Standaard routes door het magazijn"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_orderpoint
 msgid ""
-"Define a minimum stock rule so that Dosyt creates automatically requests for "
+"Define a minimum stock rule so that etwork creates automatically requests for "
 "quotations or confirmed manufacturing orders to resupply your stock."
 msgstr ""
-"Definieer een minimale voorraadregel, zodat Dosyt automatisch aanvragen voor "
+"Definieer een minimale voorraadregel, zodat etwork automatisch aanvragen voor "
 "offertes of bevestigde productieorders kan aanmaken om je voorraad te aan te"
 " vullen."
 
@@ -1848,14 +1848,14 @@ msgstr "Definieer een nieuw magazijn"
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
 "Define your locations to reflect your warehouse structure and\n"
-"            organization. Dosyt is able to manage physical locations\n"
+"            organization. etwork is able to manage physical locations\n"
 "            (warehouses, shelves, bin, etc), partner locations (customers,\n"
 "            vendors) and virtual locations which are the counterpart of\n"
 "            the stock operations like the manufacturing orders\n"
 "            consumptions, inventories, etc."
 msgstr ""
 "Definieer uw locaties om uw magazijnstructuur en organisatie\n"
-"te reflecteren. Dosyt kan fysieke locaties beheren\n"
+"te reflecteren. etwork kan fysieke locaties beheren\n"
 "(magazijnen, planken, bakken, enz), relatie locaties (klanten,\n"
 "leveranciers) en virtuele locaties die de tegenrekening zijn van de\n"
 "voorraad bewerkingen zoals de productieorder\n"
@@ -2292,12 +2292,12 @@ msgstr "Geen voorraad"
 #. module: stock
 #: model_terms:digest.tip,tip_description:stock.digest_tip_stock_0
 msgid ""
-"Enjoy a quick-paced experience with the Dosyt barcode app. It is blazing fast"
+"Enjoy a quick-paced experience with the etwork barcode app. It is blazing fast"
 " and works even without a stable internet connection. It supports all flows:"
 " inventory adjustments, batch picking, moving lots or pallets, low inventory"
 " checks, etc. Go to the \"Apps\" menu to activate the barcode interface."
 msgstr ""
-"Geniet van een snelle ervaring met de Dosyt barcode-app. Het is razendsnel en"
+"Geniet van een snelle ervaring met de etwork barcode-app. Het is razendsnel en"
 " werkt zelfs zonder een stabiele internetverbinding. Het ondersteunt alle "
 "stromen: voorraadaanpassingen, batch-picking, verplaatsen van partijen of "
 "pallets, lage voorraadcontroles, enz. Ga naar het menu \"Apps\" om de "
@@ -2326,14 +2326,14 @@ msgstr "Fout"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_location_form
 msgid ""
-"Every stock operation in Dosyt moves the products from one\n"
+"Every stock operation in etwork moves the products from one\n"
 "            location to another one.  For instance, if you receive products\n"
-"            from a vendor, Dosyt will move products from the Vendor\n"
+"            from a vendor, etwork will move products from the Vendor\n"
 "            location to the Stock location. Each report can be performed on\n"
 "            physical, partner or virtual locations."
 msgstr ""
-"Elke voorraad bewerking in Dosyt verplaatst het product van een locatie naar een \n"
-"andere. Bijvoorbeeld, als u producten ontvangt van een leverancier, zal Dosyt de \n"
+"Elke voorraad bewerking in etwork verplaatst het product van een locatie naar een \n"
+"andere. Bijvoorbeeld, als u producten ontvangt van een leverancier, zal etwork de \n"
 "producten verplaatsen van de leverancierslocatie naar de voorraad locatie. Elk rapport\n"
 "kan toegepast worden op fysieke, partner of virtuele locaties."
 
@@ -2916,11 +2916,11 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_reserved
 msgid ""
-"If this checkbox is ticked, Dosyt will automatically pre-fill the detailed "
+"If this checkbox is ticked, etwork will automatically pre-fill the detailed "
 "operations with the corresponding products, locations and lot/serial "
 "numbers."
 msgstr ""
-"Indien aangevinkt, vult Dosyt automatisch de gedetailleerde bewerkingen in "
+"Indien aangevinkt, vult etwork automatisch de gedetailleerde bewerkingen in "
 "met de overeenkomstige producten, locaties en partij- / serienummers."
 
 #. module: stock
@@ -7904,22 +7904,22 @@ msgstr ""
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
 msgid ""
 "When the virtual stock equals to or goes below the Min Quantity specified "
-"for this field, Dosyt generates a procurement to bring the forecasted "
+"for this field, etwork generates a procurement to bring the forecasted "
 "quantity to the Max Quantity."
 msgstr ""
 "Wanneer een virtuele voorraad gelijk is aan of onder de minimale voorraad "
-"komt, zoals gespecificeerd in dit veld, zal Dosyt een verwervingsopdracht "
+"komt, zoals gespecificeerd in dit veld, zal etwork een verwervingsopdracht "
 "genereren om de voorraadprognose aan te vullen tot de maximale hoeveelheid."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_max_qty
 msgid ""
-"When the virtual stock goes below the Min Quantity, Dosyt generates a "
+"When the virtual stock goes below the Min Quantity, etwork generates a "
 "procurement to bring the forecasted quantity to the Quantity specified as "
 "Max Quantity."
 msgstr ""
 "Wanneer een virtuele voorraad onder de minimale voorraad komt, zoals "
-"gespecificeerd in dit veld, zal Dosyt een verwervingsopdracht genereren om de"
+"gespecificeerd in dit veld, zal etwork een verwervingsopdracht genereren om de"
 " voorraadprognose aan te vullen tot de maximale hoeveelheid."
 
 #. module: stock
@@ -8293,10 +8293,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock.view_immediate_transfer
 msgid ""
 "You have not recorded <i>done</i> quantities yet, by clicking on "
-"<i>apply</i> Dosyt will process all the quantities."
+"<i>apply</i> etwork will process all the quantities."
 msgstr ""
 "Je hebt nog geen <i>gemaakte</i> hoeveelheden geregistreerd. Door op "
-"<i>toepassen</i> te klikken zal Dosyt alle hoeveelheden verwerken."
+"<i>toepassen</i> te klikken zal etwork alle hoeveelheden verwerken."
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation

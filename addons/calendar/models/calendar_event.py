@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from datetime import timedelta
 import math
@@ -470,7 +470,7 @@ class Meeting(models.Model):
                     elif interval == 'minutes':
                         delta = timedelta(minutes=duration)
                     trigger.value = delta
-                    valarm.add('DESCRIPTION').value = alarm.name or u'Dosyt'
+                    valarm.add('DESCRIPTION').value = alarm.name or u'etwork'
             for attendee in meeting.attendee_ids:
                 attendee_add = event.add('attendee')
                 attendee_add.value = u'MAILTO:' + (attendee.email or u'')

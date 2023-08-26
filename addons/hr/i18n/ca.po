@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* hr
 # 
@@ -23,7 +23,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-17 10:35+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -1815,22 +1815,22 @@ msgstr "Nombre de missatges no llegits"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
 msgid ""
-"Dosyt's department structure is used to manage all documents\n"
+"etwork's department structure is used to manage all documents\n"
 "                    related to employees by departments: expenses, timesheets,\n"
 "                    leaves, recruitments, etc."
 msgstr ""
-"L'estructura del departament d'Dosyt s'utilitza per gestionar tots els documents\n"
+"L'estructura del departament d'etwork s'utilitza per gestionar tots els documents\n"
 "                    relacionat amb els empleats per departaments: despeses, fulls de temps,\n"
 "                    fulles, reclutaments, etc."
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
 msgid ""
-"Dosyt's department structure is used to manage all documents\n"
+"etwork's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                time off, recruitments, etc."
 msgstr ""
-"L'estructura del departament d'Dosyt s'utilitza per gestionar tots els documents\n"
+"L'estructura del departament d'etwork s'utilitza per gestionar tots els documents\n"
 "                relacionat amb els empleats per departaments: despeses, fulls de temps,\n"
 "                Temps d'espera, reclutaments, etc."
 
@@ -2634,22 +2634,22 @@ msgstr "Vidu/a"
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 msgid ""
-"With just a quick glance on the Dosyt employee screen, you\n"
+"With just a quick glance on the etwork employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Amb una vista rapida a la pantalla d'empleats d'Dosyt podrà trobar fàcilment "
+"Amb una vista rapida a la pantalla d'empleats d'etwork podrà trobar fàcilment "
 "tota la informació que necessiti sobre cada persona: informació de contacte,"
 " lloc de treball, disponibilitat, etc..."
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Dosyt employee screen, you\n"
+"With just a quick glance on the etwork employee screen, you\n"
 "               can easily find all the information you need for each person;\n"
 "               contact data, job position, availability, etc."
 msgstr ""
-"Amb només un cop d'ull ràpid a la pantalla dels empleats d'Dosyt, vostè\n"
+"Amb només un cop d'ull ràpid a la pantalla dels empleats d'etwork, vostè\n"
 "               pot trobar fàcilment tota la informació que necessita per a cada persona;\n"
 "               dades de contacte, lloc de treball, disponibilitat, etc."
 

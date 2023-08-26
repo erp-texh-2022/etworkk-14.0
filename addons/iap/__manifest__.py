@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'In-App Purchases',
@@ -8,7 +8,7 @@
     'summary': 'Basic models and helpers to support In-App purchases.',
     'description': """
 This module provides standard tools (account model, context manager and helpers)
-to support In-App purchases inside Dosyt. """,
+to support In-App purchases inside etwork. """,
     'depends': [
         'web',
         'base_setup'

@@ -9,7 +9,7 @@ from .. import sql_db
 _logger = logging.getLogger(__name__)
 
 
-class DosytTestResult(unittest.result.TestResult):
+class etworkTestResult(unittest.result.TestResult):
     """
     This class in inspired from TextTestResult (https://github.com/python/cpython/blob/master/Lib/unittest/runner.py)
     Instead of using a stream, we are using the logger,
@@ -28,7 +28,7 @@ class DosytTestResult(unittest.result.TestResult):
     def update(self, other):
         """ Merges an other test result into this one, only updates contents
 
-        :type other: DosytTestResult
+        :type other: etworkTestResult
         """
         self.failures.extend(other.failures)
         self.errors.extend(other.errors)

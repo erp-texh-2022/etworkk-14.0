@@ -1,4 +1,4 @@
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork.tests.common import HttpSavepointCase
 from etwork.addons.sale_product_configurator.tests.common import TestProductConfiguratorCommon

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import datetime
 
@@ -15,7 +15,7 @@ class ResConfigSettings(models.TransientModel):
 
     fail_counter = fields.Integer('Fail Mail', readonly=True)
     alias_domain = fields.Char('Alias Domain', help="If you have setup a catch-all email domain redirected to "
-                               "the Dosyt server, enter the domain name here.", config_parameter='mail.catchall.domain')
+                               "the etwork server, enter the domain name here.", config_parameter='mail.catchall.domain')
 
     @api.model
     def get_values(self):

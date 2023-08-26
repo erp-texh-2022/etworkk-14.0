@@ -1,4 +1,4 @@
-﻿# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+﻿# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 # TODO: Avoid to uninstall the database
 # TODO: We can update the server or the clients without to uninstall the all-in-one
@@ -40,7 +40,7 @@ Unicode True
     Exch $R2
 !macroend
 
-!define PUBLISHER 'Dosyt S.A.'
+!define PUBLISHER 'etwork S.A.'
 
 !ifndef MAJOR_VERSION
     !define MAJOR_VERSION '14'
@@ -70,13 +70,13 @@ Unicode True
 	!define TOOLSDIR 'c:\etworkbuild'
 !endif
 
-!define PRODUCT_NAME "Dosyt"
+!define PRODUCT_NAME "etwork"
 !define DISPLAY_NAME "${PRODUCT_NAME} ${MAJOR_VERSION}.${MINOR_VERSION}"
 
 !define UNINSTALL_BASE_REGISTRY_KEY "Software\Microsoft\Windows\CurrentVersion\Uninstall"
 !define UNINSTALL_REGISTRY_KEY "${UNINSTALL_BASE_REGISTRY_KEY}\${DISPLAY_NAME}"
 
-!define UNINSTALL_REGISTRY_KEY_SERVER "${UNINSTALL_BASE_REGISTRY_KEY}\Dosyt Server ${VERSION}"
+!define UNINSTALL_REGISTRY_KEY_SERVER "${UNINSTALL_BASE_REGISTRY_KEY}\etwork Server ${VERSION}"
 
 !define REGISTRY_KEY "SOFTWARE\${DISPLAY_NAME}"
 
@@ -153,11 +153,11 @@ Page Custom ShowPostgreSQL LeavePostgreSQL
 !insertmacro MUI_RESERVEFILE_LANGDLL
 
 ; English
-LangString DESC_Dosyt_Server ${LANG_ENGLISH} "Install the Dosyt Server with all the Dosyt standard modules."
-LangString DESC_PostgreSQL ${LANG_ENGLISH} "Install the PostgreSQL RDBMS used by Dosyt."
-LangString DESC_FinishPage_Link ${LANG_ENGLISH} "Contact Dosyt for Partnership and/or Support"
+LangString DESC_etwork_Server ${LANG_ENGLISH} "Install the etwork Server with all the etwork standard modules."
+LangString DESC_PostgreSQL ${LANG_ENGLISH} "Install the PostgreSQL RDBMS used by etwork."
+LangString DESC_FinishPage_Link ${LANG_ENGLISH} "Contact etwork for Partnership and/or Support"
 LangString DESC_AtLeastOneComponent ${LANG_ENGLISH} "You have to choose at least one component"
-LangString DESC_CanNotInstallPostgreSQL ${LANG_ENGLISH} "You can not install the PostgreSQL database without the Dosyt Server"
+LangString DESC_CanNotInstallPostgreSQL ${LANG_ENGLISH} "You can not install the PostgreSQL database without the etwork Server"
 LangString WARNING_HostNameIsEmpty ${LANG_ENGLISH} "The hostname for the connection to the PostgreSQL Server is empty"
 LangString WARNING_UserNameIsEmpty ${LANG_ENGLISH} "The username for the connection to the PostgreSQL Server is empty"
 LangString WARNING_PasswordIsEmpty ${LANG_ENGLISH} "The password for the connection to the PostgreSQL Server is empty"
@@ -169,16 +169,16 @@ LangString DESC_PostgreSQL_Username ${LANG_ENGLISH} "Username"
 LangString DESC_PostgreSQL_Password ${LANG_ENGLISH} "Password"
 LangString Profile_AllInOne ${LANG_ENGLISH} "All In One"
 LangString Profile_Server ${LANG_ENGLISH} "Server only"
-LangString TITLE_Dosyt_Server ${LANG_ENGLISH} "Dosyt Server"
+LangString TITLE_etwork_Server ${LANG_ENGLISH} "etwork Server"
 LangString TITLE_PostgreSQL ${LANG_ENGLISH} "PostgreSQL Database"
-LangString DESC_FinishPageText ${LANG_ENGLISH} "Start Dosyt"
+LangString DESC_FinishPageText ${LANG_ENGLISH} "Start etwork"
 
 ; French
-LangString DESC_Dosyt_Server ${LANG_FRENCH} "Installation du Serveur Dosyt avec tous les modules Dosyt standards."
-LangString DESC_PostgreSQL ${LANG_FRENCH} "Installation de la base de données PostgreSQL utilisée par Dosyt."
-LangString DESC_FinishPage_Link ${LANG_FRENCH} "Contactez Dosyt pour un Partenariat et/ou du Support"
+LangString DESC_etwork_Server ${LANG_FRENCH} "Installation du Serveur etwork avec tous les modules etwork standards."
+LangString DESC_PostgreSQL ${LANG_FRENCH} "Installation de la base de données PostgreSQL utilisée par etwork."
+LangString DESC_FinishPage_Link ${LANG_FRENCH} "Contactez etwork pour un Partenariat et/ou du Support"
 LangString DESC_AtLeastOneComponent ${LANG_FRENCH} "Vous devez choisir au moins un composant"
-LangString DESC_CanNotInstallPostgreSQL ${LANG_FRENCH} "Vous ne pouvez pas installer la base de données PostgreSQL sans le serveur Dosyt"
+LangString DESC_CanNotInstallPostgreSQL ${LANG_FRENCH} "Vous ne pouvez pas installer la base de données PostgreSQL sans le serveur etwork"
 LangString WARNING_HostNameIsEmpty ${LANG_FRENCH} "L'adresse pour la connection au serveur PostgreSQL est vide"
 LangString WARNING_UserNameIsEmpty ${LANG_FRENCH} "Le nom d'utilisateur pour la connection au serveur PostgreSQL est vide"
 LangString WARNING_PasswordIsEmpty ${LANG_FRENCH} "Le mot de passe pour la connection au serveur PostgreSQL est vide"
@@ -190,14 +190,14 @@ LangString DESC_PostgreSQL_Username ${LANG_FRENCH} "Utilisateur"
 LangString DESC_PostgreSQL_Password ${LANG_FRENCH} "Mot de passe"
 LangString Profile_AllInOne ${LANG_FRENCH} "All In One"
 LangString Profile_Server ${LANG_FRENCH} "Seulement le serveur"
-LangString TITLE_Dosyt_Server ${LANG_FRENCH} "Serveur Dosyt"
+LangString TITLE_etwork_Server ${LANG_FRENCH} "Serveur etwork"
 LangString TITLE_PostgreSQL ${LANG_FRENCH} "Installation du serveur de base de données PostgreSQL"
-LangString DESC_FinishPageText ${LANG_FRENCH} "Démarrer Dosyt"
+LangString DESC_FinishPageText ${LANG_FRENCH} "Démarrer etwork"
 
 InstType $(Profile_AllInOne)
 InstType $(Profile_Server)
 
-Section $(TITLE_Dosyt_Server) SectionDosyt_Server
+Section $(TITLE_etwork_Server) Sectionetwork_Server
     SectionIn 1 2
 
     # Installing winpython
@@ -228,7 +228,7 @@ Section $(TITLE_Dosyt_Server) SectionDosyt_Server
     SetOutPath "$INSTDIR\thirdparty"
     File /r "${STATIC_PATH}\wkhtmltopdf\*"
 
-    # If there is a previous install of the Dosyt Server, keep the login/password from the config file
+    # If there is a previous install of the etwork Server, keep the login/password from the config file
     WriteIniStr "$INSTDIR\server\etwork.conf" "options" "db_host" $TextPostgreSQLHostname
     WriteIniStr "$INSTDIR\server\etwork.conf" "options" "db_user" $TextPostgreSQLUsername
     WriteIniStr "$INSTDIR\server\etwork.conf" "options" "db_password" $TextPostgreSQLPassword
@@ -290,7 +290,7 @@ Section $(TITLE_PostgreSQL) SectionPostgreSQL
         --mode unattended \
         --prefix "$INSTDIR\PostgreSQL" \
         --datadir "$INSTDIR\PostgreSQL\data" \
-        --servicename "PostgreSQL_For_Dosyt" \
+        --servicename "PostgreSQL_For_etwork" \
         --serviceaccount "openpgsvc" --servicepassword "0p3npgsvcPWD" \
         --superaccount "$TextPostgreSQLUsername" --superpassword "$TextPostgreSQLPassword" \
         --serverport $TextPostgreSQLPort'
@@ -312,7 +312,7 @@ Section -Post
 SectionEnd
 
 !insertmacro MUI_FUNCTION_DESCRIPTION_BEGIN
-    !insertmacro MUI_DESCRIPTION_TEXT ${SectionDosyt_Server} $(DESC_Dosyt_Server)
+    !insertmacro MUI_DESCRIPTION_TEXT ${Sectionetwork_Server} $(DESC_etwork_Server)
     !insertmacro MUI_DESCRIPTION_TEXT ${SectionPostgreSQL} $(DESC_PostgreSQL)
 !insertmacro MUI_FUNCTION_DESCRIPTION_END
 
@@ -342,9 +342,9 @@ Function .onInit
     ReadRegStr $previous_install_dir HKLM "${REGISTRY_KEY}" "Install_Dir"
     ${If} $previous_install_dir == ""
         ${If} ${RunningX64}
-            StrCpy $INSTDIR "$PROGRAMFILES64\Dosyt ${VERSION}"
+            StrCpy $INSTDIR "$PROGRAMFILES64\etwork ${VERSION}"
         ${Else}
-            StrCpy $INSTDIR "$PROGRAMFILES\Dosyt ${VERSION}"
+            StrCpy $INSTDIR "$PROGRAMFILES\etwork ${VERSION}"
         ${EndIf}
         WriteRegStr HKLM "${REGISTRY_KEY}" "Install_dir" "$INSTDIR"
     ${EndIf}
@@ -399,7 +399,7 @@ Function PostgreSQLOnBack
 FunctionEnd
 
 Function ShowPostgreSQL
-    SectionGetFlags ${SectionDosyt_Server} $0
+    SectionGetFlags ${Sectionetwork_Server} $0
     IntOp $0 $0 & ${SF_SELECTED}
     IntCmp $0 ${SF_SELECTED} LaunchPostgreSQLConfiguration
     Abort
@@ -470,7 +470,7 @@ Function LeavePostgreSQL
 FunctionEnd
 
 Function ComponentLeave
-    SectionGetFlags ${SectionDosyt_Server} $0
+    SectionGetFlags ${Sectionetwork_Server} $0
     IntOp $0 $0 & ${SF_SELECTED}
     IntCmp $0 ${SF_SELECTED} Done
 

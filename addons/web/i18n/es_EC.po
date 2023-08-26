@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # * web
 #
@@ -7,7 +7,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt 9.0\n"
+"Project-Id-Version: etwork 9.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-08-18 14:08+0000\n"
 "PO-Revision-Date: 2016-02-22 05:01+0000\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"#-#-#-#-#  es_EC.po (Dosyt 9.0)  #-#-#-#-#\n"
+"#-#-#-#-#  es_EC.po (etwork 9.0)  #-#-#-#-#\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #. module: web
@@ -227,8 +227,8 @@ msgstr "<span class=\"oe_logo_edit\">Editar Datos de Compañía</span>"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.menu_secondary
-msgid "<span>Dosyt</span>"
-msgstr "<span>Dosyt</span>"
+msgid "<span>etwork</span>"
+msgstr "<span>etwork</span>"
 
 #. module: web
 #. openerp-web
@@ -576,8 +576,8 @@ msgstr "Contexto:"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:116
 #, python-format
-msgid "Copyright © 2004-2015 Dosyt S.A."
-msgstr "Derechos reservados © 2004-2015 Dosyt S.A."
+msgid "Copyright © 2004-2015 etwork S.A."
+msgstr "Derechos reservados © 2004-2015 etwork S.A."
 
 #. module: web
 #. openerp-web
@@ -1088,8 +1088,8 @@ msgstr "GNU Lesser General Public License"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1512
 #, python-format
-msgid "Get this feature and much more with Dosyt Enterprise!"
-msgstr "¡Obtenga esta características y otras con Dosyt Enterprise!"
+msgid "Get this feature and much more with etwork Enterprise!"
+msgstr "¡Obtenga esta características y otras con etwork Enterprise!"
 
 #. module: web
 #. openerp-web
@@ -1412,8 +1412,8 @@ msgstr "Mover hacia arriba"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:87
 #, python-format
-msgid "My Dosyt.com account"
-msgstr "Mi cuenta Dosyt.com"
+msgid "My etwork.com account"
+msgstr "Mi cuenta etwork.com"
 
 #. module: web
 #. openerp-web
@@ -1576,55 +1576,55 @@ msgstr "Objeto:"
 #: code:addons/web/static/src/js/framework/dialog.js:37
 #: model_terms:ir.ui.view,arch_db:web.layout
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:101
 #, python-format
-msgid "Dosyt (Formerly OpenERP)"
-msgstr "Dosyt (Anteriormente OpenERP)"
+msgid "etwork (Formerly OpenERP)"
+msgstr "etwork (Anteriormente OpenERP)"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:189
 #, python-format
-msgid "Dosyt Apps will be available soon"
-msgstr "Aplicaciones Dosyt estarán disponibles próximamente"
+msgid "etwork Apps will be available soon"
+msgstr "Aplicaciones etwork estarán disponibles próximamente"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:1717
 #, python-format
-msgid "Dosyt Enterprise"
-msgstr "Dosyt Enterprise"
+msgid "etwork Enterprise"
+msgstr "etwork Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:117
 #, python-format
-msgid "Dosyt S.A."
-msgstr "Dosyt S.A."
+msgid "etwork S.A."
+msgstr "etwork S.A."
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.qunit_suite
-msgid "Dosyt Web Tests"
-msgstr "Test Web para Dosyt"
+msgid "etwork Web Tests"
+msgstr "Test Web para etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:117
 #, python-format
-msgid "Dosyt is a trademark of"
-msgstr "Dosyt es una marca registrada de "
+msgid "etwork is a trademark of"
+msgstr "etwork es una marca registrada de "
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:119
 #, python-format
-msgid "Dosyt.com"
-msgstr "Dosyt.com"
+msgid "etwork.com"
+msgstr "etwork.com"
 
 #. module: web
 #. openerp-web
@@ -1782,8 +1782,8 @@ msgstr "Desarrollado por"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Dosyt</span>"
-msgstr "Desarrollado por <span>Dosyt</span>"
+msgid "Powered by <span>etwork</span>"
+msgstr "Desarrollado por <span>etwork</span>"
 
 #. module: web
 #. openerp-web
@@ -2263,10 +2263,10 @@ msgstr ""
 #, python-format
 msgid ""
 "Timezone Mismatch : The timezone of your browser doesn't match the selected "
-"one. The time in Dosyt is displayed according to your field timezone."
+"one. The time in etwork is displayed according to your field timezone."
 msgstr ""
 "Error en Zona Horaria: La zona horaria de su navegador no coincide con la "
-"seleccionada. La fecha en Dosyt será mostrada de acuerdo a la zona horaria "
+"seleccionada. La fecha en etwork será mostrada de acuerdo a la zona horaria "
 "configurada en su registro."
 
 #. module: web
@@ -2616,8 +2616,8 @@ msgstr "Debe seleccionar al menos un registro."
 #. openerp-web
 #: code:addons/web/static/src/js/framework/crash_manager.js:69
 #, python-format
-msgid "Your Dosyt session expired. Please refresh the current web page."
-msgstr "Su sesión Dosyt ha expirado. Por favor, actualice su página web."
+msgid "Your etwork session expired. Please refresh the current web page."
+msgstr "Su sesión etwork ha expirado. Por favor, actualice su página web."
 
 #. module: web
 #. openerp-web

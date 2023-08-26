@@ -48,7 +48,7 @@ class TestMicrosoftEvent(TestCommon):
 
     def test_map_an_event_using_instance_id(self):
         """
-        Here, the Dosyt event has an uid but the Outlook event has not.
+        Here, the etwork event has an uid but the Outlook event has not.
         """
         # arrange
         event_id = self.simple_event.ms_organizer_event_id
@@ -68,7 +68,7 @@ class TestMicrosoftEvent(TestCommon):
 
     def test_map_an_event_without_uid_using_instance_id(self):
         """
-        Here, the Dosyt event has no uid but the Outlook event has one.
+        Here, the etwork event has no uid but the Outlook event has one.
         """
 
         # arrange
@@ -92,7 +92,7 @@ class TestMicrosoftEvent(TestCommon):
 
     def test_map_an_event_without_uid_using_instance_id_2(self):
         """
-        Here, both Dosyt event and Outlook event have no uid.
+        Here, both etwork event and Outlook event have no uid.
         """
 
         # arrange

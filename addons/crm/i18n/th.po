@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* crm
 # 
@@ -8,13 +8,13 @@
 # Somchart Jabsung <jabsung.s@gmail.com>, 2020
 # Martin Trigaux, 2020
 # Khwunchai Jaengsawang <khwunchai.j@ku.th>, 2020
-# Dosyt Thaidev <etworkthaidev@gmail.com>, 2021
+# etwork Thaidev <etworkthaidev@gmail.com>, 2021
 # kittipot anuwet <pipemsn1@gmail.com>, 2021
 # Wichanon Jamwutthipreecha, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -180,10 +180,10 @@ msgstr "<span class=\"o_stat_text\"> ลูกค้าเป้าหมาย<
 #: code:addons/crm/models/crm_team.py:0
 #, python-format
 msgid ""
-"<p>As you don't belong to any Sales Team, Dosyt opens the first one by "
+"<p>As you don't belong to any Sales Team, etwork opens the first one by "
 "default.</p>"
 msgstr ""
-"<p>เนื่องจากคุณไม่ได้อยู่ในทีมขายใดๆ Dosyt จะเปิดทีมแรกโดยค่าเริ่มต้น</p>"
+"<p>เนื่องจากคุณไม่ได้อยู่ในทีมขายใดๆ etwork จะเปิดทีมแรกโดยค่าเริ่มต้น</p>"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
@@ -232,7 +232,7 @@ msgid ""
 "                        <div>\n"
 "                            Hi ${object.partner_id and object.partner_id.name or ''},<br/><br/>\n"
 "                            Welcome to ${object.company_id.name}.\n"
-"                            It's great to meet you! Now that you're on board, you'll discover what ${object.company_id.name} has to offer. My name is ${object.user_id.name} and I'll help you get the most out of Dosyt. Could we plan a quick demo soon?<br/>\n"
+"                            It's great to meet you! Now that you're on board, you'll discover what ${object.company_id.name} has to offer. My name is ${object.user_id.name} and I'll help you get the most out of etwork. Could we plan a quick demo soon?<br/>\n"
 "                            Feel free to reach out at any time!<br/><br/>\n"
 "                            Best,<br/>\n"
 "                            % if object.user_id:\n"
@@ -269,7 +269,7 @@ msgid ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    Powered by <a target=\"_blank\" href=\"https://www.etwork.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Dosyt</a>\n"
+"    Powered by <a target=\"_blank\" href=\"https://www.etwork.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">etwork</a>\n"
 "</td></tr>\n"
 "</table>\n"
 "        "
@@ -994,22 +994,22 @@ msgstr ""
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
 msgid ""
 "Did you know you can search a company by name or VAT number to instantly "
-"fill in all its data? Dosyt autocompletes everything for you: logo, address, "
+"fill in all its data? etwork autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
 msgstr ""
 "คุณรู้หรือไม่ว่าคุณสามารถค้นหาบริษัทด้วยชื่อหรือหมายเลขภาษีมูลค่าเพิ่มเพื่อกรอกข้อมูลทั้งหมดของบริษัทได้ทันที?"
-" Dosyt เติมข้อมูลทุกอย่างให้คุณโดยอัตโนมัติ: โลโก้ ที่อยู่ ขนาดบริษัท "
+" etwork เติมข้อมูลทุกอย่างให้คุณโดยอัตโนมัติ: โลโก้ ที่อยู่ ขนาดบริษัท "
 "ข้อมูลธุรกิจ บัญชีโซเชียลมีเดีย ฯลฯ"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
 msgid ""
 "Did you know you can turn a list of opportunities into a map view, using the"
-" top-right map icon? A lot of screens in Dosyt can be turned into a map: "
+" top-right map icon? A lot of screens in etwork can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
 msgstr ""
 "คุณรู้หรือไม่ว่าคุณสามารถเปลี่ยนรายการโอกาสเป็นมุมมองแผนที่ได้โดยใช้ไอคอนแผนที่ด้านบนขวา"
-" หน้าจอส่วนมากใน Dosyt สามารถเปลี่ยนเป็นมุมมองแผนที่ได้ เช่น งาน "
+" หน้าจอส่วนมากใน etwork สามารถเปลี่ยนเป็นมุมมองแผนที่ได้ เช่น งาน "
 "รายชื่อติดต่อ ใบสั่งจัดส่ง และอื่น ๆ "
 
 #. module: crm
@@ -2135,23 +2135,23 @@ msgstr "จํานวนข้อความที่ยังไม่ได
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Dosyt helps you keep track of your sales pipeline to follow\n"
+"etwork helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
-"Dosyt ช่วยให้คุณติดตามขั้นตอนการขายของคุณเพื่อติดตาม\n"
+"etwork ช่วยให้คุณติดตามขั้นตอนการขายของคุณเพื่อติดตาม\n"
 "                    คาดการณ์ยอดขายและรายได้ในอนาคตของคุณได้ดียิ่งขึ้น"
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
 msgid ""
-"Dosyt's artificial intelligence engine predicts the success rate of each "
+"etwork's artificial intelligence engine predicts the success rate of each "
 "opportunity based on your history. You can always update the success rate "
-"manually, but if you let Dosyt do the job the score is updated while the "
+"manually, but if you let etwork do the job the score is updated while the "
 "opportunity moves forward in your sales cycle."
 msgstr ""
-"เครื่องมือปัญญาประดิษฐ์ของ Dosyt "
+"เครื่องมือปัญญาประดิษฐ์ของ etwork "
 "สามารถคาดการณ์อัตราความสำเร็จของแต่ละโอกาสตามประวัติของคุณ "
-"คุณสามารถอัปเดตอัตราความสำเร็จด้วยตนเองได้ตลอดเวลา แต่ถ้าคุณปล่อยให้ Dosyt "
+"คุณสามารถอัปเดตอัตราความสำเร็จด้วยตนเองได้ตลอดเวลา แต่ถ้าคุณปล่อยให้ etwork "
 "ทำงาน "
 "คะแนนจะได้รับการอัปเดตในขณะที่โอกาสทางการขายเคลื่อนไปข้างหน้าในวงจรการขายของคุณ"
 
@@ -2884,11 +2884,11 @@ msgstr ""
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"โมเดล (ชนิดเอกสาร Dosyt) ซึ่งสอดคล้องกับนามแฝงนี้ อีเมลขาเข้าใดๆ "
+"โมเดล (ชนิดเอกสาร etwork) ซึ่งสอดคล้องกับนามแฝงนี้ อีเมลขาเข้าใดๆ "
 "ที่ไม่ตอบกลับเรกคอร์ดที่มีอยู่จะทำให้เกิดการสร้างเรกคอร์ดใหม่ของโมเดลนี้ "
 "(เช่น งานโครงการ)"
 
@@ -3024,8 +3024,8 @@ msgstr "เคล็ดลับ: แปลงอีเมลขาเข้า�
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_1
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
-msgid "Tip: Did you know Dosyt has built-in lead mining?"
-msgstr "เคล็ดลับ: คุณรู้หรือไม่ว่า Dosyt มีการขุดลูกค้าเป้าหมายในตัว"
+msgid "Tip: Did you know etwork has built-in lead mining?"
+msgstr "เคล็ดลับ: คุณรู้หรือไม่ว่า etwork มีการขุดลูกค้าเป้าหมายในตัว"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_4

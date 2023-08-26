@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from datetime import datetime
 import json
@@ -61,7 +61,7 @@ class MicrosoftService(models.AbstractModel):
 
     @api.model
     def _get_authorize_uri(self, from_url, service, scope):
-        """ This method return the url needed to allow this instance of Dosyt to access to the scope
+        """ This method return the url needed to allow this instance of etwork to access to the scope
             of gmail specified as parameters
         """
         state = {

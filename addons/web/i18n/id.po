@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -27,7 +27,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -2033,8 +2033,8 @@ msgstr "Fushia"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Dosyt Enterprise!"
-msgstr "Dapatkan fitur ini dan lebih banyak lagi dengan Dosyt Enterprise!"
+msgid "Get this feature and much more with etwork Enterprise!"
+msgstr "Dapatkan fitur ini dan lebih banyak lagi dengan etwork Enterprise!"
 
 #. module: web
 #. openerp-web
@@ -2631,8 +2631,8 @@ msgstr "Teks Multiline"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Dosyt.com account"
-msgstr "Akun Dosyt.com saya"
+msgid "My etwork.com account"
+msgstr "Akun etwork.com saya"
 
 #. module: web
 #. openerp-web
@@ -2828,15 +2828,15 @@ msgstr "Obyek:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Dosyt Apps will be available soon"
-msgstr "Dosyt Apps akan segera tersedia"
+msgid "etwork Apps will be available soon"
+msgstr "etwork Apps akan segera tersedia"
 
 #. module: web
 #. openerp-web
@@ -2845,36 +2845,36 @@ msgstr "Dosyt Apps akan segera tersedia"
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Client Error"
-msgstr "Eror Klien Dosyt"
+msgid "etwork Client Error"
+msgstr "Eror Klien etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Dosyt Enterprise"
-msgstr "Dosyt Enterprise"
+msgid "etwork Enterprise"
+msgstr "etwork Enterprise"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Error"
-msgstr "Eror Dosyt"
+msgid "etwork Error"
+msgstr "Eror etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Session Expired"
-msgstr "Sesi Dosyt Kadaluarsa"
+msgid "etwork Session Expired"
+msgstr "Sesi etwork Kadaluarsa"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Warning"
-msgstr "Peringatan Dosyt"
+msgid "etwork Warning"
+msgstr "Peringatan etwork"
 
 #. module: web
 #. openerp-web
@@ -3232,8 +3232,8 @@ msgstr "Dipersembahkan oleh %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Dosyt</span>"
-msgstr "Disajikan oleh <span>Dosyt</span>"
+msgid "Powered by <span>etwork</span>"
+msgstr "Disajikan oleh <span>etwork</span>"
 
 #. module: web
 #. openerp-web
@@ -4712,10 +4712,10 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Dosyt with at least two workers to print a pdf version of "
+"You need to start etwork with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
-"Anda harus menjalankan Dosyt dengan minimal dua worker untuk mencetak versi "
+"Anda harus menjalankan etwork dengan minimal dua worker untuk mencetak versi "
 "PDF dari laporan ini."
 
 #. module: web
@@ -4735,8 +4735,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Dosyt session expired. The current page is about to be refreshed."
-msgstr "Sesi Dosyt Anda berakhir. Silakan refresh halaman web saat ini."
+msgid "Your etwork session expired. The current page is about to be refreshed."
+msgstr "Sesi etwork Anda berakhir. Silakan refresh halaman web saat ini."
 
 #. module: web
 #. openerp-web

@@ -200,7 +200,7 @@ const ProgressBarMixin = {
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      * @param {integer} ev.data.fileUploadId
      */
     _onProgressBarAbort(ev) {

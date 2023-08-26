@@ -109,8 +109,8 @@
                                             <p>The website will not work properly if you reject or discard those cookies.</p>
                                         </td>
                                         <td>
-                                            session_id (Dosyt)<br/>
-                                            fileToken (Dosyt)
+                                            session_id (etwork)<br/>
+                                            fileToken (etwork)
                                         </td>
                                     </tr>
                                     <tr>
@@ -122,7 +122,7 @@
                                             <p>Your experience may be degraded if you discard those cookies, but the website will still work.</p>
                                         </td>
                                         <td>
-                                            frontend_lang (Dosyt)
+                                            frontend_lang (etwork)
                                         </td>
                                     </tr>
                                     <tr>
@@ -135,10 +135,10 @@
                                             <p>We may not be able to provide the best service to you if you reject those cookies, but the website will work.</p>
                                         </td>
                                         <td>
-                                            im_livechat_previous_operator_pid (Dosyt)<br/>
-                                            utm_campaign (Dosyt)<br/>
-                                            utm_source (Dosyt)<br/>
-                                            utm_medium (Dosyt)
+                                            im_livechat_previous_operator_pid (etwork)<br/>
+                                            utm_campaign (etwork)<br/>
+                                            utm_source (etwork)<br/>
+                                            utm_medium (etwork)
                                         </td>
                                     </tr>
                                     <tr>

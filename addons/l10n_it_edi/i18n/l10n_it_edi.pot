@@ -1,10 +1,10 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* l10n_it_edi
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0+e\n"
+"Project-Id-Version: etwork Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-29 14:31+0000\n"
 "PO-Revision-Date: 2022-03-29 14:31+0000\n"
@@ -377,7 +377,7 @@ msgstr ""
 #: code:addons/l10n_it_edi/models/account_edi_format.py:0
 #, python-format
 msgid ""
-"Invoices for PA are not managed by Dosyt, you can download the document and "
+"Invoices for PA are not managed by etwork, you can download the document and "
 "send it on your own."
 msgstr ""
 

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_slides
 # 
@@ -33,7 +33,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-16 13:33+0000\n"
 "PO-Revision-Date: 2020-09-07 08:22+0000\n"
@@ -3754,14 +3754,14 @@ msgstr "Anzahl Fragen"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.mail_notification_channel_invite
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: website_slides
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_1_4
 #: model_terms:slide.slide,html_content:website_slides.slide_slide_demo_2_1
-msgid "Dosyt • Image and Text"
-msgstr "Dosyt • Bild und Text"
+msgid "etwork • Image and Text"
+msgstr "etwork • Bild und Text"
 
 #. module: website_slides
 #: model:res.groups,name:website_slides.group_website_slides_officer
@@ -5684,16 +5684,16 @@ msgstr "per E-Mail."
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
-msgid "e.g. How to grow your business with Dosyt?"
-msgstr "z.B. Wie können Sie Ihr Geschäft mit Dosyt entwickeln?"
+msgid "e.g. How to grow your business with etwork?"
+msgstr "z.B. Wie können Sie Ihr Geschäft mit etwork entwickeln?"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid ""
-"e.g. In this video, we'll give you the keys on how Dosyt can help you to grow"
+"e.g. In this video, we'll give you the keys on how etwork can help you to grow"
 " your business. At the end, we'll propose you a quiz to test your knowledge."
 msgstr ""
-"z.B. In diesem Video geben wir Ihnen die Schlüssel dazu, wie Dosyt Ihnen "
+"z.B. In diesem Video geben wir Ihnen die Schlüssel dazu, wie etwork Ihnen "
 "helfen kann, Ihr Geschäft zu entwickeln. Am Ende werden wir Ihnen ein Quiz "
 "vorschlagen, um Ihr Wissen zu testen."
 

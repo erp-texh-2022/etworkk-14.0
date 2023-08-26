@@ -431,7 +431,7 @@ var FieldHtml = basic_fields.DebouncedField.extend(TranslatableFieldMixin, {
      * Method called when wysiwyg triggers a change.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onChange: function (ev) {
         this._doDebouncedAction.apply(this, arguments);
@@ -461,7 +461,7 @@ var FieldHtml = basic_fields.DebouncedField.extend(TranslatableFieldMixin, {
      * Allows Enter keypress in a textarea (source mode)
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onKeydown: function (ev) {
         if (ev.which === $.ui.keyCode.ENTER) {
@@ -474,7 +474,7 @@ var FieldHtml = basic_fields.DebouncedField.extend(TranslatableFieldMixin, {
      * Method called when wysiwyg triggers a change.
      *
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onReadonlyClickChecklist: function (ev) {
         var self = this;
@@ -516,7 +516,7 @@ var FieldHtml = basic_fields.DebouncedField.extend(TranslatableFieldMixin, {
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onWysiwygBlur: function (ev) {
         ev.stopPropagation();
@@ -529,7 +529,7 @@ var FieldHtml = basic_fields.DebouncedField.extend(TranslatableFieldMixin, {
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onWysiwygFocus: function (ev) {},
 });

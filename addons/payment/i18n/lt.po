@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* payment
 # 
@@ -21,7 +21,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:15+0000\n"
@@ -462,8 +462,8 @@ msgstr "Fiksuoti operaciją"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__capture_manually
-msgid "Capture the amount from Dosyt, when the delivery is completed."
-msgstr "Kai pristatymas atliktas, fiksuokite sumą iš \"Dosyt\"."
+msgid "Capture the amount from etwork, when the delivery is completed."
+msgstr "Kai pristatymas atliktas, fiksuokite sumą iš \"etwork\"."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.payment_acquirer_onboarding_wizard_form
@@ -633,7 +633,7 @@ msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,display_as:payment.payment_acquirer_etwork_by_adyen
-msgid "Credit Card (powered by Dosyt Payments)"
+msgid "Credit Card (powered by etwork Payments)"
 msgstr ""
 
 #. module: payment
@@ -1084,13 +1084,13 @@ msgstr "Rankinis"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__inbound_payment_method_ids
 msgid ""
-"Manual: Get paid by cash, check or any other method outside of Dosyt.\n"
+"Manual: Get paid by cash, check or any other method outside of etwork.\n"
 "Electronic: Get paid automatically through a payment acquirer by requesting a transaction on a card saved by the customer when buying or subscribing online (payment token).\n"
-"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in Dosyt,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
+"Batch Deposit: Encase several customer checks at once by generating a batch deposit to submit to your bank. When encoding the bank statement in etwork,you are suggested to reconcile the transaction with the batch deposit. Enable this option from the settings."
 msgstr ""
-"Rankinis: priimkite mokėjimus grynaisiais, čekiais ar bet kokiu kitu metodu už \"Dosyt\" ribų.\n"
+"Rankinis: priimkite mokėjimus grynaisiais, čekiais ar bet kokiu kitu metodu už \"etwork\" ribų.\n"
 "Elektroninis: priimkite apmokėjimus automatiškai per mokėjimo surinkėją, prašant operacijos kliento kortele.\n"
-"Grupinis depozitas: sugrupuokite kelis čekius iš karto sugeneruodami grupinį depozitą. Kai sukeliate banko išrašą į \"Dosyt\", jums pasiūloma sudengti operacijas grupiniu depozitu. Įjunkite šį pasirinkimą nustatymuose."
+"Grupinis depozitas: sugrupuokite kelis čekius iš karto sugeneruodami grupinį depozitą. Kai sukeliate banko išrašą į \"etwork\", jums pasiūloma sudengti operacijas grupiniu depozitu. Įjunkite šį pasirinkimą nustatymuose."
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer_onboarding_wizard__paypal_seller_account
@@ -1223,12 +1223,12 @@ msgstr ""
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer__module_to_buy
-msgid "Dosyt Enterprise Module"
+msgid "etwork Enterprise Module"
 msgstr ""
 
 #. module: payment
 #: model:payment.acquirer,name:payment.payment_acquirer_etwork_by_adyen
-msgid "Dosyt Payments by Adyen"
+msgid "etwork Payments by Adyen"
 msgstr ""
 
 #. module: payment
@@ -1420,8 +1420,8 @@ msgstr "Mokėjimo surinkimo pradžios vedlys"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_acquirer__payment_flow__s2s
-msgid "Payment from Dosyt"
-msgstr "Mokėjimas iš \"Dosyt\""
+msgid "Payment from etwork"
+msgstr "Mokėjimas iš \"etwork\""
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.onboarding_payment_acquirer_step
@@ -1903,8 +1903,8 @@ msgstr "Tipas"
 #. openerp-web
 #: code:addons/payment/static/src/xml/payment_processing.xml:0
 #, python-format
-msgid "Unable to contact the Dosyt server."
-msgstr "Nepavyko susisiekti su \"Dosyt\" serveriu."
+msgid "Unable to contact the etwork server."
+msgstr "Nepavyko susisiekti su \"etwork\" serveriu."
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.acquirer_form

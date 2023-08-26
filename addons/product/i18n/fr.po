@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* product
 # 
@@ -15,7 +15,7 @@
 # Eloïse Stilmant <est@etwork.com>, 2020
 # Laura Piraux <lap@etwork.com>, 2020
 # Bertrand LATOUR <divoir@gmail.com>, 2020
-# gdp Dosyt <gdp@etwork.com>, 2020
+# gdp etwork <gdp@etwork.com>, 2020
 # Celia Tydgat <cty@etwork.com>, 2020
 # thomas quertinmont <tqu@etwork.com>, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
@@ -27,7 +27,7 @@
 # Richard Mathot <rim@etwork.com>, 2020
 # Florian Hatat, 2020
 # omaetwork <oma@etwork.com>, 2020
-# Priscilla (prs) Dosyt <prs@etwork.com>, 2020
+# Priscilla (prs) etwork <prs@etwork.com>, 2020
 # Arnaud Willem <contact@arnaud-willem.eu>, 2020
 # Martin Trigaux, 2020
 # Idir Talem <idir.talem@gmail.com>, 2020
@@ -39,7 +39,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
@@ -3115,8 +3115,8 @@ msgstr "ex. Lampes"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
-msgid "e.g. Dosyt Enterprise Subscription"
-msgstr "p. ex. Abonnement à Dosyt Entreprise"
+msgid "e.g. etwork Enterprise Subscription"
+msgstr "p. ex. Abonnement à etwork Entreprise"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_view

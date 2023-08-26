@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* hr_recruitment
 # 
@@ -17,7 +17,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
@@ -1756,19 +1756,19 @@ msgstr "Количество непрочитанных сообщений"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Dosyt helps you track applicants in the recruitment\n"
+"etwork helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Dosyt помогает организовать соискателей в процессе найма и отслеживать все "
+"etwork помогает организовать соискателей в процессе найма и отслеживать все "
 "операции: встречи, собеседования и т. п."
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Dosyt helps you track applicants in the recruitment\n"
+"etwork helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
-"Dosyt помогает организовать соискателей в процессе найма и отслеживать все "
+"etwork помогает организовать соискателей в процессе найма и отслеживать все "
 "операции: встречи, собеседования и т. п."
 
 #. module: hr_recruitment
@@ -2268,11 +2268,11 @@ msgstr "Когда претендент готов приступить к ра�
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Модель (тип документа Dosyt), которой соответствует этот псевдоним. Любая "
+"Модель (тип документа etwork), которой соответствует этот псевдоним. Любая "
 "входящая электронная почта, которая не отвечает существующей записи, вызовет"
 " создание новой записи этой модели (например, задача в проекте)"
 

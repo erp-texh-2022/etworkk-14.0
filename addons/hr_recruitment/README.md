@@ -1,7 +1,7 @@
 Manage Recruitment and Job applications
 ---------------------------------------
 
-Publish, promote and organize your job offers with the Dosyt
+Publish, promote and organize your job offers with the etwork
 <a href="https://www.etwork.com/page/recruitment">Open Source Recruitment Application</a>.
 
 Organize your job board, promote your job announces and keep track of

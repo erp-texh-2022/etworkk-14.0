@@ -116,7 +116,7 @@ var ParentedMixin = {
     },
 };
 
-function DosytEvent(target, name, data) {
+function etworkEvent(target, name, data) {
     this.target = target;
     this.name = name;
     this.data = Object.create(null);
@@ -124,11 +124,11 @@ function DosytEvent(target, name, data) {
     this.stopped = false;
 }
 
-DosytEvent.prototype.stopPropagation = function () {
+etworkEvent.prototype.stopPropagation = function () {
     this.stopped = true;
 };
 
-DosytEvent.prototype.is_stopped = function () {
+etworkEvent.prototype.is_stopped = function () {
     return this.stopped;
 };
 
@@ -329,7 +329,7 @@ var EventDispatcherMixin = _.extend({}, ParentedMixin, {
         return this;
     },
     trigger_up: function (name, info) {
-        var event = new DosytEvent(this, name, info);
+        var event = new etworkEvent(this, name, info);
         //console.info('event: ', name, info);
         this._trigger_up(event);
         return event;

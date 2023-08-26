@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # * website
 # 
@@ -9,7 +9,7 @@
 # Ljubisa Jovev <ljubisa.jovev@gmail.com>, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 11.0\n"
+"Project-Id-Version: etwork Server 11.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-11-16 08:08+0000\n"
 "PO-Revision-Date: 2017-11-16 08:08+0000\n"
@@ -111,7 +111,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
-msgid "- The Dosyt Team"
+msgid "- The etwork Team"
 msgstr ""
 
 #. module: website
@@ -555,7 +555,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_button
-msgid "<strong>50,000+ companies run Dosyt to grow their businesses.</strong>"
+msgid "<strong>50,000+ companies run etwork to grow their businesses.</strong>"
 msgstr ""
 
 #. module: website
@@ -578,8 +578,8 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"<strong>Be announced on the Dosyt Twitter account</strong><br/>\n"
-"                                We like to hear from people using Dosyt to build their website. Tweet us"
+"<strong>Be announced on the etwork Twitter account</strong><br/>\n"
+"                                We like to hear from people using etwork to build their website. Tweet us"
 msgstr ""
 
 #. module: website
@@ -1769,7 +1769,7 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_planner
 msgid ""
-"For the Dosyt Team,<br/>\n"
+"For the etwork Team,<br/>\n"
 "                            Fabien Pinckaers, Founder"
 msgstr ""
 
@@ -2209,7 +2209,7 @@ msgstr ""
 #, python-format
 msgid ""
 "It might be possible to edit the relevant items or fix the issue in <a "
-"href=\"%s\">the classic Dosyt interface</a>"
+"href=\"%s\">the classic etwork interface</a>"
 msgstr ""
 
 #. module: website
@@ -2627,54 +2627,54 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.layout_footer_copyright
-msgid "Dosyt"
+msgid "etwork"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Dosyt - Sample 1 for three columns"
+msgid "etwork - Sample 1 for three columns"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Dosyt - Sample 2 for three columns"
+msgid "etwork - Sample 2 for three columns"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_three_columns
-msgid "Dosyt - Sample 3 for three columns"
+msgid "etwork - Sample 3 for three columns"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_big_picture
-msgid "Dosyt CMS - a big picture"
+msgid "etwork CMS - a big picture"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_floating
-msgid "Dosyt CMS- Sample image floating"
+msgid "etwork CMS- Sample image floating"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Dosyt Version"
+msgid "etwork Version"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_image_text
-msgid "Dosyt image and text block"
+msgid "etwork image and text block"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_parallax_slider
 msgid ""
-"Dosyt provides essential platform for our project management.\n"
+"etwork provides essential platform for our project management.\n"
 "                                                Things are better organized and more visible with it."
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_text_image
-msgid "Dosyt text and image block"
+msgid "etwork text and image block"
 msgstr ""
 
 #. module: website
@@ -3310,7 +3310,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_banner
-msgid "Slider Dosyt Image"
+msgid "Slider etwork Image"
 msgstr ""
 
 #. module: website
@@ -4390,12 +4390,12 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.view_website_form
-msgid "https://plus.google.com/+Dosytapps"
+msgid "https://plus.google.com/+etworkapps"
 msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.view_website_form
-msgid "https://twitter.com/Dosyt"
+msgid "https://twitter.com/etwork"
 msgstr ""
 
 #. module: website
@@ -4425,7 +4425,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Dosyt, the"
+msgid "instance of etwork, the"
 msgstr ""
 
 #. module: website

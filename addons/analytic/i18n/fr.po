@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* analytic
 # 
@@ -11,13 +11,13 @@
 # Laura Piraux <lap@etwork.com>, 2020
 # Olivier ANDRE <frsw194@gmail.com>, 2020
 # Gilles Mangin <gilles.mangin@phidias.fr>, 2020
-# Priscilla (prs) Dosyt <prs@etwork.com>, 2020
+# Priscilla (prs) etwork <prs@etwork.com>, 2020
 # Cécile Collart <cco@etwork.com>, 2021
 # Jolien De Paepe, 2023
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~12.5\n"
+"Project-Id-Version: etwork Server saas~12.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-09 12:17+0000\n"
 "PO-Revision-Date: 2020-09-07 08:10+0000\n"
@@ -365,11 +365,11 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action
 #: model_terms:ir.actions.act_window,help:analytic.account_analytic_line_action_entries
 msgid ""
-"In Dosyt, sales orders and projects are implemented using\n"
+"In etwork, sales orders and projects are implemented using\n"
 "                analytic accounts. You can track costs and revenues to analyse\n"
 "                your margins easily."
 msgstr ""
-"Dans Dosyt, les bons de commande et projets sont implémentés en utilisant les\n"
+"Dans etwork, les bons de commande et projets sont implémentés en utilisant les\n"
 "                comptes analytiques. Vous pouvez suivre les coûts et les revenus pour analyser\n"
 "                vos marges facilement."
 

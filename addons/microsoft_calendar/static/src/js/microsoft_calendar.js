@@ -105,7 +105,7 @@ const MicrosoftCalendarController = CalendarController.include({
      * mean of a dialog.
      *
      * @private
-     * @returns {DosytEvent} event
+     * @returns {etworkEvent} event
      */
     _onSyncMicrosoftCalendar: function (event) {
         var self = this;

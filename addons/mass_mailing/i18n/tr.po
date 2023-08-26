@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
 # 
@@ -27,7 +27,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -1971,8 +1971,8 @@ msgstr "OPENED"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.layout
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image_text
@@ -2567,8 +2567,8 @@ msgstr "Abone olduğun için teşekkürler!"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
-msgid "That way, Dosyt evolves much faster than any other solution."
-msgstr "Dosyt bu yolla, diğer çözümlere göre daha hızlı gelişir."
+msgid "That way, etwork evolves much faster than any other solution."
+msgstr "etwork bu yolla, diğer çözümlere göre daha hızlı gelişir."
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact_subscription__opt_out
@@ -2587,20 +2587,20 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"The open source model of Dosyt has allowed us to leverage thousands of developers and\n"
+"The open source model of etwork has allowed us to leverage thousands of developers and\n"
 "                                business experts to build hundreds of apps in just a few years."
 msgstr ""
-"Dosyt'nun açık kaynak modeli, binlerce geliştiriciye ve iş uzmanına sadece "
+"etwork'nun açık kaynak modeli, binlerce geliştiriciye ve iş uzmanına sadece "
 "birkaç yıl içinde yüzlerce uygulama oluşturmak için kullanmamıza izin verdi."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_text_image
 msgid ""
-"The open source model of Dosyt has allowed us to leverage thousands of "
+"The open source model of etwork has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
 msgstr ""
-"Dosyt'nun açık kaynak modeli, binlerce geliştiriciye ve iş uzmanına sadece "
+"etwork'nun açık kaynak modeli, binlerce geliştiriciye ve iş uzmanına sadece "
 "birkaç yıl içinde yüzlerce uygulama oluşturmak için kullanmamıza izin verdi."
 
 #. module: mass_mailing
@@ -2778,10 +2778,10 @@ msgstr "Temayı yeni sürüme geçir"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"Usability improvements made on Dosyt will automatically apply to all\n"
+"Usability improvements made on etwork will automatically apply to all\n"
 "                                of our fully integrated apps."
 msgstr ""
-"Dosyt üzerinde yapılan Kullanılabilirlik Geliştirmesi, otomatik olarak tam entegre uygulamalarımızla  \n"
+"etwork üzerinde yapılan Kullanılabilirlik Geliştirmesi, otomatik olarak tam entegre uygulamalarımızla  \n"
 "tümüne uygulanacaktır ve herkes için geçerli olacaktır."
 
 #. module: mass_mailing
@@ -2799,11 +2799,11 @@ msgstr "Postalar için özel bir sunucu kullanın"
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Dosyt relies on the first "
+"Use a specific mail server in priority. Otherwise etwork relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr ""
-"Öncelikli olarak belirli bir posta sunucusu kullanın. Aksi takdirde Dosyt, "
+"Öncelikli olarak belirli bir posta sunucusu kullanın. Aksi takdirde etwork, "
 "normal postalarda olduğu gibi kullanılabilir ilk giden posta sunucusuna "
 "(sıralarına bağlı olarak) güvenir."
 
@@ -2901,19 +2901,19 @@ msgstr "Mailinizi ne zaman göndermek istiyorsunuz?"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"With strong technical foundations, Dosyt's framework is unique.\n"
+"With strong technical foundations, etwork's framework is unique.\n"
 "                                It provides top notch usability that scales across all apps."
 msgstr ""
-"Güçlü teknik alt yapısı ile, Dosyt'nun yapısı benzersizdir.\n"
+"Güçlü teknik alt yapısı ile, etwork'nun yapısı benzersizdir.\n"
 "Tüm uygulamalar arasında ölçeklenen birinci sınıf kullanışlılık sağlar."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image
 msgid ""
-"With strong technical foundations, Dosyt's framework is unique. It provides "
+"With strong technical foundations, etwork's framework is unique. It provides "
 "<strong>top notch usability that scales across all apps</strong>."
 msgstr ""
-"Güçlü teknik alt yapısı ile, Dosyt'nun yapısı benzersizdir. Tüm uygulamalar "
+"Güçlü teknik alt yapısı ile, etwork'nun yapısı benzersizdir. Tüm uygulamalar "
 "arasında <strong>ölçeklenen birinci sınıf kullanışlılık sağlar.</strong>."
 
 #. module: mass_mailing
@@ -2947,18 +2947,18 @@ msgstr "E-Posta listelerimizden herhangi birine üye değilsiniz."
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_mailing_action_mail
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Dosyt apps."
+"                send emails<br> to any contact saved in other etwork apps."
 msgstr ""
-"Posta listelerinizi içe aktarmanıza gerek yoktur, diğer Dosyt \n"
+"Posta listelerinizi içe aktarmanıza gerek yoktur, diğer etwork \n"
 "                uygulamalarında <br>kayıtlı herhangi bir kişiye kolayca e-posta gönderebilirsiniz"
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"            send emails<br> to any contact saved in other Dosyt apps."
+"            send emails<br> to any contact saved in other etwork apps."
 msgstr ""
-"Posta listelerinizi içe aktarmanıza gerek yoktur, diğer Dosyt \n"
+"Posta listelerinizi içe aktarmanıza gerek yoktur, diğer etwork \n"
 "                uygulamalarında <br>kayıtlı herhangi bir kişiye kolayca e-posta gönderebilirsiniz"
 
 #. module: mass_mailing

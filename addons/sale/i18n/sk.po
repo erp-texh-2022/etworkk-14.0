@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* sale
 # 
@@ -25,7 +25,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-09 15:44+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -885,7 +885,7 @@ msgstr "Chcete zrušiť autorizovanú transakciu? Táto akcia je nevratná."
 #. module: sale
 #: model_terms:ir.actions.act_window,help:sale.action_orders_upselling
 msgid ""
-"As an example, if you sell pre-paid hours of services, Dosyt recommends you\n"
+"As an example, if you sell pre-paid hours of services, etwork recommends you\n"
 "                to sell extra hours when all ordered hours have been consumed."
 msgstr ""
 

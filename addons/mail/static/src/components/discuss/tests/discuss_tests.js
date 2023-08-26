@@ -4094,7 +4094,7 @@ QUnit.test('receive new chat message: out of etwork focus (notification, channel
                 _beep() {}, // Do nothing
                 _poll() {}, // Do nothing
                 _registerWindowUnload() {}, // Do nothing
-                isDosytFocused: () => false,
+                isetworkFocused: () => false,
                 updateOption() {},
             }),
         },
@@ -4133,7 +4133,7 @@ QUnit.test('receive new chat message: out of etwork focus (notification, chat)',
                 _beep() {}, // Do nothing
                 _poll() {}, // Do nothing
                 _registerWindowUnload() {}, // Do nothing
-                isDosytFocused: () => false,
+                isetworkFocused: () => false,
                 updateOption() {},
             }),
         },
@@ -4185,7 +4185,7 @@ QUnit.test('receive new chat messages: out of etwork focus (tab title)', async f
                 _beep() {}, // Do nothing
                 _poll() {}, // Do nothing
                 _registerWindowUnload() {}, // Do nothing
-                isDosytFocused: () => false,
+                isetworkFocused: () => false,
                 updateOption() {},
             }),
         },

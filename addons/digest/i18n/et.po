@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* digest
 # 
@@ -17,7 +17,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -36,8 +36,8 @@ msgstr "<span class=\"button\" id=\"button_open_report\">Ava aruanne</span>"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
-msgid "<span class=\"etwork_link_text\">Dosyt</span>"
-msgstr "<span class=\"etwork_link_text\">Dosyt</span>"
+msgid "<span class=\"etwork_link_text\">etwork</span>"
+msgstr "<span class=\"etwork_link_text\">etwork</span>"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
@@ -322,8 +322,8 @@ msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
-msgid "Dosyt Mobile"
-msgstr "Dosyt Mobile"
+msgid "etwork Mobile"
+msgstr "etwork Mobile"
 
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest__periodicity
@@ -363,8 +363,8 @@ msgstr "Saajad"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
-msgid "Run your business from anywhere with <b>Dosyt Mobile</b>."
-msgstr "Juhi enda ettevõtet kõikjal <b>Dosyt mobiilse versiooni</b> abil."
+msgid "Run your business from anywhere with <b>etwork Mobile</b>."
+msgstr "Juhi enda ettevõtet kõikjal <b>etwork mobiilse versiooni</b> abil."
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -414,8 +414,8 @@ msgstr "Vihje kirjeldus"
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_2
-msgid "Tip: A calculator in Dosyt"
-msgstr "Vihje: Dosyt kalkulaator"
+msgid "Tip: A calculator in etwork"
+msgstr "Vihje: etwork kalkulaator"
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_1
@@ -440,8 +440,8 @@ msgstr "Tip: Kiirendage töövoog otseteede kasutamisega"
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_2
-msgid "Tip: A calculator in Dosyt"
-msgstr "Nõuanne: Dosyt kalkulaator"
+msgid "Tip: A calculator in etwork"
+msgstr "Nõuanne: etwork kalkulaator"
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_1
@@ -468,10 +468,10 @@ msgstr "Nõuanne: Kiirendage enda töövoog otseteede kasutamisega"
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_3
 msgid ""
 "Type \"@\" to notify someone in a message, or \"#\" to link to a channel. "
-"Try to notify @DosytBot to test the feature."
+"Try to notify @etworkBot to test the feature."
 msgstr ""
 "Sisesta \"@\", et kellegile kirjutada või \"#\", et linkida kanal. Proovi "
-"sisestada @DosytBot, et testida funktsiooni. "
+"sisestada @etworkBot, et testida funktsiooni. "
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -540,13 +540,13 @@ msgstr ""
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
-msgid "You may want to add new computed fields with Dosyt Studio:"
+msgid "You may want to add new computed fields with etwork Studio:"
 msgstr ""
 
 #. module: digest
 #: model:digest.digest,name:digest.digest_digest_default
-msgid "Your Dosyt Periodic Digest"
-msgstr "Dosyt perioodiline uudiskiri"
+msgid "Your etwork Periodic Digest"
+msgstr "etwork perioodiline uudiskiri"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form

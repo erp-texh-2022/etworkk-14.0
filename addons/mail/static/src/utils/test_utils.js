@@ -263,7 +263,7 @@ function beforeEach(self) {
     data.partnerRootId = 2;
     data['res.partner'].records.push({
         active: false,
-        display_name: "DosytBot",
+        display_name: "etworkBot",
         id: data.partnerRootId,
     });
 
@@ -501,7 +501,7 @@ async function start(param0 = {}) {
             _beep() {}, // Do nothing
             _poll() {}, // Do nothing
             _registerWindowUnload() {}, // Do nothing
-            isDosytFocused() {
+            isetworkFocused() {
                 return true;
             },
             updateOption() {},

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* im_livechat
 # 
@@ -8,13 +8,13 @@
 # Martin Trigaux, 2020
 # Cas Vissers <casvissers@brahoo.nl>, 2020
 # Gunther Clauwaert <gclauwae@hotmail.com>, 2020
-# Dosyt Experts Consultants <consultants@etworkexperts.nl>, 2020
+# etwork Experts Consultants <consultants@etworkexperts.nl>, 2020
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2020
 # Erwin van der Ploeg <erwin@etworkexperts.nl>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 15:41+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
@@ -603,11 +603,11 @@ msgstr "Verklaar uw notitie"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"For websites built with the Dosyt CMS, go to Website &gt; Configuration &gt; "
+"For websites built with the etwork CMS, go to Website &gt; Configuration &gt; "
 "Settings and select the Website Live Chat Channel you want to add to your "
 "website."
 msgstr ""
-"Voor websites die zijn gebouwd met het Dosyt CMS, ga naar Website &gt; "
+"Voor websites die zijn gebouwd met het etwork CMS, ga naar Website &gt; "
 "Configuratie &gt; Instellingen en selecteer het Live Chat-kanaal voor de "
 "website dat u aan uw website wilt toevoegen."
 
@@ -1036,8 +1036,8 @@ msgstr "OK"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: im_livechat
 #. openerp-web
@@ -1105,10 +1105,10 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"Operators that do not show any activity In Dosyt for more than 30 minutes "
+"Operators that do not show any activity In etwork for more than 30 minutes "
 "will be considered as disconnected."
 msgstr ""
-"Operators die geen activiteiten toont in Dosyt voor meer dan 30 minuten wordt"
+"Operators die geen activiteiten toont in etwork voor meer dan 30 minuten wordt"
 " beschouwd als niet meer verbonden."
 
 #. module: im_livechat

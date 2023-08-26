@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website
 # 
@@ -25,7 +25,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-01-07 14:40+0000\n"
 "PO-Revision-Date: 2020-09-07 08:20+0000\n"
@@ -342,8 +342,8 @@ msgstr "50%"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.template_footer_call_to_action
-msgid "50,000+ companies run Dosyt to grow their businesses."
-msgstr "Dosytは50,000以上の企業で事業拡大に使われています。"
+msgid "50,000+ companies run etwork to grow their businesses."
+msgstr "etworkは50,000以上の企業で事業拡大に使われています。"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_hr_options
@@ -360,8 +360,8 @@ msgstr "80% の開発"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_call_to_action
-msgid "<b>50,000+ companies</b> run Dosyt to grow their businesses."
-msgstr "<b>50,000以上の企業が</b> Dosytを利用して事業を拡大しています。"
+msgid "<b>50,000+ companies</b> run etwork to grow their businesses."
+msgstr "<b>50,000以上の企業が</b> etworkを利用して事業を拡大しています。"
 
 #. module: website
 #. openerp-web
@@ -1909,9 +1909,9 @@ msgstr "アイコンの変更"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Change theme in a few clicks, and browse through Dosyt's catalog of\n"
+"Change theme in a few clicks, and browse through etwork's catalog of\n"
 "                            ready-to-use themes available in our app store."
-msgstr "数回クリックするだけでテーマを変更し、Dosytのカタログをアプリストアですぐに使用できるテーマを閲覧する。"
+msgstr "数回クリックするだけでテーマを変更し、etworkのカタログをアプリストアですぐに使用できるテーマを閲覧する。"
 
 #. module: website
 #. openerp-web
@@ -3055,9 +3055,9 @@ msgstr "ダイナミックコンテンツ"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_table_of_content
 msgid ""
-"Easily design your own Dosyt templates thanks to clean HTML\n"
+"Easily design your own etwork templates thanks to clean HTML\n"
 "                            structure and bootstrap CSS."
-msgstr "きれいなHTML構造とブートストラップCSSのおかげで、簡単に自分なりのDosytテンプレートを設計"
+msgstr "きれいなHTML構造とブートストラップCSSのおかげで、簡単に自分なりのetworkテンプレートを設計"
 
 #. module: website
 #. openerp-web
@@ -3498,7 +3498,7 @@ msgstr "もしよかったらフォローお願いします"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Follow your website traffic in Dosyt."
+msgid "Follow your website traffic in etwork."
 msgstr ""
 
 #. module: website
@@ -3774,7 +3774,7 @@ msgstr "Googleサーチコンソール"
 msgid ""
 "Google deprecated both its \"Universal Analytics\" and \"Google Sign-In\" "
 "API. It means that only accounts and keys created before 2020 will be able "
-"to integrate their Analytics dashboard in Dosyt (or any other website). This "
+"to integrate their Analytics dashboard in etwork (or any other website). This "
 "will be possible only up to mid 2023. After that, those services won't work "
 "anymore, at all."
 msgstr ""
@@ -3892,8 +3892,8 @@ msgstr "ハンバーガーメニュー"
 #. openerp-web
 #: code:addons/website/static/src/snippets/s_countdown/000.xml:0
 #, python-format
-msgid "Happy Dosyt Anniversary!"
-msgstr "Dosyt記念日おめでとう!"
+msgid "Happy etwork Anniversary!"
+msgstr "etwork記念日おめでとう!"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__has_social_default_image
@@ -4476,10 +4476,10 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid ""
 "It appears your website is still using the old color system of\n"
-"            Dosyt 13.0 in some places. We made sure it is still working but\n"
+"            etwork 13.0 in some places. We made sure it is still working but\n"
 "            we recommend you to try to use the new color system, which is\n"
 "            still customizable."
-msgstr "お客様のサイトに、いくつのところはまだDosyt 13.0の旧カラーシステムを使用しているそうです。"
+msgstr "お客様のサイトに、いくつのところはまだetwork 13.0の旧カラーシステムを使用しているそうです。"
 
 #. module: website
 #. openerp-web
@@ -5192,11 +5192,11 @@ msgstr "Google検索結果データのモニタリング"
 #. module: website
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_0
 msgid ""
-"Monitor your visitors while they are browsing your website with the Dosyt "
+"Monitor your visitors while they are browsing your website with the etwork "
 "Social app. Engage with them in just a click using a live chat request or a "
 "push notification. If they have completed one of your forms, you can send "
 "them an SMS, or call them right away while they are browsing your website."
-msgstr "Dosytソーシャルアプリをお使いする訪問者はサイトを閲覧する際モニターします。"
+msgstr "etworkソーシャルアプリをお使いする訪問者はサイトを閲覧する際モニターします。"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_color_blocks_2
@@ -5473,8 +5473,8 @@ msgstr "最後の訪問ページ"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Dosyt Version"
-msgstr "Dosyt バージョン"
+msgid "etwork Version"
+msgstr "etwork バージョン"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -6436,7 +6436,7 @@ msgstr "訪問者を検索"
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_1
 msgid ""
 "Search in the media dialogue when you need photos to illustrate your "
-"website. Dosyt's integration with Unsplash, featuring millions of royalty "
+"website. etwork's integration with Unsplash, featuring millions of royalty "
 "free and high quality photos, makes it possible for you to get the perfect "
 "picture, in just a few clicks."
 msgstr "サイトを表現するために、メディアダイアログに写真を検索しましょう。"
@@ -6691,10 +6691,10 @@ msgstr "サインイン"
 msgid ""
 "Sitemap.xml: Help search engine crawlers to find out what pages are present "
 "and which have recently changed, and to crawl your site accordingly. This "
-"file is automatically generated by Dosyt."
+"file is automatically generated by etwork."
 msgstr ""
 "Sitemap.xml: "
-"どういったページがあるのか、や、どのページが最近更新されたのかなどを検索エンジンクローラーが見つけ出すのに役立ちます。このファイルはDosytにより自動的に生成されます。"
+"どういったページがあるのか、や、どのページが最近更新されたのかなどを検索エンジンクローラーが見つけ出すのに役立ちます。このファイルはetworkにより自動的に生成されます。"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_alert_options
@@ -7500,7 +7500,7 @@ msgstr "第四の縦を追加するには、まず各ブロックのアイコン
 #: model_terms:digest.tip,tip_description:website.digest_tip_website_2
 msgid ""
 "To get more visitors, you should target keywords that are often searched in "
-"Google. With the built-in SEO tool, once you define a few keywords, Dosyt "
+"Google. With the built-in SEO tool, once you define a few keywords, etwork "
 "will recommend you the best keywords to target. Then adapt your title and "
 "description accordingly to boost your traffic."
 msgstr "もっと訪問者を惹きつけるためには、Googleで最も検索されたキーワードを対象としましょう。"
@@ -8914,7 +8914,7 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
-msgid "frontend_lang (Dosyt)"
+msgid "frontend_lang (etwork)"
 msgstr ""
 
 #. module: website
@@ -8958,15 +8958,15 @@ msgstr "https://www.etwork.com"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"im_livechat_previous_operator_pid (Dosyt)<br/>\n"
-"                                            utm_campaign (Dosyt)<br/>\n"
-"                                            utm_source (Dosyt)<br/>\n"
-"                                            utm_medium (Dosyt)"
+"im_livechat_previous_operator_pid (etwork)<br/>\n"
+"                                            utm_campaign (etwork)<br/>\n"
+"                                            utm_source (etwork)<br/>\n"
+"                                            utm_medium (etwork)"
 msgstr ""
-"im_livechat_previous_operator_pid (Dosyt)<br/>\n"
-"                                            utm_campaign (Dosyt)<br/>\n"
-"                                            utm_source (Dosyt)<br/>\n"
-"                                            utm_medium (Dosyt)"
+"im_livechat_previous_operator_pid (etwork)<br/>\n"
+"                                            utm_campaign (etwork)<br/>\n"
+"                                            utm_source (etwork)<br/>\n"
+"                                            utm_medium (etwork)"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippets
@@ -8998,8 +8998,8 @@ msgstr "info@yourcompany.example.com"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "instance of Dosyt, the"
-msgstr "Dosytのインスタンス、"
+msgid "instance of etwork, the"
+msgstr "etworkのインスタンス、"
 
 #. module: website
 #: model:ir.model.fields.selection,name:website.selection__theme_ir_ui_view__inherit_id__ir_ui_view
@@ -9102,8 +9102,8 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.cookie_policy
 msgid ""
-"session_id (Dosyt)<br/>\n"
-"                                            fileToken (Dosyt)"
+"session_id (etwork)<br/>\n"
+"                                            fileToken (etwork)"
 msgstr ""
 
 #. module: website

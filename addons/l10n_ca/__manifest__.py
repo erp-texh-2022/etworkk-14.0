@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Canada - Accounting',
@@ -7,7 +7,7 @@
     'website': 'https://www.savoirfairelinux.com',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-This is the module to manage the Canadian accounting chart in Dosyt.
+This is the module to manage the Canadian accounting chart in etwork.
 ===========================================================================================
 
 Canadian accounting charts and localizations.

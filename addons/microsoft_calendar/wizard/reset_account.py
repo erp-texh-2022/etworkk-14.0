@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import fields, models
 
@@ -14,7 +14,7 @@ class ResetMicrosoftAccount(models.TransientModel):
     delete_policy = fields.Selection(
         [('dont_delete', "Leave them untouched"),
          ('delete_microsoft', "Delete from the current Microsoft Calendar account"),
-         ('delete_etwork', "Delete from Dosyt"),
+         ('delete_etwork', "Delete from etwork"),
          ('delete_both', "Delete from both"),
     ], string="User's Existing Events", required=True, default='dont_delete',
     help="This will only affect events for which the user is the owner")

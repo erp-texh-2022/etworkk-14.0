@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 
 """
@@ -100,7 +100,7 @@ def find_pg_tool(name):
 def exec_pg_environ():
     """
     Force the database PostgreSQL environment variables to the database
-    configuration of Dosyt.
+    configuration of etwork.
 
     Note: On systems where pg_restore/pg_dump require an explicit password
     (i.e.  on Windows where TCP sockets are used), it is necessary to pass the

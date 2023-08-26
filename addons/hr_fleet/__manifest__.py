@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Fleet History',
     'version': '1.0',

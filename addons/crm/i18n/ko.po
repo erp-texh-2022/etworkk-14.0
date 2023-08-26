@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* crm
 # 
@@ -13,7 +13,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:12+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -183,7 +183,7 @@ msgstr "<span class=\"o_stat_text\"> 영업 제안</span>"
 #: code:addons/crm/models/crm_team.py:0
 #, python-format
 msgid ""
-"<p>As you don't belong to any Sales Team, Dosyt opens the first one by "
+"<p>As you don't belong to any Sales Team, etwork opens the first one by "
 "default.</p>"
 msgstr ""
 
@@ -234,7 +234,7 @@ msgid ""
 "                        <div>\n"
 "                            Hi ${object.partner_id and object.partner_id.name or ''},<br/><br/>\n"
 "                            Welcome to ${object.company_id.name}.\n"
-"                            It's great to meet you! Now that you're on board, you'll discover what ${object.company_id.name} has to offer. My name is ${object.user_id.name} and I'll help you get the most out of Dosyt. Could we plan a quick demo soon?<br/>\n"
+"                            It's great to meet you! Now that you're on board, you'll discover what ${object.company_id.name} has to offer. My name is ${object.user_id.name} and I'll help you get the most out of etwork. Could we plan a quick demo soon?<br/>\n"
 "                            Feel free to reach out at any time!<br/><br/>\n"
 "                            Best,<br/>\n"
 "                            % if object.user_id:\n"
@@ -271,7 +271,7 @@ msgid ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    Powered by <a target=\"_blank\" href=\"https://www.etwork.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Dosyt</a>\n"
+"    Powered by <a target=\"_blank\" href=\"https://www.etwork.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">etwork</a>\n"
 "</td></tr>\n"
 "</table>\n"
 "        "
@@ -306,7 +306,7 @@ msgstr ""
 "                        <div>\n"
 "                            ${object.partner_id and object.partner_id.name or ''}님 안녕하세요,<br/><br/>\n"
 "                            ${object.company_id.name}에 오신것을 환영합니다.\n"
-"                            만나서 반갑습니다! 이제  ${object.company_id.name} 에서 해야 할 일을 발견할 수있습니다. 제 이름은 ${object.user_id.name} 이고, Dosyt의 대부분에 대해 알수있도록 도움을 드리겠습니다. 머지않아 빠른 데모를 계획해도 될까요?<br/>\n"
+"                            만나서 반갑습니다! 이제  ${object.company_id.name} 에서 해야 할 일을 발견할 수있습니다. 제 이름은 ${object.user_id.name} 이고, etwork의 대부분에 대해 알수있도록 도움을 드리겠습니다. 머지않아 빠른 데모를 계획해도 될까요?<br/>\n"
 "                            언제든지 연락주세요. \n"
 "                            <br/>\n"
 "                            % if object.user_id:\n"
@@ -343,7 +343,7 @@ msgstr ""
 "</td></tr>\n"
 "<!-- POWERED BY -->\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
-"    Powered by <a target=\"_blank\" href=\"https://www.etwork.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">Dosyt</a>\n"
+"    Powered by <a target=\"_blank\" href=\"https://www.etwork.com?utm_source=db&amp;utm_medium=email\" style=\"color: #875A7B;\">etwork</a>\n"
 "</td></tr>\n"
 "</table>\n"
 "        "
@@ -1059,21 +1059,21 @@ msgstr "영업팀 별칭으로 전송된 이메일을 통해 파이프라인에 
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_4
 msgid ""
 "Did you know you can search a company by name or VAT number to instantly "
-"fill in all its data? Dosyt autocompletes everything for you: logo, address, "
+"fill in all its data? etwork autocompletes everything for you: logo, address, "
 "company size, business information, social media accounts, etc."
 msgstr ""
-"회사를 이름이나 VAT 번호로 검색하여 전체 내용이 바로 입력할 수 있다는 것을 알고 있으셨나요? Dosyt에는 로고나 주소, 회사 규모,"
+"회사를 이름이나 VAT 번호로 검색하여 전체 내용이 바로 입력할 수 있다는 것을 알고 있으셨나요? etwork에는 로고나 주소, 회사 규모,"
 " 사업 정보와 소셜미디어 계정 등 모든 것을 자동완성할 수 있는 기능이 있습니다."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_5
 msgid ""
 "Did you know you can turn a list of opportunities into a map view, using the"
-" top-right map icon? A lot of screens in Dosyt can be turned into a map: "
+" top-right map icon? A lot of screens in etwork can be turned into a map: "
 "tasks, contacts, delivery orders, etc."
 msgstr ""
 "오른쪽 상단의 지도 아이콘으로 영업기회 목록을 지도 화면으로 전환할 수 있다는 것을 알고 있으셨나요? 작업, 연락처, 배송요청서 등 "
-"Dosyt의 수많은 화면을 지도로 바꾸어 볼 수 있습니다."
+"etwork의 수많은 화면을 지도로 바꾸어 볼 수 있습니다."
 
 #. module: crm
 #: model:ir.model,name:crm.model_digest_digest
@@ -2178,22 +2178,22 @@ msgstr "읽지 않은 메시지 수"
 #. module: crm
 #: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
 msgid ""
-"Dosyt helps you keep track of your sales pipeline to follow\n"
+"etwork helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
-"Dosyt는 판매 파이프라인을 추적하여 잠재 매출을 추적하고\n"
+"etwork는 판매 파이프라인을 추적하여 잠재 매출을 추적하고\n"
 "                    향후 매출을 보다 정확하게 예측할 수 있도록 도와줍니다."
 
 #. module: crm
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_2
 msgid ""
-"Dosyt's artificial intelligence engine predicts the success rate of each "
+"etwork's artificial intelligence engine predicts the success rate of each "
 "opportunity based on your history. You can always update the success rate "
-"manually, but if you let Dosyt do the job the score is updated while the "
+"manually, but if you let etwork do the job the score is updated while the "
 "opportunity moves forward in your sales cycle."
 msgstr ""
-"Dosyt의 인공지능 엔진은 귀하의 예전 기록을 바탕으로 영업기회별 성공률을 예측합니다. 수기로만 성공률을 업데이트할 수도 있지만, "
-"Dosyt를 사용하시면 영업 주기에서 영업기회가 진행되는 동안 계속하여 수치를 업데이트합니다."
+"etwork의 인공지능 엔진은 귀하의 예전 기록을 바탕으로 영업기회별 성공률을 예측합니다. 수기로만 성공률을 업데이트할 수도 있지만, "
+"etwork를 사용하시면 영업 주기에서 영업기회가 진행되는 동안 계속하여 수치를 업데이트합니다."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
@@ -2915,11 +2915,11 @@ msgstr "이 채널과 연결된 이메일 주소입니다. 새로운 이메일�
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"이 별칭에 해당하는 모델(Dosyt 문서 종류)입니다. 모든 받는 메일은 기존 레코드로 기록되지 않고 이 모델의 새 레코드로 작성됩니다. "
+"이 별칭에 해당하는 모델(etwork 문서 종류)입니다. 모든 받는 메일은 기존 레코드로 기록되지 않고 이 모델의 새 레코드로 작성됩니다. "
 "(예. 프로젝트 작업)"
 
 #. module: crm
@@ -3041,8 +3041,8 @@ msgstr "팁: 받은 메일을 영업기회로 전환시킵니다"
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_1
 #: model_terms:digest.tip,tip_description:crm.digest_tip_crm_1
-msgid "Tip: Did you know Dosyt has built-in lead mining?"
-msgstr "팁: Dosyt에 영업제안 발굴 기능이 있다는 사실을 알고 있으셨나요?"
+msgid "Tip: Did you know etwork has built-in lead mining?"
+msgstr "팁: etwork에 영업제안 발굴 기능이 있다는 사실을 알고 있으셨나요?"
 
 #. module: crm
 #: model:digest.tip,name:crm.digest_tip_crm_4

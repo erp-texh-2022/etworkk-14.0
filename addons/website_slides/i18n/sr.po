@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # * website_slides
 # 
@@ -7,7 +7,7 @@
 # Slobodan Simić <slsimic@gmail.com>, 2018
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 12.0\n"
+"Project-Id-Version: etwork Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 06:49+0000\n"
 "PO-Revision-Date: 2018-10-08 06:49+0000\n"
@@ -337,7 +337,7 @@ msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_5
-msgid "Awesome Timesheet by Dosyt"
+msgid "Awesome Timesheet by etwork"
 msgstr ""
 
 #. module: website_slides
@@ -535,7 +535,7 @@ msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_6
-msgid "Discover how easy marketing your business can be with Dosyt"
+msgid "Discover how easy marketing your business can be with etwork"
 msgstr ""
 
 #. module: website_slides
@@ -545,7 +545,7 @@ msgid ""
 "\n"
 "Read more about the features at: https://www.etwork.com/page/manufacturing-features\n"
 "\n"
-"Discover Dosyt MRP: https://www.etwork.com/page/manufacturing"
+"Discover etwork MRP: https://www.etwork.com/page/manufacturing"
 msgstr ""
 
 #. module: website_slides
@@ -610,7 +610,7 @@ msgstr ""
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_5
 msgid ""
-"Download Awesome Timesheet by Dosyt and discover how easy time tracking and employee management can be!\n"
+"Download Awesome Timesheet by etwork and discover how easy time tracking and employee management can be!\n"
 "\n"
 "Chrome: http://bit.ly/2613LcY\n"
 "iOS: http://bit.ly/1ZUZsZD"
@@ -1041,43 +1041,43 @@ msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_2
-msgid "Dosyt All-in-One Software Demonstration"
+msgid "etwork All-in-One Software Demonstration"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_1
-msgid "Dosyt CRM"
+msgid "etwork CRM"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.category,name:website_slides.category_2
 #: model:slide.tag,name:website_slides.tag5
-msgid "Dosyt Days"
+msgid "etwork Days"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_7
-msgid "Dosyt Inventory"
+msgid "etwork Inventory"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_0
-msgid "Dosyt MRP"
+msgid "etwork MRP"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_6
-msgid "Dosyt Marketing"
+msgid "etwork Marketing"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_8
-msgid "Dosyt Sales"
+msgid "etwork Sales"
 msgstr ""
 
 #. module: website_slides
 #: model:slide.slide,name:website_slides.slide_3
-msgid "Dosyt Sign Demonstration"
+msgid "etwork Sign Demonstration"
 msgstr ""
 
 #. module: website_slides
@@ -1389,7 +1389,7 @@ msgstr ""
 #. module: website_slides
 #: model:slide.slide,description:website_slides.slide_3
 msgid ""
-"Stop doing manual printing and scanning. Move to electronic signature with Dosyt Sign!\n"
+"Stop doing manual printing and scanning. Move to electronic signature with etwork Sign!\n"
 "\n"
 "Discover more at https://www.etwork.com/page/sign"
 msgstr ""
@@ -1609,7 +1609,7 @@ msgstr ""
 msgid ""
 "Warehouse management software for the 21st century.\n"
 "\n"
-"Discover Dosyt Inventory: https://www.etwork.com/page/warehouse"
+"Discover etwork Inventory: https://www.etwork.com/page/warehouse"
 msgstr ""
 
 #. module: website_slides

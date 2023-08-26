@@ -1,4 +1,4 @@
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import logging
 import re
@@ -176,4 +176,4 @@ class PaymentAcquirer(models.Model):
         :return: The unique reference for the partner
         :rtype: str
         """
-        return 'DOSYT_PARTNER_{partner_id}'.format(partner_id=partner_id)
+        return 'etwork_PARTNER_{partner_id}'.format(partner_id=partner_id)

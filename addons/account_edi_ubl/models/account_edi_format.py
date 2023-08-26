@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 from etwork import api, models, fields, tools, _
 from etwork.tools import DEFAULT_SERVER_DATE_FORMAT, float_repr
 from etwork.tests.common import Form

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* fleet
 # 
@@ -26,7 +26,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -1214,11 +1214,11 @@ msgstr "Marca"
 #: model_terms:ir.actions.act_window,help:fleet.fleet_vehicle_log_contract_action
 msgid ""
 "Manage all your contracts (leasing, insurances, etc.) with\n"
-"            their related services, costs. Dosyt will automatically warn\n"
+"            their related services, costs. etwork will automatically warn\n"
 "            you when some contracts have to be renewed."
 msgstr ""
 "Gerencie todos os seus contratos (locação, seguros, etc.) com\n"
-"            seus serviços relacionados, custos. Dosyt avisará automaticamente\n"
+"            seus serviços relacionados, custos. etwork avisará automaticamente\n"
 "            você quando alguns contratos têm que ser renovados."
 
 #. module: fleet
@@ -1491,10 +1491,10 @@ msgstr "Odometers"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Dosyt helps you managing the costs for your different vehicles\n"
+"etwork helps you managing the costs for your different vehicles\n"
 "          Costs are generally created from services and contract and appears here."
 msgstr ""
-"Dosyt ajuda você a gerenciar os custos para seus diferentes veículos\n"
+"etwork ajuda você a gerenciar os custos para seus diferentes veículos\n"
 "Os custos são geralmente criados a partir de serviços e contrato e aparecem aqui."
 
 #. module: fleet
@@ -1876,10 +1876,10 @@ msgstr "Termos e Condições"
 #. module: fleet
 #: model_terms:ir.actions.act_window,help:fleet.fleet_costs_reporting_action
 msgid ""
-"Thanks to the different filters, Dosyt can only print the effective\n"
+"Thanks to the different filters, etwork can only print the effective\n"
 "          costs, sort them by type and by vehicle."
 msgstr ""
-"Graças aos diferentes filtros, Dosyt só pode imprimir os custos\n"
+"Graças aos diferentes filtros, etwork só pode imprimir os custos\n"
 "efetivos, classificando-os por tipo e por veículo."
 
 #. module: fleet

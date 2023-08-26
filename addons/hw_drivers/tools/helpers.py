@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import datetime
 from enum import Enum
@@ -78,7 +78,7 @@ def check_certificate():
     for key in cert.get_subject().get_components():
         if key[0] == b'CN':
             cn = key[1].decode('utf-8')
-    if cn == 'DosytTempIoTBoxCertificate' or datetime.datetime.now() > cert_end_date:
+    if cn == 'etworkTempIoTBoxCertificate' or datetime.datetime.now() > cert_end_date:
         message = _('Your certificate %s must be updated') % (cn)
         _logger.info(message)
         return {"status": CertificateStatus.NEED_REFRESH}
@@ -89,7 +89,7 @@ def check_certificate():
 
 def check_git_branch():
     """
-    Check if the local branch is the same than the connected Dosyt DB and
+    Check if the local branch is the same than the connected etwork DB and
     checkout to match it if needed.
     """
     server = get_etwork_server_url()
@@ -237,7 +237,7 @@ def get_wifi_essid():
 
 def load_certificate():
     """
-    Send a request to Dosyt with customer db_uuid and enterprise_code to get a true certificate
+    Send a request to etwork with customer db_uuid and enterprise_code to get a true certificate
     """
     db_uuid = read_file_first_line('etwork-db-uuid.conf')
     enterprise_code = read_file_first_line('etwork-enterprise-code.conf')
@@ -286,7 +286,7 @@ def load_certificate():
 
 def download_iot_handlers(auto=True):
     """
-    Get the drivers from the configured Dosyt server
+    Get the drivers from the configured etwork server
     """
     server = get_etwork_server_url()
     if server:

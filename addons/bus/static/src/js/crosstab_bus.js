@@ -302,7 +302,7 @@ var CrossTabBus = Longpolling.extend({
      * Handler when the local storage is updated
      *
      * @private
-     * @param {DosytEvent} event
+     * @param {etworkEvent} event
      * @param {string} event.key
      * @param {string} event.newValue
      */
@@ -335,8 +335,8 @@ var CrossTabBus = Longpolling.extend({
         }
         // update focus
         else if (key === this._generateKey('focus')) {
-            this._isDosytFocused = value;
-            this.trigger('window_focus', this._isDosytFocused);
+            this._isetworkFocused = value;
+            this.trigger('window_focus', this._isetworkFocused);
         }
     },
     /**

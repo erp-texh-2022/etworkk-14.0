@@ -417,7 +417,7 @@ etwork.define('website_slides.quiz', function (require) {
          * When clicking on an answer, this one should be marked as "checked".
          *
          * @private
-         * @param DosytEvent ev
+         * @param etworkEvent ev
          */
         _onAnswerClick: function (ev) {
             ev.preventDefault();
@@ -430,7 +430,7 @@ etwork.define('website_slides.quiz', function (require) {
          * Triggering a event to switch to next slide
          *
          * @private
-         * @param DosytEvent ev
+         * @param etworkEvent ev
          */
         _onClickNext: function (ev) {
             if (this.slide.hasNext) {

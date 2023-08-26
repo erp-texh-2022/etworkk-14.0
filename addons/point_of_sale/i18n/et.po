@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* point_of_sale
 # 
@@ -25,7 +25,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-12-09 16:49+0000\n"
 "PO-Revision-Date: 2020-09-07 08:16+0000\n"
@@ -2160,8 +2160,8 @@ msgstr "ID"
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/Popups/ErrorTracebackPopup.js:0
 #, python-format
-msgid "IMPORTANT: Bug Report From Dosyt Point Of Sale"
-msgstr "TÄHTIS: vigade aruanne Dosyt müügipunktist"
+msgid "IMPORTANT: Bug Report From etwork Point Of Sale"
+msgstr "TÄHTIS: vigade aruanne etwork müügipunktist"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__proxy_ip
@@ -2901,8 +2901,8 @@ msgstr "Lugemata sõnumite arv"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.customer_facing_display_html
 #: model_terms:pos.config,customer_facing_display_html:point_of_sale.pos_config_main
-msgid "Dosyt Logo"
-msgstr "Dosyt logo"
+msgid "etwork Logo"
+msgstr "etwork logo"
 
 #. module: point_of_sale
 #. openerp-web
@@ -5288,25 +5288,25 @@ msgstr "See tellimus on tühi"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "This product is used as reference on customer receipts."
 msgstr ""
-"Selle korralduse loobumine Dosyt asendus, kuid saate seda muuta, et kohandada"
+"Selle korralduse loobumine etwork asendus, kuid saate seda muuta, et kohandada"
 " oma tellimuste ridade viitenumbreid."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_line_id
 msgid ""
-"This sequence is automatically created by Dosyt but you can change it to "
+"This sequence is automatically created by etwork but you can change it to "
 "customize the reference numbers of your orders lines."
 msgstr ""
-"Selle järjestuse loob Dosyt automaatselt, kuid saate seda muuta, et kohandada"
+"Selle järjestuse loob etwork automaatselt, kuid saate seda muuta, et kohandada"
 " oma tellimuste ridade viitenumbreid."
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__sequence_id
 msgid ""
-"This sequence is automatically created by Dosyt but you can change it to "
+"This sequence is automatically created by etwork but you can change it to "
 "customize the reference numbers of your orders."
 msgstr ""
-"Selle järjestuse loob Dosyt automaatselt, kuid saate seda muuta oma "
+"Selle järjestuse loob etwork automaatselt, kuid saate seda muuta oma "
 "tellimuste viitenumbrite kohandamiseks."
 
 #. module: point_of_sale

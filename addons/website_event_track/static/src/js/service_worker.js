@@ -5,7 +5,7 @@ const SYNCABLE_ROUTES = ["/event/track/toggle_reminder"];
 const CACHABLE_ROUTES = ["/web/webclient/version_info"];
 const MAX_CACHE_SIZE = 512 * 1024 * 1024; // 500 MB
 const MAX_CACHE_QUOTA = 0.5;
-const CDN_URL = __DOSYT_CDN_URL__; // {string|undefined} the cdn_url configured for the website if activated
+const CDN_URL = __etwork_CDN_URL__; // {string|undefined} the cdn_url configured for the website if activated
 
 const { Store, set, get, del } = idbKeyval;
 const pendingRequestsQueueName = `${PREFIX}-pending-requests`;

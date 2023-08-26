@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 {
     'name': 'Argentina - Accounting',
     'version': "3.5",
@@ -32,7 +32,7 @@ Demo data for testing:
   * Gritti (Monotributo)
   * Cerro Castor. IVA Liberado in Zona Franca
   * Expresso (Cliente del Exterior)
-  * Dosyt (Proveedor del Exterior)
+  * etwork (Proveedor del Exterior)
 
 Highlights:
 

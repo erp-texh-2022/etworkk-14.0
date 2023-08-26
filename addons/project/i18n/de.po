@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* project
 # 
@@ -30,7 +30,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 11:23+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -1164,11 +1164,11 @@ msgstr "Kundenbewertungen von Aufgaben"
 #: code:addons/project/static/src/js/project_task_kanban_examples.js:0
 #, python-format
 msgid ""
-"Customers propose feedbacks by email; Dosyt creates tasks automatically, and "
+"Customers propose feedbacks by email; etwork creates tasks automatically, and "
 "you can communicate on the task directly. Your managers decide which "
 "feedback is accepted %s and which feedback is moved to the %s column. %s"
 msgstr ""
-"Kunden geben Feedback per E-Mail; Dosyt erstellt automatisch Aufgaben, über "
+"Kunden geben Feedback per E-Mail; etwork erstellt automatisch Aufgaben, über "
 "die Sie direkt kommunizieren können. Ihre Manager entscheiden, welches "
 "Feedback angenommen wird %s und welches in die Spalte %s verschoben wird. %s"
 
@@ -3627,11 +3627,11 @@ msgstr "Tests"
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"Das Dosyt Datenmodell auf das sich der Alias bezieht. Jeglicher E-Mail "
+"Das etwork Datenmodell auf das sich der Alias bezieht. Jeglicher E-Mail "
 "Posteingang ohne Bezug zu einer bereits vorhandenen E-Mail  führt "
 "üblicherweise zur Erstellung eines neuen Datensatz (z.B. Projektaufgabe)."
 

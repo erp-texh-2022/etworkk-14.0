@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* web
 # 
@@ -23,7 +23,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-02-25 10:30+0000\n"
 "PO-Revision-Date: 2020-09-07 08:19+0000\n"
@@ -2008,7 +2008,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "Get this feature and much more with Dosyt Enterprise!"
+msgid "Get this feature and much more with etwork Enterprise!"
 msgstr ""
 
 #. module: web
@@ -2598,8 +2598,8 @@ msgstr "متن چند سطری"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
-msgid "My Dosyt.com account"
-msgstr "اکانت من در Dosyt.com"
+msgid "My etwork.com account"
+msgstr "اکانت من در etwork.com"
 
 #. module: web
 #. openerp-web
@@ -2793,14 +2793,14 @@ msgstr "شی:"
 #: code:addons/web/static/src/js/core/dialog.js:0
 #: model_terms:ir.ui.view,arch_db:web.brand_promotion_message
 #, python-format
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/apps.js:0
 #, python-format
-msgid "Dosyt Apps will be available soon"
+msgid "etwork Apps will be available soon"
 msgstr "برنامه‌های اودو به زودی در دسترس خواهد بود"
 
 #. module: web
@@ -2810,35 +2810,35 @@ msgstr "برنامه‌های اودو به زودی در دسترس خواهد 
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Client Error"
+msgid "etwork Client Error"
 msgstr "خطای کلاینت اودو"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:0
 #, python-format
-msgid "Dosyt Enterprise"
+msgid "etwork Enterprise"
 msgstr "اودو سازمانی"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Error"
+msgid "etwork Error"
 msgstr "خطای اودو"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Session Expired"
+msgid "etwork Session Expired"
 msgstr "نشست اودو منقضی شده"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Dosyt Warning"
+msgid "etwork Warning"
 msgstr "هشدار اودو"
 
 #. module: web
@@ -3194,7 +3194,7 @@ msgstr "قدرت گرفته از %s%s"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Powered by <span>Dosyt</span>"
+msgid "Powered by <span>etwork</span>"
 msgstr "راه اندازی شده به وسیله <span>اُدو</span>"
 
 #. module: web
@@ -4652,7 +4652,7 @@ msgstr ""
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:0
 #, python-format
 msgid ""
-"You need to start Dosyt with at least two workers to print a pdf version of "
+"You need to start etwork with at least two workers to print a pdf version of "
 "the reports."
 msgstr ""
 
@@ -4670,7 +4670,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:0
 #, python-format
-msgid "Your Dosyt session expired. The current page is about to be refreshed."
+msgid "Your etwork session expired. The current page is about to be refreshed."
 msgstr "نشست اودوو شما منقضی شده است. این صفحه بازفراخوانی خواهد شد."
 
 #. module: web

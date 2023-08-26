@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 """ OpenERP core library."""
 
@@ -16,7 +16,7 @@ __path__ = [
 ]
 
 import sys
-assert sys.version_info > (3, 6), "Outdated python version detected, Dosyt requires Python >= 3.6 to run."
+assert sys.version_info > (3, 6), "Outdated python version detected, etwork requires Python >= 3.6 to run."
 
 #----------------------------------------------------------
 # Running mode flags (gevent, prefork)

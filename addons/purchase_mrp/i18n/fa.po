@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* purchase_mrp
 # 
@@ -10,7 +10,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:17+0000\n"
@@ -76,9 +76,9 @@ msgstr "منبع تولید %s"
 #: code:addons/purchase_mrp/models/stock_move.py:0
 #, python-format
 msgid ""
-"Dosyt is not able to generate the anglo saxon entries. The total valuation of"
+"etwork is not able to generate the anglo saxon entries. The total valuation of"
 " %s is zero."
-msgstr "Dosyt قادر به تولید ورودی های آنگلوساکسون نیست. ارزش کل %s صفر است."
+msgstr "etwork قادر به تولید ورودی های آنگلوساکسون نیست. ارزش کل %s صفر است."
 
 #. module: purchase_mrp
 #: model:ir.model,name:purchase_mrp.model_mrp_production

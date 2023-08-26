@@ -2,7 +2,7 @@
 {
     'name': "mail_bot_hr",
     'summary': """Bridge module between hr and mailbot.""",
-    'description': """This module adds the DosytBot state and notifications in the user form modified by hr.""",
+    'description': """This module adds the etworkBot state and notifications in the user form modified by hr.""",
     'website': "https://www.etwork.com/page/discuss",
     'category': 'Productivity/Discuss',
     'version': '1.0',

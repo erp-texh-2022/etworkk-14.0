@@ -1,6 +1,6 @@
 (function () {
     /**
-     * Symbol used in ComponentWrapper to redirect Owl events to Dosyt legacy
+     * Symbol used in ComponentWrapper to redirect Owl events to etwork legacy
      * events.
      */
     etwork.widgetSymbol = Symbol('widget');

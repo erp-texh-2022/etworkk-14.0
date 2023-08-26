@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork import models, fields
 
 class test_uninstall_model(models.Model):
     """
     This model uses different types of columns to make it possible to test
-    the uninstall feature of Dosyt.
+    the uninstall feature of etwork.
     """
     _name = 'test_uninstall.model'
     _description = 'Testing Uninstall Model'

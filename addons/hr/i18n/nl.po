@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* hr
 # 
@@ -10,12 +10,12 @@
 # Eric Geens <ericgeens@yahoo.com>, 2020
 # Cas Vissers <c.vissers@brahoo.nl>, 2020
 # Yenthe Van Ginneken <yenthespam@gmail.com>, 2020
-# Dosyt Experts Consultants <consultants@etworkexperts.nl>, 2020
+# etwork Experts Consultants <consultants@etworkexperts.nl>, 2020
 # Erwin van der Ploeg <erwin@etworkexperts.nl>, 2021
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-17 10:35+0000\n"
 "PO-Revision-Date: 2020-09-07 08:12+0000\n"
@@ -1808,22 +1808,22 @@ msgstr "Aantal ongelezen berichten"
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_tree_action
 msgid ""
-"Dosyt's department structure is used to manage all documents\n"
+"etwork's department structure is used to manage all documents\n"
 "                    related to employees by departments: expenses, timesheets,\n"
 "                    leaves, recruitments, etc."
 msgstr ""
-"Dosyt's afdelingsstructuur wordt gebruikt om alle documenten te beheren\n"
+"etwork's afdelingsstructuur wordt gebruikt om alle documenten te beheren\n"
 "                    gerelateerd aan medewerkers per afdeling: declaraties,  urenstaten,\n"
 "                    verlof, werking en selectie, etc.          "
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.hr_department_kanban_action
 msgid ""
-"Dosyt's department structure is used to manage all documents\n"
+"etwork's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                time off, recruitments, etc."
 msgstr ""
-"Dosyt's afdelingsstructuur wordt gebruikt om alle documenten te beheren\n"
+"etwork's afdelingsstructuur wordt gebruikt om alle documenten te beheren\n"
 "                 gerelateerd aan medewerkers per afdeling: declaraties, urenstaten,\n"
 "                 verlof, rekruteringen, etc. "
 
@@ -2624,22 +2624,22 @@ msgstr "Weduwe/Weduwnaar"
 #: model_terms:ir.actions.act_window,help:hr.act_employee_from_department
 #: model_terms:ir.actions.act_window,help:hr.hr_employee_public_action
 msgid ""
-"With just a quick glance on the Dosyt employee screen, you\n"
+"With just a quick glance on the etwork employee screen, you\n"
 "                can easily find all the information you need for each person;\n"
 "                contact data, job position, availability, etc."
 msgstr ""
-"Met slechts een snelle blik op het Dosyt werknemer scherm kan u\n"
+"Met slechts een snelle blik op het etwork werknemer scherm kan u\n"
 "gemakkelijk alle informatie vinden die u nodig heeft voor elke persoon;\n"
 "contact data, functie, beschikbaarheid, enz."
 
 #. module: hr
 #: model_terms:ir.actions.act_window,help:hr.open_view_employee_list_my
 msgid ""
-"With just a quick glance on the Dosyt employee screen, you\n"
+"With just a quick glance on the etwork employee screen, you\n"
 "               can easily find all the information you need for each person;\n"
 "               contact data, job position, availability, etc."
 msgstr ""
-"Met slechts een snelle blik op het Dosyt-medewerkersscherm kun je\n"
+"Met slechts een snelle blik op het etwork-medewerkersscherm kun je\n"
 "               gemakkelijk alle informatie vinden die u nodig heeft over elk persoon;\n"
 "               contactgegevens, functie, beschikbaarheid, etc."
 

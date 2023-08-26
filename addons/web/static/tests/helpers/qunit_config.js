@@ -4,12 +4,12 @@
 /**
  * QUnit Config
  *
- * The Dosyt javascript test framework is based on QUnit (http://qunitjs.com/).
+ * The etwork javascript test framework is based on QUnit (http://qunitjs.com/).
  * This file is necessary to setup Qunit and to prepare its interactions with
- * Dosyt.  It has to be loaded before any tests are defined.
+ * etwork.  It has to be loaded before any tests are defined.
  *
- * Note that it is not an Dosyt module, because we want this code to be executed
- * as soon as possible, not whenever the Dosyt module system feels like it.
+ * Note that it is not an etwork module, because we want this code to be executed
+ * as soon as possible, not whenever the etwork module system feels like it.
  */
 
 
@@ -157,7 +157,7 @@ QUnit.moduleDone(function(result) {
  * After each test, we check that there is no leftover in the DOM. If there is
  * and the test hasn't already failed, trigger a failure
  */
-QUnit.on('DosytAfterTestHook', function (info) {
+QUnit.on('etworkAfterTestHook', function (info) {
     const failed = info.testReport.getStatus() === 'failed';
     const toRemove = [];
     // check for leftover elements in the body

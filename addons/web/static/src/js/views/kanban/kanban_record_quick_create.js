@@ -205,7 +205,7 @@ var RecordQuickCreate = Widget.extend({
 
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onAdd: function (ev) {
         ev.stopPropagation();
@@ -221,7 +221,7 @@ var RecordQuickCreate = Widget.extend({
     },
     /**
      * @private
-     * @param {DosytEvent} ev
+     * @param {etworkEvent} ev
      */
     _onCancel: function (ev) {
         ev.stopPropagation();

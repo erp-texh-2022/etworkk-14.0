@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
-    'name': 'Dosyt Payments by Adyen Payment Acquirer',
+    'name': 'etwork Payments by Adyen Payment Acquirer',
     'category': 'Accounting/Payment Acquirers',
     'sequence': 330,
-    'summary': 'Payment Acquirer: Dosyt Payments by Adyen',
+    'summary': 'Payment Acquirer: etwork Payments by Adyen',
     'version': '1.0',
-    'description': """Dosyt Payments by Adyen""",
+    'description': """etwork Payments by Adyen""",
     'depends': ['payment', 'adyen_platforms'],
     'data': [
         'views/payment_views.xml',

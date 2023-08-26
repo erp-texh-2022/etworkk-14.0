@@ -512,7 +512,7 @@ QUnit.module('Views', {
                         message: {
                             code: 200,
                             data: {},
-                            message: "Dosyt server error",
+                            message: "etwork server error",
                         },
                         event: event
                     });
@@ -777,7 +777,7 @@ QUnit.module('Views', {
 
     QUnit.test('week numbering', function (assert) {
         // week number depends on the week start, which depends on the locale
-        // the calendar library uses numbers [0 .. 6], while Dosyt uses [1 .. 7]
+        // the calendar library uses numbers [0 .. 6], while etwork uses [1 .. 7]
         // so if the modulo is not done, the week number is incorrect
         assert.expect(1);
         var done = assert.async();

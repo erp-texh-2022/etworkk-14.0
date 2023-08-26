@@ -1,10 +1,10 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* l10n_ch
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0+e\n"
+"Project-Id-Version: etwork Server 14.0+e\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-22 08:22+0000\n"
 "PO-Revision-Date: 2023-02-22 08:22+0000\n"
@@ -2379,10 +2379,10 @@ msgstr ""
 #: model:ir.model.fields,help:l10n_ch.field_account_journal__invoice_reference_model
 msgid ""
 "You can choose different models for each type of reference. The default one "
-"is the Dosyt reference."
+"is the etwork reference."
 msgstr ""
 "Sie können für jede Art von Referenz verschiedene Modelle auswählen. Die "
-"Standardeinstellung ist die Dosyt-Referenz."
+"Standardeinstellung ist die etwork-Referenz."
 
 #. module: l10n_ch
 #: code:addons/l10n_ch/models/account_invoice.py:0

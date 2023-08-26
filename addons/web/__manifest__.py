@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Web',
@@ -7,10 +7,10 @@
     'version': '1.0',
     'description':
         """
-Dosyt Web core module.
+etwork Web core module.
 ========================
 
-This module provides the core of the Dosyt Web Client.
+This module provides the core of the etwork Web Client.
         """,
     'depends': ['base'],
     'auto_install': True,

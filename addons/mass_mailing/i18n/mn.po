@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* mass_mailing
 # 
@@ -18,7 +18,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 14:29+0000\n"
 "PO-Revision-Date: 2020-09-07 08:14+0000\n"
@@ -1901,8 +1901,8 @@ msgstr ""
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.layout
-msgid "Dosyt"
-msgstr "Dosyt"
+msgid "etwork"
+msgstr "etwork"
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image_text
@@ -2498,8 +2498,8 @@ msgstr ""
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
-msgid "That way, Dosyt evolves much faster than any other solution."
-msgstr "Ингэснээр Dosyt бусад аль ч шийдлээс хамаагүй хурдан хөгжинө."
+msgid "That way, etwork evolves much faster than any other solution."
+msgstr "Ингэснээр etwork бусад аль ч шийдлээс хамаагүй хурдан хөгжинө."
 
 #. module: mass_mailing
 #: model:ir.model.fields,help:mass_mailing.field_mailing_contact_subscription__opt_out
@@ -2517,20 +2517,20 @@ msgstr ""
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"The open source model of Dosyt has allowed us to leverage thousands of developers and\n"
+"The open source model of etwork has allowed us to leverage thousands of developers and\n"
 "                                business experts to build hundreds of apps in just a few years."
 msgstr ""
-"Dosyt - н нээлттэй эхийн загвар нь мянга мянган хөгжүүлэгч, бизнес мэргэжилтнүүдийг\n"
+"etwork - н нээлттэй эхийн загвар нь мянга мянган хөгжүүлэгч, бизнес мэргэжилтнүүдийг\n"
 " хэдхэн жилийн дотор зуу зуун апп хийх хөшүүрэг болсон."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_text_image
 msgid ""
-"The open source model of Dosyt has allowed us to leverage thousands of "
+"The open source model of etwork has allowed us to leverage thousands of "
 "developers and business experts to build hundreds of apps in just a few "
 "years."
 msgstr ""
-"Dosyt - н нээлттэй эхийн загвар нь мянга мянган хөгжүүлэгч, бизнес "
+"etwork - н нээлттэй эхийн загвар нь мянга мянган хөгжүүлэгч, бизнес "
 "мэргэжилтнүүдийг хэдхэн жилийн дотор зуу зуун апп хийх хөшүүрэг болсон."
 
 #. module: mass_mailing
@@ -2710,10 +2710,10 @@ msgstr "Загварыг шинэчлэх"
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"Usability improvements made on Dosyt will automatically apply to all\n"
+"Usability improvements made on etwork will automatically apply to all\n"
 "                                of our fully integrated apps."
 msgstr ""
-"Dosyt дээр хийгдсэн ашиглалтын сайжруулалтууд нь манай бүх бүрэн\n"
+"etwork дээр хийгдсэн ашиглалтын сайжруулалтууд нь манай бүх бүрэн\n"
 " холбогдсон апп-уудад автоматаар нэмэгдэх болно."
 
 #. module: mass_mailing
@@ -2731,7 +2731,7 @@ msgstr ""
 #: model:ir.model.fields,help:mass_mailing.field_res_config_settings__mass_mailing_outgoing_mail_server
 #: model_terms:ir.ui.view,arch_db:mass_mailing.res_config_settings_view_form
 msgid ""
-"Use a specific mail server in priority. Otherwise Dosyt relies on the first "
+"Use a specific mail server in priority. Otherwise etwork relies on the first "
 "outgoing mail server available (based on their sequencing) as it does for "
 "normal mails."
 msgstr ""
@@ -2829,19 +2829,19 @@ msgstr "Та шуудангаа хэзээ илгээхийг хүсч байн�
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_paragraph
 msgid ""
-"With strong technical foundations, Dosyt's framework is unique.\n"
+"With strong technical foundations, etwork's framework is unique.\n"
 "                                It provides top notch usability that scales across all apps."
 msgstr ""
-"Бат бөх техник суурьтай Dosyt - н ерөнхий бүтэц нь онцгой. \n"
+"Бат бөх техник суурьтай etwork - н ерөнхий бүтэц нь онцгой. \n"
 "Энэ нь бүх апп-уудыг дээд зэргийн чанараар хангадаг."
 
 #. module: mass_mailing
 #: model_terms:ir.ui.view,arch_db:mass_mailing.s_mail_block_image
 msgid ""
-"With strong technical foundations, Dosyt's framework is unique. It provides "
+"With strong technical foundations, etwork's framework is unique. It provides "
 "<strong>top notch usability that scales across all apps</strong>."
 msgstr ""
-"Бат бөх техник суурьтай Dosyt - н ерөнхий бүтэц нь онцгой. Энэ нь <strong>бүх"
+"Бат бөх техник суурьтай etwork - н ерөнхий бүтэц нь онцгой. Энэ нь <strong>бүх"
 " апп-уудыг дээд зэргийн чанараар</strong> хангадаг."
 
 #. module: mass_mailing
@@ -2876,14 +2876,14 @@ msgstr "Та манай аль ч мэйл жагсаалтад бүртгүүл
 #: model_terms:ir.actions.act_window,help:mass_mailing.mailing_mailing_action_mail
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"                send emails<br> to any contact saved in other Dosyt apps."
+"                send emails<br> to any contact saved in other etwork apps."
 msgstr ""
 
 #. module: mass_mailing
 #: model_terms:ir.actions.act_window,help:mass_mailing.action_view_mass_mailing_lists
 msgid ""
 "You don't need to import your mailing lists, you can easily\n"
-"            send emails<br> to any contact saved in other Dosyt apps."
+"            send emails<br> to any contact saved in other etwork apps."
 msgstr ""
 
 #. module: mass_mailing

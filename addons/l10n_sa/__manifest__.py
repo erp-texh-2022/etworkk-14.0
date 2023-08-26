@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 {
     'name': 'Saudi Arabia - Accounting',
@@ -7,7 +7,7 @@
     'author': 'DVIT.ME',
     'category': 'Accounting/Localizations/Account Charts',
     'description': """
-Dosyt Arabic localization for most arabic countries and Saudi Arabia.
+etwork Arabic localization for most arabic countries and Saudi Arabia.
 
 This initially includes chart of accounts of USA translated to Arabic.
 

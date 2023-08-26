@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* im_livechat
 # 
@@ -18,7 +18,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-11-27 15:41+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
@@ -604,11 +604,11 @@ msgstr "Giải thích về ghi chú của bạn"
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"For websites built with the Dosyt CMS, go to Website &gt; Configuration &gt; "
+"For websites built with the etwork CMS, go to Website &gt; Configuration &gt; "
 "Settings and select the Website Live Chat Channel you want to add to your "
 "website."
 msgstr ""
-"Đối với website được dựng bằng Dosyt CMS, đi tới Website &gt; Cấu hình &gt; "
+"Đối với website được dựng bằng etwork CMS, đi tới Website &gt; Cấu hình &gt; "
 "Cài đặt và chọn kênh Live Chat website bạn muốn thêm vào website."
 
 #. module: im_livechat
@@ -1034,8 +1034,8 @@ msgstr "OK"
 
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.livechat_email_template
-msgid "Dosyt"
-msgstr "Hệ thống Dosyt"
+msgid "etwork"
+msgstr "Hệ thống etwork"
 
 #. module: im_livechat
 #. openerp-web
@@ -1103,10 +1103,10 @@ msgstr ""
 #. module: im_livechat
 #: model_terms:ir.ui.view,arch_db:im_livechat.im_livechat_channel_view_form
 msgid ""
-"Operators that do not show any activity In Dosyt for more than 30 minutes "
+"Operators that do not show any activity In etwork for more than 30 minutes "
 "will be considered as disconnected."
 msgstr ""
-"Operators that do not show any activity In Dosyt for more than 30 minutes "
+"Operators that do not show any activity In etwork for more than 30 minutes "
 "will be considered as disconnected."
 
 #. module: im_livechat

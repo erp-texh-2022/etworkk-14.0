@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* digest
 # 
@@ -11,7 +11,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -30,8 +30,8 @@ msgstr "<span class=\"button\" id=\"button_open_report\">Abrir informe</span>"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
-msgid "<span class=\"etwork_link_text\">Dosyt</span>"
-msgstr "<span class=\"etwork_link_text\">Dosyt</span>"
+msgid "<span class=\"etwork_link_text\">etwork</span>"
+msgstr "<span class=\"etwork_link_text\">etwork</span>"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_mail_main
@@ -323,8 +323,8 @@ msgstr "Siguiente Fecha de Envío"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
-msgid "Dosyt Mobile"
-msgstr "Dosyt móvil"
+msgid "etwork Mobile"
+msgstr "etwork móvil"
 
 #. module: digest
 #: model:ir.model.fields,field_description:digest.field_digest_digest__periodicity
@@ -366,8 +366,8 @@ msgstr "Destinatarios"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_section_mobile
-msgid "Run your business from anywhere with <b>Dosyt Mobile</b>."
-msgstr "Dirige tu negocio desde cualquier parte con <b>Dosyt Móvil</b>."
+msgid "Run your business from anywhere with <b>etwork Mobile</b>."
+msgstr "Dirige tu negocio desde cualquier parte con <b>etwork Móvil</b>."
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -417,8 +417,8 @@ msgstr "Descripción del consejo"
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_2
-msgid "Tip: A calculator in Dosyt"
-msgstr "Consejo: Una calculadora en Dosyt"
+msgid "Tip: A calculator in etwork"
+msgstr "Consejo: Una calculadora en etwork"
 
 #. module: digest
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_1
@@ -442,8 +442,8 @@ msgstr "Consejo: Acelera tu flujo de trabajo con atajos"
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_2
-msgid "Tip: A calculator in Dosyt"
-msgstr "Consejo: Una calculadora en Dosyt"
+msgid "Tip: A calculator in etwork"
+msgstr "Consejo: Una calculadora en etwork"
 
 #. module: digest
 #: model:digest.tip,name:digest.digest_tip_digest_1
@@ -469,10 +469,10 @@ msgstr "Consejo: Acelera tu flujo de trabajo con atajos"
 #: model_terms:digest.tip,tip_description:digest.digest_tip_digest_3
 msgid ""
 "Type \"@\" to notify someone in a message, or \"#\" to link to a channel. "
-"Try to notify @DosytBot to test the feature."
+"Try to notify @etworkBot to test the feature."
 msgstr ""
 "Escribe \"@\" para notificar a alguien en un mensaje, o \"#\" para vincular "
-"un canal. Prueba a notificar a @DosytBot para probar esta función."
+"un canal. Prueba a notificar a @etworkBot para probar esta función."
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
@@ -550,13 +550,13 @@ msgstr "Se ha cancelado su suscripción de forma exitosa"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form
-msgid "You may want to add new computed fields with Dosyt Studio:"
-msgstr "Puedes querer agregar nuevos campos calculados con Dosyt Studio:"
+msgid "You may want to add new computed fields with etwork Studio:"
+msgstr "Puedes querer agregar nuevos campos calculados con etwork Studio:"
 
 #. module: digest
 #: model:digest.digest,name:digest.digest_digest_default
-msgid "Your Dosyt Periodic Digest"
-msgstr "Tu Resumen periódico de Dosyt"
+msgid "Your etwork Periodic Digest"
+msgstr "Tu Resumen periódico de etwork"
 
 #. module: digest
 #: model_terms:ir.ui.view,arch_db:digest.digest_digest_view_form

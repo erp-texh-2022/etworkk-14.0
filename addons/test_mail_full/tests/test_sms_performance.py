@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 from etwork.addons.sms.tests import common as sms_common
 from etwork.addons.test_mail.tests.test_performance import BaseMailPerformance

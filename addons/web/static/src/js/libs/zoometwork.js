@@ -59,12 +59,12 @@ var defaults = {
 };
 
 /**
- * ZoomDosyt
+ * Zoometwork
  * @constructor
  * @param {Object} target
  * @param {Object} options (Optional)
  */
-function ZoomDosyt(target, options) {
+function Zoometwork(target, options) {
     this.$target = $(target);
     this.opts = $.extend({}, defaults, options, this.$target.data());
 
@@ -77,7 +77,7 @@ function ZoomDosyt(target, options) {
  * Init
  * @private
  */
-ZoomDosyt.prototype._init = function () {
+Zoometwork.prototype._init = function () {
     if (window.outerWidth > 467 || !this.opts.disabledOnMobile) {
         this.$link  = this.$target.find(this.opts.linkTag).length && this.$target.find(this.opts.linkTag) || this.$target;
         this.$image  = this.$target.find('img').length && this.$target.find('img') || this.$target;
@@ -105,7 +105,7 @@ ZoomDosyt.prototype._init = function () {
  * @param {MouseEvent|TouchEvent} e
  * @param {Boolean} testMouseOver (Optional)
  */
-ZoomDosyt.prototype.show = function (e, testMouseOver) {
+Zoometwork.prototype.show = function (e, testMouseOver) {
     var w1, h1, w2, h2;
     var self = this;
 
@@ -217,7 +217,7 @@ ZoomDosyt.prototype.show = function (e, testMouseOver) {
  * @private
  * @param {Event} e
  */
-ZoomDosyt.prototype._onEnter = function (e) {
+Zoometwork.prototype._onEnter = function (e) {
     var self = this;
     var touches = e.originalEvent.touches;
     e.preventDefault();
@@ -236,7 +236,7 @@ ZoomDosyt.prototype._onEnter = function (e) {
  * @private
  * @param {Event} e
  */
-ZoomDosyt.prototype._onMove = function (e) {
+Zoometwork.prototype._onMove = function (e) {
     if (!this.isOpen) return;
 
     e.preventDefault();
@@ -247,7 +247,7 @@ ZoomDosyt.prototype._onMove = function (e) {
  * On leave
  * @private
  */
-ZoomDosyt.prototype._onLeave = function () {
+Zoometwork.prototype._onLeave = function () {
     this.isMouseOver = false;
     if (this.isOpen) {
         this.hide();
@@ -259,7 +259,7 @@ ZoomDosyt.prototype._onLeave = function () {
  * @private
  * @param {Event} e
  */
-ZoomDosyt.prototype._onLoad = function (e) {
+Zoometwork.prototype._onLoad = function (e) {
     // IE may fire a load event even on error so test the image dimensions
     if (!e.currentTarget.width) return;
 
@@ -278,7 +278,7 @@ ZoomDosyt.prototype._onLoad = function (e) {
  * @param {String} href
  * @param {Function} callback
  */
-ZoomDosyt.prototype._loadImage = function (href, callback) {
+Zoometwork.prototype._loadImage = function (href, callback) {
     var zoom = new Image();
 
     this.$zoom = $(zoom).on('load', callback, $.proxy(this._onLoad, this));
@@ -292,7 +292,7 @@ ZoomDosyt.prototype._loadImage = function (href, callback) {
  * @private
  * @param {Event} e
  */
-ZoomDosyt.prototype._move = function (e) {
+Zoometwork.prototype._move = function (e) {
     if (e.type.indexOf('touch') === 0) {
         var touchlist = e.touches || e.originalEvent.touches;
         lx = touchlist[0].pageX;
@@ -328,7 +328,7 @@ ZoomDosyt.prototype._move = function (e) {
 /**
  * Hide
  */
-ZoomDosyt.prototype.hide = function () {
+Zoometwork.prototype.hide = function () {
     if (!this.isOpen) return;
     if (this.opts.beforeHide.call(this) === false) return;
 
@@ -339,12 +339,12 @@ ZoomDosyt.prototype.hide = function () {
 };
 
 // jQuery plugin wrapper
-$.fn.zoomDosyt = function (options) {
+$.fn.zoometwork = function (options) {
     return this.each(function () {
-        var api = $.data(this, 'zoomDosyt');
+        var api = $.data(this, 'zoometwork');
 
         if (!api) {
-            $.data(this, 'zoomDosyt', new ZoomDosyt(this, options));
+            $.data(this, 'zoometwork', new Zoometwork(this, options));
         } else if (api.isOpen === undefined) {
             api._init();
         }

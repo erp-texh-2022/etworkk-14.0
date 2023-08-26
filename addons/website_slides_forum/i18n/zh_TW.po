@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* website_slides_forum
 # 
@@ -8,7 +8,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:46+0000\n"
 "PO-Revision-Date: 2020-09-07 08:22+0000\n"
@@ -347,8 +347,8 @@ msgstr "查看所有課程"
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
 msgid ""
 "The goal of this site is create a relevant knowledge base that would answer "
-"questions related to Dosyt."
-msgstr "該站點的目標是創建一個相關的知識庫，以回答與 Dosyt 相關的問題。"
+"questions related to etwork."
+msgstr "該站點的目標是創建一個相關的知識庫，以回答與 etwork 相關的問題。"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -448,8 +448,8 @@ msgstr "每個答案都同樣有效：“你最喜歡______？”"
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to configure or customize Dosyt to specific business needs,"
-msgstr "如何為特定的業務需求配置或自定義Dosyt，"
+msgid "how to configure or customize etwork to specific business needs,"
+msgstr "如何為特定的業務需求配置或自定義etwork，"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -460,8 +460,8 @@ msgstr "如何為您的需求開發模組，"
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "how to install Dosyt on a specific infrastructure,"
-msgstr "如何在特定環境下安裝Dosyt，"
+msgid "how to install etwork on a specific infrastructure,"
+msgstr "如何在特定環境下安裝etwork，"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -472,8 +472,8 @@ msgstr "這是偽裝成問題的抱怨：“______ 糟透了，我說得對嗎�
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "specific questions about Dosyt service offers, etc."
-msgstr "有關Dosyt服務等具體問題等。"
+msgid "specific questions about etwork service offers, etc."
+msgstr "有關etwork服務等具體問題等。"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
@@ -494,8 +494,8 @@ msgstr "我們被問到一個開放式的假設性問題：“如果______發生
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_2
-msgid "what's the best way to use Dosyt for a specific business need,"
-msgstr "什麼是為特定業務需求使用Dosyt 的最佳方式，"
+msgid "what's the best way to use etwork for a specific business need,"
+msgstr "什麼是為特定業務需求使用etwork 的最佳方式，"
 
 #. module: website_slides_forum
 #: model_terms:forum.forum,faq:website_slides_forum.forum_forum_demo_channel_0

@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* hr_recruitment
 # 
@@ -20,7 +20,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server 14.0\n"
+"Project-Id-Version: etwork Server 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-29 13:45+0000\n"
 "PO-Revision-Date: 2020-09-07 08:13+0000\n"
@@ -1732,14 +1732,14 @@ msgstr "تعداد پیام‌های خوانده نشده"
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.action_hr_job_applications
 msgid ""
-"Dosyt helps you track applicants in the recruitment\n"
+"etwork helps you track applicants in the recruitment\n"
 "                process and follow up all operations: meetings, interviews, etc."
 msgstr ""
 
 #. module: hr_recruitment
 #: model_terms:ir.actions.act_window,help:hr_recruitment.crm_case_categ0_act_job
 msgid ""
-"Dosyt helps you track applicants in the recruitment\n"
+"etwork helps you track applicants in the recruitment\n"
 "            process and follow up all operations: meetings, interviews, etc."
 msgstr ""
 
@@ -2235,11 +2235,11 @@ msgstr ""
 #. module: hr_recruitment
 #: model:ir.model.fields,help:hr_recruitment.field_hr_job__alias_model_id
 msgid ""
-"The model (Dosyt Document Kind) to which this alias corresponds. Any incoming"
+"The model (etwork Document Kind) to which this alias corresponds. Any incoming"
 " email that does not reply to an existing record will cause the creation of "
 "a new record of this model (e.g. a Project Task)"
 msgstr ""
-"مدل (Dosyt Document Kind) که با نام مستعار مطابقت دارد. هرگونه ایمیل دریافتی "
+"مدل (etwork Document Kind) که با نام مستعار مطابقت دارد. هرگونه ایمیل دریافتی "
 "که به رکورد موجود پاسخ ندهد، باعث ایجاد رکورد جدیدی از این مدل می شود (به "
 "عنوان مثال یک وظیفه پروژه)"
 

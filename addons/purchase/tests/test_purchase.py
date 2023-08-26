@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 from etwork.addons.account.tests.common import AccountTestInvoicingCommon
 from etwork.tests import tagged, Form
 from etwork import fields

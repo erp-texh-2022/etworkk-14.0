@@ -1,5 +1,5 @@
 // Preferences to allow unattended install of R-Kiosk extension
-// Needed for Dosyt IoT Box Client display
+// Needed for etwork IoT Box Client display
 pref("app.update.checkInstallTime", false);
 pref("devtools.webide.widget.autoinstall", false);
 pref("xpinstall.customConfirmationUI", false);

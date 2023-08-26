@@ -2,7 +2,7 @@ etwork.define('web.OwlCompatibility', function () {
     "use strict";
 
     /**
-     * This file defines the necessary tools for the transition phase where Dosyt
+     * This file defines the necessary tools for the transition phase where etwork
      * legacy widgets and Owl components will coexist. There are two possible
      * scenarios:
      *  1) An Owl component has to instantiate legacy widgets
@@ -21,8 +21,8 @@ etwork.define('web.OwlCompatibility', function () {
      * ----------------------------------------------------------
      *
      * The ComponentAdapter is an Owl component meant to be used as universal
-     * adapter for Owl components that embed Dosyt legacy widgets (or dynamically
-     * both Owl components and Dosyt legacy widgets), e.g.:
+     * adapter for Owl components that embed etwork legacy widgets (or dynamically
+     * both Owl components and etwork legacy widgets), e.g.:
      *
      *                           Owl Component
      *                                 |
@@ -224,10 +224,10 @@ etwork.define('web.OwlCompatibility', function () {
         }
 
         /**
-         * Mocks _trigger_up to redirect Dosyt legacy events to OWL events.
+         * Mocks _trigger_up to redirect etwork legacy events to OWL events.
          *
          * @private
-         * @param {DosytEvent} ev
+         * @param {etworkEvent} ev
          */
         _trigger_up(ev) {
             const evType = ev.name;
@@ -271,7 +271,7 @@ etwork.define('web.OwlCompatibility', function () {
      * ---------------------------------------------------------
      *
      * The WidgetAdapterMixin and the ComponentWrapper are meant to be used
-     * together when an Dosyt legacy widget needs to instantiate Owl components.
+     * together when an etwork legacy widget needs to instantiate Owl components.
      * In this case, the widgets/components hierarchy would look like:
      *
      *             Legacy Widget + WidgetAdapterMixin
@@ -479,7 +479,7 @@ etwork.define('web.OwlCompatibility', function () {
 
         /**
          * Adds an event handler that will redirect the given Owl event to an
-         * Dosyt legacy event. This function is called just before the event is
+         * etwork legacy event. This function is called just before the event is
          * actually triggered.
          *
          * @private

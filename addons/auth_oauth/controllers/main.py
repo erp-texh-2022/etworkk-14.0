@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 import base64
 import functools
 import json
@@ -168,7 +168,7 @@ class OAuthController(http.Controller):
 
     @http.route('/auth_oauth/oea', type='http', auth='none')
     def oea(self, **kw):
-        """login user via Dosyt Account provider"""
+        """login user via etwork Account provider"""
         dbname = kw.pop('db', None)
         if not dbname:
             dbname = db_monodb()

@@ -1,5 +1,5 @@
 #etwork.loggers.handlers. -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import configparser as ConfigParser
 import errno
@@ -123,7 +123,7 @@ class configmanager(object):
         group.add_option("--load", dest="server_wide_modules", help="Comma-separated list of server-wide modules.", my_default='base,web')
 
         group.add_option("-D", "--data-dir", dest="data_dir", my_default=_get_default_datadir(),
-                         help="Directory where to store Dosyt data")
+                         help="Directory where to store etwork data")
         parser.add_option_group(group)
 
         # HTTP
@@ -251,7 +251,7 @@ class configmanager(object):
         parser.add_option_group(group)
 
         group = optparse.OptionGroup(parser, "Internationalisation options. ",
-            "Use these options to translate Dosyt to another language. "
+            "Use these options to translate etwork to another language. "
             "See i18n section of the user manual. Option '-d' is mandatory. "
             "Option '-l' is mandatory in case of importation"
             )
@@ -418,7 +418,7 @@ class configmanager(object):
                 rcfilepath = old_rcfilepath
 
         self.rcfile = os.path.abspath(
-            self.config_file or opt.config or os.environ.get('DOSYT_RC') or os.environ.get('OPENERP_SERVER') or rcfilepath)
+            self.config_file or opt.config or os.environ.get('etwork_RC') or os.environ.get('OPENERP_SERVER') or rcfilepath)
         self.load()
 
         # Verify that we want to log or not, if not the output will go to stdout

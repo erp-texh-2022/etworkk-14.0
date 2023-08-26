@@ -1,4 +1,4 @@
-# Translation of Dosyt Server.
+# Translation of etwork Server.
 # This file contains the translation of the following modules:
 # 	* crm_iap_lead_website
 # 
@@ -17,7 +17,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Dosyt Server saas~13.5\n"
+"Project-Id-Version: etwork Server saas~13.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-09-01 07:28+0000\n"
 "PO-Revision-Date: 2020-09-07 08:11+0000\n"
@@ -283,9 +283,9 @@ msgstr "Piste/opportunité"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,help:crm_iap_lead_website.field_crm_reveal_rule__industry_tag_ids
-msgid "Leave empty to always match. Dosyt will not create lead if no match"
+msgid "Leave empty to always match. etwork will not create lead if no match"
 msgstr ""
-"Laissez vide pour toujours correspondre. Dosyt ne créera pas de piste s'il "
+"Laissez vide pour toujours correspondre. etwork ne créera pas de piste s'il "
 "n'y a pas de correspondance"
 
 #. module: crm_iap_lead_website
@@ -374,8 +374,8 @@ msgstr "Conditions de génération d'opportunité"
 #. module: crm_iap_lead_website
 #: code:addons/crm_iap_lead_website/models/crm_reveal_rule.py:0
 #, python-format
-msgid "Opportunity created by Dosyt Lead Generation"
-msgstr "Opportunité créée par le Générateur de Pistes d'Dosyt"
+msgid "Opportunity created by etwork Lead Generation"
+msgstr "Opportunité créée par le Générateur de Pistes d'etwork"
 
 #. module: crm_iap_lead_website
 #: model:ir.model.fields,field_description:crm_iap_lead_website.field_crm_reveal_rule__other_role_ids

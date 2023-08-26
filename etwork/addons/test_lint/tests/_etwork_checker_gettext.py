@@ -4,7 +4,7 @@ import astroid
 from pylint import checkers, interfaces
 
 
-class DosytBaseChecker(checkers.BaseChecker):
+class etworkBaseChecker(checkers.BaseChecker):
     __implements__ = interfaces.IAstroidChecker
     name = 'etwork'
 
@@ -25,4 +25,4 @@ class DosytBaseChecker(checkers.BaseChecker):
 
 
 def register(linter):
-    linter.register_checker(DosytBaseChecker(linter))
+    linter.register_checker(etworkBaseChecker(linter))

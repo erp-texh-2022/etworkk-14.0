@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Dosyt. See LICENSE file for full copyright and licensing details.
+# Part of etwork. See LICENSE file for full copyright and licensing details.
 
 import ast
 import collections.abc
@@ -57,7 +57,7 @@ class AddonsHook(object):
 
         return etwork_module
 
-class DosytHook(object):
+class etworkHook(object):
     """ Makes etwork package also available as openerp """
 
     def find_module(self, name, path=None):
@@ -153,7 +153,7 @@ def initialize_sys_path():
     # hook deprecated module alias from openerp to etwork and "crm"-like to etwork.addons
     if not getattr(initialize_sys_path, 'called', False): # only initialize once
         sys.meta_path.insert(0, UpgradeHook())
-        sys.meta_path.insert(0, DosytHook())
+        sys.meta_path.insert(0, etworkHook())
         sys.meta_path.insert(0, AddonsHook())
         initialize_sys_path.called = True
 
@@ -313,7 +313,7 @@ def load_information_from_description_file(module, mod_path=None):
         # default values for descriptor
         info = {
             'application': False,
-            'author': 'Dosyt S.A.',
+            'author': 'etwork S.A.',
             'auto_install': False,
             'category': 'Uncategorized',
             'depends': [],
